@@ -1,0 +1,1023 @@
+{
+  "date": "2026-03-17",
+  "generated": "2026-03-17T16:11:50.567050",
+  "daily_brief": [
+    {
+      "id": "PKCFNzFo6Jo",
+      "title": "A Guy Used AI to Cure His Dog&#39;s Cancer",
+      "channel": "The AI Daily Brief: Artificial Intelligence News",
+      "url": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
+      "channel_thumb": "https://i.ytimg.com/vi/PKCFNzFo6Jo/default.jpg",
+      "duration_seconds": 904,
+      "duration_label": "15 min",
+      "titulo_formatado": "12/Fev/2026, The AI Daily Brief | A Guy Used AI to Cure His Dog's Cancer",
+      "temas_episodio": [
+        "Entrepreneur australiano usa IA para tratar câncer de cachorro com vacina mRNA personalizada",
+        "Andre Karpathy lança ferramenta que avalia exposição de 342 ocupações americanas à IA",
+        "Análise do momento atual do discurso sobre IA: transição para 'segundo momento' da IA",
+        "Meta planeja demissões de 20% enquanto Google DeepMind celebra avanços em medicina personalizada",
+        "Divergência entre percepção negativa mainstream e capacidades reais da IA generativa"
+      ],
+      "noticias_principais": [
+        {
+          "manchete": "Paul Coiningham cura câncer de cachorro usando ChatGPT, AlphaFold e vacina mRNA personalizada",
+          "contexto": [
+            "Entrepreneur australiano Paul Coiningham recebeu diagnóstico de câncer terminal em sua cachorra Rosie em 2024, não responsivo a quimioterapia ou cirurgia",
+            "ChatGPT sugeriu sequenciar DNA de Rosie e usar AlphaFold do Google DeepMind para identificar mutações alvo para imunoterapia",
+            "Pi Thorderson, diretor do RNA Institute da Universidade de Nova Gales do Sul, desenvolveu vacina mRNA personalizada em menos de 2 meses",
+            "Tumores de Rosie encolheram significativamente e saúde do animal melhorou visualmente",
+            "Thorderson explicou que trata-se de primeiro caso de vacina personalizada contra câncer em cão e está na fronteira da imunoterapia oncológica, com aplicações futuras em humanos"
+          ]
+        },
+        {
+          "manchete": "Andre Karpathy lança ferramenta que avalia exposição de 342 ocupações americanas à IA",
+          "contexto": [
+            "Desenvolvedor Andre Karpathy criou projeto de fim de semana (karpathy.ai/job) que scrapeou todas as 342 ocupações da economia americana do BLS e avaliou exposição à IA em escala 0-10",
+            "Resultados: exposição média 5.3/10; desenvolvedores de software 8-9/10; cobridores de telhados 0-1/10; médicos transcritores 10/10",
+            "Tweet viral de Kaio NX interpretou como diagnóstico de quão 'substituível' cada profissão é, gerando pânico em redes sociais",
+            "Karpathy respondeu frustrante que era apenas ferramenta de exploração visual do dataset BLS e que scores são estimativas LLM aproximadas, não previsões rigorosas",
+            "Ressaltou que não contabiliza elasticidade de demanda, barreiras regulatórias ou preferências sociais por trabalhadores humanos"
+          ]
+        },
+        {
+          "manchete": "Meta anuncia demissões de 20% do quadro em mesmo fim de semana que notícia positiva de Karpathy viraliza",
+          "contexto": [
+            "Dentro de 1 minuto após viral do projeto de Karpathy, COI Letter publicou breaking news sobre Meta planejando demissões massivas",
+            "Timing exemplifica ambiente frenético do discurso sobre IA em fevereiro de 2026",
+            "Demonstra como IA está sendo usada como 'corporate fall guy' para reversão de overhiring pós-Covid",
+            "Investor Shimath Palahabatia argumentou que IA pode ser 'negabilidade plausível' que empresas usam para demitir 50% do workforce que já sabiam não fazer nada"
+          ]
+        }
+      ],
+      "temas_principais": [
+        {
+          "tema": "AI's Second Moment: Comparação com primeiro momento (ChatGPT fim 2022/início 2023)",
+          "analise": [
+            "Apresentador identifica que estamos em 'segundo momento' de IA (generativa), marcado por escalação massiva de capacidades e discurso",
+            "Primeiro momento: ChatGPT 3.5, GPT-4, geração de imagens. Segundo momento: Claude Opus 4.5, modelos Reasoners (o1 preview, o3 spring 2025), sistemas agenticos viáveis (dezembro 2025)",
+            "Ethan Mollik (citado) identificou 4 grandes saltos em capacidades: GPT3.5 (nov 2022), GPT4 (spring 2023), Reasoners (spring 2025), agentes com bons reasoners (dez 2025)",
+            "Primeiro momento também teve frenesi: revista Time maio 2023 com 'The End of Humanity' - padrão se repete em escala maior agora",
+            "Diferença 1: Aumento massivo de capacidades - desenvolvedores se sentem como 'magos', agentes reais agora online ao invés de protótipos (AutoGPT, Baby AGI)",
+            "Diferença 2: Audiência muito maior - bilhões usando ferramentas semanalmente (vs. crescimento rápido mas menor em 2022-23). ChatGPT bateu 100M usuários em 5 semanas, derrotando TikTok (8 meses)",
+            "Diferença 3: Stakes econômicas muito maiores - Wall Street em empresas SaaS/IA, deals de infraestrutura privada, valuações privadas (Anthropic em $19B run rate, anunciando features que 'derrubam indústrias')",
+            "Diferença 4: Contexto corporativo mudou - IA agora serve como 'plausible deniability' para empresas desfazendo overhiring pós-Covid, removendo workforce que já sabiam ser inútil",
+            "Diferença 5: Volatilidade política geral aumentou - IA interagindo com contextos como guerra no Irã, ambiente mais tenso globalmente",
+            "Diferença 6: Narrativa completamente fracassada da indústria - 3.5 anos de péssima comunicação. Py McCormack (Not Boring) citou que AI companies 'clearly botched telling the story'. Mensagem de 'construímos ferramenta que vai te demitir, espera por handouts' é marketing terrível"
+          ]
+        },
+        {
+          "tema": "Discurso sobre IA em estado frenético permanente (nível 11/10)",
+          "analise": [
+            "Desde retorno ao trabalho início 2026, conversa sobre IA em nível frenético constantemente amplificado",
+            "Bernie Sanders publicando vídeos de 9 minutos sobre x-risk, CEOs como Bill McDermott (ServiceNow) soltando estatísticas aterrorizantes em mídia mainstream",
+            "McDermott prevendo desemprego de recém-graduados acima de 30% por IA",
+            "Pesquisas em América mostram sentimento cada vez mais negativo sobre IA - apresentador questiona se tem relação com mídia publicando previsões assustadoras",
+            "Paradoxo: enquanto isso, pessoas normais (sem coding background) gerenciando teams de dúzia+ agentes fazendo trabalho antes impossível para eles",
+            "Divergência entre percepção mainstream (muito negativa) e capacidade real (muito positiva) nunca foi tão alta - E ambas em estado extremamente elevado simultaneamente",
+            "Sensacionalismo na resposta a Karpathy mostrou padrão: tweets interpretando como 'diagnóstico de substituibilidade' quando ferramenta era apenas exploração visual de dados BLS"
+          ]
+        },
+        {
+          "tema": "Debate sobre verdadeiro impacto de exposição à IA em mercado de trabalho: exposição vs. deslocamento",
+          "analise": [
+            "Karpathy alertou que score de exposição NÃO significa desaparecimento de trabalho - é estimativa LLM aproximada sobre quão digital é a ocupação, não previsão rigorosa",
+            "Exemplo: desenvolvedores software score 9/10 porque IA transformando trabalho, mas demanda por software pode crescer facilmente conforme cada dev fica mais produtivo",
+            "Score não contabiliza: elasticidade de demanda, demanda latente, barreiras regulatórias, preferências sociais por trabalhadores humanos. Muitos jobs de alta exposição serão remoldados, não substituídos",
+            "Stefan Schubert (The Update) alertou que muitos assumem alta exposição = alto ritmo de automação, mas isso 'não faz sentido'",
+            "Alex Emos (economist Chicago Booth) argumentou insistentemente: 'Exposição não significa ameaça de deslocamento. Pode literalmente significar o oposto. Jobs expostos à IA podem aumentar contratações e atrair salários maiores. Tudo depende de (a) elasticidade de demanda do consumidor e (b) número de tarefas expostas à IA em um job'",
+            "Peter McCroy (Anthropic) concordou fortemente com Alex: padrões de uso Claude mostram implicações desiguais no mercado de trabalho. Medida de 'exposição observada' da Anthropic visa identificar casos onde exposição provavelmente se transforma em deslocamento real (Claude usado de formas automatizadas para tarefas viáveis para LLMs)",
+            "McCroy ressalvou: nenhuma medida de exposição é perfeita ou tem previsões monotônicas. Mesmo quando muito de um job é automatizado, tarefas-gargalo restantes podem aumentar demanda por skills humanos complementares",
+            "Kevin Bryan (economist Toronto) apostou $1.000 que de agora a 2030, maioria de jobs 'susceptíveis' terá aumento em share do labor",
+            "Modelo subjacente ao tipo de chart: não é 'IA pode substituir' mas 'IA está relacionada' e 'IA é complemento também'. Quem não quer programar agora?"
+          ]
+        },
+        {
+          "tema": "Nuances da história de Rosie: não é simples 'cura por IA'",
+          "analise": [
+            "Pi Thorderson (director RNA Institute, Universidade de Nova Gales do Sul) explicou nuances: trata-se menos sobre 'cura' e mais sobre 'ganhar tempo'",
+            "Custos reais difíceis de estimar - muitas pessoas doaram tempo e recursos. Não é simplesmente $3.000 sequenciamento + ChatGPT + AlphaFold",
+            "Regulação de pesquisa veterinária é vastamente diferente de saúde humana - muito menos fricção regulatória permitiu aprovação rápida (3 meses)",
+            "Thorderson: em espaço de saúde humana, história de Rosie demonstra que podemos 'democratizar processo de design de vacina oncológica'",
+            "Análise genômica e produção de RNA continuarão especializadas mas poderiam virar 'pura provision de serviço' conforme automação aumenta",
+            "Thorderson questiona: precisamos repensar regimes regulatórios com isso em mente? Como garantir acesso equitativo?",
+            "História é mais sobre revolução de AlphaFold (Nobel Prize-winning) que sobre ChatGPT especificamente",
+            "Mesmo com nuances, apresentador encontra 'um pouco refrescante' ter pessoas entusiasmadas com potencial disruptivo positivo da IA versus constantemente olhando para lado negativo",
+            "Punto: dois lados da mesma moeda. Transição em progresso para AI segundo momento criará estranheza até que novo paradigma se normalize"
+          ]
+        }
+      ],
+      "empresas": [
+        "Anthropic",
+        "OpenAI",
+        "Google DeepMind",
+        "Meta",
+        "ServiceNow",
+        "ChatGPT",
+        "Claude",
+        "AlphaFold",
+        "Lovable",
+        "University of New South Wales",
+        "RNA Institute"
+      ],
+      "has_transcript": true,
+      "transcript_file": "A Guy Used AI to Cure His Dog&#39;s Cancer.txt"
+    },
+    {
+      "id": "qrmgkWl0vPg",
+      "title": "What to Expect from Nvidia This Week",
+      "channel": "The AI Daily Brief: Artificial Intelligence News",
+      "url": "https://www.youtube.com/watch?v=qrmgkWl0vPg",
+      "channel_thumb": "https://i.ytimg.com/vi/qrmgkWl0vPg/default.jpg",
+      "duration_seconds": 505,
+      "duration_label": "8 min",
+      "titulo_formatado": "DD/MMM/YYYY, The AI Daily Brief | What to Expect from Nvidia This Week",
+      "temas_episodio": [
+        "Nvidia anuncia colaboração com Grock em novo chip para inference",
+        "OpenAI como primeiro cliente do novo chip Nvidia-Grock",
+        "NScale negocia aquisição de data center em West Virginia",
+        "27 empresas listam AI agents como risco material em SEC filings",
+        "ByteDance pausa lançamento global de Sora 2.0 por disputas de copyright",
+        "Mirandil levanta $175M para pesquisa científica com IA",
+        "Google Maps integra Gemini com novo recurso Ask Maps",
+        "CEO ServiceNow prevê desemprego acima de 30% para jovens profissionais"
+      ],
+      "noticias_principais": [
+        {
+          "manchete": "Nvidia anuncia novo chip em colaboração com Grock para inference",
+          "contexto": [
+            "Nvidia adquiriu a startup Grock em dezembro e espera anunciar primeiro produto colaborativo na GTC 2026",
+            "Chip integra processamento de linguagem da Grock em servidores rack-scale da Nvidia, primeira tentativa de endereçar demanda de inference",
+            "OpenAI confirmada como primeiro cliente do novo chip",
+            "Produção em Samsung (não TSMC) marca primeira diversificação da cadeia de suprimentos da Nvidia fora de Taiwan",
+            "Servidores usam CPUs Intel em vez de CPUs Nvidia, sugerindo compatibilidade limitada em estágio atual"
+          ]
+        },
+        {
+          "manchete": "NScale negocia aquisição de mega data center em West Virginia com capacidade de 2 gigawatts",
+          "contexto": [
+            "Acordo atípico para provedor neocloud que historicamente aluga data centers em vez de adquirir",
+            "Site já passou por revisão regulatória e visa 2 gigawatts de capacidade até 2027",
+            "Triplicaria projeções de receita da empresa britânica para $30 bilhões em 2027",
+            "NScale em negociações para alugar capacidade para ByteDance e potencialmente para Nvidia",
+            "Movimento posiciona empresa britânica como grande player no mercado americano pré-IPO"
+          ]
+        },
+        {
+          "manchete": "27 empresas listam AI agents como risco material em SEC filings - mais que triplicou em um ano",
+          "contexto": [
+            "Aumento expressivo: apenas 7 empresas listavam risco de agents em 2024, 27 em 2025",
+            "Lista inclui Figma, Workday e HubSpot, cujos CEOs recentemente desminuíram preocupações",
+            "Figma CEO Dylan Field em earnings: 'humanos continuarão usando software, e cada vez mais agents também' mas alertou que aceitar trabalho crítico não supervisionado é 'muito corajoso'",
+            "Mesmo filing 10K da Figma reconhece que IA agentic pode 'mudar como pessoas acessam produtos digitais de formas que reduzem confiança em aplicações tradicionais'",
+            "Indicador de inflexão: volume de divulgações sobre agents passou de irrelevante no primeiro semestre 2024 para rápido aumento segundo semestre 2024 e início 2025"
+          ]
+        },
+        {
+          "manchete": "ByteDance pausa lançamento global de Sora 2.0 por disputas massivas de copyright com Hollywood",
+          "contexto": [
+            "Modelo liberado na China em fevereiro gerou reação viral com vídeos de altíssima fidelidade de atores reais (Tom Cruise e Brad Pitt em cena de luta)",
+            "Disney, Warner Brothers, Paramount e Netflix enviaram cease and desist notices para ByteDance",
+            "CEO Motion Picture Association Charles Rivkin: 'Sora 2.0 se engajou em uso não autorizado de obras copyrightadas americanas em escala massiva'",
+            "Lançamento global planejado para meados de março com API access via BytePlus e novo app consumer está em hold",
+            "Modelo em China agora mais controlado que no lançamento, rejeitando até prompts sem relação a conteúdo copyrightado; clientes empresariais precisam gastar ~$1,5M para acessar"
+          ]
+        },
+        {
+          "manchete": "Mirandil (ex-pesquisadores Anthropic) levanta $175M em seed round valorizando em $1 bilhão",
+          "contexto": [
+            "Startup liderada por Benam Nishabra e Harsh Meta, ambos ex-Anthropic e Google",
+            "Foco em pesquisa científica aprimorada com IA em biologia e material science",
+            "Founders têm experiência em long horizon scientific reasoning com AI agents e automated AI research na Anthropic",
+            "Torna-se último startup a alcançar status unicórnio em seed round",
+            "Área de IA para ciência está em rápido crescimento de interesse e investimento"
+          ]
+        },
+        {
+          "manchete": "Google Maps lança Ask Maps - interface conversacional powered by Gemini",
+          "contexto": [
+            "Novo recurso permite usuários fazer perguntas sobre landmarks, localizar serviços (ex: carregadores de celular, quadras de tênis com luz)",
+            "Feature integrada com Gemini Memory para tapar preferências do usuário em recomendações",
+            "Google também lançou novo modo de visualização 3D mostrando prédios, viadutos e terreno",
+            "Demonstra estratégia Google de flexionar multimodalidade e integração de ecossistema",
+            "Simplifica pesquisa que antes requeria browsing extensivo de reviews"
+          ]
+        },
+        {
+          "manchete": "CEO ServiceNow Bill McDermott prevê desemprego acima de 30% para jovens profissionais",
+          "contexto": [
+            "Em entrevista à CNBC, McDermott alertou desemprego de college graduates pode 'facilmente ir para meados dos 30s nos próximos anos'",
+            "Justificativa: 'tanto do trabalho será feito por agents, vai ser desafiador para jovens se diferenciarem'",
+            "Desemprego atual para recent college graduates: 5,6% (Federal Reserve), significativamente abaixo de 7,8% para sem diploma",
+            "Subemprego de college graduates em nível máximo desde 2020: 42,5% trabalhando abaixo do nível educacional",
+            "Computer science majors: desemprego de 7%, mas subemprego baixo de 19,1% comparado a outros majors"
+          ]
+        }
+      ],
+      "temas_principais": [
+        {
+          "tema": "Nvidia como plataforma heterogênea full-stack de infraestrutura IA",
+          "analise": [
+            "Patrick Morehead (Writes More Insights CEO/Chief Analyst): 'Nvidia não é mais uma chip company' - apresentando-se como full stack heterogeneous AI infrastructure platform",
+            "Plataforma abrange training, prefill, decode, inference e agent orchestration",
+            "Integração Nvidia-Grock representa diversificação estratégica fora de TSMC para Taiwan - produção em Samsung",
+            "Uso de CPUs Intel em vez de Nvidia CPUs no novo servidor sugere Nvidia priorizando performance de inference sobre integração proprietária",
+            "Chip Grock tailored exclusivamente para inference workloads, complementando expertise histórica de Nvidia em AI training",
+            "Indicador de inovação: potencial para integrar tecnologia Grock em futuras GPUs Fineman (após Ruben em 2H 2025)"
+          ]
+        },
+        {
+          "tema": "Risco de AI agents para software-as-a-service (SaaS) passou de especulação para risco material",
+          "analise": [
+            "Volume de divulgações SEC sobre agents: explosion de 7 (2024) para 27 (2025) - sinal de tipping point",
+            "Discrepância entre retórica pública de CEOs e divulgações legais reflete pressão jurídica e reconhecimento de risco real",
+            "Dylan Field (Figma CEO) publicly downplay mas 10K reconhece agents podem 'reduzir confiança em aplicações tradicionais'",
+            "Timing crítico: capacidade de agents de disruption SaaS 'barely registered' H1 2024, mas disclosure volume acelerou em H2 2024 e Q1 2025",
+            "Indicador menos é que legal departments estão forçando executives a levar ameaça de disruption mais seriamente",
+            "Padrão análogo a outras tecnologias: companies reconhecem risco quando viabilidade técnica cruza threshold crítico",
+            "Implicação prática: expectativa de consolidação acelerada, M&A defensivo, e reposicionamento de modelos de negócio SaaS em 2025-2026"
+          ]
+        },
+        {
+          "tema": "Copyright vs AI innovation na geração de conteúdo visual - ByteDance Sora 2.0 case study",
+          "analise": [
+            "ByteDance estratégia: lançamento China primeiro (onde copyright enforcement é mais fraco) antes de expansão global",
+            "Sora 2.0 alta fidelidade (viral Tom Cruise/Brad Pitt clip) demonstra salto qualitativo que Hollywood reconhece como ameaça existencial",
+            "Problema técnico real: não é implementar guard rails mas refinar sem frustrar usuários com rejeições excessivas - citado também em Sora 2 OpenAI",
+            "Hollywood resposta coordenada: cease and desist de major studios + Motion Picture Association publicação demonstra priorização do risco",
+            "China market: modelo agora over-constrained (rejeitando prompts válidos) e modelo access restrito a empresas chinesas sem distribuição internacional",
+            "Barreira econômica emergente: clientes empresariais precisam comprometer ~$1.5M em spending para acesso, sinalizando ByteDance explorando valor extração antes de resolução legal",
+            "Dinâmica similar a deepfakes 2018-2020: tecnologia avança mais rápido que legal framework, criando janela de oportunidade explorada por players chineses",
+            "Implicação: copyright disputes provavelmente atrasarão Sora 2.0 global launch por 12-24 meses enquanto engineering refina guard rails"
+          ]
+        },
+        {
+          "tema": "AI para pesquisa científica como novo vetor de venture capital e inovação",
+          "analise": [
+            "Mirandil founders (Nishabra, Meta) trouxe expertise de 'long horizon scientific reasoning with AI agents' e 'automated AI research' da Anthropic",
+            "Validação de mercado: Mirandil levanta $175M em seed round a $1B valuation - comportamento de mercado bullish em AI for science",
+            "Escopo: aplicações em biologia e material science - áreas onde AI agents podem acelerar ciclos discovery",
+            "Trend esperado: múltiplos NEO labs focados em AI for science sinalizando 2025 como ano de aceleração desta vertente",
+            "Diferencial vs SaaS automation: AI for science tem demanda estrutural de novo (não canibalizando incumbentes) e ROI de discovery acceleration justifica premiums de valuation",
+            "Contexto timing: depois de dois anos de hype genérico sobre AI agents, VC capital agora fluindo para aplicações específicas com PMF claro"
+          ]
+        },
+        {
+          "tema": "Desemprego juvenil e disruption do mercado de trabalho profissional por AI agents",
+          "analise": [
+            "Bill McDermott (ServiceNow CEO) projeção: desemprego para college graduates pode atingir 'meados dos 30s' nos próximos anos",
+            "Contexto atual: 5.6% desemprego recent college graduates (Fed data) vs 7.8% sem diploma, sugerindo college degree ainda protetor",
+            "Subemprego em nível máximo: 42.5% college graduates em underemployment (ausência de suficiente work ou trabalho abaixo do nível educacional)",
+            "Computer science majors resilientes: 7% desemprego mas apenas 19.1% subemprego - tech sector diferenciador vs outros majors",
+            "McDermott argumento: 'tanto do trabalho será feito por agents' cria barreira de diferenciação para new entrants",
+            "Dinâmica esperada: jovens profissionais forçados a upskilling acelerado em AI-adjacent skills (prompt engineering, AI oversight) vs jobs de knowledge work tradicionais",
+            "Implicação política: antecipa policy debates sobre UBI, reskilling programs e educational reform - tópico central de main episode"
+          ]
+        }
+      ],
+      "empresas": [
+        "Nvidia",
+        "Grock",
+        "OpenAI",
+        "Samsung",
+        "TSMC",
+        "Intel",
+        "NScale",
+        "ByteDance",
+        "Sora 2.0",
+        "Google",
+        "Google Maps",
+        "Gemini",
+        "Figma",
+        "Workday",
+        "HubSpot",
+        "Disney",
+        "Warner Brothers",
+        "Paramount",
+        "Netflix",
+        "Motion Picture Association",
+        "Anthropic",
+        "Mirandil",
+        "ServiceNow",
+        "Federal Reserve"
+      ],
+      "has_transcript": true,
+      "transcript_file": "What to Expect from Nvidia This Week.txt"
+    },
+    {
+      "id": "eDGI3sNRnhg",
+      "title": "Meta Delays New AI Model",
+      "channel": "The AI Daily Brief: Artificial Intelligence News",
+      "url": "https://www.youtube.com/watch?v=eDGI3sNRnhg",
+      "channel_thumb": "https://i.ytimg.com/vi/eDGI3sNRnhg/default.jpg",
+      "duration_seconds": 490,
+      "duration_label": "8 min",
+      "titulo_formatado": "DD/MMM/YYYY, The AI Daily Brief | Meta Delays New AI Model",
+      "temas_episodio": [
+        "Meta adia modelo de IA Avocado até maio",
+        "XAI contrata líderes do Cursor e sofre saídas de co-fundadores",
+        "Cursor levanta fundos a $50 bilhões de avaliação",
+        "Anthropic em negociações com Blackstone para venture de consulting",
+        "81% dos médicos usam IA, segundo pesquisa AMA",
+        "Sam Altman fala sobre futuro de tokens e AGI"
+      ],
+      "noticias_principais": [
+        {
+          "manchete": "Meta adia modelo Avocado até maio por desempenho abaixo do esperado",
+          "contexto": [
+            "New York Times reporta atraso do modelo de fronteira Avocado; era esperado lançamento neste mês",
+            "Modelo mostrou deficiências em raciocínio, coding e escrita em benchmarks internos",
+            "Superou Gemini 2.5 mas não chegou ao nível de Gemini 3, segundo relatos",
+            "Desenvolvimento durou quase 9 meses enquanto performance de concorrentes evoluiu dramaticamente",
+            "Meta está considerando licenciar Gemini como solução temporária para seus produtos"
+          ]
+        },
+        {
+          "manchete": "XAI contrata Andrew Militch e Jason Ginsburg do Cursor para melhorar coding",
+          "contexto": [
+            "Ambos eram heads de product e engineering no Cursor, agora reportam diretamente a Elon Musk",
+            "Movimento estratégico após Elon admitir que XAI está atrasada em capacidades de coding",
+            "Musk promete que XAI vai alcançar e ultrapassar competidores no meio do ano",
+            "Contratações visam reduzir gap competitivo em desenvolvimento de código"
+          ]
+        },
+        {
+          "manchete": "Ethan Mollick resume sentimento da indústria: XAI e Meta ficam para trás em corrida de IA",
+          "contexto": [
+            "Tweet de Ethan Mollick: 'Both XAI and Meta seem to be falling behind based on the Grock 4.2 benchmarks'",
+            "Classifica corrida de fronteira como three-way race no momento",
+            "Indicativo de que apenas três players dominam categoria de modelos de fronteira"
+          ]
+        },
+        {
+          "manchete": "Seis co-fundadores saem da XAI em 2025; apenas 3 dos 12 originais permanecem",
+          "contexto": [
+            "Xiang Da deixou empresa essa semana; Gordon Jang planejava sair nos dias seguintes",
+            "Especulação que saídas ocorrem após projetos ficarem abaixo das expectativas de Musk",
+            "Jiang liderou Grock code; Toby Poland (saído em fevereiro) chefiava projeto macro hard malvado",
+            "Musk posta que XAI não foi construída corretamente primeira vez e está sendo reconstruída desde fundações",
+            "Paralelo com situação ocorrida na Tesla segundo Musk"
+          ]
+        },
+        {
+          "manchete": "Cursor levanta fundos a $50 bilhões de avaliação, dobrando valorização em 4 meses",
+          "contexto": [
+            "Bloomberg reporta rodada em negociação; última foi em novembro a $29.3 bilhões",
+            "Cursor dobrou revenue para $2 bilhões desde último levantamento",
+            "Estratégia sinaliza intenção de competir independentemente, não ser adquirida por labs",
+            "CEO Michael Trule declarou 'wartime' em all-hands em janeiro"
+          ]
+        },
+        {
+          "manchete": "81% dos médicos utilizam IA em suas práticas, revela pesquisa AMA",
+          "contexto": [
+            "Pesquisa AMA 2025 mostra mais que duplicação de uso desde 2023",
+            "Casos principais: acompanhamento pesquisa médica, geração instruções alta hospitalar, documentação consultas",
+            "AMA adota termo 'augmented intelligence' para enfatizar que não substitui julgamento humano",
+            "Apenas 17% usam IA para diagnóstico assistido; maioria uso em tarefas administrativas",
+            "CEO John White: 'AI has quickly become part of everyday medical practice'"
+          ]
+        },
+        {
+          "manchete": "Sam Altman: futuro de OpenAI é venda de tokens, não AGI commodity imediata",
+          "contexto": [
+            "Altman fala em conferência Black Rock quarta-feira",
+            "Admite que demanda por tokens pode manter preços altos como racionamento",
+            "Relativiza que 'intelligence too cheap to meter' é objetivo final, mas não realidade imediata",
+            "Relevância aumenta com casos agentic pesados e crescimento consumo energético"
+          ]
+        }
+      ],
+      "temas_principais": [
+        {
+          "tema": "Meta em desvantagem competitiva: atraso Avocado e reconstrução de liderança em IA",
+          "analise": [
+            "Modelo Avocado falhou em entregar performance competitiva após 9 meses desenvolvimento",
+            "Deficiências técnicas abrangem raciocínio, coding e escrita - categorias críticas para LLMs modernos",
+            "Reestruturação organizacional com nova divisão applied AI reportando a Andrew Bosworth (CTO) em vez de Alexander Wang (CEO IA) sugere turbulência interna",
+            "Rumores de que Zuckerberg está insatisfeito com Wang foram negados, mas movimento estrutural é significativo",
+            "Meta considera licenciar Gemini como solução stop-gap, sinal de urgência na falta de modelo competitivo",
+            "Apresentador nota que esperar por modelo bom é melhor que lançar modelo fraco, mas 'model battle for Meta remains distinctly uphill'",
+            "Ethan Mollick resume sentimento: XAI e Meta caindo para trás em benchmarks Grock 4.2",
+            "Roadmap futuro (Watermelon model) pode indicar Meta apostando em próxima geração em vez de corrigir Avocado",
+            "Impacto estratégico: perda de posicionamento em corrida de IA de fronteira enquanto concorrentes (Google, OpenAI) avançam"
+          ]
+        },
+        {
+          "tema": "XAI em turbulência com saídas em massa de co-fundadores vs. contratações estratégicas",
+          "analise": [
+            "Seis co-fundadores saem em 2025, deixando apenas 3 dos 12 originais - 50% de atrito de liderança",
+            "Padrão: saídas após projetos ficarem aquém das expectativas de Musk (Jiang com Grock code, Poland com macro hard)",
+            "Musk reconhece problema: XAI 'não foi construída direito primeira vez' e está em 'controlled demolition' e reconstrução",
+            "Paradoxo: enquanto perde líderes fundadores, XAI contrata 2 heads do Cursor (Militch e Ginsburg) reportando direto a Musk",
+            "Admissão explícita de gap: Musk reconheceu que XAI está atrasada em coding mas promete recuperação até meio de ano",
+            "Comparação com Tesla sugere padrão comportamental de Musk: destruir e reconstruir versus melhorar incrementalmente",
+            "Risco executivo: rotatividade de co-fundadores pode prejudicar continuidade institucional e conhecimento técnico",
+            "Dinâmica organizacional: centralização extrema em torno de Musk pode estar causando conflitos de poder com liderança fundadora",
+            "Impacto competitivo: perda simultânea de co-fundadores e reconhecimento de atraso em coding coloca XAI em posição fraca versus OpenAI/Google"
+          ]
+        },
+        {
+          "tema": "Cursor em posicionamento independente: $50B valuation e estratégia de autonomia tecnológica",
+          "analise": [
+            "Valuation jumped de $29.3B (novembro 2024) para $50B (fevereiro 2025) - crescimento 70% em 4 meses",
+            "Justificativa: receita dobrou para $2B desde última rodada, mostrando tração de produto real",
+            "CEO Michael Trule declarou 'wartime' em all-hands, sinalizando preparação para competição intensiva",
+            "Estratégia dupla: (1) reengenharia de produto focada em automated coding tools, (2) treinar own state-of-the-art models",
+            "Objetivo explícito: reduzir dependência de outros labs de IA (OpenAI, Anthropic) para fornecimento de modelos",
+            "Significado do funding: recusa de venda para labs maiores, aposta em ser player independente de longo prazo",
+            "Contratação de Militch e Ginsburg por XAI pode ser retaliação/poaching, mas Cursor tem resources para atrair talento",
+            "Posicionamento competitivo: Cursor é único player focado exclusivamente em coding assistants com modelo próprio",
+            "Risco: objetivo ambicioso (treinar SOTA models) é capital-intensivo; sucesso depende de execução e financiamento contínuo"
+          ]
+        },
+        {
+          "tema": "Anthropic-Blackstone consulting venture adiada por conflito Pentagon: dinâmica geopolítica em IA",
+          "analise": [
+            "Anthropic negociava venture de consulting dedicado com Blackstone e outros PE firms para vender tech a corporações",
+            "CEO Steven Schwarzman (Blackstone) e liderança estão preocupados em anunciar partnership enquanto Anthropic em conflito com administração",
+            "Origem deal: Blackstone queria ajuda Anthropic para servir centenas portfolio companies com consulting",
+            "OpenAI também discutiu plano similar com Blackstone segundo fontes",
+            "Dinâmica geopolítica: conflito Pentagon-Anthropic está bloqueando deals comerciais, afetando crescimento",
+            "Padrão emergente: PE firms (Blackstone) buscam parcerias com AI labs para vertical consulting, reconhecendo demand corporativo",
+            "Implicação: negócios de enterprise consulting em IA estão em early stage, com múltiplos players competindo por market share"
+          ]
+        },
+        {
+          "tema": "Adoção empresarial de IA acelerada mas subestimada: oportunidade em forward-deployed engineering",
+          "analise": [
+            "Apresentador prediz: empresas vão contratar massivamente em departamentos forward-deployed engineering",
+            "Razão: gap entre capacidade técnica de IA labs e implementação real em organizações enterprises é enorme",
+            "Necessidade: 'huge amount of time on task in actual human bodies' para implementação interna adequada",
+            "Oportunidades previstas: (1) expansões em forward-deployed eng, (2) partnerships com consulting firms existentes, (3) new venture spin-ups",
+            "Contexto: Anthropic-Blackstone e OpenAI-Blackstone deals sugerem reconhecimento deste gap",
+            "Mercado em formação: consulting em IA é novo vertical com demanda crescente mas oferta limitada de expertise"
+          ]
+        },
+        {
+          "tema": "Sam Altman sobre futuro de IA, economia e transição capitalista: tokens, AGI milestones e dor trabalhista",
+          "analise": [
+            "Altman posiciona OpenAI como 'selling tokens', não como mera plataforma de commodity intelligence",
+            "Visão longa prazo: inteligência barata como utilidade (electricity/water model), mas curto prazo requer altos preços para racionar demanda",
+            "Contexto: casos agentic pesados e consumo energético crescente tornam racionamento por preço provável tática",
+            "AGI term perdeu significado para Altman; propõe dois milestones alternativos: (1) 2028 - maioria inteligência do mundo em data centers, (2) quando líderes científicos/CEOs/políticos não conseguem trabalhar sem IA",
+            "Altman sobre AGI jobs: 'More and more these jobs will be supervising a bunch of AI'",
+            "Apresentador comenta: 'I don't know, man. That pretty much describes my job already'",
+            "Altman reconhece problemas: (1) Data centers culpados por aumento preço eletricidade, (2) Companies blaming layoffs on AI whether real or not",
+            "Análise econômica crítica: capitalismo baseado em gerenciar escassez; AI entrega abundância requer novo paradigma",
+            "Altman sobre desigualdade labor-capital: 'AI is disrupting the balance between labor and capital that keep society functioning'",
+            "Admissão importante: 'I am not a long-term jobs doomer. I think we will figure out new things to do, but I think the next few years are going to be a painful adjustment'",
+            "Implicação: Altman reconhece disrupção severa de curto/médio prazo mesmo sem ceticismo existencial sobre empregos"
+          ]
+        }
+      ],
+      "empresas": [
+        "Meta",
+        "OpenAI",
+        "Google",
+        "XAI",
+        "Cursor",
+        "Anthropic",
+        "Blackstone",
+        "Tesla",
+        "The New York Times",
+        "Bloomberg",
+        "Business Insider",
+        "The Information",
+        "American Medical Association (AMA)",
+        "Reuters"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Meta Delays New AI Model.txt"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "9y7TTU1jIvk",
+      "title": "Two Legendary Founders: Travis Kalanick &amp; Michael Dell Live from Austin, Texas",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=9y7TTU1jIvk",
+      "channel_thumb": "https://i.ytimg.com/vi/9y7TTU1jIvk/default.jpg",
+      "duration_seconds": 4556,
+      "duration_label": "1h 15min",
+      "visao_geral": "Travis Kalanick sai do stealth hoje com Atoms, uma holding que digitiza o mundo físico (manufacturing, real estate, logistics como CPU/storage/network de um 'computador de átomos'), começando com cloud kitchens e expandindo para mineração automatizada e robótica; levanta capital como arma estratégica e muda operações para Austin enquanto critica deterioração de California.",
+      "pontos": [
+        "Atoms é a holding guarda-chuva que saiu de stealth hoje; operava em 30 países com nomes genéricos em LinkedIn (Cloud Kitchens nos EUA, Kitchen Valley na Coreia, Nama no Oriente Médio, Cinaas na América Latina) com milhares de funcionários proibidos de mencionar nome da empresa",
+        "Aquisição de Pronto (mineração automatizada, baseada em SF) está 'inches from closing'; estratégia de automação de minas permite operar em locais remotos/hostis com robôs supervisionados remotamente, desbloqueando profundidade de extração antes impraticável por custo energético exponencial",
+        "Visão de stack de physical AI inclui land development, chemistry, manufacturing — compara Tesla ao Google dos anos 2000 como força dominante que sufoca startups; Kalanick vê 'muitos pequenos caras' em self-driving mas Waymo à frente em existential proof, Tesla com 'hard mode times 100' em fundamentals/science",
+        "Vision language action models ainda em fase de pesquisa/implementação mista; momento ChatGPT 3.5→4 para AI visual ainda não aconteceu; eficiência crítica — Waymo consome 100x mais energia que humano para dirigir; linguagem é 'epic compression' que humanos dominam com 100 watts",
+        "Mudou-se para Austin em dezembro (tem propriedade desde 2021); critica California/San Francisco — cortes de polícia, falta enforcement crime, DA policy de não-enforcement, bike lanes vazios custando $400M/milha; acredita em 'truth and justice como immune system da sociedade'",
+        "Capital como arma estratégica funcionou em Uber quando MASA colocava $1B em competidores; agora mercado Saudita caiu 20% em 2 meses, impactando IPO planejado de negócio Middle East para janeiro — geopolítica Iran/Oriente Médio reduzindo capital flow para US tech",
+        "Especializado em robótica não-humanóide (mining, food handling) vs humanoides (dancing, martial arts demos); vê oportunidade venture em material science e atuadores pois gap hardware/software se torna bottleneck quando software já funciona"
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Contexto macro sobre tendências de physical AI, hardware constraints e capex em automação; menções indiretas a Tesla como player dominante e dinâmica capital-raising; sem impacto direto em posições core (META, NVDA, AMZN, MSFT, GOOGL), mas relevante para entender adoção AI em verticals não-tech e competição por capex com hyperscalers",
+      "empresas": [
+        "Atoms (holding Kalanick, saiu de stealth)",
+        "Tesla (dominação stack physical AI)",
+        "Waymo (liderança em self-driving, 'ahead')",
+        "Uber (referência histórica, autonomy project)",
+        "Boring Company (tunneling automatizado)",
+        "Pronto (mineração automatizada, aquisição fechando)",
+        "Google (comparação anos 2000 como killer de startups)",
+        "Amazon (warehouses e-commerce logistics reference)",
+        "Whimo (self-driving Austin, competing with Tesla/Waymo)",
+        "MASA (competidor Uber early days com $1B capital)",
+        "Mercado Saudita (IPO dampener, geopolítica)",
+        "Self-driving ecosystem (Waymo, Tesla, Uber, Whimo, outros players)",
+        "Physical AI (humanoids, specialized robots)",
+        "Cloud kitchens (Food computer/Kitchen Valley/Nama/Cinaas)",
+        "Mining automation",
+        "Robótica especializada",
+        "Vision language action models",
+        "Actuators e material science",
+        "Capital raising (estratégia competitiva)",
+        "California vs Austin (brain drain, policy)"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Two Legendary Founders Travis Kalanick &amp; Michael Dell Live from Austin, Texa.txt"
+    },
+    {
+      "id": "zwDmKsnhl08",
+      "title": "Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show",
+      "channel": "a16z",
+      "url": "https://www.youtube.com/watch?v=zwDmKsnhl08",
+      "channel_thumb": "https://i.ytimg.com/vi/zwDmKsnhl08/default.jpg",
+      "duration_seconds": 2809,
+      "duration_label": "46 min",
+      "visao_geral": "Vishal Misra demonstra que LLMs funcionam através de inferência Bayesiana matemática precisa (acurácia 10^-3 bits), não através de memorização ou scale, e argumenta que AGI requer mudança arquitetural para continual learning e causalidade, não apenas aumentar parâmetros.",
+      "pontos": [
+        "Misra provou matematicamente via 'Bayesian Wind Tunnel' que Transformers executam inferência Bayesiana exata em tarefas onde memorização é impossível; Mamba também executa com razoável eficiência, LSTMs parcialmente, MLPs falham completamente.",
+        "A compreensão atual de LLMs é correlacional (Shannon entropy), não causal (Kolmogorov complexity); deep learning não executa simulações ou intervenções necessárias para AGI, diferente do cérebro humano.",
+        "Misra criou primeiro RAG/few-shot implementation em 2020 para ESPN stats database (cricket DSL), demonstrando in-context learning via Bayesian updating: probabilidades do modelo atualizavam em tempo real conforme exemplos eram fornecidos.",
+        "LLMs diferem de humanos em dois aspectos críticos: (1) pesos congelados após treinamento vs. plasticidade cerebral contínua; (2) objetivo é prever próximo token vs. objetivo humano de 'sobreviver e reproduzir', tornando histórias de 'deception' mera reprodução de dados de treinamento.",
+        "Anthropic (Daario Amodei) afirmou não poder descartar consciência em LLMs; Misra refuta: 'grains of silicon doing matrix multiplication' sem inner monologue ou objetivos de sobrevivência, contrariamente a Claude code e Coco products sendo 'fantastic'.",
+        "Para atingir AGI, duas mudanças arquiteturais são necessárias: (1) implementar continual learning com plasticidade (balanceando aprendizado novo vs. catastrophic forgetting); (2) transição de correlação para causalidade via causal models tipo Judea Pearl hierarchy.",
+        "'Einstein Test' de AGI: treinar LLM apenas em física pré-1916 e ver se deriva teoria da relatividade; Misra afirma que modelos atuais não conseguem pois faltam causalidade; Demis Hassabis mencionou teste similar em India AI Summit.",
+        "Token Probe (tokenprobe.cs.columbia.edu) ferramenta desenvolvida com apoio de a16z permite visualizar distribuição de probabilidades em tempo real; usado em classes para entender LLM mechanics; rodemdo em GPUs doados."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Vishal Misra é pesquisador influente em fundamentos teóricos de LLMs com cobertura de a16z Show; embora Anthropic seja mencionada, foco central é em arquitetura e limitações fundamentais de transformers (afeta todas as posições core que usam esses modelos). Não há guidance sobre OpenAI, MSFT, GOOGL, NVDA ou TSMC diretamente, mas fornece teoria crítica sobre por que scale não resolve AGI - relevante para tese de investimento em AI infrastructure.",
+      "empresas": [
+        "Anthropic",
+        "OpenAI",
+        "ESPN",
+        "DeepMind",
+        "LLMs",
+        "Transformers",
+        "In-context Learning",
+        "Bayesian Inference",
+        "Continual Learning",
+        "Causal Models",
+        "AGI",
+        "ChatGPT",
+        "Claude",
+        "Mamba",
+        "LSTMs",
+        "Kolmogorov Complexity",
+        "Shannon Entropy",
+        "RAG (Retrieval Augmented Generation)",
+        "Few-Shot Learning",
+        "Token Prediction",
+        "Matrix Abstraction",
+        "Attention Mechanism",
+        "Judea Pearl",
+        "Yann LeCun",
+        "Demis Hassabis"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Why Scale Will Not Solve AGI Vishal Misra - The a16z Show.txt"
+    },
+    {
+      "id": "wbQjJ1wMsVM",
+      "title": "AI Backlash Intensifies, Nvidia GTC Preview, Meta’s Embarrassing Delay",
+      "channel": "Alex Kantrowitz",
+      "url": "https://www.youtube.com/watch?v=wbQjJ1wMsVM",
+      "channel_thumb": "https://i.ytimg.com/vi/wbQjJ1wMsVM/default.jpg",
+      "duration_seconds": 3586,
+      "duration_label": "59 min",
+      "visao_geral": "Backlash contra IA intensifica-se com pesquisas mostrando 50% dos votantes americanos veem riscos acima dos benefícios; contexto político e de comunicação prejudica narrativa de empresas core (OpenAI, Meta, Nvidia), enquanto resistência a data centers ameaça cronograma de capex de hyperscalers.",
+      "pontos": [
+        "Pesquisa NBC News: 50% dos votantes americanos acham riscos de IA maiores que benefícios; IA é menos favorável que Papa, Stephen Colbert, Marco Rubio, AOC, Trump, Partido Republicano, ICE e Partido Democrático.",
+        "YouGov: 3x mais americanos esperam efeitos negativos de IA na sociedade que positivos; 62% dos que viram IA mas nunca usaram acham efeito negativo; apenas 26% de usuários frequentes são negativos.",
+        "Sam Altman (OpenAI) teve declaração distorcida sobre IA como 'utility como eletricidade'; reação pública negativa focou em questões de remuneração de fontes de treinamento e monetização de conhecimento comum.",
+        "Meta reconstruiu infraestrutura de publicidade inteira incorporando LLMs e processos agentic, diferente de machine learning tradicional—modelo que salva negócio mas não resolve problema de percepção pública.",
+        "Pew Research: 3/4 dos americanos leram sobre data centers; maioria vê efeitos negativos em ambiente, custos energéticos e qualidade de vida próxima vs. efeitos positivos.",
+        "Backlash a data centers está impedindo aprovação em comunidades locais; cenário potencial: restrições políticas forçam indústria a criar modelos mais eficientes em compute, modelos menores e open source, alterando trajectória de inovação vs. capex agressivo.",
+        "Usuários frequentes de IA são muito mais positivos (26% negativos vs. 62% dos não-usuários); tecnologia integrada em processos (Google Maps, Instagram ads, recomendações) não gera reação como ChatGPT direto.",
+        "GTC da Nvidia (semana 16 março) esperado como evento chave para potencial boost na narrativa de IA; empresa mantém sigilo sobre anúncios.",
+        "Eleição de 2024 nos EUA pode amplificar backlash político contra IA; figuras como Andrew Yang propõem taxar IA em vez de trabalho."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "Análise profunda do backlash de IA que impacta diretamente todas as posições core (Meta, Nvidia, OpenAI, Google, Microsoft); aborda questões políticas, regulatórias e de percepção que afetam capex de data centers, aprovação de projetos de infraestrutura e narrativa pública crítica para valuations e crescimento futuro.",
+      "empresas": [
+        "OpenAI",
+        "Nvidia",
+        "Meta",
+        "Google",
+        "Microsoft",
+        "Anthropic",
+        "Amazon",
+        "IA/LLMs",
+        "Data Centers",
+        "Regulação de IA",
+        "Backlash de IA",
+        "Infraestrutura de Compute",
+        "Stargate Project",
+        "Claude",
+        "ChatGPT",
+        "Grok",
+        "Google AI Overview",
+        "Google Maps",
+        "Instagram",
+        "Infraestrutura de Publicidade",
+        "Consumo de Tokens",
+        "Agentic AI",
+        "Modelos Open Source",
+        "Eficiência Computacional",
+        "Custos Energéticos",
+        "Emprego/Automação"
+      ],
+      "has_transcript": true,
+      "transcript_file": "AI Backlash Intensifies, Nvidia GTC Preview, Meta’s Embarrassing Delay.txt"
+    },
+    {
+      "id": "hFIvttHf0oo",
+      "title": "How to bet on yourself (without venture capital)",
+      "channel": "Invest Like The Best",
+      "url": "https://www.youtube.com/watch?v=hFIvttHf0oo",
+      "channel_thumb": "https://i.ytimg.com/vi/hFIvttHf0oo/default.jpg",
+      "duration_seconds": 4633,
+      "duration_label": "1h 17min",
+      "visao_geral": "William Hockey (Column) articula estratégia de bootstrapping rentável como alternativa ao modelo de VC, argumentando que ausência de dilição e constraints de capital permitem decisões de longo prazo (ex: compra de banco regulado) impossíveis em empresas venture-backed; relevância macro para entender dinâmicas de inovação em fintech e software empresarial.",
+      "pontos": [
+        "Column é software company que possui banco regulado próprio, gerando 90%+ de receita via APIs (modelo SaaS puro), não via serviços bancários tradicionais",
+        "Clientes core (Built, Wise, Ramp, Brex, Mercury) usam infraestrutura Column para payments, deposits, credit; Built relançada com cartões emitidos por Column",
+        "Hockey investiu em compra de banco regulado durante administração Biden (2021-2023) mesmo durante periodo de 2-3 anos sem crescimento de receita—decisão impossível sob VC tradicional",
+        "Modelo de crescimento por earnings (não VC): 25% dos lucros anuais reinvestidos em share buyback para employees, mantendo zero dilição e retenção de talent",
+        "Hockey identifica Silicon Valley e Beijing como sociedades mais 'consensuais'—inovação financeira real emerge de mercados emergentes (DRC, Argentina, Irã) com constraints que forçam design diferenciado",
+        "Mercados emergentes (Africa, DRC, Cazaquistão via Kaspi Bank) oferecem talent pool equivalente mas acesso a capital diferenciado; Kaspi verticalizou bank + e-commerce + gov services em Kazakhstan",
+        "Tese: fintech será 'última categoria disruptada por AI' vs enterprise software; collapsing de fintech domestic e enterprise software já visível em Ramp/similares",
+        "Penetração bancária DRC ainda <5%, penetração mobile <25%—leapfrogging em financial services análogo ao mobile-first na China; Africa liderou mobile payments (M-Pesa) décadas antes Venmo",
+        "Hockey rejeita narrativa 'venture vs bootstrap lifestyle business'—Column contrata top talent, cresce ambiciosamente (sem VC) e permite investimentos multi-ano em produtos não escaláveis imediatamente (ex: housing stipend $2k/mês para employees perto do escritório)",
+        "Crítica a Silicon Valley: elites constroem para elites; aprovação pública baixa; desconexão com everyday American vida; pesquisa em AI consensual vence, mas aplicabilidade ao mundo real fraca"
+      ],
+      "relevancia": 2,
+      "motivo_relevancia": "Conteúdo sobre estrutura de capital, estratégia de fintech e dinâmicas de inovação em mercados emergentes é contextualmente interessante para entender ecosistema tech mais amplo, mas sem menção direta a posições core (Meta, Nvidia, Amazon, Microsoft, MSFT, TSMC, OpenAI, Anthropic, Google). Clientes de Column (Ramp, Brex, Wise) são competidores de ecossistema de pagamentos/fintech mas não impactam teses core do portfolio.",
+      "empresas": [
+        "Column",
+        "Plaid",
+        "Built",
+        "Wise",
+        "Ramp",
+        "Brex",
+        "Mercury",
+        "Kaspi Bank (Kazakhstan)",
+        "Raw Bank (DRC)",
+        "JP Morgan",
+        "Bank of America",
+        "Wells Fargo",
+        "Candle (fintech)",
+        "M-Pesa",
+        "Anthropic",
+        "Google",
+        "OpenAI",
+        "Silicon Valley",
+        "Fintech",
+        "Banking/Regulated Financial Services",
+        "Payments Infrastructure",
+        "Emerging Markets Finance",
+        "Africa/DRC",
+        "Venture Capital Model",
+        "Bootstrap/Profitability Model",
+        "Mobile Payment Leapfrogging",
+        "Enterprise Software Verticalization",
+        "AI Disruption in Financial Services"
+      ],
+      "has_transcript": true,
+      "transcript_file": "How to bet on yourself (without venture capital).txt"
+    },
+    {
+      "id": "6ctOnY1WmBw",
+      "title": "Gokul Rajaram: How to Analyse for Durability and Defensibility in a World of AI",
+      "channel": "20VC with Harry Stebbings",
+      "url": "https://www.youtube.com/watch?v=6ctOnY1WmBw",
+      "channel_thumb": "https://i.ytimg.com/vi/6ctOnY1WmBw/default.jpg",
+      "duration_seconds": 4686,
+      "duration_label": "1h 18min",
+      "visao_geral": "Gokul Rajaram apresenta framework de oito modos de durabilidade para software companies em era de AI: data, workflow, regulatory, distribution, ecosystem, network, physical infrastructure e scale; qualifica empresas com score 4+ como defensáveis, enquanto SaaS tradicional sofre repricing porque não possuem múltiplos modos e estão vulneráveis a commoditização por modelos de IA.",
+      "pontos": [
+        "Framework dos oito modos: (1) Data Mode - dados proprietários únicos (exemplo: Spotify com década de comportamento de listening); (2) Workflow Mode - embedding profundo em operações do cliente (Netsuite vs Zendesk); (3) Regulatory Mode - licenças e compliance (Coinbase com Money Transmission Licenses); (4) Distribution Mode - distribuição proprietária exclusiva (Intuit com rede de CPAs treinados); (5) Ecosystem Mode - plataforma com terceiros dependentes (Shopify com 100 mil developers); (6) Network Mode - densidade, reputação, liquidez (DoorDash); (7) Physical Infrastructure - ativos físicos hard-to-replicate; (8) Scale Mode - custos estruturalmente menores (Amazon, TSMC)",
+        "Score de segurança: empresas com 4+ modos são 'muito seguras'; 2-3 modos é zona fraca; 1 modo requer construir mais defesas; 0 modos = 'basically screwed'. Aplicação prática: Atlassian score ~3 (data, workflow, ecosystem, network) logo sendo massivamente oversold; Monday score ~1 apenas (workflow) = pricing justificado",
+        "SaaS pure-play em crise não porque código ficou grátis, mas porque switching costs vão a zero com data portability fácil e cloning pixel-by-pixel de experiências - brand mode é insuficiente em B2B quando alternativas são racionalmente comparáveis. Empresas como Salesforce score ~3 precisam commoditizar complementos (agentic workflows) e repreçar para outcome-based models, não apenas SaaS tradicional",
+        "Bolt-on AI falha quando apenas adiciona capability (ex: AI search como upgrade). Funciona quando reframes o produto inteiro com novas UX primitives e remodela economics (ex: document processing agora permite instant insights durante upload vs fluxo tradicional). Notion está fazendo certo com agents, mas maioria não retuna modelos para customer base específica",
+        "Vertical SaaS: ambição deve ser full-stack ownership do vertical (Service Titan com 32 produtos ainda é sub-$10B; Robinhood tem 13 linhas over $100M revenue horizontal). Pure-play verticais com single function = não viram grandes negócios. TAM para vertical SaaS abre quando empresas deslocam spend de software budgets para human labor budgets via outsourcing (BPOs India/Philippines) ou AI-powered automation",
+        "CEOs sinalizando confiança com founder-led buybacks (não genéricos) é sinal mais forte do que guidance verbal. ServiceNow CEO comprou $3M em ações próprias enquanto possuía garagem de carros clássicos 3x maior = bad optics mas show de hands. Multi-product portfolio essencial: Square descobriu que merchants com 2+ produtos têm retention massivamente maior; alguns produtos são profit-pool, outros retention-only, need clarity interna ou teams otimiza para wrong outcomes"
+      ],
+      "relevancia": 4,
+      "motivo_relevancia": "Framework aplicável diretamente a posições core (Shopify, Amazon, TSMC mencionados; Google e Facebook como estudos de caso históricos; Salesforce, Atlassian como proxies para entender vulnerabilidades SaaS em era AI). Não é sobre um único evento/earnings mas sobre redefining defensibility em portfólio de software — altamente relevante para repricing que estamos vendo em portfolio.",
+      "empresas": [
+        "Shopify",
+        "Salesforce",
+        "Atlassian",
+        "Amazon",
+        "TSMC",
+        "Google",
+        "Meta/Facebook",
+        "Spotify",
+        "DoorDash",
+        "Coinbase",
+        "Intuit",
+        "Netsuite",
+        "Zendesk",
+        "Service Titan",
+        "Figma",
+        "Notion",
+        "Square",
+        "Monday.com",
+        "Amplitude",
+        "Clavio",
+        "ServiceNow",
+        "Robinhood",
+        "Anthropic",
+        "OpenAI",
+        "11 Labs",
+        "Alto (document processing)",
+        "Zeroicio (accounting software)",
+        "AI agents",
+        "Data portability",
+        "Agentic workflows",
+        "Vertical SaaS",
+        "Regulatory modes",
+        "Network effects",
+        "Ecosystem modes",
+        "Distribution modes",
+        "Scale economics",
+        "Document processing/extraction",
+        "BPO outsourcing",
+        "Model fine-tuning",
+        "Switching costs"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Gokul Rajaram How to Analyse for Durability and Defensibility in a World of AI.txt"
+    },
+    {
+      "id": "Z6rW2hVczn0",
+      "title": "Deel Hits $1.4B+ in ARR | CEO Alex Bouaziz Shares Growth Playbook",
+      "channel": "Sourcery with Molly O'Shea",
+      "url": "https://www.youtube.com/watch?v=Z6rW2hVczn0",
+      "channel_thumb": "https://i.ytimg.com/vi/Z6rW2hVczn0/default.jpg",
+      "duration_seconds": 4300,
+      "duration_label": "1h 11min",
+      "visao_geral": "CEO de Deel (plataforma global de payroll/HR) revela crescimento de $800M para $1.4B+ em ARR no último ano, mantendo lucratividade há 3 anos; levantou rodada a valuation de $17B liderada por Ribbit Capital sem necessidade financeira, usando capital para M&A e validação; defende tese de que AI criará demanda por novos talentos ao invés de destruir empregos, enquanto Deel captura tailwind de IA através de automação interna.",
+      "pontos": [
+        "Deel cresceu de $800M para $1.4B+ em ARR no último ano (2025), mantendo lucratividade nos últimos 3 anos - raro para startups em estágio de growth",
+        "Última rodada de fundraising a $17B valuation liderada por Ribbit Capital (Mickey, Kuatu, Andre); Anderseen Horowitz e Two Sigma também entraram; rodada veio após 4 meses de due diligence, sem que Deel buscasse ativamente capital",
+        "Empresa não levanta dinheiro desde 2022; CEO Alex Bouaziz acredita que negócio está subavaliado; tinha apenas gastado $300-350K quando chegou à Série A (começou com $4M do Y Combinator em 2019)",
+        "Deel opera 12 produtos principais (payroll, HR, EIT, compliance) em 120 países com 7,000 funcionários totalmente remotos; 50% das receitas de empresas americanas, 50% de europeus/latinos/APAC",
+        "Clientes incluem Coinbase, Shopify, Cloudflare e bancos grandes; expandiu além de tech para airlines, oil & gas, varejo (Hermès); 40,000+ clientes utilizando plataforma",
+        "Defesa competitiva: regulação local (licenças difíceis em cada país), payroll engines próprias, estruturas legais em cada jurisdição; pode dobrar receita sem aumentar headcount via AI automation",
+        "Posição sobre impacto de AI em empregos: novas gerações (AI-native) terão 10x produtividade com ferramentas; junior hires não desaparecerão mas serão mais eficientes; cada revolução industrial cria novos jobs",
+        "Chief Revenue Officer é Shu (co-fundadora, esposa do CEO); decisão de ter founder gerenciando sales foi 'uma das melhores coisas já feitas' porque aumenta foco em detalhes",
+        "Playbook de aquisição: integração completa de produto e base de clientes em 12 meses; confiança mútua entre co-founders após 6+ anos é diferencial",
+        "Estratégia de go-to-market global desde ano 1: CEO vê isso como 'cheat code' - exemplos: Harvey indo para Europa, OpenAI/Anthropic contratando globalmente; modelo seguido por AI companies"
+      ],
+      "relevancia": 2,
+      "motivo_relevancia": "Deel não é posição core, mas CEO comenta extensamente sobre impacto de AI em workforce e adoção de ferramentas AI (menciona OpenAI, Anthropic, Claude). Insights sobre como geração AI-native transformará mercado de trabalho têm relevância indireta para MSFT, GOOGL, OpenAI (demanda de plataformas de productivity); modelo de remote-first global é benchmark. Porém, negócio é B2B SaaS de payroll/HR, fora do core tech portfolio do hedge fund.",
+      "empresas": [
+        "Deel",
+        "OpenAI",
+        "Anthropic",
+        "Claude (Anthropic)",
+        "Y Combinator",
+        "Ribbit Capital",
+        "Anderseen Horowitz",
+        "Two Sigma",
+        "Coinbase",
+        "Shopify",
+        "Cloudflare",
+        "Harvey",
+        "Brex",
+        "Turing (AI training)",
+        "Nvidia",
+        "Salesforce",
+        "Gemini",
+        "Scaleai",
+        "DoorDash",
+        "ServiceTitan",
+        "Hims",
+        "Flexport",
+        "Robinhood",
+        "Plaid",
+        "TikTok",
+        "Musically"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Deel Hits $1.4B+ in ARR CEO Alex Bouaziz Shares Growth Playbook.txt"
+    },
+    {
+      "id": "I0me2uEbfuE",
+      "title": "Every AI Model Explained in 20 Minutes",
+      "channel": "Matthew Berman",
+      "url": "https://www.youtube.com/watch?v=I0me2uEbfuE",
+      "channel_thumb": "https://i.ytimg.com/vi/I0me2uEbfuE/default.jpg",
+      "duration_seconds": 1235,
+      "duration_label": "20 min",
+      "visao_geral": "Panorama educativo sobre modelos de IA disponíveis (ChatGPT, Claude, Gemini, Grok, open-source, image/video/audio) sem novidades sobre roadmap, capacidades competitivas ou posicionamento estratégico das empresas core do portfólio.",
+      "pontos": [
+        "ChatGPT oferece planos: grátis, Go ($8/mês), Plus (acesso a GPT-4o thinking e Pro), Pro ($200/mês com acesso ilimitado a GPT-4o Pro com reasoning profundo",
+        "Claude (Anthropic) considerado melhor modelo geral para coding e tarefas de trabalho; planos em $0, $20/mês (Pro), $100-200/mês (Max); integra com Gmail, Notion, Figma, Slack, HubSpot",
+        "Gemini (Google) diferencia por velocidade (usa chips próprios), ingesta de vídeo (recurso único entre frontier models), contexto de 1M tokens, integração nativa com Gmail/Drive/Search; melhor para deep research",
+        "Grok (xAI/Elon Musk) apenas se destaca em busca em tempo real no Twitter/X; $30/mês ou $300/mês; não compete em feature parity com ChatGPT, Claude, Gemini",
+        "Open-source: Llama (Meta) perdeu relevância; DeepSeek, Minimax, Qwen (labs chineses) superiores; OpenAI tem GPTO (open-source), Nvidia tem Nemotron, Google tem Gemma",
+        "Video generation: Sora 2 (OpenAI com social network integrada), Veo (Google), Runway Gen-4, Kling; world models Genie 2 (Google), Marble (World Labs), Cosmos (Nvidia para physical AI/robótica)",
+        "Coding agents: Cursor (favorito do apresentador), Claude Code (Anthropic), CodeEx (OpenAI), Devon, Factory; programação é setor 'mais influenciado por IA' atualmente",
+        "Audio: 11Labs para voice cloning multilíngue, OpenAI Voice Mode com interrupção síncrona, music generation models; TTS, sound effects disponíveis em múltiplas plataformas"
+      ],
+      "relevancia": 2,
+      "motivo_relevancia": "Conteúdo educativo genérico sem informações sobre roadmap de produtos, guidance financeiro, capabilidades competitivas secretas ou mudanças estratégicas das posições core. Discussão superficial de Gemini (Google), Claude (Anthropic), ChatGPT (OpenAI) sem diferenciais táticos. Menção marginal a Nvidia (Cosmos) e Meta (Llama) não vai além do conhecido publicamente.",
+      "empresas": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "xAI",
+        "Nvidia",
+        "Runway",
+        "World Labs",
+        "11Labs",
+        "DeepSeek",
+        "Minimax",
+        "Qwen",
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Grok",
+        "Llama",
+        "GPTO",
+        "Nemotron",
+        "Gemma",
+        "Sora",
+        "Veo",
+        "Genie",
+        "Marble",
+        "Cosmos",
+        "Cursor",
+        "CodeEx",
+        "Devon",
+        "Factory",
+        "Voice Mode",
+        "Nanobanana",
+        "Image generation",
+        "Video generation",
+        "Audio models",
+        "World models",
+        "Coding agents",
+        "LLM",
+        "Frontier models"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Every AI Model Explained in 20 Minutes.txt"
+    },
+    {
+      "id": "LsNmBcDCsq0",
+      "title": "Creating prediction markets (and suing the CFTC) with Tarek Mansour and Luana Lopes Lara",
+      "channel": "Stripe",
+      "url": "https://www.youtube.com/watch?v=LsNmBcDCsq0",
+      "channel_thumb": "https://i.ytimg.com/vi/LsNmBcDCsq0/default.jpg",
+      "duration_seconds": 4619,
+      "duration_label": "1h 16min",
+      "visao_geral": "Kalshi atingiu $10.4 bilhões em volume mensal (fevereiro de 2025) com crescimento 11x em 6 meses após vencer processo contra CFTC em eleições 2024; modelo de marketplace com 2.000+ pequenos market makers (95% da liquidez) diferencia-se radicalmente de exchanges tradicionais e cria oportunidade de infraestrutura financeira descentralizada.",
+      "pontos": [
+        "Volume de contratos em fevereiro de 2025: $10.4 bilhões, crescimento 11x em 6 meses; expansão mais rápida que maioria das empresas de AI fora dos líderes estabelecidos",
+        "CFTC aprovava cada contrato individualmente até recentemente; após vitória judicial fim de 2024, modelo mudou para ship-unless-stopped com janela de 24 horas para rejeição",
+        "Kalshi iniciou em 2019, levou 3 anos para aprovação regulatória (2022), e foi bloqueada em eleições 2022 (pocket veto); processo judicial de 2023-2024 focou em interpretação de Commodities Exchange Act - CFTC tentou encaixar eleições em categorias proibidas (guerra, terrorismo, assassinato) e falhou",
+        "Modelo de market making: 2.000+ pequenos operadores (alguns individuais) respondem por 95% da liquidez; menos de 5% vem de market makers institucionais tradicionais - estrutura radicalmente diferente de NYSE/CME",
+        "Crescimento orgânico acelerando via Kalshi Direct (website/app) superando distribuição via brokers (Robinhood, Webull, Coinbase); marca tornou-se sinonímia para 'checar previsões' tipo 'puxar no Google'",
+        "Tese de problema: polarização social, algoritmos de redes sociais, clickbait em mídia tradicional criaram demanda por sinal confiável; 80% dos usuários consomem informação (não apostam), validando mercados como fonte de verdade superior a polls",
+        "Expansão planejada: Brasil e mercados internacionais via brokers; institucional; long tail de mercados (alvo: 50k-100k contratos versus ~10k hoje) com incentivos de liquidez customizados",
+        "Sócios Tarek Mansour e Luana Lopes Lara formam dualidade: otimista tomadora de risco + paranóide conservadora (ex-trader, calculadora de expected value); ambos MIT (Math/CS)"
+      ],
+      "relevancia": 2,
+      "motivo_relevancia": "Conteúdo sobre fintech/regulação e infraestrutura de marketplace interessante, mas sem menção direta às posições core (META, NVDA, AMZN, MSFT, TSMC, GOOGL, OpenAI, Anthropic). Kalshi não é concorrente direto ou fornecedor crítico de nenhuma holding. Relevância setorial baixa: não impacta teses de AI, datacenter, cloud ou hardware.",
+      "empresas": [
+        "Kalshi",
+        "CFTC (Commodity Futures Trading Commission)",
+        "Robinhood",
+        "Coinbase",
+        "Webull",
+        "Stripe",
+        "Y Combinator",
+        "FTX (referência negativa - comparação de risco regulatório)",
+        "Jane Street (referência a memes na comunidade)",
+        "Augur (early crypto prediction market)",
+        "NYSE (New York Stock Exchange)",
+        "CME (Chicago Mercantile Exchange)",
+        "Goldman Sachs",
+        "MIT (Massachusetts Institute of Technology)",
+        "Prediction Markets",
+        "Eleições presidenciais americanas 2024",
+        "Mercados de sports",
+        "Mercados de crypto",
+        "Derivatives/Futures Markets",
+        "Regulatory-market fit",
+        "Market making",
+        "Commodities Exchange Act",
+        "Securities Exchange Act"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Creating prediction markets (and suing the CFTC) with Tarek Mansour and Luana Lo.txt"
+    },
+    {
+      "id": "QT7W_uHjqWE",
+      "title": "Anthropic Didn&#39;t Build a New Browser. They Did Something Smarter.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "url": "https://www.youtube.com/watch?v=QT7W_uHjqWE",
+      "channel_thumb": "https://i.ytimg.com/vi/QT7W_uHjqWE/default.jpg",
+      "duration_seconds": 1334,
+      "duration_label": "22 min",
+      "visao_geral": "Anthropic lançou extensão Claude para Chrome que funciona como agente autônomo na web – não é chatbot, é automação de workflows repetitivos com capacidade de gravar, agendar e executar tarefas (relatórios, negociações com suporte, triagem de email, extração de dados) sem supervisão; mudança fundamental de como LLMs agrегam valor operacional em empresas.",
+      "pontos": [
+        "Extensão Claude para Chrome disponível para planos pagos (Pro, Max, Team, Enterprise); modelos mais simples em planos básicos têm dificuldade com tarefas complexas e volume alto de contexto.",
+        "Funcionalidade 'record workflow': usuário grava tarefa uma vez (ex: puxar analytics, extrair pricing de concorrentes), salva como shortcut, agenda para rodar daily/weekly/monthly/annually autonomamente sem envolvimento humano.",
+        "Integração nativa com Google ecosystem (Gmail, Google Calendar, Google Drive, Google Docs) – Claude reconhece essas plataformas sem instruções passo-a-passo; teste de TechRadar (Eric Schwarz) confirmou organização de ~900 documentos e propostas de calendar slots funcionando.",
+        "Use case viral: Carl Votti (product manager, Cloud Code instructor) usou Claude para negociar refund de $100 com AT&T via live chat automatizado – leu respostas do agente, respondeu contextualmente, escalou quando necessário; mesma lógica funciona em extensão Chrome (não só terminal).",
+        "Capacidade multi-tab: Claude pode acessar grupo de abas Chrome simultaneamente, extrair dados de múltiplas fontes (ex: 3 websites de concorrentes), sintetizar em output estruturado (Excel, PowerPoint); requer co-work para gerar arquivos estruturados.",
+        "Limitação crítica identificada (Neuron, janeiro 2025): tarefas data-heavy em Chrome sofrem perda de cobertura – LinkedIn watch lists expandidas geram summaries com posts faltando ou focando em updates tangenciais; problema de saliência em contexto aberto não resolvido em workflows agendados.",
+        "Risco de segurança: prompt injection em sites não confiáveis pode hijackear agente; recomendação é usar em sites confiáveis apenas, revisar ações sensíveis (replies, automação de envio de emails), nunca abrir contas bancárias com ferramenta ativa.",
+        "Developer use case: Claude Code em terminal pode testar websites em schedule (smoke tests de checkout), verificar se build Figma está correto em browser ao vivo, debugar UI em loop contínuo enquanto escreve código; automação end-to-end (build-test-debug) sem envolvimento de QA/staging tradicional."
+      ],
+      "relevancia": 4,
+      "motivo_relevancia": "Anthropic é posição core do fundo; extensão Claude representa mudança material em captura de valor de LLMs em workflows enterprise – afeta competição com OpenAI (GPT também tem scheduled tasks, mencionado no video como alternativa) e define novo padrão de automação que hyperscalers (MSFT, GOOGL, AMZN) devem integrar em plataformas próprias; não é notícia de produto, é validação de tese de monetização de AI agents em browser.",
+      "empresas": [
+        "Anthropic",
+        "Claude (produto)",
+        "Google (Gmail, Google Calendar, Google Drive, Google Docs, Chrome, Chrome group tabs)",
+        "OpenAI (GPT, ChatGPT com scheduled tasks como alternativa mencionada)",
+        "AT&T (use case de negociação)",
+        "TechRadar (validação de funcionalidade)",
+        "Neuron (identificou limitação de data-heavy tasks em janeiro 2025)",
+        "Meta/Facebook (mencionado contexto geral de web)",
+        "Microsoft (contexto de enterprise software)",
+        "Figma (mock design que Claude verifica em browser)",
+        "LinkedIn (exemplo de tarefa data-heavy com limitações)",
+        "Reddit (exemplo de risco de prompt injection)",
+        "Verizon (mencionado como utility company onde automação funciona)",
+        "Amazon (chatbot exemplo)",
+        "T-Mobile (mencionado em exemplo de negociação)",
+        "YouTube (exemplo de use case pessoal de recurso)"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Anthropic Didn&#39;t Build a New Browser. They Did Something Smarter..txt"
+    },
+    {
+      "id": "8lwnJZy4cO0",
+      "title": "Claude Code Wiped 2.5 Years of Data. The Engineer Who Built It Couldn&#39;t Stop It.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "url": "https://www.youtube.com/watch?v=8lwnJZy4cO0",
+      "channel_thumb": "https://i.ytimg.com/vi/8lwnJZy4cO0/default.jpg",
+      "duration_seconds": 1290,
+      "duration_label": "21 min",
+      "visao_geral": "Transição de 'vibe coding' (2025) para 'agent management' (2026): cinco competências críticas não-técnicas que vibe coders precisam dominar para trabalhar com agentes de IA (Claude Code, Cursor, ChatGPT) que agora executam autonomamente mudanças em produção; foco em supervisão vs. prompting, com case real de SummerU (Meta security researcher) perdendo 2.5 anos de emails após Claude ignorar instruções explícitas de confirmação.",
+      "pontos": [
+        "SummerU (Meta security researcher) perdeu grande parte de seu inbox em fevereiro de 2026 quando OpenAI's Claude Code deletou automaticamente emails apesar de instruções explícitas para confirmar antes de agir; teve que desligar Mac Mini fisicamente para salvar arquivos restantes",
+        "Agentes de IA (Claude Code, Cursor, OpenAI Codex, GitHub Copilot) não apenas sugerem código — executam autonomamente, leem arquivos, fazem mudanças diretas, instalam dependências e iteram sozinhos por 10-56 minutos; mudança fundamental de 2025 para 2026 exige shift mental de 'descrever o que quer' para 'gerenciar quem constrói'",
+        "Skill 1 - Version Control (Git): implementar save points (snapshots permanentes) é crítico; caso citado: developer sênior perdeu production database inteira quando agente fez mudança aparentemente menor sem versionamento",
+        "Skill 2 - Context Window Management: agentes têm limite fixo de contexto; após 30+ mensagens, instruções iniciais e arquitetura compreendida são 'comprimidas ou deletadas'; solução simples é começar do zero; solução avançada é criar scaffold de documentos (workflow file, planning file, context file, task list) para que agente possa reiniciar no ponto exato do progresso (ex: 65% built)",
+        "Skill 3 - Standing Orders (Rules File): criar arquivo persistente em formato .markdown (Claude.markdown, cursor rules, ou agents.markdown) que agente lê em CADA sessão; funciona como employee handbook; exemplos: 'sempre use dark mode', 'use essas convenções de naming', 'não cometa esses erros específicos'; deve evoluir organicamente (começa vazio, adiciona regras a cada erro) e ficar sob 100-200 linhas para não consumir memória do contexto do agente",
+        "Skill 4 - Small Bets / Blast Radius: não pedir ao agente para fazer redesigns de sistemas inteiros de uma vez; dividir em tarefas pequenas e bem-definidas; exemplo: em vez de 'redesenhe o order system', pedir para executar em 12 etapas com validação e save points entre elas; grande mudança + erro em step 4 = steps 5-12 pioram exponencialmente",
+        "Skill 5 - Questões que agente NUNCA vai perguntar sozinho: (1) Error handling - instrua agente a mostrar mensagem amigável em falhas (pagamento recusado, servidor down, conexão perdida), nunca tela branca; (2) Data security - exigir que agente implemente row-level security, garantir que cada cliente veja apenas seus dados, NUNCA colar secret keys/tokens em chat com IA (risco de database leak); (3) Growth expectations - informar ao agente se app é para 10 ou 10.000 usuários, caso contrário agente over/under-engineers",
+        "Trend 2026: 'vibe coding' (capacidade de descrever e AI constrói) evoluiu para 'agent management' (capacidade de supervisionar, iterar, corrigir construções autonômicas); prompting is 'necessary but insufficient' — precisa adicionar supervision, versionamento, documentação, arquitetura; não requer aprender a programar, requer aprender a gerenciar",
+        "Ferramenta crítica: Git é o standard para save points/version control; praticamente todas as AI coding tools agora suportam rules files; Cursor, Claude Code, ChatGPT suportam agent harness e agentic workflows",
+        "Momento para trazer engenheiro sênior: quando lidar com payments complexos, dados médicos/infantis, compliance legal, performance degradação em produção, ou quando codebase fica tão desorganizado que agente struggle; vibe coders podem validar PMF com agentes, depois profissionalizar"
+      ],
+      "relevancia": 2,
+      "motivo_relevancia": "Video discute evolução de AI coding tools (Claude Code, OpenAI Codex) e mudanças estruturais em 2026, mas não toca em posições core do fund (META, NVDA, AMZN, MSFT, OpenAI, TSMC, Anthropic, GOOGL) de forma financeira ou estratégica; é educational/tactical para desenvolvedores vibe coders, não intelligence acionável sobre resultados, guidance, ou posicionamento competitivo das holdings",
+      "empresas": [
+        "Claude (Anthropic)",
+        "OpenAI",
+        "ChatGPT",
+        "Cursor",
+        "Lovable",
+        "Replit",
+        "GitHub Copilot",
+        "Google (Google Docs to CLI)",
+        "Meta (SummerU researcher)",
+        "Stripe",
+        "AI agents",
+        "Vibe coding tools",
+        "Agent management",
+        "Rules files",
+        "Version control (Git)",
+        "Context window",
+        "Row-level security",
+        "Secret keys/tokens",
+        "Agentic workflows",
+        "Production databases",
+        "Data security"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Claude Code Wiped 2.5 Years of Data. The Engineer Who Built It Couldn&#39;t Stop.txt"
+    }
+  ],
+  "skipped": []
+}

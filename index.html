@@ -3,333 +3,479 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>YouTube Digest — 17/03/2026</title>
+<title>YouTube Digest — Tork Capital</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  :root {
+    --bg: #F4F3F0;
+    --sidebar: #0F1923;
+    --card: #FFFFFF;
+    --text: #1A1A1A;
+    --muted: #888;
+    --border: #E8E6E1;
+    --accent-5: #D4740E;
+    --accent-4: #B85A0B;
+    --accent-3: #2D8A56;
+    --accent-2: #7A8A99;
+    --accent-1: #AAA;
+    --pinned: #5E35B1;
+  }
   * { margin:0; padding:0; box-sizing:border-box; }
   html { scroll-behavior:smooth; }
-  body { background:#F4F4F8; font-family:Georgia,'Times New Roman',serif; color:#333; }
+  body { background:var(--bg); color:var(--text); font-family:'DM Sans',sans-serif; display:flex; min-height:100vh; }
 
-  .container { max-width:620px; margin:0 auto; padding:20px 16px 40px; }
+  /* ===== SIDEBAR ===== */
+  .sidebar {
+    width:220px; background:var(--sidebar); padding:28px 0; position:fixed; top:0; left:0; height:100vh;
+    display:flex; flex-direction:column; z-index:10; transition: transform 0.3s;
+  }
+  .sidebar-brand { padding:0 20px 20px; border-bottom:1px solid rgba(255,255,255,0.08); }
+  .sidebar-brand h1 { font-family:'Instrument Serif',serif; font-size:20px; color:#F0F4F8; font-weight:400; }
+  .sidebar-brand p { font-size:9px; color:#5A7A9B; text-transform:uppercase; letter-spacing:2px; margin-top:4px; }
 
-  /* Header */
-  .header { text-align:center; padding:32px 0 24px; border-bottom:2px solid #E0E0E0; margin-bottom:4px; }
-  .header .brand { font-size:10px; color:#BBB; text-transform:uppercase; letter-spacing:3px; font-family:Helvetica,Arial,sans-serif; font-weight:600; }
-  .header h1 { font-size:28px; font-weight:400; color:#1A1A1A; letter-spacing:-0.5px; margin:6px 0; }
-  .header .meta { font-size:13px; color:#999; font-family:Helvetica,Arial,sans-serif; }
+  .sidebar-section { padding:16px 20px 8px; }
+  .sidebar-section-title { font-size:9px; color:#4A6A82; text-transform:uppercase; letter-spacing:1.5px; font-weight:600; margin-bottom:8px; }
 
-  /* TOC */
-  .toc { padding:18px 0; border-bottom:2px solid #F0F0F0; }
-  .toc-title { font-size:9px; color:#BBB; text-transform:uppercase; letter-spacing:1.5px; font-family:Helvetica,Arial,sans-serif; font-weight:600; margin-bottom:10px; }
-  .toc-item { display:block; padding:5px 0; text-decoration:none; font-size:13px; color:#333; font-family:Helvetica,Arial,sans-serif; transition:color 0.15s; }
-  .toc-item:hover { color:#D4740E; }
-  .toc-item.pinned { color:#5E35B1; font-weight:600; }
-  .toc-arrow { color:#CCC; margin-right:4px; }
-  .toc-channel { color:#BBB; font-size:11px; }
-  .toc-score { font-size:10px; font-weight:700; font-family:Helvetica,Arial,sans-serif; margin-left:6px; }
-  .score-5 .toc-score { color:#D4740E; }
-  .score-4 .toc-score { color:#C45D10; }
-  .score-3 .toc-score { color:#2D8A56; }
-  .score-2 .toc-score { color:#7A8A99; }
-  .score-1 .toc-score { color:#AAA; }
+  .sidebar-link {
+    display:block; padding:8px 20px; font-size:13px; color:#7A96AD; text-decoration:none;
+    transition: all 0.15s; cursor:pointer; border-left:2px solid transparent;
+  }
+  .sidebar-link:hover { color:#E8EDF2; background:rgba(255,255,255,0.04); }
+  .sidebar-link.active { color:#F0F4F8; border-left-color:var(--accent-5); background:rgba(255,255,255,0.06); font-weight:600; }
+  .sidebar-link .count { font-size:10px; color:#4A6A82; font-family:'JetBrains Mono',monospace; float:right; }
+  .sidebar-link.active .count { color:var(--accent-5); }
 
-  /* Cards */
-  .card { padding:24px 0; border-bottom:1px solid #E8E8E8; }
-  .card-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-  .channel-info { display:flex; align-items:center; gap:6px; }
+  .company-dot { display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:6px; }
+
+  /* ===== MAIN ===== */
+  .main { margin-left:220px; flex:1; padding:32px 40px 60px; max-width:840px; }
+
+  .page-header { margin-bottom:24px; padding-bottom:20px; border-bottom:2px solid var(--border); }
+  .page-header h2 { font-family:'Instrument Serif',serif; font-size:28px; font-weight:400; color:var(--text); }
+  .page-header .meta { font-size:13px; color:var(--muted); margin-top:6px; }
+
+  .date-picker { margin-bottom:20px; }
+  .date-picker select {
+    font-family:'DM Sans',sans-serif; font-size:13px; padding:8px 12px; border:1px solid var(--border);
+    border-radius:6px; background:white; color:var(--text); cursor:pointer; min-width:200px;
+  }
+
+  /* ===== CARDS ===== */
+  .card {
+    background:var(--card); border-radius:10px; padding:24px; margin-bottom:16px;
+    border:1px solid var(--border); transition:box-shadow 0.2s;
+  }
+  .card:hover { box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+  .card.pinned-card { border-left:3px solid var(--pinned); }
+  .card.score-5 { border-left:3px solid var(--accent-5); }
+  .card.score-4 { border-left:3px solid var(--accent-4); }
+  .card.score-3 { border-left:3px solid var(--accent-3); }
+  .card.score-2 { opacity:0.75; }
+  .card.score-1 { opacity:0.6; }
+
+  .card-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+  .channel-info { display:flex; align-items:center; gap:8px; }
   .avatar { width:24px; height:24px; border-radius:50%; }
-  .avatar-letter { display:inline-flex; width:24px; height:24px; border-radius:50%; background:#EBEBEB; align-items:center; justify-content:center; font-size:10px; color:#999; font-family:Helvetica,Arial,sans-serif; }
-  .channel-name { font-size:12px; color:#999; font-family:Helvetica,Arial,sans-serif; }
-  .pinned-channel { color:#5E35B1; font-weight:600; }
+  .avatar-letter {
+    display:inline-flex; width:24px; height:24px; border-radius:50%; background:#EBEBEB;
+    align-items:center; justify-content:center; font-size:10px; color:#999;
+  }
+  .channel-name { font-size:12px; color:var(--muted); }
 
-  /* Badges */
-  .badge { padding:3px 10px; border-radius:4px; font-size:10px; font-weight:700; letter-spacing:0.8px; font-family:Helvetica,Arial,sans-serif; }
-  .pinned-badge { background:#EDE7F6; color:#5E35B1; }
-  .score-5-badge { background:#FFF5EB; color:#D4740E; }
-  .score-4-badge { background:#FFF8F0; color:#C45D10; }
-  .score-3-badge { background:#EEFBF3; color:#2D8A56; }
-  .score-2-badge { background:#F3F5F7; color:#7A8A99; }
-  .score-1-badge { background:#F5F5F5; color:#AAA; }
+  .badge {
+    padding:4px 10px; border-radius:4px; font-size:10px; font-weight:700;
+    letter-spacing:0.8px; font-family:'JetBrains Mono',monospace;
+  }
+  .badge-pinned { background:#EDE7F6; color:var(--pinned); }
+  .badge-5 { background:#FFF5EB; color:var(--accent-5); }
+  .badge-4 { background:#FFF8F0; color:var(--accent-4); }
+  .badge-3 { background:#EEFBF3; color:var(--accent-3); }
+  .badge-2 { background:#F3F5F7; color:var(--accent-2); }
+  .badge-1 { background:#F5F5F5; color:var(--accent-1); }
 
-  /* Tags */
-  .tags { margin-bottom:10px; line-height:2; }
-  .tag { display:inline-block; padding:3px 9px; border-radius:4px; font-size:10px; font-family:Helvetica,Arial,sans-serif; margin:0 3px 4px 0; background:#F0F0F0; color:#777; }
-  .tag.dur { background:#F0F0F0; color:#777; }
-  .tag.pinned-tag { background:#EDE7F6; color:#5E35B1; font-weight:600; }
-  .tag.core-tag { font-weight:700; }
-  .tag.score-5-tag.core-tag { background:#FFF5EB; color:#D4740E; }
-  .tag.score-4-tag.core-tag { background:#FFF8F0; color:#C45D10; }
-  .tag.score-3-tag.core-tag { background:#EEFBF3; color:#2D8A56; }
-  .tag.no-transcript { background:#FFF5EB; color:#D4740E; font-size:9px; }
+  .tags { margin-bottom:12px; line-height:2; }
+  .tag {
+    display:inline-block; padding:3px 10px; border-radius:4px; font-size:10px;
+    margin:0 4px 4px 0; background:#F0F0F0; color:#777;
+  }
+  .tag.core { font-weight:700; }
+  .tag.core.s5 { background:#FFF5EB; color:var(--accent-5); }
+  .tag.core.s4 { background:#FFF8F0; color:var(--accent-4); }
+  .tag.core.s3 { background:#EEFBF3; color:var(--accent-3); }
+  .tag.pinned-t { background:#EDE7F6; color:var(--pinned); font-weight:600; }
+  .tag.dur { background:#F5F5F5; color:#777; }
 
-  /* Content */
-  .card-title { display:block; font-size:18px; color:#1A1A1A; text-decoration:none; line-height:1.35; margin-bottom:8px; }
-  .card-title:hover { color:#D4740E; }
-  .visao-geral { color:#444; font-size:14px; line-height:1.65; font-style:italic; margin-bottom:12px; }
-  .pontos { list-style:none; padding:0; margin:8px 0; }
-  .pontos li { padding:4px 0 4px 16px; font-size:13px; line-height:1.55; color:#555; position:relative; }
-  .pontos li::before { content:"\25C6"; position:absolute; left:0; font-size:8px; top:7px; }
-  .score-5-pontos li::before { color:#D4740E; }
-  .score-4-pontos li::before { color:#C45D10; }
-  .score-3-pontos li::before { color:#2D8A56; }
-  .score-2-pontos li::before { color:#7A8A99; }
-  .score-1-pontos li::before { color:#AAA; }
+  .card-title {
+    display:block; font-family:'Instrument Serif',serif; font-size:19px; color:var(--text);
+    text-decoration:none; line-height:1.35; margin-bottom:8px;
+  }
+  .card-title:hover { color:var(--accent-5); }
 
-  /* Muted low-score cards */
-  .score-2-card .card-title, .score-1-card .card-title { color:#777; }
-  .score-2-card .visao-geral, .score-1-card .visao-geral { color:#888; }
-  .score-2-card .pontos li, .score-1-card .pontos li { color:#999; }
+  .visao { font-size:14px; color:#555; line-height:1.65; font-style:italic; margin-bottom:14px; }
 
-  /* Details/Summary */
-  details { margin:4px 0; }
-  summary { cursor:pointer; font-size:11px; color:#AAA; font-family:Helvetica,Arial,sans-serif; text-transform:uppercase; letter-spacing:0.5px; padding:4px 0; }
-  summary:hover { color:#666; }
-  .expand-label { font-size:10px; }
+  .pontos { list-style:none; padding:0; margin:0 0 12px; }
+  .pontos li {
+    padding:5px 0 5px 18px; font-size:13px; line-height:1.55; color:#555; position:relative;
+  }
+  .pontos li::before {
+    content:"\25C6"; position:absolute; left:0; font-size:8px; top:8px; color:var(--accent-5);
+  }
+  .card.score-3 .pontos li::before { color:var(--accent-3); }
+  .card.score-4 .pontos li::before { color:var(--accent-4); }
+  .card.score-2 .pontos li::before { color:var(--accent-2); }
+  .card.score-1 .pontos li::before { color:var(--accent-1); }
+  .card.pinned-card .pontos li::before { color:var(--pinned); }
+
+  .card-footer { display:flex; justify-content:space-between; align-items:center; margin-top:10px; }
+  .motivo { font-size:11px; color:#AAA; }
+  .transcript-btn {
+    font-size:11px; color:var(--accent-5); text-decoration:none; font-weight:600;
+    padding:4px 10px; border:1px solid var(--accent-5); border-radius:4px; transition:all 0.15s;
+  }
+  .transcript-btn:hover { background:var(--accent-5); color:white; }
 
   /* Daily Brief sections */
-  .section-title { font-size:11px; color:#5E35B1; font-weight:700; letter-spacing:1px; font-family:Helvetica,Arial,sans-serif; text-transform:uppercase; padding:6px 0; }
-  .pinned-section { color:#5E35B1; }
-  .temas-list { list-style:disc; padding-left:20px; margin:8px 0; }
-  .temas-list li { font-size:12px; color:#555; line-height:1.5; padding:2px 0; }
-  .manchete { font-size:13px; font-weight:700; color:#1A1A1A; margin:12px 0 4px; font-family:Helvetica,Arial,sans-serif; }
-  .noticia ul, .tema-prof ul { list-style:disc; padding-left:20px; margin:4px 0; }
-  .noticia li, .tema-prof li { font-size:12px; color:#555; line-height:1.55; padding:2px 0; }
-  .tema-titulo { font-size:13px; font-weight:700; color:#1A1A1A; margin:12px 0 4px; font-family:Helvetica,Arial,sans-serif; }
-  .section-divider { border:none; border-top:1px solid #E8E8E8; margin:16px 0; }
+  .section-label { font-size:10px; color:var(--pinned); font-weight:700; text-transform:uppercase; letter-spacing:1px; margin:16px 0 8px; }
+  .manchete { font-size:14px; font-weight:700; color:var(--text); margin:14px 0 6px; }
+  .manchete::before { content:"\2192 "; color:var(--pinned); }
+  .sub-bullets { list-style:disc; padding-left:20px; margin:4px 0 12px; }
+  .sub-bullets li { font-size:12px; color:#555; line-height:1.55; padding:2px 0; }
+  .section-divider { border:none; border-top:1px solid var(--border); margin:20px 0; }
+
+  /* Details */
+  details summary { cursor:pointer; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; padding:6px 0; }
+  details summary:hover { color:#555; }
+
+  /* Empty state */
+  .empty { text-align:center; padding:60px 0; color:var(--muted); font-size:15px; }
 
   /* Footer */
-  .card-footer { display:flex; justify-content:space-between; align-items:center; margin-top:8px; }
-  .motivo { color:#AAA; font-size:11px; font-family:Helvetica,Arial,sans-serif; }
-  .back-top-link, .back-top a { color:#CCC; font-size:11px; text-decoration:none; font-family:Helvetica,Arial,sans-serif; }
-  .back-top-link:hover, .back-top a:hover { color:#999; }
-  .back-top { text-align:right; margin-top:8px; }
+  .footer { text-align:center; padding:32px 0; color:#CCC; font-size:11px; }
 
-  /* Skipped */
-  .skipped { padding:16px 0; border-bottom:1px solid #E8E8E8; }
-  .skipped-title { font-size:9px; color:#BBB; text-transform:uppercase; letter-spacing:1.5px; font-family:Helvetica,Arial,sans-serif; font-weight:600; margin-bottom:8px; }
-  .skipped ul { list-style:none; padding:0; }
-  .skipped li { padding:4px 0; font-size:12px; font-family:Helvetica,Arial,sans-serif; }
-  .skipped a { color:#666; text-decoration:none; }
-  .skipped a:hover { color:#D4740E; }
-
-  .footer { text-align:center; padding:24px 0; }
-  .footer p { color:#CCC; font-size:10px; font-family:Helvetica,Arial,sans-serif; margin:4px 0; }
-
-  .pinned-card { border-bottom:2px solid #E0E0E0; }
+  /* Mobile */
+  .menu-toggle { display:none; position:fixed; top:12px; left:12px; z-index:20; background:var(--sidebar); color:white; border:none; padding:8px 12px; border-radius:6px; font-size:18px; cursor:pointer; }
+  @media(max-width:768px) {
+    .sidebar { transform:translateX(-100%); }
+    .sidebar.open { transform:translateX(0); }
+    .main { margin-left:0; padding:20px 16px 40px; }
+    .menu-toggle { display:block; }
+  }
 </style>
 </head>
 <body>
-<div class="container">
 
-  <div class="header">
-    <p class="brand">Tork Capital</p>
+<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776;</button>
+
+<nav class="sidebar">
+  <div class="sidebar-brand">
+    <p>Tork Capital</p>
     <h1>YouTube Digest</h1>
-    <p class="meta">Terca-feira, 17/03/2026 &middot; 10 resumos de 10 videos</p>
   </div>
 
-  <div class="toc" id="toc">
-    <p class="toc-title">Neste digest</p>
-    <a href="#v0" class="toc-item pinned"><span class="toc-arrow">&#9656;</span> DD/MMM/YYYY, The AI Daily Brief | What to Expect from Nvidia This Week <span class="toc-channel">— AI Daily Brief</span></a><a href="#v1" class="toc-item pinned"><span class="toc-arrow">&#9656;</span> DD/MMM/YYYY, The AI Daily Brief | Meta Delays New AI Model <span class="toc-channel">— AI Daily Brief</span></a><a href="#v2" class="toc-item score-4"><span class="toc-arrow">&#9656;</span> Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show <span class="toc-channel">— a16z</span> <span class="toc-score">4/5</span></a><a href="#v3" class="toc-item score-4"><span class="toc-arrow">&#9656;</span> AI Backlash Intensifies, Nvidia GTC Preview, Meta’s Embarrassing Delay <span class="toc-channel">— Alex Kantrowitz</span> <span class="toc-score">4/5</span></a><a href="#v4" class="toc-item score-4"><span class="toc-arrow">&#9656;</span> Gokul Rajaram: How to Analyse for Durability and Defensibility in a World of AI <span class="toc-channel">— 20VC with Harry Stebbings</span> <span class="toc-score">4/5</span></a><a href="#v5" class="toc-item score-3"><span class="toc-arrow">&#9656;</span> Two Legendary Founders: Travis Kalanick &amp;amp; Michael Dell Live from Austin, Texas <span class="toc-channel">— All-In Podcast</span> <span class="toc-score">3/5</span></a><a href="#v6" class="toc-item score-2"><span class="toc-arrow">&#9656;</span> How to bet on yourself (without venture capital) <span class="toc-channel">— Invest Like The Best</span> <span class="toc-score">2/5</span></a><a href="#v7" class="toc-item score-2"><span class="toc-arrow">&#9656;</span> Deel Hits $1.4B+ in ARR | CEO Alex Bouaziz Shares Growth Playbook <span class="toc-channel">— Sourcery with Molly O&#x27;Shea</span> <span class="toc-score">2/5</span></a><a href="#v8" class="toc-item score-2"><span class="toc-arrow">&#9656;</span> Creating prediction markets (and suing the CFTC) with Tarek Mansour and Luana Lopes Lara <span class="toc-channel">— Stripe</span> <span class="toc-score">2/5</span></a><a href="#v9" class="toc-item score-2"><span class="toc-arrow">&#9656;</span> Your Browser Does the Same 10 Things Every Week. Claude Can Do 5 of Them Now. <span class="toc-channel">— AI News &amp; Strategy Daily | Nate B Jones</span> <span class="toc-score">2/5</span></a>
+  <div class="sidebar-section">
+    <p class="sidebar-section-title">Navegacao</p>
+    <a class="sidebar-link active" data-view="today" onclick="switchView('today')">Hoje <span class="count" id="count-today">—</span></a>
+    <a class="sidebar-link" data-view="archive" onclick="switchView('archive')">Arquivo</a>
   </div>
 
-  
-        <div id="v0" class="card pinned-card">
-          <div class="card-header">
-            <span class="channel-name pinned-channel">The AI Daily Brief</span>
-            <span class="badge pinned-badge">PINNED</span>
-          </div>
-          <div class="tags"><span class="tag dur">8 min</span><span class="tag pinned-tag">Nvidia</span><span class="tag pinned-tag">Grok</span><span class="tag pinned-tag">OpenAI</span><span class="tag pinned-tag">Samsung</span><span class="tag pinned-tag">TSMC</span><span class="tag pinned-tag">Intel</span></div>
-          <a href="https://www.youtube.com/watch?v=qrmgkWl0vPg" class="card-title" target="_blank">DD/MMM/YYYY, The AI Daily Brief | What to Expect from Nvidia This Week</a>
+  <div class="sidebar-section">
+    <p class="sidebar-section-title">Posicoes Core</p>
+    <a class="sidebar-link" data-view="company" data-company="Meta" onclick="switchView('company','Meta')"><span class="company-dot" style="background:var(--accent-5)"></span>Meta</a>
+    <a class="sidebar-link" data-view="company" data-company="Nvidia" onclick="switchView('company','Nvidia')"><span class="company-dot" style="background:var(--accent-5)"></span>Nvidia</a>
+    <a class="sidebar-link" data-view="company" data-company="Amazon" onclick="switchView('company','Amazon')"><span class="company-dot" style="background:var(--accent-5)"></span>Amazon</a>
+    <a class="sidebar-link" data-view="company" data-company="OpenAI" onclick="switchView('company','OpenAI')"><span class="company-dot" style="background:var(--accent-5)"></span>OpenAI</a>
+    <a class="sidebar-link" data-view="company" data-company="Microsoft" onclick="switchView('company','Microsoft')"><span class="company-dot" style="background:var(--accent-5)"></span>Microsoft</a>
+    <a class="sidebar-link" data-view="company" data-company="TSMC" onclick="switchView('company','TSMC')"><span class="company-dot" style="background:var(--accent-5)"></span>TSMC</a>
+    <a class="sidebar-link" data-view="company" data-company="Anthropic" onclick="switchView('company','Anthropic')"><span class="company-dot" style="background:var(--accent-5)"></span>Anthropic</a>
+    <a class="sidebar-link" data-view="company" data-company="Google" onclick="switchView('company','Google')"><span class="company-dot" style="background:var(--accent-5)"></span>Google</a>
+  </div>
+</nav>
 
-          <details open>
-            <summary class="section-title pinned-section">Temas do Episodio</summary>
-            <ul class="temas-list"><li>Nvidia GTC 2026: lançamento de chip Grok em colaboração</li><li>OpenAI será comprador do novo chip de inferência</li><li>NScale adquire data center em West Virginia com 2 gigawatt</li><li>27 empresas alertam sobre risco de AI agents nos SEC filings</li><li>ByteDance pausa lançamento global de Sora 2.0 por disputas de copyright</li><li>Startup Mirandil levanta $175M para pesquisa científica com IA</li><li>Google Maps lança Ask Maps com interface conversacional Gemini</li><li>ServiceNow CEO alerta sobre desemprego de até 30% para jovens profissionais</li></ul>
-          </details>
-
-          <details open>
-            <summary class="section-title pinned-section">1) Noticias Principais</summary>
-            <div class="noticia"><p class="manchete">&rarr; Nvidia anuncia chip Grok em colaboração, com OpenAI como comprador</p><ul><li>Nvidia adquiriu a startup Grok em dezembro e lança primeiro produto colaborativo na GTC 2026</li><li>Novo chip integra processamento de linguagem de Grok em servidores Nvidia de escala de rack</li><li>Representa primeira tentativa direta de Nvidia em eficiência de inferência, área onde Grok é especializado</li><li>Produção em massa esperada no segundo semestre de 2026 na foundry Samsung, diversificando fora de TSMC</li><li>Servidores usarão CPUs Intel em vez de CPUs Nvidia, indicando integração inicial limitada entre tecnologias</li></ul></div><div class="noticia"><p class="manchete">&rarr; NScale negocia aquisição de mega data center em West Virginia com 2 gigawatt</p><ul><li>Empresa britânica busca expandir presença nos EUA antes de IPO, mudança atípica para provedores neocloud</li><li>Aquisição triplicaria projeções de receita para $30 bilhões em 2027</li><li>Negocia aluguel de capacidade para ByteDance e potencialmente para Nvidia</li><li>Site já aprovou regulação e visa 2 gigawatt operacional até 2027</li></ul></div><div class="noticia"><p class="manchete">&rarr; 27 empresas listam AI agents como risco material em SEC filings, vs 7 no ano anterior</p><ul><li>Figma, Workday e HubSpot incluem aviso sobre agents apesar de CEOs minimizarem riscos publicamente</li><li>CEO Dylan Field (Figma) em earnings call: &#x27;humanos continuarão usando software, e agora agents também&#x27;</li><li>Mesmo Figma reconhece em 10K que agentic AI pode &#x27;mudar como pessoas acessam produtos digitais reduzindo dependência de software tradicional&#x27;</li><li>Volume de disclosures sugere movimento além do ponto de inflexão em viabilidade de agents</li><li>Indica que executivos de software e departamentos legais agora levam ameaça de disrupção mais seriamente</li></ul></div><div class="noticia"><p class="manchete">&rarr; ByteDance pausa lançamento global de Sora 2.0 por disputas de copyright com Hollywood</p><ul><li>Modelo viral gerou polêmica em Hollywood (clip com Tom Cruise vs Brad Pitt em luta demonstrou fidelidade alta)</li><li>Disney, Warner Brothers, Paramount e Netflix enviaram cease and desist notices</li><li>MPA CEO Charles Rivkin: &#x27;Sora 2.0 envolveu uso não autorizado de obras copyrighted americanas em escala massiva&#x27;</li><li>Lançamento global planejado para mid-março foi adiado junto com API access e novo app consumer</li><li>Usuários chineses relatam modelo muito mais controlado, rejeitando prompts sem relação a conteúdo protegido</li></ul></div><div class="noticia"><p class="manchete">&rarr; Startup Mirandil levanta $175M em seed round com avaliação de $1 bilhão</p><ul><li>Liderada por ex-pesquisadores Anthropic Benam Nishabara e Harsh Meta, ambos com experiência em Google</li><li>Foco em pesquisa científica potencializada por IA em biologia e material science</li><li>Founders trabalharam em long horizon scientific reasoning com AI agents e automated AI research na Anthropic</li><li>Torna empresa em unicorn mais recente a alcançar status em seed round</li><li>Área de AI for science atraindo crescente interesse e investimento de múltiplos labs</li></ul></div><div class="noticia"><p class="manchete">&rarr; Google Maps lança Ask Maps com interface conversacional Gemini</p><ul><li>Novo recurso permite perguntas sobre landmarks e ajuda com planejamento de viagens de forma conversacional</li><li>Exemplos práticos: encontrar local para carregar telefone, quadra de tênis com iluminação para noite</li><li>Integra com Gemini memory para acessar preferências do usuário em recomendações</li><li>Nova visualização 3D mostra edifícios, viadutos e terreno circundante</li><li>Demonstra sinergia multimodal de Google e integração de ecossistema completo</li></ul></div><div class="noticia"><p class="manchete">&rarr; ServiceNow CEO avisa desemprego de jovens profissionais pode chegar a 30%</p><ul><li>Bill McDermott em entrevista CNBC: desemprego de college graduates &#x27;facilmente&#x27; vai para mid-30s em próximos anos</li><li>Contexto atual: desemprego college graduates em 5.6%, mas subemprego atinge 42.5% (maior desde 2020)</li><li>CS majors têm desemprego de 7% (maior entre majors) mas subemprego relativo baixo de 19.1%</li><li>McDermott: &#x27;muito trabalho será feito por agents, será desafiador para jovens se diferenciarem&#x27;</li><li>Alerta reflete shift em potencial disruptivo de agents em mercado de trabalho jovem profissional</li></ul></div>
-          </details>
-
-          <hr class="section-divider"/>
-
-          <details open>
-            <summary class="section-title pinned-section">2) Temas Principais</summary>
-            <div class="tema-prof"><p class="tema-titulo">Nvidia transição de chip company para full-stack AI infrastructure platform</p><ul><li>Segundo Patrick Morehead (Writes CEO and Chief Analyst): Nvidia deixa de ser chip company</li><li>Estratégia GTC 2026 posiciona empresa como plataforma full-stack heterogênea spanning training, prefill, decode, inference e agent orchestration</li><li>Aquisição Grok December permite Nvidia endereçar gap crítico em inferência eficiente, até agora fraqueza vs competitors</li><li>Colaboração com Grok integra expertise em language processing chips especializado em inference workloads</li><li>Diversificação manufacturing para Samsung foundry (além TSMC) reduz risco geopolítico Taiwan</li><li>Uso de Intel CPUs em servidores Grok revela Nvidia GPUs ainda não integram otimalmente com tech Grok, limitação técnica atual</li><li>Projeção múltiplas gerações de hardware com potencial integração Grock tech em future Fineman GPUs (pós-Blackwell)</li></ul></div><div class="tema-prof"><p class="tema-titulo">AI agents como risco material em software SaaS - shift de percepção em 2025-2026</p><ul><li>Volume SEC filings sobre AI agents como material risk: 27 empresas em 2026 vs apenas 7 um ano atrás - crescimento 286%</li><li>Paradoxo executivo: CEOs minimizam risco publicamente enquanto departamentos legais alertam em filings obrigatórios</li><li>Figma CEO Dylan Field public: &#x27;humanos continuarão usando software, agents também, estou animado&#x27; vs 10K filing que reconhece agents podem &#x27;reduzir dependência de aplicações software tradicionais&#x27;</li><li>Mesmo padrão em Workday e HubSpot - discurso público otimista vs conservador em SEC filings</li><li>Presentador assessment: &#x27;ideia que agents disruptam SaaS mal registrava no primeiro semestre ano passado, volume disclosure aumentou rapidamente segundo semestre e início 2026 conforme tecnologia ficou mais viável&#x27;</li><li>Implicação: executivos software agora levam ameaça disrupção seriously (ou ao menos departamentos legais pressionam por disclosures)</li><li>Volume de disclosures funciona como proxy para quando tipping point foi atingido em viabilidade tecnológica agents</li></ul></div><div class="tema-prof"><p class="tema-titulo">Desafio técnico-legal em moderação de AI content: copyright guardrails vs user experience</p><ul><li>ByteDance Sora 2.0 pausa global launch expõe tensão fundamental entre compliance e funcionalidade</li><li>Problema não é simplesmente bloquear conteúdo copyrighted - isso é &#x27;relativamente direto&#x27; - mas fazer sem frustrar usuários com refused prompts excessivos</li><li>Apresentador: &#x27;refining guardrails para não bloquear muito conteúdo não relacionado é problema de engineering muito mais difícil&#x27;</li><li>Padrão observado também em OpenAI Sora 2 release - indicando desafio sistêmico, não específico ByteDance</li><li>Usuários chineses reportam Sora 2.0 tão controlado que rejeita prompts sem conexão copyright - evidência guardrails muito agressivos</li><li>Enterprise customers: acesso limitado a empresas chinesas, nenhuma intenção distribuição internacional, $1.5M minimum commitment para negotiation</li><li>Implicação: refining guardrails é bottleneck técnico que pode estender indefinidamente delays em lançamentos globais</li></ul></div><div class="tema-prof"><p class="tema-titulo">Impacto desproporcionado de AI agents em emprego jovem profissional e college graduates</p><ul><li>ServiceNow CEO Bill McDermott aviso em CNBC: desemprego college graduates pode &#x27;facilmente&#x27; ir para mid-30s &#x27;próximos poucos anos&#x27;</li><li>Contexto base: desemprego college graduates atualmente 5.6% (Federal Reserve data), mas subemprego 42.5% - maior desde 2020</li><li>McDermott: &#x27;muito do trabalho será feito por agents, será desafiador para young people diferenciarem em ambiente corporativo&#x27;</li><li>CS majors particular concern: 7% desemprego (mais alto entre majors), apesar subemprego relativo baixo 19.1%</li><li>Discurso sobre disrupção AI agora &#x27;muito potente&#x27; - tema da main episode subsequent</li><li>Risco: agents podem obsoletizar entry-level knowledge work que historicamente treina college graduates</li><li>Underemployment 42.5% sugere já existe supply excess college grads; agents amplificariam pressure</li></ul></div>
-          </details>
-
-          <div class="back-top"><a href="#toc">&#9650; voltar ao topo</a></div>
-        </div>
-        <div id="v1" class="card pinned-card">
-          <div class="card-header">
-            <span class="channel-name pinned-channel">The AI Daily Brief</span>
-            <span class="badge pinned-badge">PINNED</span>
-          </div>
-          <div class="tags"><span class="tag dur">8 min</span><span class="tag pinned-tag">Meta</span><span class="tag pinned-tag">OpenAI</span><span class="tag pinned-tag">Google DeepMind</span><span class="tag pinned-tag">Anthropic</span><span class="tag pinned-tag">XAI</span><span class="tag pinned-tag">Cursor</span></div>
-          <a href="https://www.youtube.com/watch?v=eDGI3sNRnhg" class="card-title" target="_blank">DD/MMM/YYYY, The AI Daily Brief | Meta Delays New AI Model</a>
-
-          <details open>
-            <summary class="section-title pinned-section">Temas do Episodio</summary>
-            <ul class="temas-list"><li>Meta adia modelo Avocado até maio</li><li>XAI contrata líderes do Cursor e perde co-fundadores</li><li>Cursor levanta fundos a $50 bilhões</li><li>Anthropic negocia venture de consulting com Blackstone</li><li>81% dos médicos usam IA na prática</li><li>Sam Altman fala sobre economia de tokens e AGI</li></ul>
-          </details>
-
-          <details open>
-            <summary class="section-title pinned-section">1) Noticias Principais</summary>
-            <div class="noticia"><p class="manchete">&rarr; Meta adia modelo Avocado até maio por desempenho insuficiente</p><ul><li>Modelo codenamed Avocado, em desenvolvimento há 9 meses, teve rollout planejado para este mês cancelado</li><li>Relatório do New York Times aponta queda de desempenho em raciocínio, coding e escrita comparado a benchmarks internos</li><li>Modelo supera Gemini 2.5 mas não compete com Gemini 3</li><li>Meta divulgou que está considerando licenciar Gemini como solução temporária para seus produtos</li><li>CTO Andrew Bosworth havia dito em janeiro que modelo era &#x27;muito bom&#x27; com trabalho ainda necessário em reinforcement learning</li></ul></div><div class="noticia"><p class="manchete">&rarr; XAI contrata Andrew Militch e Jason Ginsburg do Cursor para fortalecer coding</p><ul><li>Ambos trabalham como heads of product e engineering no Cursor, reportarão diretamente a Elon Musk</li><li>Musk admitiu em conferência que XAI está atrasada em coding mas espera alcançar competidores até meio do ano</li><li>Move reflete reconhecimento público de fraqueza competitiva em area crítica</li><li>Ethan Mollik twittou que &#x27;XAI e Meta parecem estar caindo para trás baseado em benchmarks Grock 4.2, é uma corrida de 3 vias agora&#x27;</li></ul></div><div class="noticia"><p class="manchete">&rarr; Cursor levanta fundos a $50 bilhões, dobrando valuation em 6 meses</p><ul><li>Bloomberg relata que Cursor está em negociações para novo round que dobraria valuation de $29.3 bilhões (novembro) para $50 bilhões</li><li>Empresa dobrou receita para $2 bilhões desde última rodada de fundos</li><li>CEO Michael Trule posicionou empresa em &#x27;wartime&#x27;, focando em ferramentas de coding automatizado e treinamento de modelos próprios</li><li>Valuation sugere que Cursor quer competir a longo prazo, não se vender para laboratórios de modelo líderes</li></ul></div><div class="noticia"><p class="manchete">&rarr; Anthropic negocia venture de consulting com Blackstone, mas conflito com Pentagon congela acordo</p><ul><li>The Information relata negociações entre Anthropic e Blackstone (+ outras PE firms) para criar consulting firm dedicada</li><li>Blackstone CEO Steven Schwarzman e líderes estão preocupados em anunciar parceria enquanto Anthropic está em conflito com administração</li><li>Objetivo era vender tecnologia Anthropic para centenas de portfolio companies do Blackstone</li><li>Blackstone também discutiu plano similar com OpenAI</li></ul></div><div class="noticia"><p class="manchete">&rarr; 81% dos médicos usam IA na profissão, mais que dobrando desde 2023</p><ul><li>Survey da American Medical Association mostra adoção massiva de IA em prática médica</li><li>Principais casos de uso: acompanhar pesquisa médica, gerar instruções de alta hospitalar, documentar consultas</li><li>Apenas 17% usam IA para diagnóstico assistido, mostrando que tecnologia está focada em sumarizacao e trabalho administrativo</li><li>AMA adotou termo &#x27;augmented intelligence&#x27; para enfatizar que IA não substitui julgamento humano</li><li>CEO John White: &#x27;IA se tornou parte da prática médica do dia a dia&#x27;</li></ul></div><div class="noticia"><p class="manchete">&rarr; Sam Altman confirma modelo de negócio OpenAI baseado em venda de tokens</p><ul><li>Falando em conferência BlackRock, Altman reafirmou que futuro é vender inteligência como utilidade (eletricidade/água)</li><li>Demanda crescente de casos agentic pesados de tokens pode resultar em preços altos funcionando como racionamento</li><li>Altman disse que &#x27;inteligência barata demais para medir&#x27; é objetivo final, mas por enquanto negócio é vender tokens</li><li>Relevante dado que problemas de energia estão intensificando</li></ul></div>
-          </details>
-
-          <hr class="section-divider"/>
-
-          <details open>
-            <summary class="section-title pinned-section">2) Temas Principais</summary>
-            <div class="tema-prof"><p class="tema-titulo">Crise competitiva em modelos frontier: Meta e XAI caem para trás em corrida de 3 vias</p><ul><li>Meta está enfrentando desempenho significativamente inferior aos líderes da indústria apesar de 9 meses de desenvolvimento do Avocado</li><li>Ethan Mollik resumiu sentimento da indústria: &#x27;XAI e Meta parecem estar caindo para trás baseado em benchmarks Grock 4.2. Modelos frontier AI são realmente uma corrida de 3 vias agora&#x27;</li><li>OpenAI, Google Deepmind e Anthropic parecem estar consolidando posição de liderança com Gemini 3 e outros modelos avançados</li><li>Apresentador avalia positivamente que Meta escolheu esperar por modelo bom ao invés de lançar modelo não-impressionante, mas reconhece &#x27;batalha de modelos para Meta permanece claramente desfavorável&#x27;</li><li>Meta está considerando licenciar Gemini como stopgap, sugerindo aceitação de posição não-competitiva no curto prazo</li><li>Goalposts de performance mudaram dramaticamente durante o desenvolvimento, capturando problema estrutural de ciclos longos de desenvolvimento em indústria de rápida evolução</li></ul></div><div class="tema-prof"><p class="tema-titulo">Reorganização executiva na XAI: contratações do Cursor vs saída em massa de co-fundadores</p><ul><li>XAI contrata Andrew Militch e Jason Ginsburg como heads of product/engineering do Cursor, reportando diretamente a Elon Musk, sinalizando foco emergencial em coding capabilities</li><li>Musk admitiu publicamente que XAI está atrasada em coding mas prometeu alcançar competidores até meio do ano</li><li>Paralelamente, 6 de 12 co-fundadores deixaram XAI este ano (Xiang Da, Gordon Jang e 4 outros), restando apenas 3 co-fundadores mais Musk</li><li>Especulação: co-fundadores saíram após projetos que lideravam não atenderem expectativas de Musk (ex: Jang liderava Grock Code, Toby Poland liderava macro hard project desaprovado)</li><li>Musk postou que &#x27;XAI não foi construída certo da primeira vez, está sendo reconstruída desde as fundações&#x27;, comparando com Tesla - indicativo de controle deliberado vs colapso de liderança</li><li>Padrão de &#x27;difficult person to work for&#x27; é reconhecido, sugerindo que departures não são meramente sobre performance mas dinâmica interpessoal com Musk</li><li>Contratações técnicas agressivas do Cursor contrastam com saídas de co-fundadores, mostrando estratégia de trazer talento operacional enquanto reestrutura liderança estratégica</li></ul></div><div class="tema-prof"><p class="tema-titulo">Cursor como wild card emergente na competição de IA: modelo de negócio de coding-first</p><ul><li>Cursor levantando a $50 bilhões de valuation (dobrando de $29.3B em 6 meses) sinalizando confiança de investidores em modelo de negócio coding-focused</li><li>Empresa dobrou receita para $2 bilhões desde última rodada, demonstrando product-market fit fortíssimo</li><li>CEO Michael Trule posicionou Cursor em &#x27;wartime&#x27; com dois focos: product overhaul em ferramentas de coding automatizado e treinamento de modelos próprios para reduzir dependência de labs externos</li><li>Ambição de treinar modelos state-of-the-art próprios é diferenciador crítico vs competidores que dependem de parcerias</li><li>Recrutamento de talent da XAI (Andrew Militch e Jason Ginsburg) aponta que Cursor é visto como destino atrativo mesmo por líderes de rivals bem-capitalizados</li><li>Contraste: enquanto Meta licencia Gemini e XAI perde co-fundadores, Cursor está em modo expansivo agressivo</li><li>Estratégia é claramente posicionar para independência vs consolidação sob labs maiores, alinhado com valuation ambiciosa de $50B</li></ul></div><div class="tema-prof"><p class="tema-titulo">Expansão de enterprise consulting em IA como megatrend emergente</p><ul><li>Anthropic negocia com Blackstone, OpenAI discussões similares - indicativo de que implementação enterprise é gargalo crítico</li><li>Apresentador prevê: &#x27;massivas expansões em forward deployed engineering departments, parcerias com consulting firms existentes, novos venture spin-ups, tudo ao mesmo tempo&#x27;</li><li>Razão fundamental: &#x27;enterprises estão atrasadas e vai tomar enorme quantidade de tempo em task e corpos humanos para implementação interna necessária&#x27;</li><li>Consulting como serviço é diferente de modelo de token - envolve pessoas, expertise, implementação customizada</li><li>Blackstone com centenas de portfolio companies precisa de sistemática para disseminar IA capabilities - consulting venture é resposta estrutural</li><li>Este movimento sugere que próxima fase da adoção de IA não é mais sobre melhorar modelos, mas sobre organizar expertise para tornar modelos acionáveis em contextos corporativos reais</li><li>Conflito Anthropic-Pentagon mostra que até deals de alto valor estão sensíveis a posicionamento político/regulatório</li></ul></div><div class="tema-prof"><p class="tema-titulo">IA em medicina: adoção rápida mas concentrada em tarefas administrativas, não clínicas</p><ul><li>81% dos médicos usam IA (vs ~30% em 2023) mostra adoção explosiva em profissão altamente regulada</li><li>Principais cases: research keeping up (sumarizacao), discharge instructions (administrativo), appointment documentation (administrativo)</li><li>Apenas 17% usam IA para assisted diagnosis - o que seria verdadeira mudança clínica - sugerindo ainda há barreira alta para aplicação ao julgamento médico core</li><li>AMA deliberadamente adotou &#x27;augmented intelligence&#x27; vs &#x27;artificial intelligence&#x27; para enfatizar papel complementar vs substitutivo</li><li>Dado é reassegurador sobre preservação de julgamento humano, mas também mostra que impacto de IA em medicina permanece periférico vs administrativo</li></ul></div><div class="tema-prof"><p class="tema-titulo">Sam Altman em Black Rock: economia de tokens, abundância e disrupção de capitalismo</p><ul><li>Altman é explícito: &#x27;fundamentalmente nosso negócio vai parecer vender tokens. Vemos futuro onde inteligência é utilidade como eletricidade/água, pessoas compram de nós em medidor&#x27;</li><li>Meta-objetivo é &#x27;inteligência abundante barata amplamente disponível&#x27;, mas momento atual é monetização via tokens</li><li>Demanda crescente de casos agentic token-heavy pode resultar em preços altos funcionando como racionamento - reconhecimento de que abundância teórica encontra escassez prática de recursos (energia)</li><li>Altman descartou termo AGI como tendo perdido significado, substituindo por 2 milestones: (1) maioria inteligência do mundo em datacenters by ~2028, (2) quando líderes científicos/CEO/políticos não conseguem fazer jobs sem IA</li><li>Sobre segundo milestone: &#x27;increasingly jobs será supervisionar bunches of IA. Threshold quando realmente não quer estar fazendo job sem heavy IA reliance talvez tome um pouco mais, mas provavelmente não muito mais&#x27;</li><li>Apresentador comentou &#x27;isso descreve meu job já&#x27; - indicando já estamos nessa realidade para knowledge workers</li><li>Altman reconhece disrupções: datacenters culpados por picos eletricidade, empresas culpam layoffs em IA (justificado ou não)</li><li>Insight estrutural crítico: capitalismo inteiro designado para gerir escassez. Se IA entrega abundância verdadeira, sociedade precisa rapidamente ajustar paradigma novo</li><li>Em curto prazo: IA está disruptando balanço labor-capital que mantém sociedade funcionando. &#x27;Não sou long-term jobs doomer, acho que encontraremos novas coisas, mas próximos anos vão ser ajuste painful&#x27;</li></ul></div>
-          </details>
-
-          <div class="back-top"><a href="#toc">&#9650; voltar ao topo</a></div>
-        </div>
-  
-        <div id="v2" class="card score-4-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/zwDmKsnhl08/default.jpg" class="avatar"/><span class="channel-name">a16z</span></div>
-            <span class="badge score-4-badge">4/5 ADJACENTE</span>
-          </div>
-          <div class="tags"><span class="tag dur">46 min</span><span class="tag core-tag score-4-tag">Anthropic</span><span class="tag core-tag score-4-tag">OpenAI</span><span class="tag core-tag score-4-tag">Google</span><span class="tag core-tag score-4-tag">Meta</span><span class="tag core-tag score-4-tag">Microsoft</span></div>
-          <a href="https://www.youtube.com/watch?v=zwDmKsnhl08" class="card-title" target="_blank">Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show</a>
-          <p class="visao-geral">LLMs funcionam através de Bayesian inference — não escala sozinha resolve AGI; é necessário continual learning (plasticidade) e mudança de correlação para causalidade; arquitetura atual está presa no mundo Shannon entropy, não consegue fazer simulações causais como humanos fazem.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-4-pontos"><li>Vishal Misra provou matematicamente que transformers executam Bayesian inference exata (precisão 10^-3 bits) através de &#x27;Bayesian wind tunnels&#x27; — modelos treinados em tarefas onde memorização é combinatoricamente impossível, validando teoria empiricamente</li><li>LLMs diferem fundamentalmente de humanos: pesos congelados após treinamento (não aprendem continuamente), objetivo é &#x27;prever próximo token&#x27; não &#x27;não morrer/reproduzir&#x27;, sem plasticidade de sinapses — cada conversa começa do zero</li><li>Antropic Claude Code e o-1 são &#x27;grãos de silício fazendo multiplicação de matrizes&#x27; — Dario Amodei especular sobre consciência é infundado; afirmar consciência sem causalidade/simulação é equívoco, confundindo padrões de treinamento com agência</li><li>Scale não resolve AGI — dois requisitos fundamentais: (1) continual learning com plasticidade para evitar &#x27;catastrophic forgetting&#x27;; (2) transição de Shannon entropy (correlação) para Kolmogorov complexity (causalidade/intervenção)</li><li>Teste do AGI de Einstein: treinar LLM em física pré-1916 e ver se descobre relatividade — padrão alto mas necessário; modelos atuais falham porque não fazem causalidade/simulação, só correlação em dados históricos</li><li>Diferença crítica humanos vs LLMs: humanos simulam (causal models, counterfactuals) ao ver perigo; deep learning ainda habita mundo de Judea Pearl layer 1 (association), não layers 2-3 (intervention/counterfactual)</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Impacta diretamente Anthropic (principal posição core) e competição AI/AGI landscape; revela limitações arquiteturais fundamentais de LLMs (todas as posições core dependem deles); escala sem causalidade não resolve AGI — informação crítica para teses de moat tecnológico de NVDA, MSFT, GOOGL em AI training/inference</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v3" class="card score-4-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/wbQjJ1wMsVM/default.jpg" class="avatar"/><span class="channel-name">Alex Kantrowitz</span></div>
-            <span class="badge score-4-badge">4/5 ADJACENTE</span>
-          </div>
-          <div class="tags"><span class="tag dur">59 min</span><span class="tag core-tag score-4-tag">OpenAI</span><span class="tag core-tag score-4-tag">Meta</span><span class="tag core-tag score-4-tag">Nvidia</span><span class="tag core-tag score-4-tag">Google</span><span class="tag core-tag score-4-tag">Microsoft</span></div>
-          <a href="https://www.youtube.com/watch?v=wbQjJ1wMsVM" class="card-title" target="_blank">AI Backlash Intensifies, Nvidia GTC Preview, Meta’s Embarrassing Delay</a>
-          <p class="visao-geral">Backlash contra IA intensifica com pesquisas mostrando 50% dos eleitores acreditam que riscos superam benefícios; presença de figuras públicas como Sam Altman prejudica percepção; setor enfrenta crise de confiança que pode afetar aprovação regulatória, financiamento de datacenters e adoção empresarial.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-4-pontos"><li>Pesquisa NBC News: 50% dos eleitores acreditam que riscos da IA superam benefícios; IA menos favorável que Papa Francisco, Stephen Colbert, Marco Rubio, AOC, Trump, Kamala Harris, Gavin Newsom, ICE - mais favorável apenas que Partido Democrático e Irã</li><li>YouGov: 3x mais americanos esperam efeitos negativos de IA do que positivos; 62% dos que viram IA sendo usada mas não usaram percebem riscos; apenas 26% de usuários frequentes são negativos vs 62% de não-usuários</li><li>Sam Altman (OpenAI) citado negativamente na mídia mainstream (NBC News, Axios, NY Times) por comentário sobre IA como &#x27;utilidade como eletricidade&#x27;; frase tirada de contexto gerou acusações de &#x27;psicopatia perigosa&#x27; no Twitter</li><li>Questões de propriedade intelectual ressurgem: críticas públicas sobre falta de compensação para fontes de treinamento de modelos; debatedores questionam como IA foi treinada com &#x27;conhecimento comum&#x27; sem pagamento aos criadores</li><li>Pew Research: 3/4 dos americanos ouviram falar de datacenters; maioria acredita que datacenters têm efeito negativo no meio ambiente, custos de energia residencial e qualidade de vida local</li><li>Stargate Project (Masa Son, Larry Ellison, Meta, OpenAI) enfrenta resistência comunitária local a construção de datacenters; indústria falha em comunicar benefícios econômicos/sociais de investimento em IA</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Diretamente relevante para posições core (NVDA, META, GOOGL, MSFT, AMZN) por dois motivos: (1) backlash contra IA impacta aprovação regulatória, aprovação comunitária de datacenters e pressão política sobre capex de hyperscalers - afeta guidance e estimativas de crescimento; (2) Meta especificamente criticada por atrasos em modelo de IA apesar de investimentos; Nvidia GTC e narrativa de Jensen Huang são centrais para reversão de percepção. Dinâmica política em ano eleitoral nos EUA criará pressão regulatória.</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v4" class="card score-4-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/6ctOnY1WmBw/default.jpg" class="avatar"/><span class="channel-name">20VC with Harry Stebbings</span></div>
-            <span class="badge score-4-badge">4/5 ADJACENTE</span>
-          </div>
-          <div class="tags"><span class="tag dur">1h 18min</span><span class="tag core-tag score-4-tag">Amazon</span><span class="tag core-tag score-4-tag">TSMC</span><span class="tag core-tag score-4-tag">Google</span><span class="tag core-tag score-4-tag">Anthropic</span><span class="tag core-tag score-4-tag">OpenAI</span></div>
-          <a href="https://www.youtube.com/watch?v=6ctOnY1WmBw" class="card-title" target="_blank">Gokul Rajaram: How to Analyse for Durability and Defensibility in a World of AI</a>
-          <p class="visao-geral">Framework de 8 modos de durabilidade competitiva em software (data, workflow, regulatory, distribution, ecosystem, network, physical infrastructure, scale) – empresas com 4+ modos são defensáveis; avaliação crítica de SaaS atual como massivamente oversold, com diferenciação entre vencedores (Atlassian ~3 modos) e perdedores (Monday ~1 modo); AI como bolt-on fracassa sem redesign completo da experiência do produto.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-4-pontos"><li>Framework dos 8 modos de durabilidade: data (proprietary, ex: Spotify discover), workflow (embedding operacional, ex: Netswuite vs Zendesk), regulatory (licenças/compliance, ex: Coinbase money transmission), distribution (canal exclusivo, ex: Intuit CPAs), ecosystem (platform third-parties, ex: Shopify 5-6 apps por merchant), network (marketplace density, ex: DoorDash), physical infrastructure (atoms, ex: Amazon logistics), scale (cost advantage, ex: TSMC). Score 4+ = defensável; 2-3 = frágil; 0-1 = comprometido.</li><li>SaaS não está em apocalipse mas em massive overreaction: Atlassian score 3 (data proprietária, workflow, ecosystem, network parcial) = oversold; Monday score 1 (apenas workflow) = corretamente precificado. Avaliação granular essential, não pincel único para todas softwares.</li><li>Bolt-on AI falha quando apenas adiciona capability via thin layer GPT/Anthropic. Funciona apenas se reframe completo da experiência (ex: document processing deve inferir insights instantaneamente durante upload, não fluxo tradicional). Requer fine-tuning contínuo baseado em interações user.</li><li>Data portability crescente + agentes (Sebastian Cloner - Cloner ai) reduz switching costs para zero. Profit pool critical: Salesforce/Netswuite devem decidir se lucro está em data (workflow free) ou workflows (data free), depois commoditize complement agressivamente. Não podem esperar por third-parties.</li><li>Vertical SaaS deve deter full-stack (32 produtos Service Titan; 13 linhas Robin Hood; 12 Coinbase todos 100M+). Single-function dentist/auto agents não escaláveis para 10B+. Shift spend de software budget para human labor (outsourcing BPOS India/Philippines) já em andamento.</li><li>Buybacks como sinal: founder buyback (ex: ServiceNow CEO 3M) mais credível que corporate. Capital B buybacks ($20-50M executivo em empresa large) demonstram conviction genuína vs operação meramente financeira.</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Framework teórico robusto para avaliar durabilidade de posições em MSFT (ecosystem via Azure integrations), GOOGL (data mode dominante), AMZN (scale + physical infrastructure), Salesforce concorrente. Perspectiva crítica sobre SaaS/AI bolt-on estratégias impacta avaliação de fornecedores cloud (hyperscalers), open-source model risk (OpenAI/Anthropic), e fintech exposure (não posição core mas ilustrativo). Sem guidance/números específicos de portfolio companies, mas framework aplicável a due diligence contínua.</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v5" class="card score-3-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/9y7TTU1jIvk/default.jpg" class="avatar"/><span class="channel-name">All-In Podcast</span></div>
-            <span class="badge score-3-badge">3/5 RELEVANTE</span>
-          </div>
-          <div class="tags"><span class="tag dur">1h 15min</span><span class="tag core-tag score-3-tag">Tesla (comparação como Google de Physical AI, stack completo)</span><span class="tag core-tag score-3-tag">Google (analogia 2000s startup era)</span><span class="tag score-3-tag">Atoms (City Storage Systems - novo nome, saído de stealth)</span><span class="tag score-3-tag">Waymo (self-driving, líder mas gargalos manufatura)</span><span class="tag score-3-tag">Pronto (automação mining, em aquisição por Atoms)</span></div>
-          <a href="https://www.youtube.com/watch?v=9y7TTU1jIvk" class="card-title" target="_blank">Two Legendary Founders: Travis Kalanick &amp;amp; Michael Dell Live from Austin, Texas</a>
-          <p class="visao-geral">Travis Kalanick sai de stealth com Atoms, empresa que aplica o modelo de &#x27;digitizar o mundo físico&#x27; (tratando átomos como bits) através de três negócios: food automation (Cloud Kitchens rebranded), mining automation (aquisição de Pronto iminente) e robótica especializada; apresenta Physical AI como a próxima era de venture capital tipo Tesla, comparável ao momento de Google nos 2000s.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-3-pontos"><li>Atoms é o novo nome de City Storage Systems, saindo de stealth após ~7 anos; operações em 30 países com nomes genéricos (Cloud Kitchens nos EUA, Kitchen Valley na Coreia, Nama no Oriente Médio, Cinaas na América Latina) para manter sigilo total de funcionários em LinkedIn.</li><li>Framework de Kalanick para Physical AI: CPU=Manufacturing, Storage=Real Estate, Network=Logistics; primeiro &#x27;computador&#x27; é food (missão: refeição entregue a custo comparável a mercearia); segundo será mining (mining data mining, automação de minas); terceiro é robótica especializada não-humanoide com rodas.</li><li>Aquisição de Pronto (automação de equipamento de mineração, sediada em São Francisco) &#x27;polegadas de fechar&#x27;; automação em mining desbloqueia operações em terrenos inóspitos/regulados ao remover footprint de trabalho humano e riscos de segurança.</li><li>Tesla como &#x27;Google desta era&#x27; em Physical AI (land development, chemistry, manufacturing na stack); Waymo líder em self-driving mas com gargalos em manufatura e escala; timeline ainda incerta (&#x27;pode acontecer amanhã ou 5 anos&#x27;) até ChatGPT moment para visão pura (sem sensores adicionais).</li><li>Energia e eficiência: máquinas autônomas (ex: Waymo) consomem 100x mais energia que humanos para mesma tarefa; linguagem é mecanismo de compressão crítico (100 watts em humano vs. data centers sub-humanos ainda); material science e hardware (atuadores, sensores táteis/propriocepção) são gargalos.</li><li>Capital como arma estratégica: Kalanick não busca fundraising por si só, mas quando é arma estratégica genuína (ex: Uber precisava superar MOBIQA com bilhões em capex); Oriente Médio agora risco (Saudi market -20% em 2 meses, negócio de Middle East business previsto IPO janeiro afetado).</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Não menciona diretamente posições core do fundo, mas Travis Kalanick discute posicionamento em Physical AI stack, capital strategy, e comparações com Tesla (não em portfólio, mas competidor de NVDA em AI chips e robotics); contexto sobre materiais, atuadores, eficiência energética relevante para NVDA datacenter capex e Tesla; menção tangencial a Google/search relevante para GOOGL. Primarily strategic/macro sobre tendências de Physical AI e relocação tech de CA para TX que afeta ecosystem inteiro.</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v6" class="card score-2-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/hFIvttHf0oo/default.jpg" class="avatar"/><span class="channel-name">Invest Like The Best</span></div>
-            <span class="badge score-2-badge">2/5 TANGENCIAL</span>
-          </div>
-          <div class="tags"><span class="tag dur">1h 17min</span><span class="tag score-2-tag">Column</span><span class="tag score-2-tag">Plaid</span><span class="tag score-2-tag">Brex</span><span class="tag score-2-tag">Ramp</span><span class="tag score-2-tag">Mercury</span></div>
-          <a href="https://www.youtube.com/watch?v=hFIvttHf0oo" class="card-title" target="_blank">How to bet on yourself (without venture capital)</a>
-          <p class="visao-geral">Fundador de fintech sem VC (Column) articula tese de que empresas de alto crescimento podem ser construídas de forma lucrativa sem capital de risco, permitindo decisões de longo prazo (ex: compra de banco regulado) e retenção de talento via buybacks anuais; relevante como contranarativa ao modelo de financiamento padrão do Vale.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-2-pontos"><li>Column é software+banco regulado que fornece infraestrutura financeira (pagamentos, depósitos, crédito, APIs) para fintechs como Brex, Ramp, Mercury, Built, Wise; monetização via API calls, não depósitos, com 90%+ de receita de software</li><li>Hockey comprou banco regulado durante administração Biden (2021-2023), investimento de 2-3 anos sem retorno direto que seria inviável com VC; decisão de crescimento 80% vs 110% é aceitável pois empresa é lucrativa</li><li>Estratégia de retenção: subsidio de $2k/mês para moradia a 2 milhas do escritório; buyback anual de 25% dos lucros em ações de funcionários (tender próprio); sem dilição de equity e sem preferred stack</li><li>Tese de mercado: fintech é última área a ser disruptada por AI; US market é &#x27;tão bom&#x27; que receita internacional (Europa Ocidental + mercados emergentes, incluindo DRC/Congo) cresce mas representa parcela menor; oportunidade em leapfrogging financeiro em mercados emergentes (Argentina, Irã, África com M-Pesa pré-Venmo)</li><li>Crítica a Vale: SF/Beijing são &#x27;sociedades consenso&#x27; mais isoladas; elites constroem para elites, causando &#x27;falta de toque&#x27; com vida americana e global; pesquisa em AI é consensual e vence, mas aplicabilidade em vida cotidiana está em mínimo histórico; aprovação pública de Big Tech é &#x27;provavelmente baixa&#x27;</li><li>Hockey viaja extensamente (Kinshasa, mercados emergentes) para ideação fora do consenso SF; ~90% das ideias vêm do chuveiro ou caminhadas em países emergentes; exemplos de inovação: Kaspi Kazakhstan (banco+tudo), Raw Bank (Congo, superior a US banks em UX), mentalidade de constraint gera criatividade diferenciada</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Conteúdo sobre estratégia de financiamento e operacional de fintech fora do escopo de posições core (META, NVDA, AMZN, MSFT, GOOGL, TSMC, OpenAI, Anthropic); menciona competidores/clientes tangenciais (Ramp, Brex, Mercury) mas sem dados operacionais deles; crítica a Vale/SF como contexto macro interessante mas sem impacto direto em teses de investimento em big tech</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v7" class="card score-2-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/Z6rW2hVczn0/default.jpg" class="avatar"/><span class="channel-name">Sourcery with Molly O&#x27;Shea</span><span class="tag no-transcript">sem transcricao</span></div>
-            <span class="badge score-2-badge">2/5 TANGENCIAL</span>
-          </div>
-          <div class="tags"><span class="tag dur">1h 11min</span><span class="tag score-2-tag">Deel</span><span class="tag score-2-tag">Ribbit Capital</span><span class="tag score-2-tag">Coatue</span><span class="tag score-2-tag">a16z (Andreessen Horowitz)</span><span class="tag score-2-tag">AI agents</span></div>
-          <a href="https://www.youtube.com/watch?v=Z6rW2hVczn0" class="card-title" target="_blank">Deel Hits $1.4B+ in ARR | CEO Alex Bouaziz Shares Growth Playbook</a>
-          <p class="visao-geral">Deel atingiu $1.4B em ARR com $17.3B de valuation e alcançou lucratividade em escala — CEO Alex Bouaziz detalha playbook de M&amp;A (10+ aquisições) e expansão global em 150+ países; relevância limitada para portfolio core, mas sinaliza tendência de consolidação em workforce infrastructure e impacto futuro de AI agents no mercado de trabalho.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-2-pontos"><li>Deel: $1.4B+ ARR, $17.3B valuation, 40K+ clientes em 150+ países — profitável em hypergrowth (anomalia em SaaS), fundada em 2019</li><li>Estratégia M&amp;A: 10+ aquisições para expandir capacidades de payroll, HR e compliance globalmente — modelo de crescimento inorgânico agressivo</li><li>Rodada de funding recente liderada por Ribbit Capital, Coatue, e a16z — sinalizador de confiança em modelo de negócio de infraestrutura de workforce</li><li>CEO Alex Bouaziz enfatiza AI agents como transformador fundamental do futuro de contratação e equipes distribuídas — tema convergente com narrativa de automação enterprise</li><li>Foco em infraestrutura de payroll global própria (não apenas software) — diferenciador competitivo contra players tradicionais de HR</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Deel não é concorrente direto nem fornecedor chave de nenhuma posição core (META, NVDA, AMZN, OpenAI, MSFT, TSM, Anthropic, GOOGL). Valor está em macro-tendência de automação de workforce e consolidação de HR tech, relevante para narrativa de AI agents, mas sem impacto imediato nas teses de portfolio.</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v8" class="card score-2-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/LsNmBcDCsq0/default.jpg" class="avatar"/><span class="channel-name">Stripe</span></div>
-            <span class="badge score-2-badge">2/5 TANGENCIAL</span>
-          </div>
-          <div class="tags"><span class="tag dur">1h 16min</span><span class="tag score-2-tag">Kalshi</span><span class="tag score-2-tag">CFTC (Commodity Futures Trading Commission)</span><span class="tag score-2-tag">Robinhood</span><span class="tag score-2-tag">Webull</span><span class="tag score-2-tag">Coinbase</span></div>
-          <a href="https://www.youtube.com/watch?v=LsNmBcDCsq0" class="card-title" target="_blank">Creating prediction markets (and suing the CFTC) with Tarek Mansour and Luana Lopes Lara</a>
-          <p class="visao-geral">Kalshi, plataforma de prediction markets aprovada pelo CFTC, cresceu 11x em 6 meses atingindo $10.4 bilhões em volume mensal (fevereiro 2025); cofundadores revelam estratégia de conformidade regulatória desde o início e decisão de processar o CFTC sobre mercados eleitorais, com 95% da liquidez vindo de 2.000+ pequenos market makers peer-to-peer em vez de grandes instituições.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-2-pontos"><li>Kalshi processou seu próprio regulador (CFTC) em 2023 para obter aprovação para mercados eleitorais; decisão foi polêmica internamente mas aprovada pelo board (Alfred Lin e Michael Seibel do YC) como &#x27;anti-pattern&#x27; válido; CFTC havia rejeitado por 2 anos (bloqueio até após eleição 2024)</li><li>Volume atingiu $10.4 bilhões em fevereiro 2025, crescimento de 11x em ~6 meses; cofundadores descrevem como &#x27;faster-growing company outside of AI&#x27;, competindo com top AI companies em taxa de crescimento</li><li>Estrutura de mercado única: 95% da liquidez vem de 2.000+ pequenos market makers individuais/duplas, não de grandes instituições; menos de 5% vem de traditional Wall Street market makers (inversão do modelo NYSE/CME)</li><li>Plataforma funciona como exchange e clearinghouse estilo NYSE/CME; brokers como Robinhood e Webull conectados; crescimento recente impulsionado por &#x27;Kalshi Direct&#x27; (app/website), que &#x27;dramatically outpaced&#x27; distribuição via brokers, com brand se tornando mainstream</li><li>Estratégia inicial desde 2019 (YC 2019) foi compliance-first em vez de &#x27;ask forgiveness&#x27;; 3 anos até regulação em 2022; cofundadores argumentam que mercados eleitorais provaram valor em 2024 (polls &#x27;completely wrong&#x27;, mercados muito mais acurados) e já operam offshore demonstravam potencial</li><li>Mercados são dinâmicos (novos contratos semanalmente/diariamente vs. NYSE model estático); two-tier liquidity strategy: long-tail markets (10.000 contratos tipo &#x27;One Direction reunion&#x27;) usam incentivos; major markets (crypto, sports, eleições) usam fee rebates com condições estritas de uptime/spread/size</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Conteúdo sobre prediction markets e fintech regulatória é interessante mas sem conexão direta com posições core do portfólio (META, NVDA, AMZN, OpenAI, MSFT, TSM, Anthropic, GOOGL). Não menciona estas empresas, seus produtos, ou como a plataforma de prediction markets as afeta. Relevância setorial limitada a tendências de fintech/regulação.</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-        <div id="v9" class="card score-2-card">
-          <div class="card-header">
-            <div class="channel-info"><img src="https://i.ytimg.com/vi/QT7W_uHjqWE/default.jpg" class="avatar"/><span class="channel-name">AI News &amp; Strategy Daily | Nate B Jones</span></div>
-            <span class="badge score-2-badge">2/5 TANGENCIAL</span>
-          </div>
-          <div class="tags"><span class="tag dur">22 min</span><span class="tag core-tag score-2-tag">Anthropic</span><span class="tag core-tag score-2-tag">Claude (produto Anthropic)</span><span class="tag core-tag score-2-tag">Google (Gmail, Google Calendar, Google Drive, Google Docs, Chrome)</span><span class="tag core-tag score-2-tag">OpenAI</span><span class="tag core-tag score-2-tag">Amazon</span></div>
-          <a href="https://www.youtube.com/watch?v=QT7W_uHjqWE" class="card-title" target="_blank">Your Browser Does the Same 10 Things Every Week. Claude Can Do 5 of Them Now.</a>
-          <p class="visao-geral">Anthropic lançou extensão de browser (Chrome) que transforma Claude em agente autônomo capaz de automatizar tarefas web repetitivas (preenchimento de formulários, extração de dados, agendamento, email) com capacidade de gravar workflows e executar em schedule; aplicação prática imediata em automação de trabalho administrativo, mas com limitações em tarefas data-heavy e riscos de prompt injection em sites não-confiáveis.</p>
-          <details open>
-            <summary class="expand-label">Principais pontos</summary>
-            <ul class="pontos score-2-pontos"><li>Claude Chrome extension disponível para usuários em plano pago; consegue executar tarefas repetitivas sem supervisão via gravação de workflow + scheduling (diário, semanal, mensal)</li><li>Caso prático: Carl Votti usou Claude (via código no terminal, mesma mecânica da extensão) para negociar refund de $100 com AT&amp;T automaticamente via chat — Claude leu respostas, digitou replies contextualizadas, fez push-back e escalou</li><li>Gmail, Google Calendar, Google Drive e Google Docs têm suporte nativo; Claude reconhece essas plataformas sem instruções explícitas — capacidade validada por Eric Schwarz (TechRadar) que organizou 900 documentos em Drive automaticamente</li><li>Limitação crítica: Claude tem dificuldade em tarefas data-heavy no browser (ex: monitorar múltiplos perfis LinkedIn em workflow recorrente pode perder posts relevantes, foco em detalhes tangenciais); recomendação: quebrar em subtasks</li><li>Três modos de uso: (1) Claude extension sidebar no Chrome (mais acessível), (2) Claude Code via terminal (mais controle técnico), (3) Claude Artifacts/co-work (exportar outputs em Excel/PowerPoint); todos usam mesma mecânica de leitura/clique/navegação</li><li>Developers podem gravar testes de produto (checkout flows, smoke tests) e rodar em schedule; exemplo avançado: Figma mock → Claude builds → Claude verifica em Chrome → Claude debugga live em loop autônomo enquanto terminal mostra código sendo escrito</li></ul>
-          </details>
-          <div class="card-footer">
-            <span class="motivo">Conteúdo sobre ferramenta de produtividade (Claude Chrome extension) relevante para contexto macro de adoção de AI em workflows enterprise, mas sem impacto direto em teses de posições core (META, NVDA, AMZN, MSFT, GOOGL, TSM, OpenAI, Anthropic). Menção a Anthropic como player de AI é contextual; não há guidance financeira, métricas de adoção, competitive positioning vs OpenAI/Microsoft, ou impacto em demanda/capex de hyperscalers.</span>
-            <a href="#toc" class="back-top-link">&#9650; voltar</a>
-          </div>
-        </div>
-  
-
+<div class="main" id="main-content">
+  <div class="page-header">
+    <h2 id="page-title">Carregando...</h2>
+    <p class="meta" id="page-meta"></p>
+  </div>
+  <div id="date-picker-container" style="display:none">
+    <div class="date-picker">
+      <select id="date-select" onchange="loadDate(this.value)"></select>
+    </div>
+  </div>
+  <div id="cards-container"></div>
   <div class="footer">
-    <p>Gerado com Claude AI &middot; YouTube Data API</p>
-    <p>Tork Capital &middot; 17/03/2026</p>
+    <p>Gerado com Claude AI · YouTube Data API</p>
+    <p>Tork Capital</p>
   </div>
-
 </div>
+
+<script>
+const CORE = ['Meta','META','Nvidia','NVDA','Amazon','AMZN','OpenAI','Microsoft','MSFT','TSMC','TSM','Anthropic','Google','GOOGL'];
+const SCORE_LABELS = {5:'CORE',4:'ADJACENTE',3:'RELEVANTE',2:'TANGENCIAL',1:'CONTEXTO'};
+
+let allData = {};  // date -> data
+let dateList = []; // sorted dates
+
+async function init() {
+  // Load manifest
+  try {
+    const resp = await fetch('data/manifest.json?t='+Date.now());
+    dateList = await resp.json();
+  } catch(e) {
+    dateList = [];
+  }
+  // Load all data files
+  for (const d of dateList) {
+    try {
+      const resp = await fetch('data/'+d+'.json?t='+Date.now());
+      allData[d] = await resp.json();
+    } catch(e) {}
+  }
+  // Populate date picker
+  const sel = document.getElementById('date-select');
+  dateList.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d; opt.textContent = d;
+    sel.appendChild(opt);
+  });
+  switchView('today');
+}
+
+function switchView(view, company) {
+  // Update sidebar active
+  document.querySelectorAll('.sidebar-link').forEach(l => l.classList.remove('active'));
+  const selector = company 
+    ? `.sidebar-link[data-company="${company}"]`
+    : `.sidebar-link[data-view="${view}"]`;
+  const active = document.querySelector(selector);
+  if (active) active.classList.add('active');
+
+  document.getElementById('date-picker-container').style.display = view === 'archive' ? 'block' : 'none';
+
+  if (view === 'today') {
+    const latest = dateList[0];
+    if (latest && allData[latest]) {
+      renderDay(allData[latest], latest);
+    } else {
+      document.getElementById('page-title').textContent = 'Nenhum digest disponivel';
+      document.getElementById('page-meta').textContent = '';
+      document.getElementById('cards-container').innerHTML = '<p class="empty">Execute o script para gerar o primeiro digest.</p>';
+    }
+    document.getElementById('count-today').textContent = latest && allData[latest] ? allData[latest].summaries.length + allData[latest].daily_brief.length : '0';
+  } else if (view === 'archive') {
+    const sel = document.getElementById('date-select');
+    loadDate(sel.value || dateList[0]);
+  } else if (view === 'company') {
+    renderCompany(company);
+  }
+  // Close mobile sidebar
+  document.querySelector('.sidebar').classList.remove('open');
+}
+
+function loadDate(date) {
+  if (allData[date]) renderDay(allData[date], date);
+}
+
+function renderDay(data, date) {
+  const total = data.daily_brief.length + data.summaries.length + data.skipped.length;
+  const count = data.daily_brief.length + data.summaries.length;
+  document.getElementById('page-title').textContent = 'Digest — ' + date;
+  document.getElementById('page-meta').textContent = count + ' resumos de ' + total + ' videos';
+
+  let html = '';
+  let idx = 0;
+
+  // ---- TOC ----
+  html += '<div style="padding:16px 0 20px;border-bottom:2px solid var(--border);margin-bottom:8px">';
+  html += '<p style="font-size:9px;color:#BBB;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:12px;font-family:DM Sans,sans-serif">Neste digest</p>';
+  
+  // Daily Brief TOC entries
+  data.daily_brief.forEach((s,i) => {
+    const titulo = esc(s.titulo_formatado || s.title || 'AI Daily Brief');
+    let tags = '';
+    (s.empresas||[]).slice(0,4).forEach(e => { tags += '<span class="tag pinned-t" style="font-size:9px;padding:1px 6px;margin-right:3px">'+esc(e)+'</span>'; });
+    const temas = (s.temas_episodio||[]).slice(0,3).join(', ');
+    const brief = temas.length > 120 ? temas.substring(0,120)+'...' : temas;
+    html += '<a href="#v'+i+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F0F0F0">';
+    html += '<span style="color:var(--pinned);font-size:13px;font-weight:600">'+titulo+'</span>';
+    html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
+    if (brief) html += '<br/><span style="color:#888;font-size:11px;font-style:italic">'+esc(brief)+'</span>';
+    html += '</a>';
+  });
+
+  // Regular video TOC entries
+  const sorted = [...data.summaries].sort((a,b) => (b.relevancia||1) - (a.relevancia||1));
+  sorted.forEach((s,i) => {
+    const vidIdx = data.daily_brief.length + i;
+    const score = Math.min(Math.max(s.relevancia||1,1),5);
+    const colors = {5:'var(--accent-5)',4:'var(--accent-4)',3:'var(--accent-3)',2:'var(--accent-2)',1:'var(--accent-1)'};
+    const accent = colors[score];
+    let tags = '';
+    const empresas = s.empresas || [];
+    const coreT = empresas.filter(e => CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
+    const otherT = empresas.filter(e => !CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
+    [...coreT,...otherT].slice(0,4).forEach(e => {
+      const isCore = CORE.some(c => e.toLowerCase().includes(c.toLowerCase()));
+      tags += '<span class="tag'+(isCore?' core s'+score:'')+'" style="font-size:9px;padding:1px 6px;margin-right:3px">'+esc(e)+'</span>';
+    });
+    let visao = s.visao_geral || '';
+    if (visao.length > 140) visao = visao.substring(0,140) + '...';
+    html += '<a href="#v'+vidIdx+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F5F5F5">';
+    html += '<span style="color:#333;font-size:13px">'+esc(s.title)+'</span>';
+    html += ' <span style="color:'+accent+';font-size:10px;font-weight:700;font-family:JetBrains Mono,monospace">'+score+'/5</span>';
+    html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
+    if (visao) html += '<br/><span style="color:#888;font-size:11px;font-style:italic">'+esc(visao)+'</span>';
+    html += '</a>';
+  });
+  html += '</div>';
+
+  // ---- Cards ----
+  data.daily_brief.forEach(s => { html += renderDailyBriefCard(s, date); });
+  data.summaries.sort((a,b) => (b.relevancia||1) - (a.relevancia||1));
+  data.summaries.forEach(s => { html += renderVideoCard(s, date); });
+  if (data.skipped.length) {
+    html += '<div style="padding:16px 0;border-top:1px solid var(--border);margin-top:8px"><p style="font-size:10px;color:#BBB;text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:8px">Sem resumo</p>';
+    data.skipped.forEach(v => {
+      html += '<p style="font-size:12px;margin:4px 0"><a href="'+v.url+'" target="_blank" style="color:#666;text-decoration:none">'+esc(v.title)+'</a> <span style="color:#BBB">— '+esc(v.channel)+'</span></p>';
+    });
+    html += '</div>';
+  }
+  document.getElementById('cards-container').innerHTML = html || '<p class="empty">Nenhum video neste dia.</p>';
+}
+
+function renderCompany(company) {
+  document.getElementById('page-title').textContent = company;
+  document.getElementById('page-meta').textContent = 'Todos os videos mencionando ' + company;
+
+  const aliases = {
+    'Meta': ['Meta','META'], 'Nvidia': ['Nvidia','NVDA'], 'Amazon': ['Amazon','AMZN','AWS'],
+    'OpenAI': ['OpenAI','GPT','ChatGPT'], 'Microsoft': ['Microsoft','MSFT','Azure','Copilot'],
+    'TSMC': ['TSMC','TSM'], 'Anthropic': ['Anthropic','Claude'], 'Google': ['Google','GOOGL','Alphabet','Gemini','DeepMind']
+  };
+  const terms = aliases[company] || [company];
+
+  let matches = [];
+  dateList.forEach(date => {
+    const data = allData[date];
+    if (!data) return;
+    [...data.daily_brief, ...data.summaries].forEach(s => {
+      const empresas = (s.empresas || []).join(' ').toLowerCase();
+      const title = (s.title || s.titulo_formatado || '').toLowerCase();
+      if (terms.some(t => empresas.includes(t.toLowerCase()) || title.includes(t.toLowerCase()))) {
+        matches.push({...s, _date: date});
+      }
+    });
+  });
+
+  // Sort by date desc, then relevance
+  matches.sort((a,b) => b._date.localeCompare(a._date) || (b.relevancia||0) - (a.relevancia||0));
+
+  let html = '';
+  if (matches.length === 0) {
+    html = '<p class="empty">Nenhum video encontrado mencionando ' + company + '.</p>';
+  } else {
+    matches.forEach(s => {
+      const dateTag = '<span class="tag dur">'+s._date+'</span>';
+      if (s.noticias_principais) {
+        html += renderDailyBriefCard(s, s._date, dateTag);
+      } else {
+        html += renderVideoCard(s, s._date, dateTag);
+      }
+    });
+  }
+  document.getElementById('cards-container').innerHTML = html;
+}
+
+function renderVideoCard(s, date, extraTag) {
+  const score = Math.min(Math.max(s.relevancia||1,1),5);
+  const label = SCORE_LABELS[score];
+  const thumb = s.channel_thumb;
+  const avatar = thumb ? '<img src="'+thumb+'" class="avatar"/>' : '<span class="avatar-letter">'+(s.channel||'?')[0]+'</span>';
+
+  let tags = '';
+  if (s.duration_label) tags += '<span class="tag dur">'+s.duration_label+'</span>';
+  if (extraTag) tags += extraTag;
+  const empresas = s.empresas || [];
+  const coreT = empresas.filter(e => CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
+  const otherT = empresas.filter(e => !CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
+  [...coreT, ...otherT].slice(0,5).forEach(e => {
+    const isCore = CORE.some(c => e.toLowerCase().includes(c.toLowerCase()));
+    tags += '<span class="tag'+(isCore?' core s'+score:'')+'">' + esc(e) + '</span>';
+  });
+
+  let points = '';
+  (s.pontos||[]).slice(0,6).forEach(p => { points += '<li>'+esc(p)+'</li>'; });
+
+  const transcriptBtn = s.has_transcript && s.transcript_file
+    ? '<a class="transcript-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>&#8595; Transcript</a>'
+    : '';
+
+  return `<div class="card score-${score}">
+    <div class="card-top">
+      <div class="channel-info">${avatar}<span class="channel-name">${esc(s.channel)}</span></div>
+      <span class="badge badge-${score}">${score}/5 ${label}</span>
+    </div>
+    <div class="tags">${tags}</div>
+    <a href="${s.url}" class="card-title" target="_blank">${esc(s.title)}</a>
+    ${s.visao_geral ? '<p class="visao">'+esc(s.visao_geral)+'</p>' : ''}
+    <details open><summary>Principais pontos</summary><ul class="pontos">${points}</ul></details>
+    <div class="card-footer">
+      <span class="motivo">${esc(s.motivo_relevancia||'')}</span>
+      ${transcriptBtn}
+    </div>
+  </div>`;
+}
+
+function renderDailyBriefCard(s, date, extraTag) {
+  const titulo = s.titulo_formatado || s.title || 'AI Daily Brief';
+  let tags = '';
+  if (s.duration_label) tags += '<span class="tag dur">'+s.duration_label+'</span>';
+  if (extraTag) tags += extraTag;
+  (s.empresas||[]).slice(0,6).forEach(e => { tags += '<span class="tag pinned-t">'+esc(e)+'</span>'; });
+
+  let temas = '';
+  (s.temas_episodio||[]).forEach(t => { temas += '<li>'+esc(t)+'</li>'; });
+
+  let noticias = '';
+  (s.noticias_principais||[]).forEach(n => {
+    noticias += '<p class="manchete">'+esc(n.manchete)+'</p><ul class="sub-bullets">';
+    (n.contexto||[]).slice(0,5).forEach(b => { noticias += '<li>'+esc(b)+'</li>'; });
+    noticias += '</ul>';
+  });
+
+  let temasProf = '';
+  (s.temas_principais||[]).forEach(tp => {
+    temasProf += '<p class="manchete">'+esc(tp.tema)+'</p><ul class="sub-bullets">';
+    (tp.analise||[]).slice(0,10).forEach(b => { temasProf += '<li>'+esc(b)+'</li>'; });
+    temasProf += '</ul>';
+  });
+
+  const transcriptBtn = s.has_transcript && s.transcript_file
+    ? '<a class="transcript-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>&#8595; Transcript</a>'
+    : '';
+
+  return `<div class="card pinned-card">
+    <div class="card-top">
+      <div class="channel-info"><span class="channel-name" style="color:var(--pinned);font-weight:600">The AI Daily Brief</span></div>
+      <span class="badge badge-pinned">PINNED</span>
+    </div>
+    <div class="tags">${tags}</div>
+    <a href="${s.url||'#'}" class="card-title" target="_blank">${esc(titulo)}</a>
+    <details open><summary class="section-label">Temas do Episodio</summary><ul class="pontos">${temas}</ul></details>
+    <details open><summary class="section-label">1) Noticias Principais</summary>${noticias}</details>
+    <hr class="section-divider"/>
+    <details open><summary class="section-label">2) Temas Principais</summary>${temasProf}</details>
+    <div class="card-footer"><span></span>${transcriptBtn}</div>
+  </div>`;
+}
+
+function esc(s) {
+  if (!s) return '';
+  const d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+
+init();
+</script>
 </body>
 </html>
