@@ -111,7 +111,7 @@
   }
   .card-title:hover { color:var(--accent-5); }
 
-  .visao { font-size:14px; color:#555; line-height:1.65; font-style:italic; margin-bottom:14px; }
+  .visao { font-size:14px; color:#555; line-height:1.65; margin-bottom:14px; }
 
   .pontos { list-style:none; padding:0; margin:0 0 12px; }
   .pontos li {
@@ -285,7 +285,7 @@ function renderDay(data, date) {
   let idx = 0;
 
   // ---- TOC ----
-  html += '<div style="padding:16px 0 20px;border-bottom:2px solid var(--border);margin-bottom:8px">';
+  html += '<div id="toc" style="padding:16px 0 20px;border-bottom:2px solid var(--border);margin-bottom:8px">';
   html += '<p style="font-size:9px;color:#BBB;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:12px;font-family:DM Sans,sans-serif">Neste digest</p>';
   
   // Daily Brief TOC entries
@@ -298,7 +298,7 @@ function renderDay(data, date) {
     html += '<a href="#v'+i+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F0F0F0">';
     html += '<span style="color:var(--pinned);font-size:13px;font-weight:600">'+titulo+'</span>';
     html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
-    if (brief) html += '<br/><span style="color:#888;font-size:11px;font-style:italic">'+esc(brief)+'</span>';
+    if (brief) html += '<br/><span style="color:#666;font-size:11px">'+esc(brief)+'</span>';
     html += '</a>';
   });
 
@@ -323,15 +323,15 @@ function renderDay(data, date) {
     html += '<span style="color:#333;font-size:13px">'+esc(s.title)+'</span>';
     html += ' <span style="color:'+accent+';font-size:10px;font-weight:700;font-family:JetBrains Mono,monospace">'+score+'/5</span>';
     html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
-    if (visao) html += '<br/><span style="color:#888;font-size:11px;font-style:italic">'+esc(visao)+'</span>';
+    if (visao) html += '<br/><span style="color:#666;font-size:11px">'+esc(visao)+'</span>';
     html += '</a>';
   });
   html += '</div>';
 
-  // ---- Cards ----
-  data.daily_brief.forEach(s => { html += renderDailyBriefCard(s, date); });
+  // ---- Cards with IDs ----
+  data.daily_brief.forEach((s,i) => { html += '<div id="v'+i+'">'+renderDailyBriefCard(s, date)+'</div>'; });
   data.summaries.sort((a,b) => (b.relevancia||1) - (a.relevancia||1));
-  data.summaries.forEach(s => { html += renderVideoCard(s, date); });
+  data.summaries.forEach((s,i) => { html += renderVideoCard(s, date, null, 'v'+(data.daily_brief.length+i)); });
   if (data.skipped.length) {
     html += '<div style="padding:16px 0;border-top:1px solid var(--border);margin-top:8px"><p style="font-size:10px;color:#BBB;text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:8px">Sem resumo</p>';
     data.skipped.forEach(v => {
@@ -366,26 +366,51 @@ function renderCompany(company) {
     });
   });
 
-  // Sort by date desc, then relevance
   matches.sort((a,b) => b._date.localeCompare(a._date) || (b.relevancia||0) - (a.relevancia||0));
 
   let html = '';
   if (matches.length === 0) {
     html = '<p class="empty">Nenhum video encontrado mencionando ' + company + '.</p>';
   } else {
-    matches.forEach(s => {
+    // TOC
+    html += '<div id="company-toc" style="padding:16px 0 20px;border-bottom:2px solid var(--border);margin-bottom:8px">';
+    html += '<p style="font-size:9px;color:#BBB;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:12px;font-family:DM Sans,sans-serif">'+matches.length+' videos mencionando '+company+'</p>';
+    matches.forEach((s,i) => {
+      const isDB = !!(s.noticias_principais);
+      const titulo = isDB ? esc(s.titulo_formatado || s.title || 'AI Daily Brief') : esc(s.title);
+      const score = Math.min(Math.max(s.relevancia||1,1),5);
+      const colors = {5:'var(--accent-5)',4:'var(--accent-4)',3:'var(--accent-3)',2:'var(--accent-2)',1:'var(--accent-1)'};
+      const accent = isDB ? 'var(--pinned)' : colors[score];
+      let tags = '<span class="tag dur">'+s._date+'</span>';
+      (s.empresas||[]).slice(0,4).forEach(e => {
+        const isCore = CORE.some(c => e.toLowerCase().includes(c.toLowerCase()));
+        tags += '<span class="tag'+(isDB?' pinned-t':(isCore?' core s'+score:''))+'" style="font-size:9px;padding:1px 6px;margin-right:3px">'+esc(e)+'</span>';
+      });
+      let visao = isDB ? (s.temas_episodio||[]).slice(0,3).join(', ') : (s.visao_geral||'');
+      if (visao.length > 140) visao = visao.substring(0,140)+'...';
+      html += '<a href="#cv'+i+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F5F5F5">';
+      html += '<span style="color:'+(isDB?'var(--pinned)':'#333')+';font-size:13px;'+(isDB?'font-weight:600':'')+'">'+titulo+'</span>';
+      if (!isDB) html += ' <span style="color:'+accent+';font-size:10px;font-weight:700;font-family:JetBrains Mono,monospace">'+score+'/5</span>';
+      html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
+      if (visao) html += '<br/><span style="color:#666;font-size:11px">'+esc(visao)+'</span>';
+      html += '</a>';
+    });
+    html += '</div>';
+
+    // Cards
+    matches.forEach((s,i) => {
       const dateTag = '<span class="tag dur">'+s._date+'</span>';
       if (s.noticias_principais) {
-        html += renderDailyBriefCard(s, s._date, dateTag);
+        html += '<div id="cv'+i+'">'+renderDailyBriefCard(s, s._date, dateTag)+'</div>';
       } else {
-        html += renderVideoCard(s, s._date, dateTag);
+        html += renderVideoCard(s, s._date, dateTag, 'cv'+i);
       }
     });
   }
   document.getElementById('cards-container').innerHTML = html;
 }
 
-function renderVideoCard(s, date, extraTag) {
+function renderVideoCard(s, date, extraTag, customId) {
   const score = Math.min(Math.max(s.relevancia||1,1),5);
   const label = SCORE_LABELS[score];
   const thumb = s.channel_thumb;
@@ -409,20 +434,24 @@ function renderVideoCard(s, date, extraTag) {
     ? '<a class="transcript-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>&#8595; Transcript</a>'
     : '';
 
-  return `<div class="card score-${score}">
-    <div class="card-top">
-      <div class="channel-info">${avatar}<span class="channel-name">${esc(s.channel)}</span></div>
-      <span class="badge badge-${score}">${score}/5 ${label}</span>
-    </div>
-    <div class="tags">${tags}</div>
-    <a href="${s.url}" class="card-title" target="_blank">${esc(s.title)}</a>
-    ${s.visao_geral ? '<p class="visao">'+esc(s.visao_geral)+'</p>' : ''}
-    <details open><summary>Principais pontos</summary><ul class="pontos">${points}</ul></details>
-    <div class="card-footer">
-      <span class="motivo">${esc(s.motivo_relevancia||'')}</span>
-      ${transcriptBtn}
-    </div>
-  </div>`;
+  const cardId = customId || '';
+  const idAttr = cardId ? ' id="'+cardId+'"' : '';
+  const backLink = '<a href="#toc" class="back-top-link">&#9650; voltar ao topo</a>';
+
+  return '<div'+idAttr+' class="card score-'+score+'">'
+    + '<div class="card-top">'
+    + '<div class="channel-info">'+avatar+'<span class="channel-name">'+esc(s.channel)+'</span></div>'
+    + '<span class="badge badge-'+score+'">'+score+'/5 '+label+'</span>'
+    + '</div>'
+    + '<div class="tags">'+tags+'</div>'
+    + '<a href="'+s.url+'" class="card-title" target="_blank">'+esc(s.title)+'</a>'
+    + (s.visao_geral ? '<p class="visao">'+esc(s.visao_geral)+'</p>' : '')
+    + '<details><summary>Principais pontos</summary><ul class="pontos">'+points+'</ul></details>'
+    + '<div class="card-footer">'
+    + '<span class="motivo">'+esc(s.motivo_relevancia||'')+'</span>'
+    + '<span>'+transcriptBtn+' '+backLink+'</span>'
+    + '</div>'
+    + '</div>';
 }
 
 function renderDailyBriefCard(s, date, extraTag) {
@@ -453,19 +482,21 @@ function renderDailyBriefCard(s, date, extraTag) {
     ? '<a class="transcript-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>&#8595; Transcript</a>'
     : '';
 
-  return `<div class="card pinned-card">
-    <div class="card-top">
-      <div class="channel-info"><span class="channel-name" style="color:var(--pinned);font-weight:600">The AI Daily Brief</span></div>
-      <span class="badge badge-pinned">PINNED</span>
-    </div>
-    <div class="tags">${tags}</div>
-    <a href="${s.url||'#'}" class="card-title" target="_blank">${esc(titulo)}</a>
-    <details open><summary class="section-label">Temas do Episodio</summary><ul class="pontos">${temas}</ul></details>
-    <details open><summary class="section-label">1) Noticias Principais</summary>${noticias}</details>
-    <hr class="section-divider"/>
-    <details open><summary class="section-label">2) Temas Principais</summary>${temasProf}</details>
-    <div class="card-footer"><span></span>${transcriptBtn}</div>
-  </div>`;
+  const backLink = '<a href="#toc" class="back-top-link">&#9650; voltar ao topo</a>';
+
+  return '<div class="card pinned-card">'
+    + '<div class="card-top">'
+    + '<div class="channel-info"><span class="channel-name" style="color:var(--pinned);font-weight:600">The AI Daily Brief</span></div>'
+    + '<span class="badge badge-pinned">PINNED</span>'
+    + '</div>'
+    + '<div class="tags">'+tags+'</div>'
+    + '<a href="'+(s.url||'#')+'" class="card-title" target="_blank">'+esc(titulo)+'</a>'
+    + '<details><summary class="section-label">Temas do Episodio</summary><ul class="pontos">'+temas+'</ul></details>'
+    + '<details><summary class="section-label">1) Noticias Principais</summary>'+noticias+'</details>'
+    + '<hr class="section-divider"/>'
+    + '<details><summary class="section-label">2) Temas Principais</summary>'+temasProf+'</details>'
+    + '<div class="card-footer"><span></span><span>'+transcriptBtn+' '+backLink+'</span></div>'
+    + '</div>';
 }
 
 function esc(s) {
