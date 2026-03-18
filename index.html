@@ -4,506 +4,341 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>YouTube Digest — Tork Capital</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #F4F3F0;
-    --sidebar: #0F1923;
-    --card: #FFFFFF;
-    --text: #1A1A1A;
-    --muted: #888;
-    --border: #E8E6E1;
-    --accent-5: #D4740E;
-    --accent-4: #B85A0B;
-    --accent-3: #2D8A56;
-    --accent-2: #7A8A99;
-    --accent-1: #AAA;
-    --pinned: #5E35B1;
+    --bg: #FAFAFA;
+    --sidebar-bg: #111318;
+    --card-bg: #FFFFFF;
+    --text: #1C1C1E;
+    --text-secondary: #6E6E73;
+    --text-muted: #AEAEB2;
+    --border: #E5E5EA;
+    --border-light: #F2F2F7;
+    --accent: #C4650A;
+    --accent-light: #FFF5EB;
+    --s5: #C4650A; --s5-bg: #FFF5EB;
+    --s4: #9A5209; --s4-bg: #FFF8F0;
+    --s3: #1D7A42; --s3-bg: #ECFDF3;
+    --s2: #6B7280; --s2-bg: #F3F4F6;
+    --s1: #9CA3AF; --s1-bg: #F9FAFB;
+    --pinned: #6D28D9; --pinned-bg: #F3F0FF;
+    --radius: 8px;
+    --sans: 'IBM Plex Sans', -apple-system, sans-serif;
+    --serif: 'Source Serif 4', Georgia, serif;
+    --mono: 'IBM Plex Mono', monospace;
   }
   * { margin:0; padding:0; box-sizing:border-box; }
-  html { scroll-behavior:smooth; }
-  body { background:var(--bg); color:var(--text); font-family:'DM Sans',sans-serif; display:flex; min-height:100vh; }
+  html { scroll-behavior:smooth; -webkit-font-smoothing:antialiased; }
+  body { background:var(--bg); color:var(--text); font-family:var(--sans); display:flex; min-height:100vh; font-size:14px; line-height:1.5; }
 
   /* ===== SIDEBAR ===== */
   .sidebar {
-    width:220px; background:var(--sidebar); padding:28px 0; position:fixed; top:0; left:0; height:100vh;
-    display:flex; flex-direction:column; z-index:10; transition: transform 0.3s;
+    width:200px; background:var(--sidebar-bg); position:fixed; top:0; left:0; height:100vh;
+    display:flex; flex-direction:column; z-index:100; overflow-y:auto;
+    border-right:1px solid rgba(255,255,255,0.06);
   }
-  .sidebar-brand { padding:0 20px 20px; border-bottom:1px solid rgba(255,255,255,0.08); }
-  .sidebar-brand h1 { font-family:'Instrument Serif',serif; font-size:20px; color:#F0F4F8; font-weight:400; }
-  .sidebar-brand p { font-size:9px; color:#5A7A9B; text-transform:uppercase; letter-spacing:2px; margin-top:4px; }
+  .sb-brand { padding:20px 16px 16px; border-bottom:1px solid rgba(255,255,255,0.06); }
+  .sb-brand small { font-size:9px; color:rgba(255,255,255,0.3); text-transform:uppercase; letter-spacing:2.5px; font-weight:600; display:block; margin-bottom:4px; }
+  .sb-brand strong { font-family:var(--serif); font-size:17px; color:rgba(255,255,255,0.9); font-weight:600; }
 
-  .sidebar-section { padding:16px 20px 8px; }
-  .sidebar-section-title { font-size:9px; color:#4A6A82; text-transform:uppercase; letter-spacing:1.5px; font-weight:600; margin-bottom:8px; }
+  .sb-group { padding:14px 0 6px; }
+  .sb-label { font-size:9px; color:rgba(255,255,255,0.25); text-transform:uppercase; letter-spacing:1.8px; font-weight:600; padding:0 16px; margin-bottom:4px; }
 
-  .sidebar-link {
-    display:block; padding:8px 20px; font-size:13px; color:#7A96AD; text-decoration:none;
-    transition: all 0.15s; cursor:pointer; border-left:2px solid transparent;
+  .sb-link {
+    display:flex; align-items:center; gap:8px; padding:7px 16px; font-size:12.5px; color:rgba(255,255,255,0.45);
+    text-decoration:none; cursor:pointer; transition:all 0.12s; border-left:2px solid transparent;
   }
-  .sidebar-link:hover { color:#E8EDF2; background:rgba(255,255,255,0.04); }
-  .sidebar-link.active { color:#F0F4F8; border-left-color:var(--accent-5); background:rgba(255,255,255,0.06); font-weight:600; }
-  .sidebar-link .count { font-size:10px; color:#4A6A82; font-family:'JetBrains Mono',monospace; float:right; }
-  .sidebar-link.active .count { color:var(--accent-5); }
-
-  .company-dot { display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:6px; }
+  .sb-link:hover { color:rgba(255,255,255,0.8); background:rgba(255,255,255,0.03); }
+  .sb-link.active { color:rgba(255,255,255,0.95); background:rgba(255,255,255,0.05); border-left-color:var(--accent); }
+  .sb-link .dot { width:5px; height:5px; border-radius:50%; flex-shrink:0; }
+  .sb-link .cnt { margin-left:auto; font-size:10px; font-family:var(--mono); color:rgba(255,255,255,0.2); }
+  .sb-link.active .cnt { color:var(--accent); }
 
   /* ===== MAIN ===== */
-  .main { margin-left:220px; flex:1; padding:32px 40px 60px; max-width:840px; }
+  .main { margin-left:200px; flex:1; min-height:100vh; }
+  .content { max-width:720px; margin:0 auto; padding:28px 32px 60px; }
 
-  .page-header { margin-bottom:24px; padding-bottom:20px; border-bottom:2px solid var(--border); }
-  .page-header h2 { font-family:'Instrument Serif',serif; font-size:28px; font-weight:400; color:var(--text); }
-  .page-header .meta { font-size:13px; color:var(--muted); margin-top:6px; }
+  /* Page header */
+  .pg-header { margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+  .pg-header h2 { font-family:var(--serif); font-size:22px; font-weight:600; color:var(--text); letter-spacing:-0.3px; }
+  .pg-header .pg-meta { font-size:12px; color:var(--text-muted); margin-top:3px; }
 
-  .date-picker { margin-bottom:20px; }
-  .date-picker select {
-    font-family:'DM Sans',sans-serif; font-size:13px; padding:8px 12px; border:1px solid var(--border);
-    border-radius:6px; background:white; color:var(--text); cursor:pointer; min-width:200px;
-  }
+  /* Date picker */
+  .date-pick { margin-bottom:16px; }
+  .date-pick select { font-family:var(--sans); font-size:12px; padding:6px 10px; border:1px solid var(--border); border-radius:6px; background:white; color:var(--text); }
+
+  /* ===== TOC ===== */
+  .toc-section { padding:12px 0 16px; border-bottom:1px solid var(--border); margin-bottom:4px; }
+  .toc-label { font-size:9px; color:var(--text-muted); text-transform:uppercase; letter-spacing:1.5px; font-weight:600; margin-bottom:8px; }
+  .toc-entry { display:block; text-decoration:none; padding:8px 10px; margin:0 -10px; border-radius:6px; transition:background 0.12s; }
+  .toc-entry:hover { background:var(--border-light); }
+  .toc-row1 { display:flex; align-items:baseline; gap:6px; }
+  .toc-title { font-size:13px; color:var(--text); font-weight:500; }
+  .toc-score { font-size:10px; font-family:var(--mono); font-weight:600; }
+  .toc-tags { margin-top:4px; display:flex; flex-wrap:wrap; gap:3px; }
+  .toc-brief { font-size:11.5px; color:var(--text-secondary); margin-top:3px; line-height:1.45; }
+  .toc-entry.pinned .toc-title { color:var(--pinned); font-weight:600; }
+
+  /* ===== TAGS ===== */
+  .tag { display:inline-block; padding:2px 7px; border-radius:4px; font-size:10px; font-weight:500; background:var(--border-light); color:var(--text-secondary); }
+  .tag.dur { background:#F0F0F0; color:var(--text-muted); font-family:var(--mono); font-size:10px; }
+  .tag.core { font-weight:700; }
+  .tag.s5 { background:var(--s5-bg); color:var(--s5); } .tag.s4 { background:var(--s4-bg); color:var(--s4); }
+  .tag.s3 { background:var(--s3-bg); color:var(--s3); } .tag.pinned-t { background:var(--pinned-bg); color:var(--pinned); font-weight:600; }
 
   /* ===== CARDS ===== */
-  .card {
-    background:var(--card); border-radius:10px; padding:24px; margin-bottom:16px;
-    border:1px solid var(--border); transition:box-shadow 0.2s;
-  }
-  .card:hover { box-shadow:0 2px 12px rgba(0,0,0,0.06); }
-  .card.pinned-card { border-left:3px solid var(--pinned); }
-  .card.score-5 { border-left:3px solid var(--accent-5); }
-  .card.score-4 { border-left:3px solid var(--accent-4); }
-  .card.score-3 { border-left:3px solid var(--accent-3); }
-  .card.score-2 { opacity:0.75; }
-  .card.score-1 { opacity:0.6; }
+  .card { background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); padding:20px; margin-bottom:12px; }
+  .card.s5 { border-left:3px solid var(--s5); } .card.s4 { border-left:3px solid var(--s4); }
+  .card.s3 { border-left:3px solid var(--s3); } .card.s2 { border-left:3px solid var(--s2); opacity:0.8; }
+  .card.s1 { border-left:3px solid var(--s1); opacity:0.65; } .card.pin { border-left:3px solid var(--pinned); }
 
-  .card-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-  .channel-info { display:flex; align-items:center; gap:8px; }
-  .avatar { width:24px; height:24px; border-radius:50%; }
-  .avatar-letter {
-    display:inline-flex; width:24px; height:24px; border-radius:50%; background:#EBEBEB;
-    align-items:center; justify-content:center; font-size:10px; color:#999;
-  }
-  .channel-name { font-size:12px; color:var(--muted); }
+  .card-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+  .ch-info { display:flex; align-items:center; gap:6px; }
+  .ch-av { width:20px; height:20px; border-radius:50%; }
+  .ch-ltr { display:inline-flex; width:20px; height:20px; border-radius:50%; background:var(--border-light); align-items:center; justify-content:center; font-size:9px; color:var(--text-muted); font-weight:600; }
+  .ch-name { font-size:11px; color:var(--text-muted); }
 
-  .badge {
-    padding:4px 10px; border-radius:4px; font-size:10px; font-weight:700;
-    letter-spacing:0.8px; font-family:'JetBrains Mono',monospace;
-  }
-  .badge-pinned { background:#EDE7F6; color:var(--pinned); }
-  .badge-5 { background:#FFF5EB; color:var(--accent-5); }
-  .badge-4 { background:#FFF8F0; color:var(--accent-4); }
-  .badge-3 { background:#EEFBF3; color:var(--accent-3); }
-  .badge-2 { background:#F3F5F7; color:var(--accent-2); }
-  .badge-1 { background:#F5F5F5; color:var(--accent-1); }
+  .badge { padding:3px 8px; border-radius:4px; font-size:10px; font-weight:700; font-family:var(--mono); letter-spacing:0.5px; }
+  .badge.b5 { background:var(--s5-bg); color:var(--s5); } .badge.b4 { background:var(--s4-bg); color:var(--s4); }
+  .badge.b3 { background:var(--s3-bg); color:var(--s3); } .badge.b2 { background:var(--s2-bg); color:var(--s2); }
+  .badge.b1 { background:var(--s1-bg); color:var(--s1); } .badge.bp { background:var(--pinned-bg); color:var(--pinned); }
 
-  .tags { margin-bottom:12px; line-height:2; }
-  .tag {
-    display:inline-block; padding:3px 10px; border-radius:4px; font-size:10px;
-    margin:0 4px 4px 0; background:#F0F0F0; color:#777;
-  }
-  .tag.core { font-weight:700; }
-  .tag.core.s5 { background:#FFF5EB; color:var(--accent-5); }
-  .tag.core.s4 { background:#FFF8F0; color:var(--accent-4); }
-  .tag.core.s3 { background:#EEFBF3; color:var(--accent-3); }
-  .tag.pinned-t { background:#EDE7F6; color:var(--pinned); font-weight:600; }
-  .tag.dur { background:#F5F5F5; color:#777; }
+  .card-tags { margin-bottom:10px; display:flex; flex-wrap:wrap; gap:4px; }
+  .card-title { display:block; font-family:var(--serif); font-size:16px; font-weight:600; color:var(--text); text-decoration:none; line-height:1.35; margin-bottom:6px; }
+  .card-title:hover { color:var(--accent); }
+  .card-visao { font-size:13px; color:var(--text-secondary); line-height:1.6; margin-bottom:10px; }
 
-  .card-title {
-    display:block; font-family:'Instrument Serif',serif; font-size:19px; color:var(--text);
-    text-decoration:none; line-height:1.35; margin-bottom:8px;
-  }
-  .card-title:hover { color:var(--accent-5); }
+  /* Expandable sections */
+  details { margin:6px 0; }
+  details summary { font-size:10px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.8px; cursor:pointer; padding:4px 0; user-select:none; }
+  details summary:hover { color:var(--text-secondary); }
+  details summary::marker { font-size:9px; }
 
-  .visao { font-size:14px; color:#555; line-height:1.65; margin-bottom:14px; }
+  .pts { list-style:none; padding:6px 0 0; }
+  .pts li { padding:4px 0 4px 14px; font-size:12.5px; line-height:1.5; color:var(--text-secondary); position:relative; }
+  .pts li::before { content:""; position:absolute; left:0; top:10px; width:5px; height:5px; border-radius:50%; }
+  .card.s5 .pts li::before { background:var(--s5); } .card.s4 .pts li::before { background:var(--s4); }
+  .card.s3 .pts li::before { background:var(--s3); } .card.s2 .pts li::before { background:var(--s2); }
+  .card.s1 .pts li::before { background:var(--s1); } .card.pin .pts li::before { background:var(--pinned); }
 
-  .pontos { list-style:none; padding:0; margin:0 0 12px; }
-  .pontos li {
-    padding:5px 0 5px 18px; font-size:13px; line-height:1.55; color:#555; position:relative;
-  }
-  .pontos li::before {
-    content:"\25C6"; position:absolute; left:0; font-size:8px; top:8px; color:var(--accent-5);
-  }
-  .card.score-3 .pontos li::before { color:var(--accent-3); }
-  .card.score-4 .pontos li::before { color:var(--accent-4); }
-  .card.score-2 .pontos li::before { color:var(--accent-2); }
-  .card.score-1 .pontos li::before { color:var(--accent-1); }
-  .card.pinned-card .pontos li::before { color:var(--pinned); }
-
-  .card-footer { display:flex; justify-content:space-between; align-items:center; margin-top:10px; }
-  .motivo { font-size:11px; color:#AAA; }
-  .transcript-btn {
-    font-size:11px; color:var(--accent-5); text-decoration:none; font-weight:600;
-    padding:4px 10px; border:1px solid var(--accent-5); border-radius:4px; transition:all 0.15s;
-  }
-  .transcript-btn:hover { background:var(--accent-5); color:white; }
+  /* Card footer */
+  .card-ft { display:flex; justify-content:space-between; align-items:center; margin-top:10px; padding-top:8px; border-top:1px solid var(--border-light); }
+  .card-ft .motivo { font-size:11px; color:var(--text-muted); flex:1; margin-right:12px; }
+  .dl-btn { font-size:10px; color:var(--accent); text-decoration:none; font-weight:600; padding:4px 8px; border:1px solid var(--accent); border-radius:4px; white-space:nowrap; transition:all 0.12s; }
+  .dl-btn:hover { background:var(--accent); color:white; }
 
   /* Daily Brief sections */
-  .section-label { font-size:10px; color:var(--pinned); font-weight:700; text-transform:uppercase; letter-spacing:1px; margin:16px 0 8px; }
-  .manchete { font-size:14px; font-weight:700; color:var(--text); margin:14px 0 6px; }
-  .manchete::before { content:"\2192 "; color:var(--pinned); }
-  .sub-bullets { list-style:disc; padding-left:20px; margin:4px 0 12px; }
-  .sub-bullets li { font-size:12px; color:#555; line-height:1.55; padding:2px 0; }
-  .section-divider { border:none; border-top:1px solid var(--border); margin:20px 0; }
+  .db-label { font-size:10px; font-weight:700; color:var(--pinned); text-transform:uppercase; letter-spacing:1px; margin:12px 0 6px; }
+  .db-headline { font-size:13px; font-weight:700; color:var(--text); margin:10px 0 4px; }
+  .db-headline::before { content:"→ "; color:var(--pinned); }
+  .db-bullets { list-style:disc; padding-left:18px; margin:4px 0 8px; }
+  .db-bullets li { font-size:12px; color:var(--text-secondary); line-height:1.55; padding:1px 0; }
+  .db-divider { border:none; border-top:1px solid var(--border); margin:14px 0; }
 
-  /* Details */
-  details summary { cursor:pointer; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; padding:6px 0; }
-  details summary:hover { color:#555; }
+  /* Floating back-to-top */
+  .btt { position:fixed; bottom:24px; right:24px; width:36px; height:36px; border-radius:50%; background:var(--sidebar-bg); color:white; border:none; cursor:pointer; font-size:14px; display:flex; align-items:center; justify-content:center; opacity:0; transition:opacity 0.2s; z-index:50; box-shadow:0 2px 8px rgba(0,0,0,0.15); }
+  .btt.show { opacity:1; }
+  .btt:hover { background:var(--accent); }
 
-  /* Empty state */
-  .empty { text-align:center; padding:60px 0; color:var(--muted); font-size:15px; }
+  /* Empty & footer */
+  .empty { text-align:center; padding:48px 0; color:var(--text-muted); font-size:14px; }
+  .footer { text-align:center; padding:24px 0; font-size:10px; color:var(--text-muted); }
 
-  /* Footer */
-  .footer { text-align:center; padding:32px 0; color:#CCC; font-size:11px; }
+  /* Skipped */
+  .skipped { padding:12px 0; }
+  .skipped-label { font-size:9px; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px; font-weight:600; margin-bottom:6px; }
+  .skipped a { font-size:12px; color:var(--text-secondary); text-decoration:none; }
+  .skipped a:hover { color:var(--accent); }
 
   /* Mobile */
-  .menu-toggle { display:none; position:fixed; top:12px; left:12px; z-index:20; background:var(--sidebar); color:white; border:none; padding:8px 12px; border-radius:6px; font-size:18px; cursor:pointer; }
-  @media(max-width:768px) {
-    .sidebar { transform:translateX(-100%); }
+  .menu-btn { display:none; position:fixed; top:10px; left:10px; z-index:200; background:var(--sidebar-bg); color:white; border:none; width:36px; height:36px; border-radius:8px; font-size:16px; cursor:pointer; }
+  @media(max-width:800px) {
+    .sidebar { transform:translateX(-100%); transition:transform 0.25s; z-index:150; }
     .sidebar.open { transform:translateX(0); }
-    .main { margin-left:0; padding:20px 16px 40px; }
-    .menu-toggle { display:block; }
+    .main { margin-left:0; }
+    .content { padding:20px 16px 60px; }
+    .menu-btn { display:flex; align-items:center; justify-content:center; }
   }
 </style>
 </head>
 <body>
 
-<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776;</button>
+<button class="menu-btn" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776;</button>
 
-<nav class="sidebar">
-  <div class="sidebar-brand">
-    <p>Tork Capital</p>
-    <h1>YouTube Digest</h1>
+<nav class="sidebar" id="sidebar">
+  <div class="sb-brand">
+    <small>Tork Capital</small>
+    <strong>YouTube Digest</strong>
   </div>
-
-  <div class="sidebar-section">
-    <p class="sidebar-section-title">Navegacao</p>
-    <a class="sidebar-link active" data-view="today" onclick="switchView('today')">Hoje <span class="count" id="count-today">—</span></a>
-    <a class="sidebar-link" data-view="archive" onclick="switchView('archive')">Arquivo</a>
+  <div class="sb-group">
+    <p class="sb-label">Views</p>
+    <a class="sb-link active" data-view="today" onclick="go('today')">Hoje <span class="cnt" id="cnt-today">—</span></a>
+    <a class="sb-link" data-view="archive" onclick="go('archive')">Arquivo</a>
   </div>
-
-  <div class="sidebar-section">
-    <p class="sidebar-section-title">Posicoes Core</p>
-    <a class="sidebar-link" data-view="company" data-company="Meta" onclick="switchView('company','Meta')"><span class="company-dot" style="background:var(--accent-5)"></span>Meta</a>
-    <a class="sidebar-link" data-view="company" data-company="Nvidia" onclick="switchView('company','Nvidia')"><span class="company-dot" style="background:var(--accent-5)"></span>Nvidia</a>
-    <a class="sidebar-link" data-view="company" data-company="Amazon" onclick="switchView('company','Amazon')"><span class="company-dot" style="background:var(--accent-5)"></span>Amazon</a>
-    <a class="sidebar-link" data-view="company" data-company="OpenAI" onclick="switchView('company','OpenAI')"><span class="company-dot" style="background:var(--accent-5)"></span>OpenAI</a>
-    <a class="sidebar-link" data-view="company" data-company="Microsoft" onclick="switchView('company','Microsoft')"><span class="company-dot" style="background:var(--accent-5)"></span>Microsoft</a>
-    <a class="sidebar-link" data-view="company" data-company="TSMC" onclick="switchView('company','TSMC')"><span class="company-dot" style="background:var(--accent-5)"></span>TSMC</a>
-    <a class="sidebar-link" data-view="company" data-company="Anthropic" onclick="switchView('company','Anthropic')"><span class="company-dot" style="background:var(--accent-5)"></span>Anthropic</a>
-    <a class="sidebar-link" data-view="company" data-company="Google" onclick="switchView('company','Google')"><span class="company-dot" style="background:var(--accent-5)"></span>Google</a>
+  <div class="sb-group">
+    <p class="sb-label">Posicoes Core</p>
+    <a class="sb-link" data-co="Meta" onclick="go('co','Meta')"><span class="dot" style="background:var(--s5)"></span>Meta</a>
+    <a class="sb-link" data-co="Nvidia" onclick="go('co','Nvidia')"><span class="dot" style="background:var(--s5)"></span>Nvidia</a>
+    <a class="sb-link" data-co="Amazon" onclick="go('co','Amazon')"><span class="dot" style="background:var(--s5)"></span>Amazon</a>
+    <a class="sb-link" data-co="OpenAI" onclick="go('co','OpenAI')"><span class="dot" style="background:var(--s5)"></span>OpenAI</a>
+    <a class="sb-link" data-co="Microsoft" onclick="go('co','Microsoft')"><span class="dot" style="background:var(--s5)"></span>Microsoft</a>
+    <a class="sb-link" data-co="TSMC" onclick="go('co','TSMC')"><span class="dot" style="background:var(--s5)"></span>TSMC</a>
+    <a class="sb-link" data-co="Anthropic" onclick="go('co','Anthropic')"><span class="dot" style="background:var(--s5)"></span>Anthropic</a>
+    <a class="sb-link" data-co="Google" onclick="go('co','Google')"><span class="dot" style="background:var(--s5)"></span>Google</a>
   </div>
 </nav>
 
-<div class="main" id="main-content">
-  <div class="page-header">
-    <h2 id="page-title">Carregando...</h2>
-    <p class="meta" id="page-meta"></p>
-  </div>
-  <div id="date-picker-container" style="display:none">
-    <div class="date-picker">
-      <select id="date-select" onchange="loadDate(this.value)"></select>
+<div class="main">
+  <div class="content">
+    <div class="pg-header">
+      <h2 id="pg-title">Carregando...</h2>
+      <p class="pg-meta" id="pg-meta"></p>
     </div>
-  </div>
-  <div id="cards-container"></div>
-  <div class="footer">
-    <p>Gerado com Claude AI · YouTube Data API</p>
-    <p>Tork Capital</p>
+    <div id="datepick" class="date-pick" style="display:none"><select id="datesel" onchange="loadDate(this.value)"></select></div>
+    <div id="out"></div>
+    <div class="footer"><p>Claude AI · YouTube Data API · Tork Capital</p></div>
   </div>
 </div>
 
+<button class="btt" id="btt" onclick="document.getElementById('toc').scrollIntoView({behavior:'smooth'})">&#9650;</button>
+
 <script>
-const CORE = ['Meta','META','Nvidia','NVDA','Amazon','AMZN','OpenAI','Microsoft','MSFT','TSMC','TSM','Anthropic','Google','GOOGL'];
-const SCORE_LABELS = {5:'CORE',4:'ADJACENTE',3:'RELEVANTE',2:'TANGENCIAL',1:'CONTEXTO'};
+const CORE=['Meta','META','Nvidia','NVDA','Amazon','AMZN','OpenAI','Microsoft','MSFT','TSMC','TSM','Anthropic','Google','GOOGL'];
+const SL={5:'CORE',4:'ADJ',3:'REL',2:'TAN',1:'CTX'};
+const CO_ALIAS={'Meta':['Meta','META'],'Nvidia':['Nvidia','NVDA'],'Amazon':['Amazon','AMZN','AWS'],'OpenAI':['OpenAI','GPT','ChatGPT'],'Microsoft':['Microsoft','MSFT','Azure','Copilot'],'TSMC':['TSMC','TSM'],'Anthropic':['Anthropic','Claude'],'Google':['Google','GOOGL','Alphabet','Gemini','DeepMind']};
 
-let allData = {};  // date -> data
-let dateList = []; // sorted dates
+let D={},DL=[];
 
-async function init() {
-  // Load manifest
-  try {
-    const resp = await fetch('data/manifest.json?t='+Date.now());
-    dateList = await resp.json();
-  } catch(e) {
-    dateList = [];
-  }
-  // Load all data files
-  for (const d of dateList) {
-    try {
-      const resp = await fetch('data/'+d+'.json?t='+Date.now());
-      allData[d] = await resp.json();
-    } catch(e) {}
-  }
-  // Populate date picker
-  const sel = document.getElementById('date-select');
-  dateList.forEach(d => {
-    const opt = document.createElement('option');
-    opt.value = d; opt.textContent = d;
-    sel.appendChild(opt);
-  });
-  switchView('today');
+// Scroll listener for back-to-top button
+window.addEventListener('scroll',()=>{document.getElementById('btt').classList.toggle('show',window.scrollY>400)});
+
+async function init(){
+  try{const r=await fetch('data/manifest.json?t='+Date.now());DL=await r.json()}catch(e){DL=[]}
+  for(const d of DL){try{const r=await fetch('data/'+d+'.json?t='+Date.now());D[d]=await r.json()}catch(e){}}
+  const s=document.getElementById('datesel');
+  DL.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;s.appendChild(o)});
+  go('today');
 }
 
-function switchView(view, company) {
-  // Update sidebar active
-  document.querySelectorAll('.sidebar-link').forEach(l => l.classList.remove('active'));
-  const selector = company 
-    ? `.sidebar-link[data-company="${company}"]`
-    : `.sidebar-link[data-view="${view}"]`;
-  const active = document.querySelector(selector);
-  if (active) active.classList.add('active');
-
-  document.getElementById('date-picker-container').style.display = view === 'archive' ? 'block' : 'none';
-
-  if (view === 'today') {
-    const latest = dateList[0];
-    if (latest && allData[latest]) {
-      renderDay(allData[latest], latest);
-    } else {
-      document.getElementById('page-title').textContent = 'Nenhum digest disponivel';
-      document.getElementById('page-meta').textContent = '';
-      document.getElementById('cards-container').innerHTML = '<p class="empty">Execute o script para gerar o primeiro digest.</p>';
-    }
-    document.getElementById('count-today').textContent = latest && allData[latest] ? allData[latest].summaries.length + allData[latest].daily_brief.length : '0';
-  } else if (view === 'archive') {
-    const sel = document.getElementById('date-select');
-    loadDate(sel.value || dateList[0]);
-  } else if (view === 'company') {
-    renderCompany(company);
-  }
-  // Close mobile sidebar
+function go(v,co){
+  document.querySelectorAll('.sb-link').forEach(l=>l.classList.remove('active'));
+  const sel=co?`.sb-link[data-co="${co}"]`:`.sb-link[data-view="${v}"]`;
+  document.querySelector(sel)?.classList.add('active');
+  document.getElementById('datepick').style.display=v==='archive'?'block':'none';
   document.querySelector('.sidebar').classList.remove('open');
+  if(v==='today'){const l=DL[0];if(l&&D[l]){renderDay(D[l],l);document.getElementById('cnt-today').textContent=D[l].summaries.length+D[l].daily_brief.length}else{document.getElementById('pg-title').textContent='Nenhum digest';document.getElementById('out').innerHTML='<p class="empty">Execute o script para gerar o primeiro digest.</p>'}}
+  else if(v==='archive'){loadDate(document.getElementById('datesel').value||DL[0])}
+  else if(v==='co'){renderCo(co)}
+}
+function loadDate(d){if(D[d])renderDay(D[d],d)}
+
+function e(s){if(!s)return'';const d=document.createElement('div');d.textContent=String(s);return d.innerHTML}
+
+function renderDay(data,date){
+  const tot=data.daily_brief.length+data.summaries.length+data.skipped.length;
+  const cnt=data.daily_brief.length+data.summaries.length;
+  document.getElementById('pg-title').textContent='Digest — '+date;
+  document.getElementById('pg-meta').textContent=cnt+' resumos de '+tot+' videos';
+  let h='';
+  // TOC
+  h+='<div class="toc-section" id="toc"><p class="toc-label">Neste digest</p>';
+  data.daily_brief.forEach((s,i)=>{
+    const t=e(s.titulo_formatado||s.title||'AI Daily Brief');
+    let tags='';(s.empresas||[]).slice(0,4).forEach(x=>{tags+='<span class="tag pinned-t">'+e(x)+'</span>'});
+    const br=(s.temas_episodio||[]).slice(0,3).join(', ');
+    const brief=br.length>130?br.substring(0,130)+'...':br;
+    h+='<a href="#v'+i+'" class="toc-entry pinned"><div class="toc-row1"><span class="toc-title">'+t+'</span></div><div class="toc-tags">'+tags+'</div>'+(brief?'<div class="toc-brief">'+e(brief)+'</div>':'')+'</a>';
+  });
+  const sorted=[...data.summaries].sort((a,b)=>(b.relevancia||1)-(a.relevancia||1));
+  sorted.forEach((s,i)=>{
+    const vi=data.daily_brief.length+i;const sc=Math.min(Math.max(s.relevancia||1,1),5);
+    const cols={5:'var(--s5)',4:'var(--s4)',3:'var(--s3)',2:'var(--s2)',1:'var(--s1)'};
+    let tags='';const emp=s.empresas||[];
+    const ct=emp.filter(x=>CORE.some(c=>x.toLowerCase().includes(c.toLowerCase())));
+    const ot=emp.filter(x=>!CORE.some(c=>x.toLowerCase().includes(c.toLowerCase())));
+    [...ct,...ot].slice(0,4).forEach(x=>{const ic=CORE.some(c=>x.toLowerCase().includes(c.toLowerCase()));tags+='<span class="tag'+(ic?' core s'+sc:'')+'">'+e(x)+'</span>'});
+    let vis=s.visao_geral||'';if(vis.length>140)vis=vis.substring(0,140)+'...';
+    h+='<a href="#v'+vi+'" class="toc-entry"><div class="toc-row1"><span class="toc-title">'+e(s.title)+'</span><span class="toc-score" style="color:'+cols[sc]+'">'+sc+'/5</span></div><div class="toc-tags">'+tags+'</div>'+(vis?'<div class="toc-brief">'+e(vis)+'</div>':'')+'</a>';
+  });
+  h+='</div>';
+  // Cards
+  data.daily_brief.forEach((s,i)=>{h+='<div id="v'+i+'">'+dbCard(s)+'</div>'});
+  sorted.forEach((s,i)=>{h+=vidCard(s,'v'+(data.daily_brief.length+i))});
+  if(data.skipped.length){h+='<div class="skipped"><p class="skipped-label">Sem resumo</p>';data.skipped.forEach(v=>{h+='<p><a href="'+v.url+'" target="_blank">'+e(v.title)+'</a> <span style="color:var(--text-muted)">— '+e(v.channel)+'</span></p>'});h+='</div>'}
+  document.getElementById('out').innerHTML=h||'<p class="empty">Nenhum video neste dia.</p>';
 }
 
-function loadDate(date) {
-  if (allData[date]) renderDay(allData[date], date);
-}
-
-function renderDay(data, date) {
-  const total = data.daily_brief.length + data.summaries.length + data.skipped.length;
-  const count = data.daily_brief.length + data.summaries.length;
-  document.getElementById('page-title').textContent = 'Digest — ' + date;
-  document.getElementById('page-meta').textContent = count + ' resumos de ' + total + ' videos';
-
-  let html = '';
-  let idx = 0;
-
-  // ---- TOC ----
-  html += '<div id="toc" style="padding:16px 0 20px;border-bottom:2px solid var(--border);margin-bottom:8px">';
-  html += '<p style="font-size:9px;color:#BBB;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:12px;font-family:DM Sans,sans-serif">Neste digest</p>';
-  
-  // Daily Brief TOC entries
-  data.daily_brief.forEach((s,i) => {
-    const titulo = esc(s.titulo_formatado || s.title || 'AI Daily Brief');
-    let tags = '';
-    (s.empresas||[]).slice(0,4).forEach(e => { tags += '<span class="tag pinned-t" style="font-size:9px;padding:1px 6px;margin-right:3px">'+esc(e)+'</span>'; });
-    const temas = (s.temas_episodio||[]).slice(0,3).join(', ');
-    const brief = temas.length > 120 ? temas.substring(0,120)+'...' : temas;
-    html += '<a href="#v'+i+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F0F0F0">';
-    html += '<span style="color:var(--pinned);font-size:13px;font-weight:600">'+titulo+'</span>';
-    html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
-    if (brief) html += '<br/><span style="color:#666;font-size:11px">'+esc(brief)+'</span>';
-    html += '</a>';
-  });
-
-  // Regular video TOC entries
-  const sorted = [...data.summaries].sort((a,b) => (b.relevancia||1) - (a.relevancia||1));
-  sorted.forEach((s,i) => {
-    const vidIdx = data.daily_brief.length + i;
-    const score = Math.min(Math.max(s.relevancia||1,1),5);
-    const colors = {5:'var(--accent-5)',4:'var(--accent-4)',3:'var(--accent-3)',2:'var(--accent-2)',1:'var(--accent-1)'};
-    const accent = colors[score];
-    let tags = '';
-    const empresas = s.empresas || [];
-    const coreT = empresas.filter(e => CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
-    const otherT = empresas.filter(e => !CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
-    [...coreT,...otherT].slice(0,4).forEach(e => {
-      const isCore = CORE.some(c => e.toLowerCase().includes(c.toLowerCase()));
-      tags += '<span class="tag'+(isCore?' core s'+score:'')+'" style="font-size:9px;padding:1px 6px;margin-right:3px">'+esc(e)+'</span>';
+function renderCo(company){
+  document.getElementById('pg-title').textContent=company;
+  document.getElementById('pg-meta').textContent='Videos mencionando '+company;
+  const terms=CO_ALIAS[company]||[company];
+  let m=[];
+  DL.forEach(date=>{const data=D[date];if(!data)return;[...data.daily_brief,...data.summaries].forEach(s=>{const emp=(s.empresas||[]).join(' ').toLowerCase();const ti=(s.title||s.titulo_formatado||'').toLowerCase();if(terms.some(t=>emp.includes(t.toLowerCase())||ti.includes(t.toLowerCase())))m.push({...s,_d:date})})});
+  m.sort((a,b)=>b._d.localeCompare(a._d)||(b.relevancia||0)-(a.relevancia||0));
+  let h='';
+  if(!m.length){h='<p class="empty">Nenhum video mencionando '+company+'.</p>'}
+  else{
+    h+='<div class="toc-section" id="toc"><p class="toc-label">'+m.length+' videos</p>';
+    m.forEach((s,i)=>{
+      const isDB=!!(s.noticias_principais);
+      const ti=isDB?e(s.titulo_formatado||s.title||'Daily Brief'):e(s.title);
+      const sc=Math.min(Math.max(s.relevancia||1,1),5);
+      const cols={5:'var(--s5)',4:'var(--s4)',3:'var(--s3)',2:'var(--s2)',1:'var(--s1)'};
+      let tags='<span class="tag dur">'+s._d+'</span>';
+      (s.empresas||[]).slice(0,3).forEach(x=>{const ic=CORE.some(c=>x.toLowerCase().includes(c.toLowerCase()));tags+='<span class="tag'+(isDB?' pinned-t':(ic?' core s'+sc:''))+'">'+e(x)+'</span>'});
+      let vis=isDB?(s.temas_episodio||[]).slice(0,3).join(', '):(s.visao_geral||'');if(vis.length>140)vis=vis.substring(0,140)+'...';
+      h+='<a href="#c'+i+'" class="toc-entry'+(isDB?' pinned':'')+'"><div class="toc-row1"><span class="toc-title">'+ti+'</span>'+(isDB?'':'<span class="toc-score" style="color:'+cols[sc]+'">'+sc+'/5</span>')+'</div><div class="toc-tags">'+tags+'</div>'+(vis?'<div class="toc-brief">'+e(vis)+'</div>':'')+'</a>';
     });
-    let visao = s.visao_geral || '';
-    if (visao.length > 140) visao = visao.substring(0,140) + '...';
-    html += '<a href="#v'+vidIdx+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F5F5F5">';
-    html += '<span style="color:#333;font-size:13px">'+esc(s.title)+'</span>';
-    html += ' <span style="color:'+accent+';font-size:10px;font-weight:700;font-family:JetBrains Mono,monospace">'+score+'/5</span>';
-    html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
-    if (visao) html += '<br/><span style="color:#666;font-size:11px">'+esc(visao)+'</span>';
-    html += '</a>';
-  });
-  html += '</div>';
-
-  // ---- Cards with IDs ----
-  data.daily_brief.forEach((s,i) => { html += '<div id="v'+i+'">'+renderDailyBriefCard(s, date)+'</div>'; });
-  data.summaries.sort((a,b) => (b.relevancia||1) - (a.relevancia||1));
-  data.summaries.forEach((s,i) => { html += renderVideoCard(s, date, null, 'v'+(data.daily_brief.length+i)); });
-  if (data.skipped.length) {
-    html += '<div style="padding:16px 0;border-top:1px solid var(--border);margin-top:8px"><p style="font-size:10px;color:#BBB;text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:8px">Sem resumo</p>';
-    data.skipped.forEach(v => {
-      html += '<p style="font-size:12px;margin:4px 0"><a href="'+v.url+'" target="_blank" style="color:#666;text-decoration:none">'+esc(v.title)+'</a> <span style="color:#BBB">— '+esc(v.channel)+'</span></p>';
-    });
-    html += '</div>';
-  }
-  document.getElementById('cards-container').innerHTML = html || '<p class="empty">Nenhum video neste dia.</p>';
-}
-
-function renderCompany(company) {
-  document.getElementById('page-title').textContent = company;
-  document.getElementById('page-meta').textContent = 'Todos os videos mencionando ' + company;
-
-  const aliases = {
-    'Meta': ['Meta','META'], 'Nvidia': ['Nvidia','NVDA'], 'Amazon': ['Amazon','AMZN','AWS'],
-    'OpenAI': ['OpenAI','GPT','ChatGPT'], 'Microsoft': ['Microsoft','MSFT','Azure','Copilot'],
-    'TSMC': ['TSMC','TSM'], 'Anthropic': ['Anthropic','Claude'], 'Google': ['Google','GOOGL','Alphabet','Gemini','DeepMind']
-  };
-  const terms = aliases[company] || [company];
-
-  let matches = [];
-  dateList.forEach(date => {
-    const data = allData[date];
-    if (!data) return;
-    [...data.daily_brief, ...data.summaries].forEach(s => {
-      const empresas = (s.empresas || []).join(' ').toLowerCase();
-      const title = (s.title || s.titulo_formatado || '').toLowerCase();
-      if (terms.some(t => empresas.includes(t.toLowerCase()) || title.includes(t.toLowerCase()))) {
-        matches.push({...s, _date: date});
-      }
-    });
-  });
-
-  matches.sort((a,b) => b._date.localeCompare(a._date) || (b.relevancia||0) - (a.relevancia||0));
-
-  let html = '';
-  if (matches.length === 0) {
-    html = '<p class="empty">Nenhum video encontrado mencionando ' + company + '.</p>';
-  } else {
-    // TOC
-    html += '<div id="company-toc" style="padding:16px 0 20px;border-bottom:2px solid var(--border);margin-bottom:8px">';
-    html += '<p style="font-size:9px;color:#BBB;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:12px;font-family:DM Sans,sans-serif">'+matches.length+' videos mencionando '+company+'</p>';
-    matches.forEach((s,i) => {
-      const isDB = !!(s.noticias_principais);
-      const titulo = isDB ? esc(s.titulo_formatado || s.title || 'AI Daily Brief') : esc(s.title);
-      const score = Math.min(Math.max(s.relevancia||1,1),5);
-      const colors = {5:'var(--accent-5)',4:'var(--accent-4)',3:'var(--accent-3)',2:'var(--accent-2)',1:'var(--accent-1)'};
-      const accent = isDB ? 'var(--pinned)' : colors[score];
-      let tags = '<span class="tag dur">'+s._date+'</span>';
-      (s.empresas||[]).slice(0,4).forEach(e => {
-        const isCore = CORE.some(c => e.toLowerCase().includes(c.toLowerCase()));
-        tags += '<span class="tag'+(isDB?' pinned-t':(isCore?' core s'+score:''))+'" style="font-size:9px;padding:1px 6px;margin-right:3px">'+esc(e)+'</span>';
-      });
-      let visao = isDB ? (s.temas_episodio||[]).slice(0,3).join(', ') : (s.visao_geral||'');
-      if (visao.length > 140) visao = visao.substring(0,140)+'...';
-      html += '<a href="#cv'+i+'" style="display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #F5F5F5">';
-      html += '<span style="color:'+(isDB?'var(--pinned)':'#333')+';font-size:13px;'+(isDB?'font-weight:600':'')+'">'+titulo+'</span>';
-      if (!isDB) html += ' <span style="color:'+accent+';font-size:10px;font-weight:700;font-family:JetBrains Mono,monospace">'+score+'/5</span>';
-      html += '<br/><span style="display:inline-block;margin-top:4px">'+tags+'</span>';
-      if (visao) html += '<br/><span style="color:#666;font-size:11px">'+esc(visao)+'</span>';
-      html += '</a>';
-    });
-    html += '</div>';
-
-    // Cards
-    matches.forEach((s,i) => {
-      const dateTag = '<span class="tag dur">'+s._date+'</span>';
-      if (s.noticias_principais) {
-        html += '<div id="cv'+i+'">'+renderDailyBriefCard(s, s._date, dateTag)+'</div>';
-      } else {
-        html += renderVideoCard(s, s._date, dateTag, 'cv'+i);
-      }
+    h+='</div>';
+    m.forEach((s,i)=>{
+      const dt='<span class="tag dur">'+s._d+'</span>';
+      if(s.noticias_principais){h+='<div id="c'+i+'">'+dbCard(s,dt)+'</div>'}
+      else{h+=vidCard(s,'c'+i,dt)}
     });
   }
-  document.getElementById('cards-container').innerHTML = html;
+  document.getElementById('out').innerHTML=h;
 }
 
-function renderVideoCard(s, date, extraTag, customId) {
-  const score = Math.min(Math.max(s.relevancia||1,1),5);
-  const label = SCORE_LABELS[score];
-  const thumb = s.channel_thumb;
-  const avatar = thumb ? '<img src="'+thumb+'" class="avatar"/>' : '<span class="avatar-letter">'+(s.channel||'?')[0]+'</span>';
-
-  let tags = '';
-  if (s.duration_label) tags += '<span class="tag dur">'+s.duration_label+'</span>';
-  if (extraTag) tags += extraTag;
-  const empresas = s.empresas || [];
-  const coreT = empresas.filter(e => CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
-  const otherT = empresas.filter(e => !CORE.some(c => e.toLowerCase().includes(c.toLowerCase())));
-  [...coreT, ...otherT].slice(0,5).forEach(e => {
-    const isCore = CORE.some(c => e.toLowerCase().includes(c.toLowerCase()));
-    tags += '<span class="tag'+(isCore?' core s'+score:'')+'">' + esc(e) + '</span>';
-  });
-
-  let points = '';
-  (s.pontos||[]).slice(0,6).forEach(p => { points += '<li>'+esc(p)+'</li>'; });
-
-  const transcriptBtn = s.has_transcript && s.transcript_file
-    ? '<a class="transcript-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>&#8595; Transcript</a>'
-    : '';
-
-  const cardId = customId || '';
-  const idAttr = cardId ? ' id="'+cardId+'"' : '';
-  const backLink = '<a href="#toc" class="back-top-link">&#9650; voltar ao topo</a>';
-
-  return '<div'+idAttr+' class="card score-'+score+'">'
-    + '<div class="card-top">'
-    + '<div class="channel-info">'+avatar+'<span class="channel-name">'+esc(s.channel)+'</span></div>'
-    + '<span class="badge badge-'+score+'">'+score+'/5 '+label+'</span>'
-    + '</div>'
-    + '<div class="tags">'+tags+'</div>'
-    + '<a href="'+s.url+'" class="card-title" target="_blank">'+esc(s.title)+'</a>'
-    + (s.visao_geral ? '<p class="visao">'+esc(s.visao_geral)+'</p>' : '')
-    + '<details><summary>Principais pontos</summary><ul class="pontos">'+points+'</ul></details>'
-    + '<div class="card-footer">'
-    + '<span class="motivo">'+esc(s.motivo_relevancia||'')+'</span>'
-    + '<span>'+transcriptBtn+' '+backLink+'</span>'
-    + '</div>'
-    + '</div>';
+function vidCard(s,id,extraTag){
+  const sc=Math.min(Math.max(s.relevancia||1,1),5);
+  const av=s.channel_thumb?'<img src="'+s.channel_thumb+'" class="ch-av"/>':'<span class="ch-ltr">'+(s.channel||'?')[0]+'</span>';
+  let tags='';if(s.duration_label)tags+='<span class="tag dur">'+s.duration_label+'</span>';
+  if(extraTag)tags+=extraTag;
+  const emp=s.empresas||[];const ct=emp.filter(x=>CORE.some(c=>x.toLowerCase().includes(c.toLowerCase())));
+  const ot=emp.filter(x=>!CORE.some(c=>x.toLowerCase().includes(c.toLowerCase())));
+  [...ct,...ot].slice(0,5).forEach(x=>{const ic=CORE.some(c=>x.toLowerCase().includes(c.toLowerCase()));tags+='<span class="tag'+(ic?' core s'+sc:'')+'">'+e(x)+'</span>'});
+  let pts='';(s.pontos||[]).slice(0,6).forEach(p=>{pts+='<li>'+e(p)+'</li>'});
+  const dl=s.has_transcript&&s.transcript_file?'<a class="dl-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>↓ Transcript</a>':'';
+  return '<div id="'+id+'" class="card s'+sc+'">'
+    +'<div class="card-top"><div class="ch-info">'+av+'<span class="ch-name">'+e(s.channel)+'</span></div><span class="badge b'+sc+'">'+sc+'/5 '+SL[sc]+'</span></div>'
+    +'<div class="card-tags">'+tags+'</div>'
+    +'<a href="'+s.url+'" class="card-title" target="_blank">'+e(s.title)+'</a>'
+    +(s.visao_geral?'<p class="card-visao">'+e(s.visao_geral)+'</p>':'')
+    +'<details><summary>Principais pontos</summary><ul class="pts">'+pts+'</ul></details>'
+    +'<div class="card-ft"><span class="motivo">'+e(s.motivo_relevancia||'')+'</span>'+dl+'</div>'
+    +'</div>';
 }
 
-function renderDailyBriefCard(s, date, extraTag) {
-  const titulo = s.titulo_formatado || s.title || 'AI Daily Brief';
-  let tags = '';
-  if (s.duration_label) tags += '<span class="tag dur">'+s.duration_label+'</span>';
-  if (extraTag) tags += extraTag;
-  (s.empresas||[]).slice(0,6).forEach(e => { tags += '<span class="tag pinned-t">'+esc(e)+'</span>'; });
-
-  let temas = '';
-  (s.temas_episodio||[]).forEach(t => { temas += '<li>'+esc(t)+'</li>'; });
-
-  let noticias = '';
-  (s.noticias_principais||[]).forEach(n => {
-    noticias += '<p class="manchete">'+esc(n.manchete)+'</p><ul class="sub-bullets">';
-    (n.contexto||[]).slice(0,5).forEach(b => { noticias += '<li>'+esc(b)+'</li>'; });
-    noticias += '</ul>';
-  });
-
-  let temasProf = '';
-  (s.temas_principais||[]).forEach(tp => {
-    temasProf += '<p class="manchete">'+esc(tp.tema)+'</p><ul class="sub-bullets">';
-    (tp.analise||[]).slice(0,10).forEach(b => { temasProf += '<li>'+esc(b)+'</li>'; });
-    temasProf += '</ul>';
-  });
-
-  const transcriptBtn = s.has_transcript && s.transcript_file
-    ? '<a class="transcript-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>&#8595; Transcript</a>'
-    : '';
-
-  const backLink = '<a href="#toc" class="back-top-link">&#9650; voltar ao topo</a>';
-
-  return '<div class="card pinned-card">'
-    + '<div class="card-top">'
-    + '<div class="channel-info"><span class="channel-name" style="color:var(--pinned);font-weight:600">The AI Daily Brief</span></div>'
-    + '<span class="badge badge-pinned">PINNED</span>'
-    + '</div>'
-    + '<div class="tags">'+tags+'</div>'
-    + '<a href="'+(s.url||'#')+'" class="card-title" target="_blank">'+esc(titulo)+'</a>'
-    + '<details><summary class="section-label">Temas do Episodio</summary><ul class="pontos">'+temas+'</ul></details>'
-    + '<details><summary class="section-label">1) Noticias Principais</summary>'+noticias+'</details>'
-    + '<hr class="section-divider"/>'
-    + '<details><summary class="section-label">2) Temas Principais</summary>'+temasProf+'</details>'
-    + '<div class="card-footer"><span></span><span>'+transcriptBtn+' '+backLink+'</span></div>'
-    + '</div>';
-}
-
-function esc(s) {
-  if (!s) return '';
-  const d = document.createElement('div');
-  d.textContent = String(s);
-  return d.innerHTML;
+function dbCard(s,extraTag){
+  const ti=s.titulo_formatado||s.title||'AI Daily Brief';
+  let tags='';if(s.duration_label)tags+='<span class="tag dur">'+s.duration_label+'</span>';
+  if(extraTag)tags+=extraTag;
+  (s.empresas||[]).slice(0,6).forEach(x=>{tags+='<span class="tag pinned-t">'+e(x)+'</span>'});
+  let temas='';(s.temas_episodio||[]).forEach(t=>{temas+='<li>'+e(t)+'</li>'});
+  let news='';(s.noticias_principais||[]).forEach(n=>{news+='<p class="db-headline">'+e(n.manchete)+'</p><ul class="db-bullets">';(n.contexto||[]).slice(0,5).forEach(b=>{news+='<li>'+e(b)+'</li>'});news+='</ul>'});
+  let deep='';(s.temas_principais||[]).forEach(tp=>{deep+='<p class="db-headline">'+e(tp.tema)+'</p><ul class="db-bullets">';(tp.analise||[]).slice(0,10).forEach(b=>{deep+='<li>'+e(b)+'</li>'});deep+='</ul>'});
+  const dl=s.has_transcript&&s.transcript_file?'<a class="dl-btn" href="transcripts/'+encodeURIComponent(s.transcript_file)+'" download>↓ Transcript</a>':'';
+  return '<div class="card pin">'
+    +'<div class="card-top"><div class="ch-info"><span class="ch-name" style="color:var(--pinned);font-weight:600">The AI Daily Brief</span></div><span class="badge bp">PINNED</span></div>'
+    +'<div class="card-tags">'+tags+'</div>'
+    +'<a href="'+(s.url||'#')+'" class="card-title" target="_blank">'+e(ti)+'</a>'
+    +'<details><summary class="db-label" style="margin:0">Temas do Episodio</summary><ul class="pts">'+temas+'</ul></details>'
+    +'<details><summary class="db-label" style="margin:0">1) Noticias Principais</summary>'+news+'</details>'
+    +'<hr class="db-divider"/>'
+    +'<details><summary class="db-label" style="margin:0">2) Temas Principais</summary>'+deep+'</details>'
+    +'<div class="card-ft"><span></span>'+dl+'</div>'
+    +'</div>';
 }
 
 init();
