@@ -885,6 +885,29 @@ function renderSellSide(opts){
   }
 }
 
+function _linkLabel(url, subject){
+  // Generate a descriptive name for the link based on URL and email context
+  const u=url.toLowerCase();
+  if(/\.pdf/i.test(u)){
+    // Try to extract PDF filename
+    const m=url.match(/([^/]+\.pdf)/i);
+    return m?m[1].replace(/%20/g,' ').replace(/\.pdf$/i,''):'PDF';
+  }
+  if(/zoom\.us|teams\.microsoft|webex/i.test(u)) return 'Zoom/Call link';
+  if(/jotform|register|signup|eventbrite/i.test(u)) return 'Registration';
+  // For research portals, use bank name from URL
+  if(/btgpactual.*report/i.test(u)) return 'BTG Report';
+  if(/matrix\.ms\.com|morganstanley/i.test(u)) return 'MS Research';
+  if(/jpmorgan|jpmresearch/i.test(u)) return 'JPM Research';
+  if(/goldmansachs|gs\.com/i.test(u)) return 'GS Research';
+  if(/research|report|article|webapp/i.test(u)) return 'Full Report';
+  if(/podcast|audio/i.test(u)) return 'Podcast';
+  // Fallback: try to get domain name
+  const dm=url.match(/https?:\/\/(?:www\.)?([^/]+)/);
+  if(dm) return dm[1].split('.')[0];
+  return 'Link';
+}
+
 function renderSSEmail(em){
   let h='<div class="ss-email">';
   // Line 1: Bank + tags + time
@@ -896,7 +919,7 @@ function renderSSEmail(em){
   h+='</div>';
   // Line 2: One-liner
   h+='<div class="ss-oneliner">'+e(em.one_liner||em.subject)+'</div>';
-  // Line 3: Links + expand
+  // Line 3: Expand + links on the right
   if(em.body){
     const bodyText=em.body||'';
     const linkRx=/https?:\/\/[^\s<>")\]]+/g;
@@ -905,8 +928,15 @@ function renderSSEmail(em){
     const seen=new Set();
     const keyLinks=rawLinks.filter(l=>{if(noise.test(l))return false;const norm=l.replace(/[?#].*$/,'');if(seen.has(norm))return false;seen.add(norm);return true}).slice(0,4);
     h+='<div class="ss-row3">';
-    keyLinks.forEach(l=>{let label='Link';if(/\.pdf/i.test(l))label='PDF';else if(/zoom|teams|webinar/i.test(l))label='Call';else if(/report|research|matrix|eqr|article/i.test(l))label='Report';else if(/jotform|register|signup/i.test(l))label='Register';h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--font);font-size:10px;color:var(--ink-light);text-decoration:none;font-weight:500;padding:2px 6px;background:var(--hover);border-radius:3px">'+label+'</a>'});
-    h+='<details style="margin:0;flex:1"><summary style="padding:2px 0;font-size:10px">Email completo</summary><div class="ss-body">'+eLinks((bodyText).substring(0,3000))+'</div></details>';
+    h+='<details style="margin:0"><summary style="padding:2px 0;font-size:10px">Email completo</summary><div class="ss-body">'+eLinks((bodyText).substring(0,3000))+'</div></details>';
+    if(keyLinks.length){
+      h+='<span style="margin-left:auto;display:flex;gap:4px;flex-shrink:0">';
+      keyLinks.forEach(l=>{
+        const label=_linkLabel(l, em.subject||'');
+        h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--font);font-size:10px;color:var(--ink-light);text-decoration:none;font-weight:500;padding:2px 6px;background:var(--hover);border-radius:3px;white-space:nowrap">'+e(label)+'</a>';
+      });
+      h+='</span>';
+    }
     h+='</div>';
   }
   h+='</div>';
