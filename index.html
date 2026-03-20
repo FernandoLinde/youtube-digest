@@ -572,14 +572,15 @@ function renderSellSide(opts){
     dash+='</div>';
   }
 
-  // Sector filters (only for research tab)
-  if(ssTab==='research'){
+  // Sector filters (for both research and events tabs)
+  {
+    const items=ssTab==='events'?events:emails;
     const sectors={};
-    emails.forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1});
+    items.forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1});
     const sorted=Object.entries(sectors).sort((a,b)=>b[1]-a[1]);
 
     dash+='<div class="ss-filters">';
-    dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="renderSellSide({sector:\'all\'})">All<span class="ss-pill-n"> '+emails.length+'</span></span>';
+    dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="renderSellSide({sector:\'all\'})">All<span class="ss-pill-n"> '+items.length+'</span></span>';
     sorted.forEach(([s,c])=>{
       const esc=s.replace(/'/g,"\\'");
       dash+='<span class="ss-pill'+(ssFilter===s?' active':'')+'" onclick="renderSellSide({sector:\''+esc+'\'})">'+e(s)+'<span class="ss-pill-n"> '+c+'</span></span>';
@@ -592,13 +593,33 @@ function renderSellSide(opts){
   let h='';
 
   if(ssTab==='events'){
-    // Events view — clean table-like layout
-    if(!events.length){
+    // Filter by sector
+    let filtEv=ssFilter==='all'?events:events.filter(ev=>(ev.sector||'Other')===ssFilter);
+    // Sort chronologically — closest upcoming date first, TBD at the end
+    const now=new Date();
+    filtEv.sort((a,b)=>{
+      const da=a.event_date?new Date(a.event_date.replace(' ','T')):null;
+      const db=b.event_date?new Date(b.event_date.replace(' ','T')):null;
+      if(!da&&!db)return 0;
+      if(!da)return 1;
+      if(!db)return -1;
+      // Both have dates — upcoming first (closest to now), then past (most recent first)
+      const aFuture=da>=now, bFuture=db>=now;
+      if(aFuture&&!bFuture)return -1;
+      if(!aFuture&&bFuture)return 1;
+      if(aFuture&&bFuture)return da-db; // closest upcoming first
+      return db-da; // most recent past first
+    });
+
+    if(!filtEv.length){
       h+='<p style="text-align:center;padding:40px 0;color:var(--ink-faint)">Nenhum evento encontrado.</p>';
     } else {
       h+='<div style="padding-top:8px">';
-      events.forEach(ev=>{
-        h+='<div class="ss-event">';
+      filtEv.forEach(ev=>{
+        // Check if past
+        const evDate=ev.event_date?new Date(ev.event_date.replace(' ','T')):null;
+        const isPast=evDate&&evDate<now;
+        h+='<div class="ss-event"'+(isPast?' style="opacity:0.5"':'')+'>';
         h+='<div class="ss-ev-row1">';
         h+='<span class="ss-ev-date">'+e(ev.event_date||'TBD')+'</span>';
         h+='<span class="ss-ev-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
