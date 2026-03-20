@@ -638,13 +638,15 @@ function renderSellSide(opts){
 
         h+='<div class="ss-event"'+(isPast?' style="opacity:0.5"':'')+'>';
         h+='<div class="ss-ev-row1">';
+        h+='<span class="ss-ev-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
+        h+='<span style="color:var(--rule);margin:0 2px">|</span>';
+        h+='<span class="ss-ev-title">'+e(ev.event_short_title||ev.one_liner||ev.subject)+'</span>';
+        h+='<span style="color:var(--rule);margin:0 2px">|</span>';
         h+='<span class="ss-ev-date">'+e(dateStr)+'</span>';
         h+='<span class="ss-ev-format '+fmtClass+'">'+e(fmtLabel)+'</span>';
-        h+='<span class="ss-ev-title">'+e(ev.event_short_title||ev.one_liner||ev.subject)+'</span>';
         if(ev.event_link) h+='<a class="ss-ev-link" href="'+ev.event_link+'" target="_blank">Link ↗</a>';
         h+='</div>';
         h+='<div class="ss-ev-row1" style="margin-top:2px">';
-        h+='<span class="ss-ev-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
         if(ev.sector) h+='<span class="ss-ev-sector">'+e(ev.sector)+'</span>';
         (ev.companies||[]).slice(0,4).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
         h+='</div>';
