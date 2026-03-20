@@ -747,6 +747,14 @@ function renderSellSide(opts){
         }
         const title=ev.event_short_title||ev.one_liner||ev.subject;
 
+        // Format badge
+        const fmt=(ev.event_format||'').toLowerCase();
+        const isInPerson=fmt.includes('person');
+        const isHybrid=fmt==='hybrid';
+        let fmtLabel=isInPerson?'In-Person':(isHybrid?'Hybrid':'Virtual');
+        if(isInPerson&&ev.event_location) fmtLabel+=' · '+ev.event_location;
+        const fmtClass=isInPerson?'in-person':(isHybrid?'hybrid':'virtual');
+
         h+='<div class="ss-event">';
         h+='<span class="ss-ev-date">'+e(dateStr)+'</span>';
         h+='<span class="ss-ev-sep">-</span>';
@@ -754,11 +762,21 @@ function renderSellSide(opts){
         h+='<span class="ss-ev-sep">-</span>';
         if(ev.event_link){
           h+='<span class="ss-ev-title"><a href="'+ev.event_link+'" target="_blank">'+e(title)+'</a></span>';
+        } else if(ev.body){
+          // No registration link — link to expanded email view
+          const bodyId='ev-body-'+Math.random().toString(36).substr(2,6);
+          h+='<span class="ss-ev-title" style="cursor:pointer" onclick="document.getElementById(\''+bodyId+'\').open=!document.getElementById(\''+bodyId+'\').open">'+e(title)+' <span style="font-size:9px;color:var(--ink-faint)">(ver email)</span></span>';
         } else {
-          h+='<span class="ss-ev-title">'+e(title)+'</span>';
+          h+='<span class="ss-ev-title">'+e(title)+' <span style="font-size:9px;color:var(--ink-faint)">(sem link)</span></span>';
         }
+        h+='<span class="ss-ev-format '+fmtClass+'">'+e(fmtLabel)+'</span>';
         if(ev.sector) h+='<span class="ss-ev-sector">'+e(ev.sector)+'</span>';
         h+='</div>';
+        // If no event_link but has body, add expandable email below
+        if(!ev.event_link&&ev.body){
+          const bodyId='ev-body-'+Math.random().toString(36).substr(2,6);
+          h+='<details id="'+bodyId+'" style="margin:-4px 0 4px 0"><summary style="font-size:10px;padding:2px 0">Email original</summary><div class="ss-body">'+eLinks((ev.body||'').substring(0,3000))+'</div></details>';
+        }
       });
       h+='</div>';
     }
