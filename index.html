@@ -799,11 +799,11 @@ function renderSellSide(opts){
         h+='<div class="ss-event">';
         h+='<span class="ss-ev-date" style="min-width:80px">'+e(dateStr)+'</span>';
         h+='<span style="font-family:var(--font);font-size:10px;font-weight:500;padding:1px 6px;border-radius:3px;background:'+typeBgs[tp]+';color:'+typeColors[tp]+';white-space:nowrap">'+e(tp)+'</span>';
-        h+='<span class="ss-ev-title">'+e(d.description)+'</span>';
         if(d.companies&&d.companies.length){
           d.companies.slice(0,3).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
         }
-        if(d.sector) h+='<span class="ss-ev-sector">'+e(d.sector)+'</span>';
+        h+='<span class="ss-ev-title">'+e(d.description)+'</span>';
+        if(d.sender_bank) h+='<span class="ss-ev-bank" style="margin-left:auto">'+e(d.sender_bank)+'</span>';
         h+='</div>';
       });
       h+='</div>';
