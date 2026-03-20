@@ -613,13 +613,14 @@ function dbArticle(s,id,extraTag){
 }
 
 // ===== SELL SIDE =====
-let ssFilter='all',ssTab='research',ssDate='',ssSearch='';
+let ssFilter='all',ssBank='all',ssTab='research',ssDate='',ssSearch='';
 
 function renderSellSide(opts){
   opts=opts||{};
   if(opts.date)ssDate=opts.date;
   if(opts.tab)ssTab=opts.tab;
   if(opts.sector!==undefined)ssFilter=opts.sector;
+  if(opts.bank!==undefined)ssBank=opts.bank;
 
   const date=ssDate||SSL[0];
   ssDate=date;
@@ -690,6 +691,21 @@ function renderSellSide(opts){
       });
     }
     dash+='</div>';
+
+    // Bank filters
+    if(ssTab==='research'||ssTab==='events'){
+      const bankItems=ssTab==='events'?events:emails;
+      const banks={};
+      bankItems.forEach(em=>{const b=em.sender_bank||em.sender||'Other';banks[b]=(banks[b]||0)+1});
+      const sortedBanks=Object.entries(banks).sort((a,b)=>b[1]-a[1]);
+      dash+='<div class="ss-filters">';
+      dash+='<span class="ss-pill'+(ssBank==='all'?' active':'')+'" onclick="renderSellSide({bank:\'all\'})">All Banks<span class="ss-pill-n"> '+bankItems.length+'</span></span>';
+      sortedBanks.forEach(([b,c])=>{
+        const esc=b.replace(/'/g,"\\'");
+        dash+='<span class="ss-pill'+(ssBank===b?' active':'')+'" onclick="renderSellSide({bank:\''+esc+'\'})">'+e(b)+'<span class="ss-pill-n"> '+c+'</span></span>';
+      });
+      dash+='</div>';
+    }
   }
 
   document.getElementById('dash-area').innerHTML=dash;
@@ -699,8 +715,10 @@ function renderSellSide(opts){
   if(ssTab==='events'){
     const now=new Date();
     // Filter by sector, remove past events
-    let filtEv=(ssFilter==='all'?events:events.filter(ev=>(ev.sector||'Other')===ssFilter))
-      .filter(ev=>{
+    let filtEv=events;
+    if(ssFilter!=='all') filtEv=filtEv.filter(ev=>(ev.sector||'Other')===ssFilter);
+    if(ssBank!=='all') filtEv=filtEv.filter(ev=>(ev.sender_bank||ev.sender||'Other')===ssBank);
+    filtEv=filtEv.filter(ev=>{
         if(!ev.event_date)return true; // keep TBD
         const d=new Date(ev.event_date.replace(' ','T'));
         return isNaN(d)||d>=now;
@@ -793,7 +811,9 @@ function renderSellSide(opts){
   } else {
     // Research view — flat list, filtered by sector + search
     h+='<div class="ss-search"><input id="ss-search-input" type="text" placeholder="Search emails — bank, company, keyword..." value="'+e(ssSearch)+'"/></div>';
-    let filtered=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
+    let filtered=emails;
+    if(ssFilter!=='all') filtered=filtered.filter(em=>(em.sector||'Other')===ssFilter);
+    if(ssBank!=='all') filtered=filtered.filter(em=>(em.sender_bank||em.sender||'Other')===ssBank);
     if(ssSearch){
       const q=ssSearch.toLowerCase();
       filtered=filtered.filter(em=>{
@@ -825,7 +845,9 @@ function renderSellSide(opts){
       // Only re-render the email list, not the whole page
       const data=SS[ssDate];if(!data)return;
       let emails=data.emails||[];
-      let filt=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
+      let filt=emails;
+      if(ssFilter!=='all') filt=filt.filter(em=>(em.sector||'Other')===ssFilter);
+      if(ssBank!=='all') filt=filt.filter(em=>(em.sender_bank||em.sender||'Other')===ssBank);
       if(ssSearch){
         const q=ssSearch.toLowerCase();
         filt=filt.filter(em=>(em.one_liner||'').toLowerCase().includes(q)||(em.subject||'').toLowerCase().includes(q)||(em.sender_bank||'').toLowerCase().includes(q)||(em.sender||'').toLowerCase().includes(q)||(em.companies||[]).some(c=>c.toLowerCase().includes(q)));
