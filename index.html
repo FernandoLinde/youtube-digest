@@ -213,13 +213,15 @@
   .ss-type-tag { font-family:var(--sans); font-size:9px; font-weight:500; padding:1px 6px; border-radius:2px; background:var(--rule-light); color:var(--ink-muted); }
   .ss-body { font-family:var(--body); font-size:12px; color:var(--ink-light); line-height:1.55; margin-top:8px; white-space:pre-wrap; max-height:250px; overflow-y:auto; padding:10px; background:var(--cream); border-radius:4px; border:1px solid var(--rule-light); }
 
-  .ss-event { display:flex; align-items:baseline; gap:10px; padding:10px 0; border-bottom:1px solid var(--rule-light); }
+  .ss-event { padding:10px 0; border-bottom:1px solid var(--rule-light); }
   .ss-event:last-child { border-bottom:none; }
-  .ss-ev-date { font-family:var(--sans); font-size:10px; font-weight:700; color:var(--pinned); white-space:nowrap; min-width:110px; }
-  .ss-ev-bank { font-family:var(--sans); font-size:10px; font-weight:600; color:var(--blue-muted); white-space:nowrap; min-width:100px; }
-  .ss-ev-text { font-family:var(--body); font-size:13px; color:var(--ink); flex:1; line-height:1.45; }
-  .ss-ev-link { font-family:var(--sans); font-size:9px; color:var(--accent); text-decoration:none; font-weight:600; white-space:nowrap; padding:2px 8px; border:1px solid var(--accent); border-radius:3px; }
+  .ss-ev-row1 { display:flex; align-items:center; gap:8px; margin-bottom:3px; flex-wrap:wrap; }
+  .ss-ev-date { font-family:var(--sans); font-size:10px; font-weight:700; color:var(--pinned); white-space:nowrap; }
+  .ss-ev-bank { font-family:var(--sans); font-size:10px; font-weight:600; color:var(--blue-muted); white-space:nowrap; }
+  .ss-ev-sector { font-family:var(--sans); font-size:9px; font-weight:600; padding:1px 6px; border-radius:2px; background:var(--s3-bg); color:var(--s3); letter-spacing:0.2px; }
+  .ss-ev-link { font-family:var(--sans); font-size:9px; color:var(--accent); text-decoration:none; font-weight:600; white-space:nowrap; padding:2px 8px; border:1px solid var(--accent); border-radius:3px; margin-left:auto; }
   .ss-ev-link:hover { background:var(--accent); color:white; }
+  .ss-ev-text { font-family:var(--body); font-size:13px; color:var(--ink); line-height:1.45; }
 
   .ss-date-row { padding:10px 0 6px; display:flex; align-items:center; gap:6px; }
   .ss-date-pill { font-family:var(--sans); font-size:10px; padding:3px 10px; border-radius:20px; cursor:pointer; border:1px solid var(--rule-light); background:transparent; color:var(--ink-muted); transition:all 0.15s; }
@@ -597,10 +599,14 @@ function renderSellSide(opts){
       h+='<div style="padding-top:8px">';
       events.forEach(ev=>{
         h+='<div class="ss-event">';
+        h+='<div class="ss-ev-row1">';
         h+='<span class="ss-ev-date">'+e(ev.event_date||'TBD')+'</span>';
         h+='<span class="ss-ev-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
-        h+='<span class="ss-ev-text">'+e(ev.one_liner||ev.subject)+'</span>';
-        if(ev.event_link) h+='<a class="ss-ev-link" href="'+ev.event_link+'" target="_blank">Link</a>';
+        if(ev.sector) h+='<span class="ss-ev-sector">'+e(ev.sector)+'</span>';
+        (ev.companies||[]).slice(0,4).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
+        if(ev.event_link) h+='<a class="ss-ev-link" href="'+ev.event_link+'" target="_blank">Link ↗</a>';
+        h+='</div>';
+        h+='<div class="ss-ev-text">'+e(ev.one_liner||ev.subject)+'</div>';
         h+='</div>';
       });
       h+='</div>';
