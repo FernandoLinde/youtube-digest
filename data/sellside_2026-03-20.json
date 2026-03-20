@@ -4,7 +4,7 @@
     {
       "subject": "ENC: Copper Valuation Update (Mark to Market) (BTG Pactual's Correa/Arazi/Gotardo)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Correa/Arazi/Gotardo)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T16:04:54",
       "received_time": "16:04",
       "one_liner": "BTG Pactual atualiza valuation de empresas de cobre (Metals and Mining) refletindo sell-off recente e preços spot de commodities.",
@@ -17,7 +17,7 @@
     {
       "subject": "ENC: H&E Channel: YDUQS (New buyback program); (BTG Pactual's Alves/Resende)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Alves/Resende)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T15:46:43",
       "received_time": "15:46",
       "one_liner": "YDUQS anuncia novo programa de recompra de R$100mn (4% do free float). BTG mantém \"Buy\" com 18% FCF yield.",
@@ -157,7 +157,7 @@
     {
       "subject": "ENC: ...S&P 500...1 chart...MACD kiss...",
       "sender": "Sell Side",
-      "sender_bank": "BofA Securities (Claudio Franco)",
+      "sender_bank": "BofA",
       "received": "2026-03-20T14:57:44",
       "received_time": "14:57",
       "one_liner": "MACD do S&P 500 cruza para baixo pela 4ª vez desde 2020; sugere aceleração do declínio.",
@@ -216,7 +216,7 @@
     {
       "subject": "ENC: Last call for the Extel survey - Healthcare & Education",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Samuel Alves, Maria Resende)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T13:56:50",
       "received_time": "13:56",
       "one_liner": "BTG Pactual, Samuel Alves e Maria Resende incentivam participação na pesquisa Extel para categorias de Saúde e Educação.",
@@ -322,7 +322,7 @@
     {
       "subject": "ENC:",
       "sender": "Sell Side",
-      "sender_bank": "BofA Global Research",
+      "sender_bank": "BofA",
       "received": "2026-03-20T12:55:13",
       "received_time": "12:55",
       "one_liner": "BofA Global Research solicita voto na pesquisa Extel/II LatAm 2026, destacando pesquisas macro recentes sobre Irã, Brasil e México.",
@@ -348,7 +348,7 @@
     {
       "subject": "ENC: TUPY: 4Q25 Conference Call Highlightsx",
       "sender": "Sell Side",
-      "sender_bank": "JPMorgan",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T12:25:28",
       "received_time": "12:25",
       "one_liner": "JPM recapitula call 4T25 de TUPY (Underweight, R$11.50), detalhando outlook 2026 e aspectos operacionais.",
@@ -365,7 +365,7 @@
     {
       "subject": "ENC: Cyrela: 4Q25 Conference Call Highlights",
       "sender": "Sell Side",
-      "sender_bank": "JPMorgan (Marcelo Motta)",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T12:17:12",
       "received_time": "12:17",
       "one_liner": "JPM recaps Cyrela's 4Q25 conference call highlights, maintaining Overweight on CYRE3, trading at 6.3x P/E 26e.",
@@ -384,7 +384,7 @@
     {
       "subject": "ENC: Cyrela (Buy): 4Q25 conference call highlights (BTG Pactual's Cambauva/Fabris/Pascale)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Gustavo Cambauva, Gustavo Fabris, Pascale)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T12:12:05",
       "received_time": "12:12",
       "one_liner": "BTG Pactual reitera BUY para Cyrela (CYRE3) com TP R$40.00, recapitulando a call de resultados do 4T25 e desafios para 2026.",
@@ -400,7 +400,7 @@
     {
       "subject": "ENC: Transportation & Capital Goods: A year in motion - 2026 Extel Voting Season (BTG Pactual's Marquiori/Recchia/Alkmim)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Lucas Marquiori, Recchia, Alkmim)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T12:07:23",
       "received_time": "12:07",
       "one_liner": "BTG Pactual (Marquiori/Recchia/Alkmim) review 2026 for Transportation & Capital Goods, compiling research on WEG, Localiza, Embraer, Rumo, LATAM, GPS, Marcopolo, and request Extel votes.",
@@ -543,7 +543,7 @@
     {
       "subject": "ENC: Cemig (CMIG4.SA): 4Q25 First Take: Better-than-expected",
       "sender": "Sell Side",
-      "sender_bank": "Goldman Sachs (Bruno Amorim, CFA)",
+      "sender_bank": "Goldman Sachs",
       "received": "2026-03-20T10:41:24",
       "received_time": "10:41",
       "one_liner": "Cemig (CMIG4.SA) 4Q25 adjusted EBITDA BRL 1.86bn beat GSe/consensus; Goldman Sachs mantém Sell.",
@@ -624,7 +624,7 @@
     {
       "subject": "ENC: Helbor (Buy): Big (positive) land sale to curb leverage (BTG Pactual's Cambauva/Fabris/Pascale)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Cambauva/Fabris/Pascale)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T10:26:40",
       "received_time": "10:26",
       "one_liner": "Helbor (Buy, TP R$4.10): venda de terreno à Cyrela gerará R$290mn, reduzindo dívida em 16% para re-rating.",
@@ -755,7 +755,7 @@
     {
       "subject": "ENC: ...chart of the day...oil supply shock = peak earnings in the short term?",
       "sender": "Sell Side",
-      "sender_bank": "BofA Securities",
+      "sender_bank": "BofA",
       "received": "2026-03-20T10:02:57",
       "received_time": "10:02",
       "one_liner": "BofA sales: Oil supply shock may mean peak earnings, questions correlation with MSCI World ex-US.",
@@ -771,7 +771,7 @@
     {
       "subject": "ENC: Mexico: Real GDP Firmed During 4Q2025 Driven by Domestic Demand; Negative Contribution from Net Exports (Ramos)",
       "sender": "Sell Side",
-      "sender_bank": "Goldman Sachs (Ramos)",
+      "sender_bank": "Goldman Sachs",
       "received": "2026-03-20T09:49:15",
       "received_time": "09:49",
       "one_liner": "México: PIB Real cresceu 0.86% t/t sa no 4T2025, impulsionado pela demanda doméstica, mas com contribuição negativa das exportações líquidas.",
@@ -784,7 +784,7 @@
     {
       "subject": "ENC: Chile & North Andean Utilities Clippings & Thoughts (BTG Pactual's Gonzalez/Mery)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Fernan Gonzalez/Mery)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T09:16:49",
       "received_time": "09:16",
       "one_liner": "BTG Pactual reitera compra em Aguas Andinas após 4T, prevê expansão de margem; fim de crise de gás no Peru; atualizações sobre El Niño e retorno de Alto Maipo/Cerro Dominador no Chile.",
@@ -854,7 +854,7 @@
     {
       "subject": "ENC: LatAm Telecom, Media, Tech Clipping | 20 de Março de 2026 (BTG Pactual's Sequeira/Carfi/Neder/Ferreira)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Carlos Sequeira, Osni Carfi, Victor Neder, Bruno Ferreira)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T09:01:23",
       "received_time": "09:01",
       "one_liner": "BTG Pactual's LatAm TMT clipping for Mar 20, 2026, features Bemobi's (BMOB3) beat, regulatory news for ISPs, and data centers.",
@@ -908,7 +908,7 @@
     {
       "subject": "ENC: JPM | Pulp Friday: Resale Prices Contract After Shanghai Pulp Week (Angele/Candini)",
       "sender": "Sell Side",
-      "sender_bank": "JPMorgan",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T08:48:16",
       "received_time": "08:48",
       "one_liner": "JPM reports pulp resale prices contracted after Shanghai Pulp Week, with LatAm BHKE down 1.7% w/w. Chinese PIX unchanged, European PIX up.",
@@ -1194,7 +1194,7 @@
     {
       "subject": "ENC: Petrobras & Fuel Distribution: Federal Government Introduces Guidelines for the Diesel Subvention Program (BTG Pactual's Almeida/Cunha)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Almeida/Cunha)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-20T08:13:05",
       "received_time": "08:13",
       "one_liner": "BTG Pactual: Governo define regras subvenção diesel (R$0.32/L) para Petrobras (PBR) vender a R$3.65/L, impactando pricing e ICMS.",
@@ -1465,7 +1465,7 @@
     {
       "subject": "ENC: ...Feedback, ideas and 2 charts...",
       "sender": "Sell Side",
-      "sender_bank": "Bank of America (BofA)",
+      "sender_bank": "BofA",
       "received": "2026-03-20T05:41:53",
       "received_time": "05:41",
       "one_liner": "BofA's Claudio Franco: Stay \"sell the rips\", no capitulation. Tech (Mag7, NVDA) underperformed YTD, but Amazon (AMZN) favored.",
@@ -1603,7 +1603,7 @@
     {
       "subject": "ENC: Opsimex: Incorporating New Guidance Post 4Q25; Keep PT at Ps 26",
       "sender": "Sell Side",
-      "sender_bank": "J.P. Morgan (Marcelo Santos)",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T01:16:49",
       "received_time": "01:16",
       "one_liner": "JPM keeps Opsimex (SITES1.MX) Overweight with PT Ps 26 post 4Q25. Estimates raised for revenue/EBITDA, offset by higher Capex and WACC.",
@@ -1618,7 +1618,7 @@
     {
       "subject": "ENC: Vtex: Incorporate Lower Growth, Higher Margins; Remain Neutral",
       "sender": "Sell Side",
-      "sender_bank": "J.P. Morgan (Marcelo Santos)",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T01:16:49",
       "received_time": "01:16",
       "one_liner": "J.P. Morgan incorpora menor crescimento e margens mais altas para VTEX (VTEX, VTEX US) pós 4T25, mantendo \"Neutral\" e PT de $5 até Dez-26.",
@@ -1679,7 +1679,7 @@
     {
       "subject": "ENC: Cyrela (Buy): Strong revenue and decent FCF drove a solid Q4 (BTG Pactual's Cambauva/Fabris/Pascale)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Cambauva/Fabris/Pascale)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-19T22:59:30",
       "received_time": "22:59",
       "one_liner": "Cyrela (Buy, TP R$40) Q4 sólido: R$3.23bn receita (+29%), R$1.55 EPS (+41%), R$74mn FCF e 27% ROE.",
@@ -1836,7 +1836,7 @@
     {
       "subject": "ENC: Wiz: 4Q25 - Earnings Miss with Softer Revenues and Impairment",
       "sender": "Sell Side",
-      "sender_bank": "J.P. Morgan (Guilherme Grespan)",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-19T19:41:27",
       "received_time": "19:41",
       "one_liner": "Wiz (WIZC3) teve lucro de R$50mn no 4T25, 7% abaixo do JPMe, com receitas mais fracas e impairment, apesar de Corporate recorde.",
@@ -1943,7 +1943,7 @@
     {
       "subject": "ENC: Aguas Andinas (Buy): A Clear Quarter With Upside Ahead (BTG Pactual's Gonzalez/Mery/Junqueira)",
       "sender": "Sell Side",
-      "sender_bank": "BTG Pactual (Gonzalez/Mery/Junqueira)",
+      "sender_bank": "BTG Pactual",
       "received": "2026-03-19T18:36:30",
       "received_time": "18:36",
       "one_liner": "Aguas Andinas (Buy, TP CLP 400.00): 4Q25 foi um trimestre sólido e alavancagem operacional deve materializar-se em 2026/2027.",
@@ -2039,7 +2039,7 @@
     {
       "subject": "ENC: LatAm Financials: Global JPM Series – US Payments, AI, Stablecoins, Fintech Monetization, and More",
       "sender": "Sell Side",
-      "sender_bank": "J.P. Morgan / Guilherme Grespan",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-19T17:30:59",
       "received_time": "17:30",
       "one_liner": "JPM LatAm Financials research covers US Payments, AI, Fintech Monetization, and NU's US strategy, highlighting Visa, Block.",
@@ -2215,7 +2215,7 @@
     {
       "subject": "ENC: JPM Global Platform Series – AI Impact on Brokers/Asset Managers & Exchanges Competition",
       "sender": "Sell Side",
-      "sender_bank": "J.P. Morgan (Yuri R Fernandes)",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T14:02:08",
       "received_time": "14:02",
       "one_liner": "JPM convida para call sobre impacto de AI em Brokers, Asset Managers e Exchanges na série Global Platform, em 20 de Março de 2026.",
@@ -2254,7 +2254,7 @@
     {
       "subject": "ENC: (Today!) JPM Utilities: SBSP CFO @ 1pm BRT (12pm ET)",
       "sender": "Sell Side",
-      "sender_bank": "J.P. Morgan (Arthur Pereira, CFA)",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T12:19:01",
       "received_time": "12:19",
       "one_liner": "JPM Utilities convida para webinar hoje (20/03/2026) às 13h BRT com o CFO e IRO da Sabesp (SBSP3) para discutir privatização e M&A.",
@@ -2323,7 +2323,7 @@
     {
       "subject": "ENC: JPM | Próximos Eventos (23/Mar - 27/Mar)",
       "sender": "Sell Side",
-      "sender_bank": "JPMorgan",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T10:30:51",
       "received_time": "10:30",
       "one_liner": "JPM divulga agenda de eventos de 20 a 27 de Março, incluindo webinars com Sabesp, Vale, Vibra, Cemex, Rural Ventures e outros.",
@@ -2445,7 +2445,7 @@
     {
       "subject": "ENC: *STARTING SOON* JPM | Brazil Fuel Market Irregularities: What’s Next? - With Henry Hadid (Vibra’s VP of Legal, Compliance, and Institutional Relations) - Portuguese Only (Angele/Carvalho/Cunha)",
       "sender": "Sell Side",
-      "sender_bank": "JPMorgan",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T09:32:30",
       "received_time": "09:32",
       "one_liner": "Convite para webinar JPM com Henry Hadid (VP Jurídico da Vibra) sobre irregularidades no mercado de combustíveis do Brasil.",
@@ -2479,7 +2479,7 @@
     {
       "subject": "ENC: JPM US Morning Voice (em Portugues) - Mar 20",
       "sender": "Sell Side",
-      "sender_bank": "JPMorgan",
+      "sender_bank": "J.P. Morgan",
       "received": "2026-03-20T09:21:25",
       "received_time": "09:21",
       "one_liner": "JPM Morning Voice: Rebalanceamento S&P $290B, APD PT $310, GAP PT $35, upgrades CRGY/SM/OXY, e convite para 6 calls (Industrials, Software, AI).",
@@ -2542,7 +2542,7 @@
     {
       "subject": "ENC: UBS BB Morning Must Read – Oil (price update), PRIO (raising PT), Viva/Vulcabras/FEMSA (new ests, Buy maintained), BZ Banks (investment platform), Mining Strategy",
       "sender": "Sell Side",
-      "sender_bank": "UBS BB",
+      "sender_bank": "UBS",
       "received": "2026-03-20T08:32:48",
       "received_time": "08:32",
       "one_liner": "UBS BB atualiza forecast de Oil, eleva PT de PRIO para R$75, mantém Buy para Vivara, Vulcabras e FEMSA; Cyrela/Tupy erram no 4T.",
@@ -2839,7 +2839,7 @@
     "total_emails": 120,
     "total_events": 33,
     "sectors": 14,
-    "banks": 29,
+    "banks": 8,
     "companies": 398
   }
 }
