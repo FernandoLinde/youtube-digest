@@ -219,6 +219,11 @@
   .ss-ev-date { font-family:var(--sans); font-size:10px; font-weight:700; color:var(--pinned); white-space:nowrap; }
   .ss-ev-bank { font-family:var(--sans); font-size:10px; font-weight:600; color:var(--blue-muted); white-space:nowrap; }
   .ss-ev-sector { font-family:var(--sans); font-size:9px; font-weight:600; padding:1px 6px; border-radius:2px; background:var(--s3-bg); color:var(--s3); letter-spacing:0.2px; }
+  .ss-ev-format { font-family:var(--sans); font-size:9px; font-weight:600; padding:1px 6px; border-radius:2px; letter-spacing:0.2px; }
+  .ss-ev-format.virtual { background:#EEF2FF; color:#4A6580; }
+  .ss-ev-format.in-person { background:#FFF3E0; color:#B8610A; }
+  .ss-ev-format.hybrid { background:#F3E5F5; color:#7B1FA2; }
+  .ss-ev-title { font-family:var(--sans); font-size:12px; font-weight:600; color:var(--ink); }
   .ss-ev-link { font-family:var(--sans); font-size:9px; color:var(--accent); text-decoration:none; font-weight:600; white-space:nowrap; padding:2px 8px; border:1px solid var(--accent); border-radius:3px; margin-left:auto; }
   .ss-ev-link:hover { background:var(--accent); color:white; }
   .ss-ev-text { font-family:var(--body); font-size:13px; color:var(--ink); line-height:1.45; }
@@ -619,15 +624,30 @@ function renderSellSide(opts){
         // Check if past
         const evDate=ev.event_date?new Date(ev.event_date.replace(' ','T')):null;
         const isPast=evDate&&evDate<now;
+        // Format date as DD/Mon/YY HH:MM
+        let dateStr='TBD';
+        if(ev.event_date){
+          const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+          const d=new Date(ev.event_date.replace(' ','T'));
+          if(!isNaN(d)){dateStr=String(d.getDate()).padStart(2,'0')+'/'+months[d.getMonth()]+'/'+String(d.getFullYear()).slice(2)+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')}
+        }
+        // Format badge
+        const fmt=(ev.event_format||'Virtual').toLowerCase();
+        const fmtClass=fmt.includes('person')?'in-person':(fmt==='hybrid'?'hybrid':'virtual');
+        const fmtLabel=fmt.includes('person')?(ev.event_location?'In-Person · '+ev.event_location:'In-Person'):(fmt==='hybrid'?'Hybrid':'Virtual');
+
         h+='<div class="ss-event"'+(isPast?' style="opacity:0.5"':'')+'>';
         h+='<div class="ss-ev-row1">';
-        h+='<span class="ss-ev-date">'+e(ev.event_date||'TBD')+'</span>';
+        h+='<span class="ss-ev-date">'+e(dateStr)+'</span>';
+        h+='<span class="ss-ev-format '+fmtClass+'">'+e(fmtLabel)+'</span>';
+        h+='<span class="ss-ev-title">'+e(ev.event_short_title||ev.one_liner||ev.subject)+'</span>';
+        if(ev.event_link) h+='<a class="ss-ev-link" href="'+ev.event_link+'" target="_blank">Link ↗</a>';
+        h+='</div>';
+        h+='<div class="ss-ev-row1" style="margin-top:2px">';
         h+='<span class="ss-ev-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
         if(ev.sector) h+='<span class="ss-ev-sector">'+e(ev.sector)+'</span>';
         (ev.companies||[]).slice(0,4).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
-        if(ev.event_link) h+='<a class="ss-ev-link" href="'+ev.event_link+'" target="_blank">Link ↗</a>';
         h+='</div>';
-        h+='<div class="ss-ev-text">'+e(ev.one_liner||ev.subject)+'</div>';
         h+='</div>';
       });
       h+='</div>';
