@@ -582,8 +582,10 @@ function renderSellSide(opts){
 
   // Sub-tabs: Research | Events
   dash+='<div class="ss-tabs">';
+  const idates=data.important_dates||[];
   dash+='<div class="ss-tab'+(ssTab==='research'?' active':'')+'" onclick="renderSellSide({tab:\'research\'})">Research<span class="ss-tab-count">'+emails.length+'</span></div>';
   dash+='<div class="ss-tab'+(ssTab==='events'?' active':'')+'" onclick="renderSellSide({tab:\'events\'})">Eventos<span class="ss-tab-count">'+events.length+'</span></div>';
+  dash+='<div class="ss-tab'+(ssTab==='dates'?' active':'')+'" onclick="renderSellSide({tab:\'dates\'})">Datas<span class="ss-tab-count">'+idates.length+'</span></div>';
   dash+='</div>';
 
   // Date pills
@@ -595,19 +597,30 @@ function renderSellSide(opts){
     dash+='</div>';
   }
 
-  // Sector filters (for both research and events tabs)
+  // Filters
   {
-    const items=ssTab==='events'?events:emails;
-    const sectors={};
-    items.forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1});
-    const sorted=Object.entries(sectors).sort((a,b)=>b[1]-a[1]);
-
     dash+='<div class="ss-filters">';
-    dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="renderSellSide({sector:\'all\'})">All<span class="ss-pill-n"> '+items.length+'</span></span>';
-    sorted.forEach(([s,c])=>{
-      const esc=s.replace(/'/g,"\\'");
-      dash+='<span class="ss-pill'+(ssFilter===s?' active':'')+'" onclick="renderSellSide({sector:\''+esc+'\'})">'+e(s)+'<span class="ss-pill-n"> '+c+'</span></span>';
-    });
+    if(ssTab==='dates'){
+      // Type filters for important dates
+      const types={};
+      idates.forEach(d=>{const t=d.type||'other';types[t]=(types[t]||0)+1});
+      const sorted=Object.entries(types).sort((a,b)=>b[1]-a[1]);
+      dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="renderSellSide({sector:\'all\'})">All<span class="ss-pill-n"> '+idates.length+'</span></span>';
+      sorted.forEach(([t,c])=>{
+        dash+='<span class="ss-pill'+(ssFilter===t?' active':'')+'" onclick="renderSellSide({sector:\''+t+'\'})">'+e(t)+'<span class="ss-pill-n"> '+c+'</span></span>';
+      });
+    } else {
+      // Sector filters for research and events
+      const items=ssTab==='events'?events:emails;
+      const sectors={};
+      items.forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1});
+      const sorted=Object.entries(sectors).sort((a,b)=>b[1]-a[1]);
+      dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="renderSellSide({sector:\'all\'})">All<span class="ss-pill-n"> '+items.length+'</span></span>';
+      sorted.forEach(([s,c])=>{
+        const esc=s.replace(/'/g,"\\'");
+        dash+='<span class="ss-pill'+(ssFilter===s?' active':'')+'" onclick="renderSellSide({sector:\''+esc+'\'})">'+e(s)+'<span class="ss-pill-n"> '+c+'</span></span>';
+      });
+    }
     dash+='</div>';
   }
 
@@ -659,6 +672,52 @@ function renderSellSide(opts){
           h+='<span class="ss-ev-title">'+e(title)+'</span>';
         }
         if(ev.sector) h+='<span class="ss-ev-sector">'+e(ev.sector)+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+  } else if(ssTab==='dates'){
+    // Important Dates view
+    const now=new Date();
+    let filtDates=idates.filter(d=>{
+      if(!d.date)return true;
+      const dt=new Date(d.date);
+      return isNaN(dt)||dt>=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+    });
+    // Filter by type if sector filter is used for type filtering
+    if(ssFilter!=='all') filtDates=filtDates.filter(d=>(d.type||'other')===ssFilter);
+    // Sort by date
+    filtDates.sort((a,b)=>{
+      const da=a.date?new Date(a.date):null;
+      const db=b.date?new Date(b.date):null;
+      if(!da&&!db)return 0;
+      if(!da)return 1;
+      if(!db)return -1;
+      return da-db;
+    });
+
+    if(!filtDates.length){
+      h+='<p style="text-align:center;padding:40px 0;color:var(--ink-faint)">Nenhuma data importante encontrada.</p>';
+    } else {
+      h+='<div style="padding-top:4px">';
+      filtDates.forEach(d=>{
+        const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        let dateStr='TBD';
+        if(d.date){
+          const dt=new Date(d.date);
+          if(!isNaN(dt))dateStr=String(dt.getDate()).padStart(2,'0')+'/'+months[dt.getMonth()]+'/'+String(dt.getFullYear()).slice(2);
+        }
+        const typeColors={earnings:'var(--s4)',auction:'var(--pinned)',conference:'var(--blue-muted)',ipo:'var(--green)',dividend:'var(--green)',regulatory:'var(--s5)',macro:'var(--s5)',other:'var(--ink-muted)'};
+        const typeBgs={earnings:'var(--s4-bg)',auction:'var(--pinned-bg)',conference:'rgba(82,125,165,0.1)',ipo:'var(--s3-bg)',dividend:'var(--s3-bg)',regulatory:'var(--s5-bg)',macro:'var(--s5-bg)',other:'var(--rule-light)'};
+        const tp=d.type||'other';
+        h+='<div class="ss-event">';
+        h+='<span class="ss-ev-date" style="min-width:80px">'+e(dateStr)+'</span>';
+        h+='<span style="font-family:var(--font);font-size:10px;font-weight:500;padding:1px 6px;border-radius:3px;background:'+typeBgs[tp]+';color:'+typeColors[tp]+';white-space:nowrap">'+e(tp)+'</span>';
+        h+='<span class="ss-ev-title">'+e(d.description)+'</span>';
+        if(d.companies&&d.companies.length){
+          d.companies.slice(0,3).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
+        }
+        if(d.sector) h+='<span class="ss-ev-sector">'+e(d.sector)+'</span>';
         h+='</div>';
       });
       h+='</div>';
