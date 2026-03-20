@@ -8,7 +8,7 @@
       "received": "2026-03-20T16:04:54",
       "received_time": "16:04",
       "one_liner": "BTG Pactual atualiza valuation de empresas de cobre (Metals and Mining) refletindo sell-off recente e preços spot de commodities.",
-      "sector": "Metals and Mining",
+      "sector": "Metals & Mining",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -21,7 +21,7 @@
       "received": "2026-03-20T15:46:43",
       "received_time": "15:46",
       "one_liner": "YDUQS anuncia novo programa de recompra de R$100mn (4% do free float). BTG mantém \"Buy\" com 18% FCF yield.",
-      "sector": "Educação Brasil",
+      "sector": "Education",
       "companies": [
         "YDUQ3",
         "COGN3",
@@ -43,7 +43,7 @@
       "received": "2026-03-20T15:33:54",
       "received_time": "15:33",
       "one_liner": "MS: Retail no México em transição. MELI com +26% de market share '25, TBBB +7%, Walmex desacelera. Pressão no 'meio espremido'.",
-      "sector": "Varejo & eCommerce LatAm",
+      "sector": "Retail",
       "companies": [
         "MELI",
         "TBBB",
@@ -60,7 +60,7 @@
       "received": "2026-03-20T15:32:08",
       "received_time": "15:32",
       "one_liner": "Joe Moore (MS) discute NVDA GTC, AVGO, AMD, INTC, MRVL, ALAB, MU e SNDK, incluindo $1T de receita da NVDA.",
-      "sector": "Semiconductors",
+      "sector": "TMT",
       "companies": [
         "NVDA",
         "AVGO",
@@ -82,7 +82,7 @@
       "received": "2026-03-20T15:11:27",
       "received_time": "15:11",
       "one_liner": "Santander agradece votos Extel em Agribusiness e Food & Beverage LatAm, buscando feedback sobre análises e parceria.",
-      "sector": "Agro, Food & Beverage",
+      "sector": "Agro & Food",
       "companies": [],
       "type": "other",
       "pdfs": [],
@@ -95,7 +95,7 @@
       "received": "2026-03-20T15:07:14",
       "received_time": "15:07",
       "one_liner": "J.P. Morgan publica a seção de Telecom do Argentina Country Handbook, com foco em Telecom Argentina (N rated).",
-      "sector": "Telecomunicações América Latina",
+      "sector": "TMT",
       "companies": [
         "Telecom Argentina"
       ],
@@ -110,7 +110,7 @@
       "received": "2026-03-20T15:01:46",
       "received_time": "15:01",
       "one_liner": "JPM solicita votos Extel para sua equipe de Latam Capital Goods, destacando relatórios e eventos recentes.",
-      "sector": "Bens de Capital América Latina",
+      "sector": "Capital Goods",
       "companies": [
         "Embraer (EMBR3)",
         "Nemak (NEMAK)",
@@ -127,7 +127,7 @@
       "received": "2026-03-20T14:59:18",
       "received_time": "14:59",
       "one_liner": "J.P. Morgan solicita 5-estrelas na pesquisa Extel Latin America nas categorias Real Estate e Cement & Construction.",
-      "sector": "Real Estate, Cement & Construction Latam",
+      "sector": "Real Estate",
       "companies": [
         "PARAUCO",
         "Moura Dubeux",
@@ -144,7 +144,7 @@
       "received": "2026-03-20T14:57:47",
       "received_time": "14:57",
       "one_liner": "Goldman Sachs destaca PBR, PRIO e Vista como compras na América Latina, com preço do petróleo em US$70s.",
-      "sector": "Petróleo e Gás",
+      "sector": "Other",
       "companies": [
         "PBR",
         "PRIO",
@@ -174,7 +174,7 @@
       "received": "2026-03-20T14:31:18",
       "received_time": "14:31",
       "one_liner": "BTG Pactual: Oil up on geopolitical tensions; Brent at US$109.2/bbl (+5.9% w/w). PRIO (-2.6%), Brava (-14.2%), PBR (+12%) offshore production.",
-      "sector": "Oil and Gas",
+      "sector": "Oil & Gas",
       "companies": [
         "PRIO",
         "Brava",
@@ -191,7 +191,7 @@
       "received": "2026-03-20T14:02:00",
       "received_time": "14:02",
       "one_liner": "B3SA3 tem turnover velocity de 161% YTD, 6ª maior globalmente, com potencial EPS upside de volumes de equities, segundo J.P. Morgan.",
-      "sector": "Financeiro Brasil",
+      "sector": "Financials",
       "companies": [
         "B3SA3.SA",
         "B3SA3 BZ"
@@ -207,7 +207,7 @@
       "received": "2026-03-20T14:00:55",
       "received_time": "14:00",
       "one_liner": "BTG Pactual solicita apoio no Extel Survey 2026 para rankings de Oil & Gas LatAm/Brasil; votação encerra hoje.",
-      "sector": "Oil & Gas, Petrochemicals",
+      "sector": "Oil & Gas",
       "companies": [],
       "type": "other",
       "pdfs": [],
@@ -220,7 +220,7 @@
       "received": "2026-03-20T13:56:50",
       "received_time": "13:56",
       "one_liner": "BTG Pactual, Samuel Alves e Maria Resende incentivam participação na pesquisa Extel para categorias de Saúde e Educação.",
-      "sector": "Saude, Educacao",
+      "sector": "Healthcare",
       "companies": [],
       "type": "other",
       "pdfs": [],
@@ -233,7 +233,7 @@
       "received": "2026-03-20T13:26:01",
       "received_time": "13:26",
       "one_liner": "Morgan Stanley destaca 'Value-Up' para Samsung Life (SLI) e C&T (SCT) na Coreia, impulsionado por reformas corporativas.",
-      "sector": "Macro (Coreia do Sul)",
+      "sector": "Macro",
       "companies": [
         "Samsung Life Insurance (SLI)",
         "Samsung C&T (SCT)",
@@ -276,7 +276,7 @@
       "received": "2026-03-20T12:59:00",
       "received_time": "12:59",
       "one_liner": "Global Auto Monitor: TSLA robotaxi, RIVN/UBER deal, weaker EV demand & rising inflation temper auto fundamentals.",
-      "sector": "Autos & Shared Mobility",
+      "sector": "Transportation",
       "companies": [
         "TSLA",
         "RIVN",
@@ -303,7 +303,7 @@
       "received": "2026-03-20T12:55:33",
       "received_time": "12:55",
       "one_liner": "JPM 'Argentina 101' note: OW Macro, Galicia. Argentine banks 1.2-1.3x P/BV, asymmetric upside to 2.0x, ~18% ROE.",
-      "sector": "Financials América Latina",
+      "sector": "Financials",
       "companies": [
         "Macro (BMA)",
         "Galicia (GGAL)",
@@ -339,7 +339,7 @@
       "received": "2026-03-20T12:30:17",
       "received_time": "12:30",
       "one_liner": "BTG Pactual Banks/Non-Banks LatAm/Brazil team (Rosman, Aramburu, Buchpiguel, Paura) solicita votos 5-estrelas nas pesquisas Extel/II que estão fechando.",
-      "sector": "Financeiro",
+      "sector": "Financials",
       "companies": [],
       "type": "other",
       "pdfs": [],
@@ -369,7 +369,7 @@
       "received": "2026-03-20T12:17:12",
       "received_time": "12:17",
       "one_liner": "JPM recaps Cyrela's 4Q25 conference call highlights, maintaining Overweight on CYRE3, trading at 6.3x P/E 26e.",
-      "sector": "Real Estate Brasil",
+      "sector": "Real Estate",
       "companies": [
         "Cyrela (CYRE3.SA)",
         "EZTC",
@@ -404,7 +404,7 @@
       "received": "2026-03-20T12:07:23",
       "received_time": "12:07",
       "one_liner": "BTG Pactual (Marquiori/Recchia/Alkmim) review 2026 for Transportation & Capital Goods, compiling research on WEG, Localiza, Embraer, Rumo, LATAM, GPS, Marcopolo, and request Extel votes.",
-      "sector": "Transportation & Capital Goods",
+      "sector": "Capital Goods",
       "companies": [
         "WEG",
         "Localiza",
@@ -458,7 +458,7 @@
       "received": "2026-03-20T11:25:44",
       "received_time": "11:25",
       "one_liner": "JPM: Inflows in Andean region in Feb 2026. Chile pension funds US$175.7mn (Latam, Falabella); Colombia US$23.2mn.",
-      "sector": "LatAm / Macro",
+      "sector": "Macro",
       "companies": [
         "Latam Airlines",
         "Falabella",
@@ -483,7 +483,7 @@
       "received": "2026-03-20T11:21:45",
       "received_time": "11:21",
       "one_liner": "J.P. Morgan's March Global Airlines Valuation Dashboard destaca LTM, CPA, Aeromexico (OW), Azul (N), e cobre mais de 30 empresas globalmente.",
-      "sector": "Airlines",
+      "sector": "Transportation",
       "companies": [
         "LTM",
         "CPA",
@@ -502,7 +502,7 @@
       "received": "2026-03-20T11:16:52",
       "received_time": "11:16",
       "one_liner": "BTG Pactual's LatAm Oil & Gas research (Mar 20, 2026) covers diesel subvention (Petrobras), ICMS exemption proposal, and BRKM's new REIQ tax credits (US$250-350mn EBITDA/year).",
-      "sector": "Oil & Gas LatAm",
+      "sector": "Oil & Gas",
       "companies": [
         "Petrobras (PBR)",
         "Braskem (BRKM)"
@@ -518,7 +518,7 @@
       "received": "2026-03-20T11:06:27",
       "received_time": "11:06",
       "one_liner": "J.P. Morgan pede votos para a pesquisa Extel/I.I. nas categorias LatAm TMT e Education, mencionando Mercado Libre e Intelbras.",
-      "sector": "LatAm TMT, LatAm Education",
+      "sector": "Education",
       "companies": [
         "Mercado Libre",
         "Intelbras"
@@ -534,7 +534,7 @@
       "received": "2026-03-20T10:49:13",
       "received_time": "10:49",
       "one_liner": "Analistas do BTG Pactual pedem votos 5 estrelas nas pesquisas Extel/II 2026 para Metals & Mining e Pulp & Paper.",
-      "sector": "Materiais Básicos",
+      "sector": "Metals & Mining",
       "companies": [],
       "type": "other",
       "pdfs": [],
@@ -562,7 +562,7 @@
       "received": "2026-03-20T10:36:49",
       "received_time": "10:36",
       "one_liner": "BTG Pactual: Patente semaglutida (Ozempic) cai no Brasil, mercado abre gradualmente com desafios regulatórios.",
-      "sector": "Saúde",
+      "sector": "Healthcare",
       "companies": [
         "Novo Nordisk",
         "EMS",
@@ -579,7 +579,7 @@
       "received": "2026-03-20T10:34:00",
       "received_time": "10:34",
       "one_liner": "AXIA Energia (AXIA3.SA) anuncia conversão de ações ISA Energia e swap de ativos, vistos como positivos; Goldman Sachs reitera 'Buy'.",
-      "sector": "Energia",
+      "sector": "Oil & Gas",
       "companies": [
         "AXIA Energia (AXIA3.SA)",
         "ISA Energia"
@@ -608,7 +608,7 @@
       "received": "2026-03-20T10:31:21",
       "received_time": "10:31",
       "one_liner": "Semaglutide patente expira hoje no Brasil, impactando RADL/HYPE; experiência da Índia indica cortes de 50-60% em preços de genéricos.",
-      "sector": "Saúde, Varejo Brasil",
+      "sector": "Healthcare",
       "companies": [
         "RADL",
         "HYPE"
@@ -644,7 +644,7 @@
       "received": "2026-03-20T10:14:17",
       "received_time": "10:14",
       "one_liner": "JPM: Overweight Petrobras (PBR, PETR3, PETR4) PTs R$46.50/R$44.00. Analisa decreto preço diesel, governança e 30% desconto à paridade.",
-      "sector": "Energia",
+      "sector": "Oil & Gas",
       "companies": [
         "Petrobras (PBR)",
         "Petrobras (PBR US)",
@@ -664,7 +664,7 @@
       "received": "2026-03-20T10:10:52",
       "received_time": "10:10",
       "one_liner": "BTG Pactual resume 4T25 de CEMIG, CYRELA, TUPY, WIZ, PANVEL; atualiza Petrobras/Fuel e Axia/ISA ENERGIA, com ratings e alavancagem.",
-      "sector": "Equity Research Brasil",
+      "sector": "Macro",
       "companies": [
         "CEMIG",
         "CYRELA",
@@ -696,7 +696,7 @@
       "received": "2026-03-20T10:08:45",
       "received_time": "10:08",
       "one_liner": "BTG Pactual resume resultados 4T25 de CEMIG, CYRELA, TUPY, WIZ, PANVEL, mais Petrobras, Axia e ISA Energia.",
-      "sector": "Multissetorial Brasil",
+      "sector": "Macro",
       "companies": [
         "CEMIG",
         "CYRELA",
@@ -741,7 +741,7 @@
       "received": "2026-03-20T10:07:21",
       "received_time": "10:07",
       "one_liner": "Jefferies Morning Highlights: Macro (China AI, Iran), $212bn Index rebalance, plus DOW, VG, MSFT, NVDA options.",
-      "sector": "Macro, Multi-sector",
+      "sector": "Macro",
       "companies": [
         "DOW",
         "VG",
@@ -759,7 +759,7 @@
       "received": "2026-03-20T10:02:57",
       "received_time": "10:02",
       "one_liner": "BofA sales: Oil supply shock may mean peak earnings, questions correlation with MSCI World ex-US.",
-      "sector": "Macro, Commodities",
+      "sector": "Macro",
       "companies": [
         "Crude",
         "MSCI World ex-US"
@@ -807,7 +807,7 @@
       "received": "2026-03-20T09:13:54",
       "received_time": "09:13",
       "one_liner": "Randoncorp (RAPT4) reports soft Feb revs: -9% YoY to R$996mn; Frasle Mobility (FRAS) -6% to R$409mn. Expect marginal negative reaction.",
-      "sector": "Bens de Capital",
+      "sector": "Capital Goods",
       "companies": [
         "Randoncorp (RAPT4.SA)",
         "Frasle Mobility (FRAS)"
@@ -823,7 +823,7 @@
       "received": "2026-03-20T09:12:43",
       "received_time": "09:12",
       "one_liner": "BTG Pactual's Brazilian Education Clipping by Alves/Resende notes 41.9% EAD dropout rate, Ternium's R$260M school, and Mr. Wiz M&A.",
-      "sector": "Educação Brasil",
+      "sector": "Education",
       "companies": [
         "Ternium",
         "Mr. Wiz",
@@ -840,7 +840,7 @@
       "received": "2026-03-20T09:11:23",
       "received_time": "09:11",
       "one_liner": "Clipping de saúde brasileira foca em Q4 da Hapvida (HAPV), dívidas e fim da patente de Ozempic, com EMS entrando no mercado.",
-      "sector": "Saúde Brasil",
+      "sector": "Healthcare",
       "companies": [
         "Hapvida (HAPV)",
         "EMS",
@@ -858,7 +858,7 @@
       "received": "2026-03-20T09:01:23",
       "received_time": "09:01",
       "one_liner": "BTG Pactual's LatAm TMT clipping for Mar 20, 2026, features Bemobi's (BMOB3) beat, regulatory news for ISPs, and data centers.",
-      "sector": "LatAm Telecom, Media, Tech",
+      "sector": "TMT",
       "companies": [
         "Bemobi (BMOB3)",
         "Oi",
@@ -875,7 +875,7 @@
       "received": "2026-03-20T08:50:23",
       "received_time": "08:50",
       "one_liner": "Santander lista mudanças relevantes em participações acionárias de 23 empresas, com BlackRock e Organon entre os investidores ativos.",
-      "sector": "Mercado de Capitais Brasil",
+      "sector": "Macro",
       "companies": [
         "ANIM3",
         "GGBR4",
@@ -912,7 +912,7 @@
       "received": "2026-03-20T08:48:16",
       "received_time": "08:48",
       "one_liner": "JPM reports pulp resale prices contracted after Shanghai Pulp Week, with LatAm BHKE down 1.7% w/w. Chinese PIX unchanged, European PIX up.",
-      "sector": "Pulp & Paper",
+      "sector": "Agro & Food",
       "companies": [
         "Domtar",
         "UPM",
@@ -930,7 +930,7 @@
       "received": "2026-03-20T08:48:09",
       "received_time": "08:48",
       "one_liner": "BTG Pactual clipping: Mario Leão deixa Santander; Gilson Finkelsztain (B3) assume; Fed reduz exigência de capital em 4,8% para bancos.",
-      "sector": "Financeiro Brasil",
+      "sector": "Financials",
       "companies": [
         "Santander (SANB3)",
         "B3 (B3SA3)"
@@ -966,7 +966,7 @@
       "received": "2026-03-20T08:37:23",
       "received_time": "08:37",
       "one_liner": "JPM relata notícias do setor imobiliário: CYRE CFO, MELK migra para MCMV, TRXF11 adquire hospital, ALOS rating AAA.",
-      "sector": "Real Estate Latam",
+      "sector": "Real Estate",
       "companies": [
         "CYRE",
         "MELK",
@@ -995,7 +995,7 @@
       "received": "2026-03-20T08:37:17",
       "received_time": "08:37",
       "one_liner": "BTG Pactual LatAm Retail clipping: Panvel, Raia Drogasil, iFood, mercado pet e pesquisa BTG sobre varejo, 4T25 e Copa.",
-      "sector": "Varejo Brasil",
+      "sector": "Retail",
       "companies": [
         "Panvel (PNVL3)",
         "Raia Drogasil (RADL3)",
@@ -1015,7 +1015,7 @@
       "received": "2026-03-20T08:35:09",
       "received_time": "08:35",
       "one_liner": "BTG Pactual (Duarte/Guttilla) clipping: Minerva prevê queda de margens de carne bovina em 2026; MBRF espera margens estáveis na América do Sul.",
-      "sector": "Food & Beverages",
+      "sector": "Agro & Food",
       "companies": [
         "Minerva (BEEF3)",
         "MBRF",
@@ -1047,7 +1047,7 @@
       "received": "2026-03-20T08:32:31",
       "received_time": "08:32",
       "one_liner": "BTG Pactual Agribusiness Clipping de 20/03/2026 aborda Cosan/Compass, crise da Raízen, alta de combustíveis e mercado de grãos/fertilizantes.",
-      "sector": "Agro",
+      "sector": "Agro & Food",
       "companies": [
         "Cosan (CSAN3)",
         "Bradesco (BBDC4)",
@@ -1093,7 +1093,7 @@
       "received": "2026-03-20T08:26:19",
       "received_time": "08:26",
       "one_liner": "Haddad renuncia. México: BC manterá juros. Santander Upgrades GAP (M$472, Outperform) & Downgrades Volaris (M$13, Neutral). Thematic Gen-Z. WEG Top Pick (R$69).",
-      "sector": "Macro, Multi-sector LatAm",
+      "sector": "Macro",
       "companies": [
         "GAP.MX",
         "VLRS.MX",
@@ -1140,7 +1140,7 @@
       "received": "2026-03-20T08:21:20",
       "received_time": "08:21",
       "one_liner": "Goldman Sachs reporta sobre mudanças acionárias em ANIM3, GGBR4 e AZZA3 no Brasil.",
-      "sector": "Multi-setor Brasil",
+      "sector": "Macro",
       "companies": [
         "ANIM3",
         "GGBR4",
@@ -1157,7 +1157,7 @@
       "received": "2026-03-20T08:16:04",
       "received_time": "08:16",
       "one_liner": "Safra reports neutral 4Q25 results for Cyrela (CYRE3) and provides a daily summary of Real Estate news, including MDNE3 and ALOS3.",
-      "sector": "Real Estate Brasil",
+      "sector": "Real Estate",
       "companies": [
         "CYRE3",
         "MDNE3",
@@ -1234,7 +1234,7 @@
       "received": "2026-03-20T08:10:42",
       "received_time": "08:10",
       "one_liner": "Safra Daily Note: US Steel Market Pulse, IABr Feb data, highlights Gerdau/CSN for long steel, plus Pulp & Paper news.",
-      "sector": "Steel & Mining, Pulp & Paper",
+      "sector": "Metals & Mining",
       "companies": [
         "Gerdau (GGB)",
         "Nucor (NUE)",
@@ -1259,7 +1259,7 @@
       "received": "2026-03-20T08:04:15",
       "received_time": "08:04",
       "one_liner": "Resumo das principais notícias macroeconômicas e políticas da imprensa da Argentina, Chile, Colômbia e Peru em 20 de março de 2026.",
-      "sector": "Macro - Andean",
+      "sector": "Macro",
       "companies": [],
       "type": "market_update",
       "pdfs": [],
@@ -1272,7 +1272,7 @@
       "received": "2026-03-20T08:03:56",
       "received_time": "08:03",
       "one_liner": "JPM LatAm Commodities team pede votos para Extel I.I. survey; destaca ideias de alta convicção em Petrobras, PRIO, Vale, Aura e Suzano.",
-      "sector": "Commodities",
+      "sector": "Macro",
       "companies": [
         "Petrobras",
         "PRIO",
@@ -1293,7 +1293,7 @@
       "received": "2026-03-20T08:00:22",
       "received_time": "08:00",
       "one_liner": "Análise BTG Pactual sobre o impacto da Copa do Mundo no varejo brasileiro, beneficiando sporting goods (Grupo SBF).",
-      "sector": "Varejo Brasil",
+      "sector": "Retail",
       "companies": [
         "Grupo SBF",
         "Nike"
@@ -1309,7 +1309,7 @@
       "received": "2026-03-20T08:00:12",
       "received_time": "08:00",
       "one_liner": "BTG Pactual's Junqueira/Gushiken/Schutz emite \"Watts Up: Utilities Weekly\" com IRR/ERP do setor, recap da Capacity Auction e resultados de Taesa e Sabesp. Portfolio L/S com mudanças.",
-      "sector": "Utilities Brasil",
+      "sector": "Utilities",
       "companies": [
         "Auren",
         "Orizon",
@@ -1350,7 +1350,7 @@
       "received": "2026-03-20T07:56:54",
       "received_time": "07:56",
       "one_liner": "BofA: US AI (MLUSAI) safe haven, tech (memória, ótica) bullish. Fim ciclo celulose, Latam (SANB11, B3SA3) e telecom em destaque.",
-      "sector": "Multi-setor",
+      "sector": "Macro",
       "companies": [
         "MLUSAI",
         "Samsung",
@@ -1380,7 +1380,7 @@
       "received": "2026-03-20T07:50:42",
       "received_time": "07:50",
       "one_liner": "Santander atualiza sobre Agronegócio: Raízen, -9.7% soja RS, +7% frete diesel, esmagamento recorde 2026 e calendário de resultados.",
-      "sector": "Agronegócio",
+      "sector": "Agro & Food",
       "companies": [
         "Raízen",
         "MBRF",
@@ -1417,7 +1417,7 @@
       "received": "2026-03-20T07:41:05",
       "received_time": "07:41",
       "one_liner": "Pulp Edge: Sem call de BHKP na Shanghai Pulp Week, com BHKP a US$595.4/t e NBSK a US$680/t.",
-      "sector": "Commodities",
+      "sector": "Macro",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -1430,7 +1430,7 @@
       "received": "2026-03-20T07:40:30",
       "received_time": "07:40",
       "one_liner": "BTG Pactual's LatAm Capital Goods clipping (Mar 20, 2026) covers Embraer, Tupy (Neutral), Airbus, GM news, and CVM filings.",
-      "sector": "Capital Goods LatAm",
+      "sector": "Capital Goods",
       "companies": [
         "Embraer",
         "Eve Air Mobility",
@@ -1452,7 +1452,7 @@
       "received": "2026-03-20T07:39:09",
       "received_time": "07:39",
       "one_liner": "BTG Pactual's clippings on LatAm Transportation cover grains, Localiza's BYD deal, and airlines' plea for EU green fuel rule delays.",
-      "sector": "Infraestrutura",
+      "sector": "Capital Goods",
       "companies": [
         "Localiza",
         "BYD",
@@ -1469,7 +1469,7 @@
       "received": "2026-03-20T05:41:53",
       "received_time": "05:41",
       "one_liner": "BofA's Claudio Franco: Stay \"sell the rips\", no capitulation. Tech (Mag7, NVDA) underperformed YTD, but Amazon (AMZN) favored.",
-      "sector": "Technology",
+      "sector": "TMT",
       "companies": [
         "Nvidia (NVDA)",
         "OpenAI",
@@ -1494,7 +1494,7 @@
       "received": "2026-03-20T04:23:29",
       "received_time": "04:23",
       "one_liner": "iPhone com forte desempenho (52M unidades 2T26), App Store desacelera para +6% A/A, Cloud Capex de US$753B (+63% A/A).",
-      "sector": "Tecnologia",
+      "sector": "TMT",
       "companies": [
         "Apple",
         "IBM",
@@ -1527,7 +1527,7 @@
       "received": "2026-03-20T03:00:25",
       "received_time": "03:00",
       "one_liner": "BTG Pactual Earlybird: Peru mining law changes, LatAm strategy recap, Brazil steel challenges, real estate, ESG fleet renewal, PRIO Wahoo field, LOG CFO meeting takeaways.",
-      "sector": "Multi-setorial LatAm",
+      "sector": "Macro",
       "companies": [
         "PRIO",
         "LOG"
@@ -1543,7 +1543,7 @@
       "received": "2026-03-20T02:01:59",
       "received_time": "02:01",
       "one_liner": "JPM favors MOTV3 (OW) and RENT3 (OW) in Brazil Transportation. Selic cut to 14.75% may have lower sector correlation.",
-      "sector": "Transportation Brasil",
+      "sector": "Transportation",
       "companies": [
         "MOTV3",
         "RENT3"
@@ -1559,7 +1559,7 @@
       "received": "2026-03-20T01:36:09",
       "received_time": "01:36",
       "one_liner": "MS: SNX PT $174 (from $172). Solid C1Q IT HW. 2026 PC units -16% Y/Y. 2H uncertain due to rising prices.",
-      "sector": "IT Hardware",
+      "sector": "TMT",
       "companies": [
         "TD Synnex Corporation (SNX.N)",
         "PSTG",
@@ -1591,7 +1591,7 @@
       "received": "2026-03-20T01:17:38",
       "received_time": "01:17",
       "one_liner": "J.P. Morgan mantém rating Neutral para Blau (BLAU3), com PT revisado de R$14,50 para R$13,00, citando riscos no pipeline e mercado.",
-      "sector": "Saúde",
+      "sector": "Healthcare",
       "companies": [
         "Blau Farmaceutica (BLAU3.SA)",
         "Blau Farmaceutica (BLAU3 BZ)"
@@ -1607,7 +1607,7 @@
       "received": "2026-03-20T01:16:49",
       "received_time": "01:16",
       "one_liner": "JPM keeps Opsimex (SITES1.MX) Overweight with PT Ps 26 post 4Q25. Estimates raised for revenue/EBITDA, offset by higher Capex and WACC.",
-      "sector": "Telecom",
+      "sector": "TMT",
       "companies": [
         "Opsimex (SITES1.MX, SITES1 MM)"
       ],
@@ -1622,7 +1622,7 @@
       "received": "2026-03-20T01:16:49",
       "received_time": "01:16",
       "one_liner": "J.P. Morgan incorpora menor crescimento e margens mais altas para VTEX (VTEX, VTEX US) pós 4T25, mantendo \"Neutral\" e PT de $5 até Dez-26.",
-      "sector": "Tecnologia",
+      "sector": "TMT",
       "companies": [
         "VTEX",
         "VTEX US"
@@ -1638,7 +1638,7 @@
       "received": "2026-03-20T01:03:14",
       "received_time": "01:03",
       "one_liner": "Morgan Stanley vê Auto & Energia convergir: TSLA, GM, F diversificam para ESS; Tesla-LGES fecha $4.3bn em baterias; BWA entra em data center.",
-      "sector": "Automotivo & Energia",
+      "sector": "Oil & Gas",
       "companies": [
         "TSLA",
         "GM",
@@ -1698,7 +1698,7 @@
       "received": "2026-03-19T22:35:04",
       "received_time": "22:35",
       "one_liner": "Governo anuncia diretrizes para preço do diesel para fins de subsídio; negativo para Petrobras (PBR) com -USD 1.2bn FCF em 2026.",
-      "sector": "Energia",
+      "sector": "Oil & Gas",
       "companies": [
         "Petrobras (PBR)"
       ],
@@ -1713,7 +1713,7 @@
       "received": "2026-03-19T22:32:13",
       "received_time": "22:32",
       "one_liner": "BTG Pactual publica LatAm Financials Weekly, um livro de valuation atualizado para 19 de março de 2026.",
-      "sector": "Financeiro LatAm",
+      "sector": "Financials",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -1726,7 +1726,7 @@
       "received": "2026-03-19T22:11:49",
       "received_time": "22:11",
       "one_liner": "BTG Pactual prevê derrota de proposta de lei de mineração no Peru com aumento de taxas de concessão e redução de prazos.",
-      "sector": "Metals & Mining (Peru)",
+      "sector": "Metals & Mining",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -1739,7 +1739,7 @@
       "received": "2026-03-19T22:03:18",
       "received_time": "22:03",
       "one_liner": "BTG Pactual reitera BUY em Panvel com TP R$19.00 após Q4 sólido, SSS +14.7% e EBITDA ajustado +28% a R$105mn.",
-      "sector": "Varejo Brasil",
+      "sector": "Retail",
       "companies": [
         "Panvel"
       ],
@@ -1767,7 +1767,7 @@
       "received": "2026-03-19T21:05:04",
       "received_time": "21:05",
       "one_liner": "Bemobi (Buy, TP R$35.00) superou 4Q25: R$199.2mn receita (+20.5% a/a), R$65.9mn EBITDA (+20% a/a). Revisões à frente.",
-      "sector": "Telecom e Tecnologia Brasil",
+      "sector": "TMT",
       "companies": [
         "Bemobi"
       ],
@@ -1782,7 +1782,7 @@
       "received": "2026-03-19T20:23:25",
       "received_time": "20:23",
       "one_liner": "Morgan Stanley vê crescimento do Alicloud (BABA.N) acelerando para 40% (4T26) e 45% (AF27). Mantém Overweight, PT US$180.",
-      "sector": "Internet China",
+      "sector": "TMT",
       "companies": [
         "Alibaba Group Holding (BABA.N)"
       ],
@@ -1797,7 +1797,7 @@
       "received": "2026-03-19T20:12:20",
       "received_time": "20:12",
       "one_liner": "BTG Pactual analisa programa Move Brasil para renovar frota de caminhões (2.3M veículos, R$10bn em financiamento) visando reduzir emissões.",
-      "sector": "Logistics",
+      "sector": "Transportation",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -1825,7 +1825,7 @@
       "received": "2026-03-19T19:45:11",
       "received_time": "19:45",
       "one_liner": "Wiz (Neutral; TP R$ 11.00): 4T25 lucro ajustado ~R$60mn, 7% acima. Top line fraco. BTG mantém Neutral.",
-      "sector": "Financeiro Brasil",
+      "sector": "Financials",
       "companies": [
         "Wiz"
       ],
@@ -1840,7 +1840,7 @@
       "received": "2026-03-19T19:41:27",
       "received_time": "19:41",
       "one_liner": "Wiz (WIZC3) teve lucro de R$50mn no 4T25, 7% abaixo do JPMe, com receitas mais fracas e impairment, apesar de Corporate recorde.",
-      "sector": "Financeiro Brasil",
+      "sector": "Financials",
       "companies": [
         "Wiz (WIZC3.SA)",
         "Wiz (WIZC3 BZ)",
@@ -1905,7 +1905,7 @@
       "received": "2026-03-19T19:21:25",
       "received_time": "19:21",
       "one_liner": "Varejo México: SSS de fevereiro +1.1% a/a, ligeiramente suave mas alinhado com visão conservadora. JPM reitera OW TBBB.",
-      "sector": "Varejo México",
+      "sector": "Retail",
       "companies": [
         "TBBB",
         "FEMSA"
@@ -1934,7 +1934,7 @@
       "received": "2026-03-19T18:38:00",
       "received_time": "18:38",
       "one_liner": "Safra research discusses fuel distribution, bidding rounds, and a positive outlook for oil/gas/petrochemicals, following a meeting with ANP.",
-      "sector": "Oil & Gas, Petrochemicals",
+      "sector": "Oil & Gas",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -1962,7 +1962,7 @@
       "received": "2026-03-19T18:35:34",
       "received_time": "18:35",
       "one_liner": "BTG 4Q25 Brazil Retail & Consumer: Challenging quarter, consumption slowed. Raia Drogasil, Renner outperformed; Assaí, GMAT, C&A, Magazine Luiza struggled.",
-      "sector": "Varejo Brasil",
+      "sector": "Retail",
       "companies": [
         "Raia Drogasil",
         "Lojas Renner",
@@ -1983,7 +1983,7 @@
       "received": "2026-03-19T18:11:10",
       "received_time": "18:11",
       "one_liner": "Abate de gado no Brasil cresce 14% a/a no 4T; abate de fêmeas em 42% sugere início de fase de retenção.",
-      "sector": "Agro & Alimentos Brasil",
+      "sector": "Retail",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -1996,7 +1996,7 @@
       "received": "2026-03-19T18:09:49",
       "received_time": "18:09",
       "one_liner": "Safra: 'US Steel Market Pulse' sobre preços, capacidade, estoques e políticas para Gerdau, Nucor, Steel Dynamics, Commercial Metals, Cleveland-Cliffs.",
-      "sector": "Metals and Mining",
+      "sector": "Metals & Mining",
       "companies": [
         "Gerdau (GGB, GOAU4)",
         "Nucor (NUE)",
@@ -2015,7 +2015,7 @@
       "received": "2026-03-19T18:00:26",
       "received_time": "18:00",
       "one_liner": "BTG Pactual: impacto limitado de antidumping no aço BR, preveem lucros deprimidos e margens EBITDA <10% nos próximos trimestres.",
-      "sector": "Metals and Mining",
+      "sector": "Metals & Mining",
       "companies": [],
       "type": "research_note",
       "pdfs": [],
@@ -2028,7 +2028,7 @@
       "received": "2026-03-19T17:33:59",
       "received_time": "17:33",
       "one_liner": "GS upgrades Motiva (MOTV3.SA) to Neutral, PT BRL 15.70, citing optimized portfolio and balanced risk/reward.",
-      "sector": "Infraestrutura",
+      "sector": "Capital Goods",
       "companies": [
         "Motiva Infra. de Mobilidade SA (MOTV3.SA)"
       ],
@@ -2043,7 +2043,7 @@
       "received": "2026-03-19T17:30:59",
       "received_time": "17:30",
       "one_liner": "JPM LatAm Financials research covers US Payments, AI, Fintech Monetization, and NU's US strategy, highlighting Visa, Block.",
-      "sector": "Fintech",
+      "sector": "Financials",
       "companies": [
         "Visa (V)",
         "Mastercard (MA)",
@@ -2068,7 +2068,7 @@
       "received": "2026-03-19T17:21:22",
       "received_time": "17:21",
       "one_liner": "JPM destaca 9 razões pelas quais México é o principal mercado de varejo alimentar LatAm, com Walmex (18.4% ROIC) e Tiendas 3B (25% top-line CAGR) como destaques.",
-      "sector": "Varejo de Alimentos LatAm",
+      "sector": "Retail",
       "companies": [
         "Walmex",
         "La Comer",
@@ -2085,7 +2085,7 @@
       "received": "2026-03-19T17:09:49",
       "received_time": "17:09",
       "one_liner": "Safra analisa dados de fevereiro do IABr. Perspectiva mais forte para aços longos (Gerdau, CSN) que planos, com preço impulsionado por AD duties.",
-      "sector": "Metais e Mineração",
+      "sector": "Other",
       "companies": [
         "Gerdau",
         "CSN"
@@ -2101,7 +2101,7 @@
       "received": "2026-03-19T17:07:01",
       "received_time": "17:07",
       "one_liner": "Morgan Stanley mantém Equal-weight para PetroReconcavo (RECV3) com PT de R$13,00 após 4T25 e call, destacando desafios na produção e hedges.",
-      "sector": "Energia",
+      "sector": "Oil & Gas",
       "companies": [
         "PetroReconcavo S.A. (RECV3.SA)"
       ],
@@ -2116,7 +2116,7 @@
       "received": "2026-03-19T16:40:28",
       "received_time": "16:40",
       "one_liner": "BTG Pactual's Alves/Resende report Hapvida (HAPV) debt spreads widening post-Q4 results, atingindo CDI+10-13% e mantendo rating Neutro.",
-      "sector": "Saude",
+      "sector": "Healthcare",
       "companies": [
         "Hapvida (HAPV)"
       ],
@@ -2131,7 +2131,7 @@
       "received": "2026-03-19T16:36:07",
       "received_time": "16:36",
       "one_liner": "BTG Pactual (Correa/Arazi/Gotardo) report on Commodities Cheat Sheet (19-Mar-2026), noting base and precious metals slid on growth fears.",
-      "sector": "Commodities",
+      "sector": "Macro",
       "companies": [],
       "type": "research_note",
       "pdfs": [
@@ -2148,7 +2148,7 @@
       "received": "2026-03-19T16:28:50",
       "received_time": "16:28",
       "one_liner": "JPM: Brazil Steel Feb IABR: Imports up 34.1% y/y, defying antidumping. Prefere Gerdau/Ternium (OW) vs CSN/Usiminas (Neutral).",
-      "sector": "Metais e Mineração Brasil",
+      "sector": "Other",
       "companies": [
         "Gerdau (GGBR4)",
         "Ternium (TX)",
@@ -2168,7 +2168,7 @@
       "received": "2026-03-20T15:44:02",
       "received_time": "15:44",
       "one_liner": "Convite para videoconferência com Elsys, agendada para 23/Março/2026 às 14h30.",
-      "sector": "Tecnologia",
+      "sector": "TMT",
       "companies": [
         "Elsys"
       ],
@@ -2185,7 +2185,7 @@
       "received": "2026-03-20T14:19:05",
       "received_time": "14:19",
       "one_liner": "Santander convida para videoconferência sobre dinâmicas de preços de combustíveis no Brasil em 23/Março às 16h00.",
-      "sector": "Energia",
+      "sector": "Oil & Gas",
       "companies": [],
       "type": "event_invite",
       "pdfs": [],
@@ -2219,7 +2219,7 @@
       "received": "2026-03-20T14:02:08",
       "received_time": "14:02",
       "one_liner": "JPM convida para call sobre impacto de AI em Brokers, Asset Managers e Exchanges na série Global Platform, em 20 de Março de 2026.",
-      "sector": "Financeiro",
+      "sector": "Financials",
       "companies": [
         "Capital One",
         "EBANX",
@@ -2241,7 +2241,7 @@
       "received": "2026-03-20T12:43:30",
       "received_time": "12:43",
       "one_liner": "Convite para videoconferência com Unimed Brasil em 23/Março às 10h00 via Zoom.",
-      "sector": "Saude",
+      "sector": "Healthcare",
       "companies": [
         "Unimed Brasil"
       ],
@@ -2292,7 +2292,7 @@
       "received": "2026-03-20T11:01:53",
       "received_time": "11:01",
       "one_liner": "Webinar J.P. Morgan com Close-Up International sobre tendências GLP-1 no Brasil e vencimento patente semaglutida.",
-      "sector": "Saúde Brasil",
+      "sector": "Healthcare",
       "companies": [
         "Close-Up International"
       ],
@@ -2309,7 +2309,7 @@
       "received": "2026-03-20T10:56:20",
       "received_time": "10:56",
       "one_liner": "IQVIA Feb'26 Brazil pharma sales decelerated to 7.5% y/y, suggesting GLP-1 undersupply; RADL (OW) may outperform, HYPE (OW) softer.",
-      "sector": "Saúde",
+      "sector": "Healthcare",
       "companies": [
         "RD Saúde (RADL)",
         "Hypera (HYPE)"
@@ -2327,7 +2327,7 @@
       "received": "2026-03-20T10:30:51",
       "received_time": "10:30",
       "one_liner": "JPM divulga agenda de eventos de 20 a 27 de Março, incluindo webinars com Sabesp, Vale, Vibra, Cemex, Rural Ventures e outros.",
-      "sector": "Multi-setorial",
+      "sector": "Macro",
       "companies": [
         "Rural Ventures",
         "Vibra",
@@ -2373,7 +2373,7 @@
       "received": "2026-03-20T10:02:59",
       "received_time": "10:02",
       "one_liner": "BTG Pactual convida para evento sobre Cobre: 'Flavor of the Decade' em 24 de março de 2026, às 09:30 BRT.",
-      "sector": "Commodities",
+      "sector": "Macro",
       "companies": [],
       "type": "event_invite",
       "pdfs": [
@@ -2392,7 +2392,7 @@
       "received": "2026-03-20T10:02:58",
       "received_time": "10:02",
       "one_liner": "BTG Pactual convida para websession com Platts (S&P Global) sobre mercados de produtos refinados Brasil em 24/Mar às 15h00 BRT.",
-      "sector": "Energia / Commodities",
+      "sector": "Macro",
       "companies": [
         "BTG Pactual",
         "Platts",
@@ -2415,7 +2415,7 @@
       "received": "2026-03-20T10:02:54",
       "received_time": "10:02",
       "one_liner": "JPM convida para webinar com Close-Up International sobre tendências GLP-1 no Brasil, expiração de patentes e implicações para farmacêuticas.",
-      "sector": "Saúde",
+      "sector": "Healthcare",
       "companies": [
         "Close-Up International"
       ],
@@ -2432,7 +2432,7 @@
       "received": "2026-03-20T09:36:41",
       "received_time": "09:36",
       "one_liner": "J.P. Morgan convida JD Sports para webinar 'Agentic Commerce' sobre AI no varejo, 23/03/2026, 12h BZ.",
-      "sector": "Varejo & Tecnologia",
+      "sector": "Retail",
       "companies": [
         "JD Sports"
       ],
@@ -2449,7 +2449,7 @@
       "received": "2026-03-20T09:32:30",
       "received_time": "09:32",
       "one_liner": "Convite para webinar JPM com Henry Hadid (VP Jurídico da Vibra) sobre irregularidades no mercado de combustíveis do Brasil.",
-      "sector": "Petróleo e Gás Brasil",
+      "sector": "Other",
       "companies": [
         "Vibra"
       ],
@@ -2466,7 +2466,7 @@
       "received": "2026-03-20T09:31:59",
       "received_time": "09:31",
       "one_liner": "JPM convida para reunião presencial com Novonesis, experts em enzimas para etanol de milho (90%+ mkt share no Brasil), em 23 de março às 10h BRT.",
-      "sector": "Agro",
+      "sector": "Agro & Food",
       "companies": [
         "Novonesis"
       ],
@@ -2483,7 +2483,7 @@
       "received": "2026-03-20T09:21:25",
       "received_time": "09:21",
       "one_liner": "JPM Morning Voice: Rebalanceamento S&P $290B, APD PT $310, GAP PT $35, upgrades CRGY/SM/OXY, e convite para 6 calls (Industrials, Software, AI).",
-      "sector": "Multi-setor EUA",
+      "sector": "Macro",
       "companies": [
         "VRT US",
         "COHR US",
@@ -2546,7 +2546,7 @@
       "received": "2026-03-20T08:32:48",
       "received_time": "08:32",
       "one_liner": "UBS BB atualiza forecast de Oil, eleva PT de PRIO para R$75, mantém Buy para Vivara, Vulcabras e FEMSA; Cyrela/Tupy erram no 4T.",
-      "sector": "Multi-setor",
+      "sector": "Macro",
       "companies": [
         "PRIO (PRIO3)",
         "Cyrela (CYRE3)",
@@ -2596,7 +2596,7 @@
       "received": "2026-03-20T08:24:53",
       "received_time": "08:24",
       "one_liner": "JPM resume o mercado com destaques em Transportation (MOTV, RENT), Nubank (MX ROEs), VTEX (PT $5) e Blau (PT R$13).",
-      "sector": "Multi-setorial",
+      "sector": "Macro",
       "companies": [
         "MOTV",
         "RENT",
@@ -2625,7 +2625,7 @@
       "received": "2026-03-20T08:01:57",
       "received_time": "08:01",
       "one_liner": "JPM convida para webinar '2026 Protein & Grains Outlook' com Rural Ventures, discutindo setores de proteína e agronegócio EUA/Brasil.",
-      "sector": "Agro & Alimentos",
+      "sector": "Retail",
       "companies": [
         "JBS",
         "Rural Ventures"
@@ -2643,7 +2643,7 @@
       "received": "2026-03-20T07:17:39",
       "received_time": "07:17",
       "one_liner": "Santander Earlybird com WEGE3 (OP, TP R$69.00), resultados 4T25 de CYRE3 (In Line), TUPY3, UNIP6 (Missed), e evento fiscal 20/03.",
-      "sector": "Multi-Setorial Brasil & LatAm",
+      "sector": "Macro",
       "companies": [
         "WEGE3",
         "TEND3",
@@ -2696,7 +2696,7 @@
       "received": "2026-03-19T23:29:43",
       "received_time": "23:29",
       "one_liner": "Morgan Stanley convida para webcast sobre tendências de AI Cloud na China e análise de resultados de Tencent e Alibaba.",
-      "sector": "Tecnologia China",
+      "sector": "TMT",
       "companies": [
         "Tencent",
         "Alibaba"
@@ -2731,7 +2731,7 @@
       "received": "2026-03-19T20:00:09",
       "received_time": "20:00",
       "one_liner": "Cyrela (CYRE3) reporta forte lucro líquido 4T25 de R$682mn (+17% vs cons), impulsionado por receita. JPM mantém Overweight.",
-      "sector": "Real Estate Brasil",
+      "sector": "Real Estate",
       "companies": [
         "Cyrela (CYRE3)",
         "Cury"
@@ -2749,7 +2749,7 @@
       "received": "2026-03-19T18:32:08",
       "received_time": "18:32",
       "one_liner": "JPM: Webinar '2026 Protein & Grains Outlook' com Rural Ventures sobre setores de proteína e grãos EUA/Brasil em 20 de Março.",
-      "sector": "Agribusiness",
+      "sector": "Other",
       "companies": [
         "JBS (JBSS3)",
         "São Martinho (SMTO3)",
@@ -2770,7 +2770,7 @@
       "received": "2026-03-19T18:22:28",
       "received_time": "18:22",
       "one_liner": "JPM convida para webinar com Henry Hadid (VP Legal Vibra) sobre irregularidades no mercado de combustíveis Brasil, 20/03/2026, 10:30 BRT.",
-      "sector": "Oil & Gas Brasil",
+      "sector": "Oil & Gas",
       "companies": [
         "Vibra (VBBR3)"
       ],
@@ -2787,7 +2787,7 @@
       "received": "2026-03-19T17:55:29",
       "received_time": "17:55",
       "one_liner": "J.P. Morgan convida para eventos LatAm Retail & Healthcare, incluindo call sobre GLP-1 (20/03) e trip no México.",
-      "sector": "Varejo LatAm, Saúde LatAm",
+      "sector": "Healthcare",
       "companies": [
         "Hypera",
         "Lojas Renner",
@@ -2808,7 +2808,7 @@
       "received": "2026-03-19T16:53:38",
       "received_time": "16:53",
       "one_liner": "Santander CIB convida para call sobre Perspectivas Econômicas LatAm 2026, com foco em tensões globais, Brasil e México, em 23/03 às 10h EDT.",
-      "sector": "Macro - América Latina",
+      "sector": "Macro",
       "companies": [],
       "type": "event_invite",
       "pdfs": [],
@@ -2823,7 +2823,7 @@
       "received": "2026-03-19T16:43:59",
       "received_time": "16:43",
       "one_liner": "Videoconferência com CVC (CVCB3) pós resultados em 26/Março às 14h00. Link Zoom incluso.",
-      "sector": "Varejo Brasil",
+      "sector": "Retail",
       "companies": [
         "CVCB3"
       ],
@@ -2838,7 +2838,7 @@
   "stats": {
     "total_emails": 120,
     "total_events": 33,
-    "sectors": 76,
+    "sectors": 14,
     "banks": 29,
     "companies": 398
   }

@@ -187,32 +187,44 @@
   .co-date-label { font-family:var(--sans); font-size:11px; color:var(--ink-faint); font-weight:600; margin-bottom:10px; margin-top:20px; padding-bottom:6px; border-bottom:1px solid var(--rule-light); }
 
   /* ===== SELL SIDE ===== */
+  .ss-tabs { display:flex; gap:0; border-bottom:2px solid var(--rule); margin-bottom:0; }
+  .ss-tab { font-family:var(--sans); font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:1px; padding:12px 20px; cursor:pointer; color:var(--ink-faint); border-bottom:2px solid transparent; margin-bottom:-2px; transition:all 0.15s; }
+  .ss-tab:hover { color:var(--ink-light); }
+  .ss-tab.active { color:var(--ink); border-bottom-color:var(--accent); }
+  .ss-tab .ss-tab-count { font-size:9px; font-weight:400; color:var(--ink-faint); margin-left:4px; }
+
   .ss-stats { display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:0; border-bottom:1px solid var(--rule); }
   .ss-stats .dash-cell:not(:last-child) { border-right:1px solid var(--rule-light); }
-  .ss-filters { padding:12px 0; border-bottom:1px solid var(--rule); display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-  .ss-filter-label { font-family:var(--sans); font-size:9px; text-transform:uppercase; letter-spacing:1.5px; color:var(--ink-faint); font-weight:600; }
-  .ss-pill { font-family:var(--sans); font-size:10px; padding:3px 10px; border-radius:3px; font-weight:500; cursor:pointer; transition:all 0.12s; border:1px solid var(--rule-light); background:var(--cream); color:var(--ink-muted); }
-  .ss-pill:hover { border-color:var(--ink-faint); color:var(--ink-light); }
+
+  .ss-filters { padding:10px 0; border-bottom:1px solid var(--rule); display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .ss-pill { font-family:var(--sans); font-size:10px; padding:4px 12px; border-radius:20px; font-weight:500; cursor:pointer; transition:all 0.15s; border:1px solid var(--rule-light); background:transparent; color:var(--ink-muted); }
+  .ss-pill:hover { border-color:var(--ink-faint); color:var(--ink); }
   .ss-pill.active { background:var(--ink); color:white; border-color:var(--ink); }
-  .ss-email { padding:16px 0; border-bottom:1px solid var(--rule-light); }
+  .ss-pill .ss-pill-n { font-weight:400; opacity:0.6; margin-left:2px; }
+
+  .ss-email { padding:12px 0; border-bottom:1px solid var(--rule-light); }
   .ss-email:last-child { border-bottom:none; }
-  .ss-email-meta { display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; }
-  .ss-bank { font-family:var(--sans); font-size:11px; font-weight:600; color:var(--ink-muted); }
-  .ss-time { font-family:var(--sans); font-size:10px; color:var(--ink-faint); }
-  .ss-oneliner { font-family:var(--body); font-size:14px; color:var(--ink); line-height:1.55; margin-bottom:6px; }
-  .ss-subject { font-family:var(--display); font-size:15px; font-weight:500; color:var(--ink); margin-bottom:4px; cursor:pointer; }
-  .ss-subject:hover { color:var(--accent); }
-  .ss-tags { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
-  .ss-sector-tag { font-family:var(--sans); font-size:9px; font-weight:600; padding:2px 7px; border-radius:2px; background:var(--s3-bg); color:var(--s3); letter-spacing:0.3px; }
-  .ss-co-tag { font-family:var(--sans); font-size:9px; font-weight:600; padding:2px 7px; border-radius:2px; background:var(--s4-bg); color:var(--s4); letter-spacing:0.3px; }
-  .ss-type-tag { font-family:var(--sans); font-size:9px; font-weight:500; padding:2px 7px; border-radius:2px; background:var(--rule-light); color:var(--ink-muted); letter-spacing:0.3px; }
-  .ss-body { font-family:var(--body); font-size:13px; color:var(--ink-light); line-height:1.6; margin-top:10px; white-space:pre-wrap; max-height:300px; overflow-y:auto; padding:12px; background:var(--cream); border-radius:4px; border:1px solid var(--rule-light); }
-  .ss-sector-group { margin-bottom:8px; }
-  .ss-sector-header { font-family:var(--sans); font-size:10px; text-transform:uppercase; letter-spacing:2px; color:var(--ink-muted); font-weight:600; padding:16px 0 6px; border-bottom:1px solid var(--rule); }
-  .ss-event { background:var(--pinned-bg); border:1px solid rgba(94,53,177,0.15); border-radius:6px; padding:14px; margin:8px 0; }
-  .ss-event-date { font-family:var(--sans); font-size:11px; font-weight:700; color:var(--pinned); }
-  .ss-event-link { font-family:var(--sans); font-size:10px; color:var(--accent); text-decoration:none; font-weight:600; }
-  .ss-event-link:hover { text-decoration:underline; }
+  .ss-row1 { display:flex; align-items:baseline; gap:8px; margin-bottom:3px; }
+  .ss-bank { font-family:var(--sans); font-size:10px; font-weight:600; color:var(--blue-muted); letter-spacing:0.2px; }
+  .ss-time { font-family:var(--sans); font-size:10px; color:var(--ink-faint); margin-left:auto; white-space:nowrap; }
+  .ss-oneliner { font-family:var(--body); font-size:14px; color:var(--ink); line-height:1.5; }
+  .ss-tags { display:flex; flex-wrap:wrap; gap:3px; margin-top:5px; }
+  .ss-co-tag { font-family:var(--sans); font-size:9px; font-weight:600; padding:1px 6px; border-radius:2px; background:var(--s4-bg); color:var(--s4); letter-spacing:0.2px; }
+  .ss-type-tag { font-family:var(--sans); font-size:9px; font-weight:500; padding:1px 6px; border-radius:2px; background:var(--rule-light); color:var(--ink-muted); }
+  .ss-body { font-family:var(--body); font-size:12px; color:var(--ink-light); line-height:1.55; margin-top:8px; white-space:pre-wrap; max-height:250px; overflow-y:auto; padding:10px; background:var(--cream); border-radius:4px; border:1px solid var(--rule-light); }
+
+  .ss-event { display:flex; align-items:baseline; gap:10px; padding:10px 0; border-bottom:1px solid var(--rule-light); }
+  .ss-event:last-child { border-bottom:none; }
+  .ss-ev-date { font-family:var(--sans); font-size:10px; font-weight:700; color:var(--pinned); white-space:nowrap; min-width:110px; }
+  .ss-ev-bank { font-family:var(--sans); font-size:10px; font-weight:600; color:var(--blue-muted); white-space:nowrap; min-width:100px; }
+  .ss-ev-text { font-family:var(--body); font-size:13px; color:var(--ink); flex:1; line-height:1.45; }
+  .ss-ev-link { font-family:var(--sans); font-size:9px; color:var(--accent); text-decoration:none; font-weight:600; white-space:nowrap; padding:2px 8px; border:1px solid var(--accent); border-radius:3px; }
+  .ss-ev-link:hover { background:var(--accent); color:white; }
+
+  .ss-date-row { padding:10px 0 6px; display:flex; align-items:center; gap:6px; }
+  .ss-date-pill { font-family:var(--sans); font-size:10px; padding:3px 10px; border-radius:20px; cursor:pointer; border:1px solid var(--rule-light); background:transparent; color:var(--ink-muted); transition:all 0.15s; }
+  .ss-date-pill:hover { border-color:var(--ink-faint); }
+  .ss-date-pill.active { background:var(--ink); color:white; border-color:var(--ink); }
 
   /* Floating back-to-top */
   .btt { position:fixed; bottom:20px; right:20px; width:32px; height:32px; border-radius:50%; background:var(--ink); color:white; border:none; cursor:pointer; font-size:12px; display:flex; align-items:center; justify-content:center; opacity:0; transition:opacity 0.2s; z-index:50; }
@@ -507,51 +519,67 @@ function dbArticle(s,id,extraTag){
 }
 
 // ===== SELL SIDE =====
-let ssFilter='all';
-function renderSellSide(dateOverride){
-  const date=dateOverride||SSL[0];
+let ssFilter='all',ssTab='research',ssDate='';
+
+function renderSellSide(opts){
+  opts=opts||{};
+  if(opts.date)ssDate=opts.date;
+  if(opts.tab)ssTab=opts.tab;
+  if(opts.sector!==undefined)ssFilter=opts.sector;
+
+  const date=ssDate||SSL[0];
+  ssDate=date;
   const data=date?SS[date]:null;
-  document.getElementById('pg-title').textContent='Sell Side Research';
+  document.getElementById('pg-title').textContent='Sell Side';
   document.getElementById('datepick-area').style.display='none';
 
-  if(!data||!data.emails||!data.emails.length){
+  if(!data||(!data.emails.length&&!(data.events||[]).length)){
     document.getElementById('pg-meta').textContent='';
     document.getElementById('dash-area').innerHTML='';
     document.getElementById('out').innerHTML='<p style="text-align:center;padding:60px 0;color:var(--ink-faint)">Nenhum email sell-side disponivel.</p>';
     return;
   }
 
-  const emails=data.emails;
+  const emails=data.emails||[];
   const events=data.events||[];
   const stats=data.stats||{};
 
-  document.getElementById('pg-meta').textContent=date+' · '+emails.length+' emails · '+events.length+' eventos';
+  document.getElementById('pg-meta').textContent=date+' · '+emails.length+' research · '+events.length+' eventos';
 
-  // Stats bar
+  // Stats + tabs + filters
   let dash='<div class="ss-stats">';
-  dash+='<div class="dash-cell"><div class="dash-num" style="color:var(--ink)">'+(stats.total_emails||emails.length)+'</div><div class="dash-label">Emails</div></div>';
+  dash+='<div class="dash-cell"><div class="dash-num" style="color:var(--ink)">'+emails.length+'</div><div class="dash-label">Emails</div></div>';
   dash+='<div class="dash-cell"><div class="dash-num" style="color:var(--accent)">'+(stats.sectors||0)+'</div><div class="dash-label">Setores</div></div>';
   dash+='<div class="dash-cell"><div class="dash-num" style="color:var(--green)">'+(stats.banks||0)+'</div><div class="dash-label">Bancos</div></div>';
-  dash+='<div class="dash-cell"><div class="dash-num" style="color:var(--blue-muted)">'+(stats.companies||0)+'</div><div class="dash-label">Empresas</div></div>';
+  dash+='<div class="dash-cell"><div class="dash-num" style="color:var(--pinned)">'+events.length+'</div><div class="dash-label">Eventos</div></div>';
   dash+='</div>';
 
-  // Sector filter pills
-  const sectors={};
-  emails.forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1});
-  const sortedSectors=Object.entries(sectors).sort((a,b)=>b[1]-a[1]);
-
-  dash+='<div class="ss-filters"><span class="ss-filter-label">Setor:</span>';
-  dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="ssFilter=\'all\';renderSellSide(\''+date+'\')">Todos ('+emails.length+')</span>';
-  sortedSectors.forEach(([s,c])=>{
-    dash+='<span class="ss-pill'+(ssFilter===s?' active':'')+'" onclick="ssFilter=\''+s.replace(/'/g,"\\'")+'\';renderSellSide(\''+date+'\')">'+ e(s)+' ('+c+')</span>';
-  });
+  // Sub-tabs: Research | Events
+  dash+='<div class="ss-tabs">';
+  dash+='<div class="ss-tab'+(ssTab==='research'?' active':'')+'" onclick="renderSellSide({tab:\'research\'})">Research<span class="ss-tab-count">'+emails.length+'</span></div>';
+  dash+='<div class="ss-tab'+(ssTab==='events'?' active':'')+'" onclick="renderSellSide({tab:\'events\'})">Eventos<span class="ss-tab-count">'+events.length+'</span></div>';
   dash+='</div>';
 
-  // Date selector for sell-side
+  // Date pills
   if(SSL.length>1){
-    dash+='<div class="ss-filters"><span class="ss-filter-label">Data:</span>';
+    dash+='<div class="ss-date-row">';
     SSL.forEach(d=>{
-      dash+='<span class="ss-pill'+(d===date?' active':'')+'" onclick="renderSellSide(\''+d+'\')">'+d+'</span>';
+      dash+='<span class="ss-date-pill'+(d===date?' active':'')+'" onclick="renderSellSide({date:\''+d+'\'})">'+d+'</span>';
+    });
+    dash+='</div>';
+  }
+
+  // Sector filters (only for research tab)
+  if(ssTab==='research'){
+    const sectors={};
+    emails.forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1});
+    const sorted=Object.entries(sectors).sort((a,b)=>b[1]-a[1]);
+
+    dash+='<div class="ss-filters">';
+    dash+='<span class="ss-pill'+(ssFilter==='all'?' active':'')+'" onclick="renderSellSide({sector:\'all\'})">All<span class="ss-pill-n"> '+emails.length+'</span></span>';
+    sorted.forEach(([s,c])=>{
+      const esc=s.replace(/'/g,"\\'");
+      dash+='<span class="ss-pill'+(ssFilter===s?' active':'')+'" onclick="renderSellSide({sector:\''+esc+'\'})">'+e(s)+'<span class="ss-pill-n"> '+c+'</span></span>';
     });
     dash+='</div>';
   }
@@ -560,48 +588,44 @@ function renderSellSide(dateOverride){
 
   let h='';
 
-  // Events section
-  if(events.length){
-    h+='<div class="section-header"><span class="section-title">Eventos & Calls ('+events.length+')</span><hr class="section-rule"/></div>';
-    events.forEach(ev=>{
-      h+='<div class="ss-event">';
-      h+='<div class="ss-email-meta"><span class="ss-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
-      if(ev.event_date) h+='<span class="ss-event-date">'+e(ev.event_date)+'</span>';
+  if(ssTab==='events'){
+    // Events view — clean table-like layout
+    if(!events.length){
+      h+='<p style="text-align:center;padding:40px 0;color:var(--ink-faint)">Nenhum evento encontrado.</p>';
+    } else {
+      h+='<div style="padding-top:8px">';
+      events.forEach(ev=>{
+        h+='<div class="ss-event">';
+        h+='<span class="ss-ev-date">'+e(ev.event_date||'TBD')+'</span>';
+        h+='<span class="ss-ev-bank">'+e(ev.sender_bank||ev.sender)+'</span>';
+        h+='<span class="ss-ev-text">'+e(ev.one_liner||ev.subject)+'</span>';
+        if(ev.event_link) h+='<a class="ss-ev-link" href="'+ev.event_link+'" target="_blank">Link</a>';
+        h+='</div>';
+      });
       h+='</div>';
-      h+='<div class="ss-oneliner">'+e(ev.one_liner||ev.subject)+'</div>';
-      if(ev.event_link) h+='<a class="ss-event-link" href="'+ev.event_link+'" target="_blank">Acessar link →</a>';
-      h+='</div>';
-    });
+    }
+  } else {
+    // Research view — flat list, filtered by sector
+    const filtered=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
+
+    if(!filtered.length){
+      h+='<p style="text-align:center;padding:40px 0;color:var(--ink-faint)">Nenhum email neste setor.</p>';
+    } else {
+      filtered.forEach(em=>{
+        h+='<div class="ss-email">';
+        h+='<div class="ss-row1"><span class="ss-bank">'+e(em.sender_bank||em.sender)+'</span><span class="ss-time">'+e(em.received_time)+'</span></div>';
+        h+='<div class="ss-oneliner">'+e(em.one_liner||em.subject)+'</div>';
+        h+='<div class="ss-tags">';
+        (em.companies||[]).slice(0,6).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
+        if(em.type&&em.type!=='other') h+='<span class="ss-type-tag">'+e(em.type)+'</span>';
+        h+='</div>';
+        if(em.body){
+          h+='<details><summary>Email completo</summary><div class="ss-body">'+e((em.body||'').substring(0,3000))+'</div></details>';
+        }
+        h+='</div>';
+      });
+    }
   }
-
-  // Emails grouped by sector
-  const filtered=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
-  const grouped={};
-  filtered.forEach(em=>{const s=em.sector||'Other';(grouped[s]=grouped[s]||[]).push(em)});
-  const groupOrder=Object.entries(grouped).sort((a,b)=>b[1].length-a[1].length);
-
-  h+='<div class="section-header"><span class="section-title">Research ('+filtered.length+' emails)</span><hr class="section-rule"/></div>';
-
-  groupOrder.forEach(([sector,items])=>{
-    h+='<div class="ss-sector-group">';
-    h+='<div class="ss-sector-header">'+e(sector)+' ('+items.length+')</div>';
-    items.forEach(em=>{
-      const bodyId='ss-body-'+Math.random().toString(36).substr(2,8);
-      h+='<div class="ss-email">';
-      h+='<div class="ss-email-meta"><span class="ss-bank">'+e(em.sender_bank||em.sender)+'</span><span class="ss-time">'+e(em.received_time)+'</span></div>';
-      h+='<div class="ss-oneliner">'+e(em.one_liner||em.subject)+'</div>';
-      h+='<div class="ss-tags">';
-      h+='<span class="ss-sector-tag">'+e(em.sector)+'</span>';
-      (em.companies||[]).slice(0,6).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
-      h+='<span class="ss-type-tag">'+e(em.type||'other')+'</span>';
-      h+='</div>';
-      if(em.body){
-        h+='<details><summary>Email completo</summary><div class="ss-body">'+e((em.body||'').substring(0,3000))+'</div></details>';
-      }
-      h+='</div>';
-    });
-    h+='</div>';
-  });
 
   document.getElementById('out').innerHTML=h;
 }
