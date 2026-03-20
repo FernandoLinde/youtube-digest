@@ -309,7 +309,7 @@ async function init(){
 }
 
 function e(s){if(!s)return'';const d=document.createElement('div');d.textContent=String(s);return d.innerHTML}
-function eLinks(s){if(!s)return'';let t=e(s);t=t.replace(/(https?:\/\/[^\s&lt;&amp;]+)/g,function(url){const clean=url.replace(/&amp;/g,'&');const display=clean.length>60?clean.substring(0,57)+'...':clean;return'<a href="'+clean+'" target="_blank" rel="noopener" style="color:var(--accent);word-break:break-all">'+display+'</a>'});return t}
+function eLinks(s){if(!s)return'';let t=e(s);t=t.replace(/https?:\/\/[^\s<]+/g,function(raw){const url=raw.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/[).,;:!?\]}>]+$/,'');const display=url.length>70?url.substring(0,67)+'...':url;return'<a href="'+url.replace(/"/g,'%22')+'" target="_blank" rel="noopener" style="color:var(--accent);word-break:break-all">'+e(display)+'</a>'});return t}
 
 function go(v,co){
   document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('active'));
@@ -627,14 +627,30 @@ function renderSellSide(opts){
         if(em.type&&em.type!=='other') h+='<span class="ss-type-tag">'+e(em.type)+'</span>';
         h+='</div>';
         if(em.body){
-          // Extract key links from body (reports, PDFs, zoom, etc.)
+          // Extract key links from body — blocklist noise, keep everything useful
           const bodyText=em.body||'';
           const linkRx=/https?:\/\/[^\s<>")\]]+/g;
-          const allLinks=[...new Set((bodyText.match(linkRx)||[]))];
-          const keyLinks=allLinks.filter(l=>/\.(pdf|report|research|article|webapp|zoom|teams|webinar|register)/i.test(l)&&!/tracking|pixel|wf\/open|url8477|urldefense|unsubscribe/i.test(l)).slice(0,4);
+          const rawLinks=(bodyText.match(linkRx)||[]);
+          const noise=/wf\/open|url8477|urldefense|unsubscribe|\.png|\.jpg|\.gif|\.jpeg|sendgrid|mailchimp|click\.|open\?upn|pixel|tracking|beacon|assets\/20|mailing.*distribution|extelinsights.*voting|Disclaimers|Overview\.aspx/i;
+          const seen=new Set();
+          const keyLinks=rawLinks.filter(l=>{
+            if(noise.test(l))return false;
+            // Normalize for dedup
+            const norm=l.replace(/[?#].*$/,'');
+            if(seen.has(norm))return false;
+            seen.add(norm);
+            return true;
+          }).slice(0,5);
           if(keyLinks.length){
             h+='<div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">';
-            keyLinks.forEach(l=>{const label=l.includes('.pdf')?'PDF':l.includes('zoom')||l.includes('teams')?'Call Link':'Report';h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--sans);font-size:9px;color:var(--accent);text-decoration:none;font-weight:600;padding:2px 8px;border:1px solid var(--accent);border-radius:3px">'+label+' ↗</a>'});
+            keyLinks.forEach(l=>{
+              let label='Link';
+              if(/\.pdf/i.test(l))label='PDF';
+              else if(/zoom|teams|webinar/i.test(l))label='Call';
+              else if(/report|research|matrix|eqr|article/i.test(l))label='Report';
+              else if(/jotform|register|signup/i.test(l))label='Register';
+              h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--sans);font-size:9px;color:var(--accent);text-decoration:none;font-weight:600;padding:2px 8px;border:1px solid var(--accent);border-radius:3px">'+label+' ↗</a>';
+            });
             h+='</div>';
           }
           h+='<details><summary>Email completo</summary><div class="ss-body">'+eLinks((bodyText).substring(0,3000))+'</div></details>';
