@@ -265,7 +265,49 @@
     .ss-event { flex-wrap:wrap; }
     .ss-ev-title { white-space:normal; }
     .art-headline { font-size:15px; }
+    .cal-grid { grid-template-columns:1fr!important; }
+    .cal-cell { min-height:auto!important; }
   }
+
+  /* ===== SEARCH ===== */
+  .ss-search { padding:10px 0; }
+  .ss-search input { font-family:var(--font); font-size:13px; width:100%; padding:8px 12px; border:1px solid var(--rule); border-radius:4px; background:var(--hover); color:var(--ink); outline:none; transition:border-color 0.15s; }
+  .ss-search input:focus { border-color:var(--ink-muted); background:var(--paper); }
+  .ss-search input::placeholder { color:var(--ink-faint); }
+
+  /* ===== CALENDAR ===== */
+  .cal-nav { display:flex; align-items:center; gap:12px; padding:16px 0 8px; }
+  .cal-nav-btn { font-family:var(--font); font-size:13px; background:var(--hover); border:none; padding:4px 12px; border-radius:4px; cursor:pointer; color:var(--ink-muted); transition:background 0.1s; }
+  .cal-nav-btn:hover { background:var(--rule); color:var(--ink); }
+  .cal-month { font-family:var(--font); font-size:15px; font-weight:600; color:var(--ink); }
+  .cal-filter { margin-left:auto; font-family:var(--font); font-size:12px; padding:4px 10px; border:1px solid var(--rule); border-radius:4px; background:var(--paper); color:var(--ink); }
+  .cal-weekdays { display:grid; grid-template-columns:repeat(7,1fr); gap:1px; padding:8px 0 4px; }
+  .cal-wd { font-family:var(--font); font-size:10px; font-weight:500; color:var(--ink-muted); text-align:center; padding:4px 0; }
+  .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:1px; }
+  .cal-cell { min-height:90px; padding:6px 8px; background:var(--paper); border:1px solid var(--rule-light); border-radius:3px; transition:background 0.1s; cursor:pointer; }
+  .cal-cell:hover { background:var(--hover); }
+  .cal-cell.other-month { opacity:0.3; }
+  .cal-cell.today { border-color:var(--ink); }
+  .cal-day { font-family:var(--font); font-size:11px; font-weight:600; color:var(--ink); margin-bottom:3px; }
+  .cal-dot { display:inline-block; width:6px; height:6px; border-radius:50%; margin:0 1px; }
+  .cal-dot.email { background:var(--ink-faint); }
+  .cal-dot.event { background:var(--pinned); }
+  .cal-dot.idate { background:var(--accent-warm); }
+  .cal-item { font-family:var(--font); font-size:9px; color:var(--ink-light); line-height:1.3; padding:1px 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .cal-item.ev { color:var(--pinned); }
+  .cal-item.id { color:var(--accent-warm); }
+  .cal-detail { margin-top:12px; padding:16px; background:var(--hover); border-radius:6px; }
+  .cal-detail-title { font-family:var(--font); font-size:13px; font-weight:600; color:var(--ink); margin-bottom:8px; }
+  .cal-detail-item { font-family:var(--font); font-size:12px; color:var(--ink-light); padding:4px 0; border-bottom:1px solid var(--rule-light); }
+  .cal-detail-item:last-child { border-bottom:none; }
+
+  /* ===== TRENDS ===== */
+  .trend-row { display:flex; align-items:center; gap:8px; padding:6px 0; }
+  .trend-label { font-family:var(--font); font-size:12px; color:var(--ink-light); min-width:110px; text-align:right; }
+  .trend-bar-wrap { flex:1; height:20px; background:var(--rule-light); border-radius:3px; overflow:hidden; }
+  .trend-bar { height:100%; border-radius:3px; transition:width 0.3s; }
+  .trend-count { font-family:var(--mono); font-size:11px; color:var(--ink-muted); min-width:28px; }
+  .trend-day { font-family:var(--font); font-size:11px; font-weight:500; color:var(--ink-muted); padding:12px 0 4px; }
 </style>
 </head>
 <body>
@@ -277,6 +319,8 @@
     <a class="nav-link active" data-v="today" onclick="go('today')">Hoje</a>
     <div class="nav-sep"></div>
     <a class="nav-link" data-v="sellside" onclick="go('sellside')">Sell Side</a>
+    <a class="nav-link" data-v="calendar" onclick="go('calendar')">Calendar</a>
+    <a class="nav-link" data-v="trends" onclick="go('trends')">Trends</a>
     <div class="nav-sep"></div>
     <a class="nav-link" data-v="archive" onclick="go('archive')">Arquivo</a>
     <div class="nav-sep"></div>
@@ -341,6 +385,8 @@ function go(v,co){
   document.getElementById('datepick-area').style.display=v==='archive'?'block':'none';
   if(v==='today'){const l=DL[0];if(l&&D[l])renderDay(D[l],l);else{document.getElementById('pg-title').textContent='YouTube Digest';document.getElementById('pg-meta').textContent='';document.getElementById('dash-area').innerHTML='';document.getElementById('out').innerHTML='<p style="text-align:center;padding:60px 0;color:var(--ink-faint)">Nenhum digest disponivel.</p>'}}
   else if(v==='sellside'){renderSellSide()}
+  else if(v==='calendar'){renderCalendar()}
+  else if(v==='trends'){renderTrends()}
   else if(v==='archive'){loadDate(document.getElementById('datesel').value||DL[0])}
   else if(v==='co'){renderCo(co)}
 }
@@ -545,7 +591,7 @@ function dbArticle(s,id,extraTag){
 }
 
 // ===== SELL SIDE =====
-let ssFilter='all',ssTab='research',ssDate='';
+let ssFilter='all',ssTab='research',ssDate='',ssSearch='';
 
 function renderSellSide(opts){
   opts=opts||{};
@@ -723,8 +769,19 @@ function renderSellSide(opts){
       h+='</div>';
     }
   } else {
-    // Research view — flat list, filtered by sector
-    const filtered=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
+    // Research view — flat list, filtered by sector + search
+    h+='<div class="ss-search"><input type="text" placeholder="Search emails — bank, company, keyword..." value="'+e(ssSearch)+'" oninput="ssSearch=this.value;renderSellSide({})"/></div>';
+    let filtered=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
+    if(ssSearch){
+      const q=ssSearch.toLowerCase();
+      filtered=filtered.filter(em=>{
+        return (em.one_liner||'').toLowerCase().includes(q)||
+          (em.subject||'').toLowerCase().includes(q)||
+          (em.sender_bank||'').toLowerCase().includes(q)||
+          (em.sender||'').toLowerCase().includes(q)||
+          (em.companies||[]).some(c=>c.toLowerCase().includes(q));
+      });
+    }
 
     if(!filtered.length){
       h+='<p style="text-align:center;padding:40px 0;color:var(--ink-faint)">Nenhum email neste setor.</p>';
@@ -770,6 +827,240 @@ function renderSellSide(opts){
       });
     }
   }
+
+  document.getElementById('out').innerHTML=h;
+}
+
+// ===== CALENDAR =====
+let calMonth=new Date().getMonth(), calYear=new Date().getFullYear(), calFilter='', calDetail=null;
+
+function getAllSSItems(){
+  // Gather all emails, events, important_dates across all dates
+  let items={emails:[],events:[],dates:[]};
+  SSL.forEach(d=>{
+    const data=SS[d];if(!data)return;
+    (data.emails||[]).forEach(em=>items.emails.push({...em,_src:d}));
+    (data.events||[]).forEach(ev=>items.events.push({...ev,_src:d}));
+    (data.important_dates||[]).forEach(id=>items.dates.push({...id,_src:d}));
+  });
+  return items;
+}
+
+function itemMatchesFilter(item, q){
+  if(!q)return true;
+  const low=q.toLowerCase();
+  const fields=[item.one_liner,item.subject,item.sender_bank,item.description,item.sector,
+    ...(item.companies||[])].filter(Boolean).join(' ').toLowerCase();
+  return fields.includes(low);
+}
+
+function renderCalendar(opts){
+  opts=opts||{};
+  if(opts.month!==undefined){calMonth=opts.month;calYear=opts.year;}
+  if(opts.filter!==undefined)calFilter=opts.filter;
+  if(opts.detail!==undefined)calDetail=opts.detail;
+
+  document.getElementById('pg-title').textContent='Calendar';
+  document.getElementById('pg-meta').textContent='';
+  document.getElementById('datepick-area').style.display='none';
+  document.getElementById('dash-area').innerHTML='';
+
+  const items=getAllSSItems();
+  const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const wdays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+
+  // Build company list for filter
+  const allCos=new Set();
+  const allSectors=new Set();
+  items.emails.forEach(em=>{(em.companies||[]).forEach(c=>allCos.add(c));allSectors.add(em.sector||'Other')});
+  items.events.forEach(ev=>{(ev.companies||[]).forEach(c=>allCos.add(c));allSectors.add(ev.sector||'Other')});
+  items.dates.forEach(d=>{(d.companies||[]).forEach(c=>allCos.add(c));allSectors.add(d.sector||'Other')});
+
+  let h='';
+  // Nav
+  const pm=calMonth===0?11:calMonth-1, py=calMonth===0?calYear-1:calYear;
+  const nm=calMonth===11?0:calMonth+1, ny=calMonth===11?calYear+1:calYear;
+  h+='<div class="cal-nav">';
+  h+='<button class="cal-nav-btn" onclick="renderCalendar({month:'+pm+',year:'+py+'})">&#8592;</button>';
+  h+='<span class="cal-month">'+months[calMonth]+' '+calYear+'</span>';
+  h+='<button class="cal-nav-btn" onclick="renderCalendar({month:'+nm+',year:'+ny+'})">&#8594;</button>';
+  h+='<select class="cal-filter" onchange="renderCalendar({filter:this.value})">';
+  h+='<option value="">All</option>';
+  h+='<optgroup label="Sectors">';
+  [...allSectors].sort().forEach(s=>{h+='<option value="sector:'+e(s)+'"'+(calFilter==='sector:'+s?' selected':'')+'>'+e(s)+'</option>'});
+  h+='</optgroup><optgroup label="Companies">';
+  [...allCos].sort().forEach(c=>{h+='<option value="co:'+e(c)+'"'+(calFilter==='co:'+c?' selected':'')+'>'+e(c)+'</option>'});
+  h+='</optgroup></select>';
+  h+='</div>';
+
+  // Weekday headers
+  h+='<div class="cal-weekdays">';
+  wdays.forEach(d=>{h+='<div class="cal-wd">'+d+'</div>'});
+  h+='</div>';
+
+  // Build calendar grid
+  const firstDay=new Date(calYear,calMonth,1);
+  const lastDay=new Date(calYear,calMonth+1,0);
+  let startDow=(firstDay.getDay()+6)%7; // 0=Mon
+  const totalDays=lastDay.getDate();
+  const today=new Date();
+  const todayStr=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
+
+  // Filter function
+  function matchFilter(item){
+    if(!calFilter)return true;
+    if(calFilter.startsWith('sector:'))return(item.sector||'Other')===calFilter.slice(7);
+    if(calFilter.startsWith('co:')){const co=calFilter.slice(3).toLowerCase();return(item.companies||[]).some(c=>c.toLowerCase().includes(co))}
+    return true;
+  }
+
+  // Index items by date
+  const emailsByDate={},eventsByDate={},datesByDate={};
+  items.emails.filter(matchFilter).forEach(em=>{
+    const d=(em.received||'').substring(0,10);
+    if(d)(emailsByDate[d]=emailsByDate[d]||[]).push(em);
+  });
+  items.events.filter(matchFilter).forEach(ev=>{
+    const d=(ev.event_date||'').substring(0,10);
+    if(d)(eventsByDate[d]=eventsByDate[d]||[]).push(ev);
+  });
+  items.dates.filter(matchFilter).forEach(id=>{
+    const d=id.date;
+    if(d)(datesByDate[d]=datesByDate[d]||[]).push(id);
+  });
+
+  h+='<div class="cal-grid">';
+  // Padding for start
+  for(let i=0;i<startDow;i++){
+    const prevDate=new Date(calYear,calMonth,-(startDow-i-1));
+    h+='<div class="cal-cell other-month"><div class="cal-day">'+prevDate.getDate()+'</div></div>';
+  }
+  for(let d=1;d<=totalDays;d++){
+    const ds=calYear+'-'+String(calMonth+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+    const isToday=ds===todayStr;
+    const de=emailsByDate[ds]||[];
+    const dv=eventsByDate[ds]||[];
+    const dd=datesByDate[ds]||[];
+    const hasContent=de.length||dv.length||dd.length;
+    h+='<div class="cal-cell'+(isToday?' today':'')+'" onclick="renderCalendar({detail:\''+ds+'\'})">';
+    h+='<div class="cal-day">'+d+'</div>';
+    if(hasContent){
+      // Dots
+      let dots='';
+      if(de.length)dots+='<span class="cal-dot email" title="'+de.length+' emails"></span>';
+      if(dv.length)dots+='<span class="cal-dot event" title="'+dv.length+' events"></span>';
+      if(dd.length)dots+='<span class="cal-dot idate" title="'+dd.length+' dates"></span>';
+      h+='<div>'+dots+'</div>';
+      // Top items
+      dv.slice(0,2).forEach(ev=>{h+='<div class="cal-item ev">'+e(ev.event_short_title||ev.one_liner||'').substring(0,25)+'</div>'});
+      dd.slice(0,2).forEach(id=>{h+='<div class="cal-item id">'+e(id.description||'').substring(0,25)+'</div>'});
+      if(!dv.length&&!dd.length)de.slice(0,2).forEach(em=>{h+='<div class="cal-item">'+e(em.one_liner||'').substring(0,25)+'</div>'});
+    }
+    h+='</div>';
+  }
+  // Padding end
+  const endDow=(firstDay.getDay()+totalDays-1+6)%7;
+  for(let i=endDow+1;i<7;i++){
+    h+='<div class="cal-cell other-month"><div class="cal-day">'+(i-endDow)+'</div></div>';
+  }
+  h+='</div>';
+
+  // Detail panel
+  if(calDetail){
+    const de=emailsByDate[calDetail]||[];
+    const dv=eventsByDate[calDetail]||[];
+    const dd=datesByDate[calDetail]||[];
+    if(de.length||dv.length||dd.length){
+      const dParts=calDetail.split('-');
+      h+='<div class="cal-detail">';
+      h+='<div class="cal-detail-title">'+parseInt(dParts[2])+' '+months[parseInt(dParts[1])-1]+' '+dParts[0]+'</div>';
+      if(dd.length){dd.forEach(d=>{h+='<div class="cal-detail-item"><span style="color:var(--accent-warm);font-weight:600">'+e(d.type||'date')+'</span> '+e(d.description)+' '+(d.companies||[]).map(c=>'<span class="ss-co-tag">'+e(c)+'</span>').join('')+'</div>'});}
+      if(dv.length){dv.forEach(ev=>{h+='<div class="cal-detail-item"><span style="color:var(--pinned);font-weight:600">Event</span> '+e(ev.event_short_title||ev.one_liner||ev.subject)+' <span style="color:var(--ink-muted)">— '+e(ev.sender_bank||'')+'</span></div>'});}
+      if(de.length){de.forEach(em=>{h+='<div class="cal-detail-item"><span style="color:var(--ink-muted);font-weight:500">'+e(em.sender_bank||'')+'</span> '+e(em.one_liner||em.subject)+'</div>'});}
+      h+='</div>';
+    }
+  }
+
+  document.getElementById('out').innerHTML=h;
+}
+
+// ===== TRENDS =====
+function renderTrends(){
+  document.getElementById('pg-title').textContent='Trends';
+  document.getElementById('pg-meta').textContent='Sell-side volume by sector over time';
+  document.getElementById('datepick-area').style.display='none';
+  document.getElementById('dash-area').innerHTML='';
+
+  // Gather data across all dates
+  const sectorColors={'Macro':'#6940A5','Financials':'#527DA5','Oil & Gas':'#D44C47','Metals & Mining':'#9B9A97',
+    'Utilities':'#448361','Real Estate':'#CB912F','Healthcare':'#D44C47','Education':'#527DA5',
+    'Retail':'#CB912F','TMT':'#6940A5','Agro & Food':'#448361','Capital Goods':'#9B9A97',
+    'Transportation':'#527DA5','Other':'#CFCDC9'};
+
+  // Per-date sector counts
+  const dateData=[];
+  const allSectors=new Set();
+  SSL.slice().reverse().forEach(d=>{
+    const data=SS[d];if(!data)return;
+    const sectors={};
+    (data.emails||[]).forEach(em=>{const s=em.sector||'Other';sectors[s]=(sectors[s]||0)+1;allSectors.add(s)});
+    dateData.push({date:d,sectors,total:(data.emails||[]).length});
+  });
+
+  if(!dateData.length){
+    document.getElementById('out').innerHTML='<p style="text-align:center;padding:60px 0;color:var(--ink-faint)">No trend data yet.</p>';
+    return;
+  }
+
+  const maxTotal=Math.max(...dateData.map(d=>d.total),1);
+  const sortedSectors=[...allSectors].sort((a,b)=>{
+    const ta=dateData.reduce((s,d)=>s+(d.sectors[a]||0),0);
+    const tb=dateData.reduce((s,d)=>s+(d.sectors[b]||0),0);
+    return tb-ta;
+  });
+
+  let h='';
+
+  // Volume by day
+  h+='<div class="section-header"><span class="section-title">Daily Volume</span><hr class="section-rule"/></div>';
+  dateData.forEach(d=>{
+    const pct=Math.round((d.total/maxTotal)*100);
+    h+='<div class="trend-row">';
+    h+='<span class="trend-label">'+d.date+'</span>';
+    h+='<div class="trend-bar-wrap"><div class="trend-bar" style="width:'+pct+'%;background:var(--ink)"></div></div>';
+    h+='<span class="trend-count">'+d.total+'</span>';
+    h+='</div>';
+  });
+
+  // Sector breakdown per day
+  h+='<div class="section-header"><span class="section-title">Sector Breakdown</span><hr class="section-rule"/></div>';
+  dateData.forEach(d=>{
+    h+='<div class="trend-day">'+d.date+' — '+d.total+' emails</div>';
+    const sorted=Object.entries(d.sectors).sort((a,b)=>b[1]-a[1]);
+    sorted.forEach(([sector,count])=>{
+      const pct=Math.round((count/d.total)*100);
+      const color=sectorColors[sector]||'#9B9A97';
+      h+='<div class="trend-row">';
+      h+='<span class="trend-label">'+e(sector)+'</span>';
+      h+='<div class="trend-bar-wrap"><div class="trend-bar" style="width:'+pct+'%;background:'+color+'"></div></div>';
+      h+='<span class="trend-count">'+count+'</span>';
+      h+='</div>';
+    });
+  });
+
+  // All-time sector totals
+  h+='<div class="section-header"><span class="section-title">All-Time Sector Totals</span><hr class="section-rule"/></div>';
+  const maxSector=Math.max(...sortedSectors.map(s=>dateData.reduce((sum,d)=>sum+(d.sectors[s]||0),0)),1);
+  sortedSectors.forEach(sector=>{
+    const total=dateData.reduce((sum,d)=>sum+(d.sectors[sector]||0),0);
+    const pct=Math.round((total/maxSector)*100);
+    const color=sectorColors[sector]||'#9B9A97';
+    h+='<div class="trend-row">';
+    h+='<span class="trend-label">'+e(sector)+'</span>';
+    h+='<div class="trend-bar-wrap"><div class="trend-bar" style="width:'+pct+'%;background:'+color+'"></div></div>';
+    h+='<span class="trend-count">'+total+'</span>';
+    h+='</div>';
+  });
 
   document.getElementById('out').innerHTML=h;
 }
