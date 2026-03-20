@@ -276,30 +276,51 @@
   .ss-search input::placeholder { color:var(--ink-faint); }
 
   /* ===== CALENDAR ===== */
-  .cal-nav { display:flex; align-items:center; gap:12px; padding:16px 0 8px; }
-  .cal-nav-btn { font-family:var(--font); font-size:13px; background:var(--hover); border:none; padding:4px 12px; border-radius:4px; cursor:pointer; color:var(--ink-muted); transition:background 0.1s; }
-  .cal-nav-btn:hover { background:var(--rule); color:var(--ink); }
-  .cal-month { font-family:var(--font); font-size:15px; font-weight:600; color:var(--ink); }
-  .cal-filter { margin-left:auto; font-family:var(--font); font-size:12px; padding:4px 10px; border:1px solid var(--rule); border-radius:4px; background:var(--paper); color:var(--ink); }
-  .cal-weekdays { display:grid; grid-template-columns:repeat(7,1fr); gap:1px; padding:8px 0 4px; }
-  .cal-wd { font-family:var(--font); font-size:10px; font-weight:500; color:var(--ink-muted); text-align:center; padding:4px 0; }
-  .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:1px; }
-  .cal-cell { min-height:90px; padding:6px 8px; background:var(--paper); border:1px solid var(--rule-light); border-radius:3px; transition:background 0.1s; cursor:pointer; }
+  .cal-nav { display:flex; align-items:center; gap:16px; padding:20px 0 12px; }
+  .cal-nav-btn { font-family:var(--font); font-size:18px; background:none; border:none; padding:4px 8px; cursor:pointer; color:var(--ink-muted); transition:color 0.1s; line-height:1; }
+  .cal-nav-btn:hover { color:var(--ink); }
+  .cal-month { font-family:var(--font); font-size:18px; font-weight:600; color:var(--ink); letter-spacing:-0.3px; }
+  .cal-filter-wrap { margin-left:auto; display:flex; align-items:center; gap:8px; }
+  .cal-filter-search { font-family:var(--font); font-size:12px; padding:6px 10px; border:1px solid var(--rule); border-radius:4px; background:var(--paper); color:var(--ink); width:200px; outline:none; }
+  .cal-filter-search:focus { border-color:var(--ink-muted); }
+  .cal-filter-search::placeholder { color:var(--ink-faint); }
+  .cal-filter-dropdown { position:relative; }
+  .cal-filter-list { display:none; position:absolute; right:0; top:100%; margin-top:4px; background:var(--paper); border:1px solid var(--rule); border-radius:6px; box-shadow:0 8px 24px rgba(0,0,0,0.08); max-height:300px; overflow-y:auto; width:240px; z-index:10; padding:4px; }
+  .cal-filter-list.open { display:block; }
+  .cal-filter-opt { font-family:var(--font); font-size:12px; padding:6px 10px; border-radius:4px; cursor:pointer; color:var(--ink-light); transition:background 0.08s; }
+  .cal-filter-opt:hover { background:var(--hover); color:var(--ink); }
+  .cal-filter-opt.active { background:var(--ink); color:white; }
+  .cal-filter-opt.header { font-size:10px; font-weight:600; color:var(--ink-muted); text-transform:uppercase; letter-spacing:0.5px; cursor:default; padding:8px 10px 4px; }
+  .cal-filter-opt.header:hover { background:none; }
+  .cal-active-filter { font-family:var(--font); font-size:11px; color:var(--ink-muted); padding:4px 10px; background:var(--hover); border-radius:4px; display:flex; align-items:center; gap:6px; }
+  .cal-active-filter .cal-clear { cursor:pointer; color:var(--ink-faint); font-size:14px; line-height:1; }
+  .cal-active-filter .cal-clear:hover { color:var(--ink); }
+
+  .cal-weekdays { display:grid; grid-template-columns:repeat(7,1fr); gap:0; padding:12px 0 0; border-bottom:1px solid var(--rule); }
+  .cal-wd { font-family:var(--font); font-size:10px; font-weight:500; color:var(--ink-muted); text-align:left; padding:0 8px 8px; }
+  .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:0; }
+  .cal-cell { min-height:100px; padding:8px; border-bottom:1px solid var(--rule-light); border-right:1px solid var(--rule-light); transition:background 0.08s; cursor:pointer; }
+  .cal-cell:nth-child(7n) { border-right:none; }
   .cal-cell:hover { background:var(--hover); }
-  .cal-cell.other-month { opacity:0.3; }
-  .cal-cell.today { border-color:var(--ink); }
-  .cal-day { font-family:var(--font); font-size:11px; font-weight:600; color:var(--ink); margin-bottom:3px; }
-  .cal-dot { display:inline-block; width:6px; height:6px; border-radius:50%; margin:0 1px; }
+  .cal-cell.other-month { opacity:0.25; }
+  .cal-cell.today { background:rgba(105,64,165,0.04); }
+  .cal-cell.today .cal-day { color:var(--pinned); }
+  .cal-cell.selected { background:var(--hover); }
+  .cal-day { font-family:var(--font); font-size:12px; font-weight:500; color:var(--ink); margin-bottom:4px; }
+  .cal-dots { display:flex; gap:2px; margin-bottom:3px; }
+  .cal-dot { display:inline-block; width:5px; height:5px; border-radius:50%; }
   .cal-dot.email { background:var(--ink-faint); }
   .cal-dot.event { background:var(--pinned); }
   .cal-dot.idate { background:var(--accent-warm); }
-  .cal-item { font-family:var(--font); font-size:9px; color:var(--ink-light); line-height:1.3; padding:1px 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .cal-item.ev { color:var(--pinned); }
-  .cal-item.id { color:var(--accent-warm); }
-  .cal-detail { margin-top:12px; padding:16px; background:var(--hover); border-radius:6px; }
-  .cal-detail-title { font-family:var(--font); font-size:13px; font-weight:600; color:var(--ink); margin-bottom:8px; }
-  .cal-detail-item { font-family:var(--font); font-size:12px; color:var(--ink-light); padding:4px 0; border-bottom:1px solid var(--rule-light); }
+  .cal-item { font-family:var(--font); font-size:10px; color:var(--ink-light); line-height:1.35; padding:1px 3px; margin:1px 0; border-radius:2px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .cal-item.ev { background:rgba(105,64,165,0.08); color:var(--pinned); }
+  .cal-item.id { background:rgba(203,145,47,0.1); color:var(--accent-warm); }
+  .cal-item.em { background:var(--rule-light); color:var(--ink-muted); }
+  .cal-detail { margin-top:16px; padding:20px; background:var(--hover); border-radius:8px; }
+  .cal-detail-title { font-family:var(--font); font-size:15px; font-weight:600; color:var(--ink); margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid var(--rule); }
+  .cal-detail-item { font-family:var(--font); font-size:13px; color:var(--ink-light); padding:8px 0; border-bottom:1px solid var(--rule-light); display:flex; align-items:baseline; gap:8px; }
   .cal-detail-item:last-child { border-bottom:none; }
+  .cal-detail-type { font-size:10px; font-weight:600; padding:1px 6px; border-radius:3px; white-space:nowrap; }
 
   /* ===== TRENDS ===== */
   .trend-row { display:flex; align-items:center; gap:8px; padding:6px 0; }
@@ -770,7 +791,7 @@ function renderSellSide(opts){
     }
   } else {
     // Research view — flat list, filtered by sector + search
-    h+='<div class="ss-search"><input type="text" placeholder="Search emails — bank, company, keyword..." value="'+e(ssSearch)+'" oninput="ssSearch=this.value;renderSellSide({})"/></div>';
+    h+='<div class="ss-search"><input id="ss-search-input" type="text" placeholder="Search emails — bank, company, keyword..." value="'+e(ssSearch)+'"/></div>';
     let filtered=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
     if(ssSearch){
       const q=ssSearch.toLowerCase();
@@ -783,59 +804,76 @@ function renderSellSide(opts){
       });
     }
 
+    h+='<div id="ss-email-list">';
     if(!filtered.length){
-      h+='<p style="text-align:center;padding:40px 0;color:var(--ink-faint)">Nenhum email neste setor.</p>';
+      h+='<p style="text-align:center;padding:20px 0;color:var(--ink-faint)">No results.</p>';
     } else {
-      filtered.forEach(em=>{
-        h+='<div class="ss-email">';
-        h+='<div class="ss-row1"><span class="ss-bank">'+e(em.sender_bank||em.sender)+'</span><span class="ss-time">'+e(em.received_time)+'</span></div>';
-        h+='<div class="ss-oneliner">'+e(em.one_liner||em.subject)+'</div>';
-        h+='<div class="ss-tags">';
-        (em.companies||[]).slice(0,6).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
-        if(em.type&&em.type!=='other') h+='<span class="ss-type-tag">'+e(em.type)+'</span>';
-        h+='</div>';
-        if(em.body){
-          // Extract key links from body — blocklist noise, keep everything useful
-          const bodyText=em.body||'';
-          const linkRx=/https?:\/\/[^\s<>")\]]+/g;
-          const rawLinks=(bodyText.match(linkRx)||[]);
-          const noise=/wf\/open|url8477|urldefense|unsubscribe|\.png|\.jpg|\.gif|\.jpeg|sendgrid|mailchimp|click\.|open\?upn|pixel|tracking|beacon|assets\/20|mailing.*distribution|extelinsights.*voting|Disclaimers|Overview\.aspx/i;
-          const seen=new Set();
-          const keyLinks=rawLinks.filter(l=>{
-            if(noise.test(l))return false;
-            // Normalize for dedup
-            const norm=l.replace(/[?#].*$/,'');
-            if(seen.has(norm))return false;
-            seen.add(norm);
-            return true;
-          }).slice(0,5);
-          if(keyLinks.length){
-            h+='<div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">';
-            keyLinks.forEach(l=>{
-              let label='Link';
-              if(/\.pdf/i.test(l))label='PDF';
-              else if(/zoom|teams|webinar/i.test(l))label='Call';
-              else if(/report|research|matrix|eqr|article/i.test(l))label='Report';
-              else if(/jotform|register|signup/i.test(l))label='Register';
-              h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--font);font-size:11px;color:var(--ink-light);text-decoration:none;font-weight:500;padding:3px 8px;background:var(--hover);border-radius:4px">'+label+' ↗</a>';
-            });
-            h+='</div>';
-          }
-          h+='<details><summary>Email completo</summary><div class="ss-body">'+eLinks((bodyText).substring(0,3000))+'</div></details>';
-        }
-        h+='</div>';
-      });
+      filtered.forEach(em=>{h+=renderSSEmail(em)});
     }
+    h+='</div>';
   }
 
   document.getElementById('out').innerHTML=h;
+
+  // Bind search without re-rendering the whole page
+  const si=document.getElementById('ss-search-input');
+  if(si){
+    si.addEventListener('input',function(){
+      ssSearch=this.value;
+      const curPos=this.selectionStart;
+      // Only re-render the email list, not the whole page
+      const data=SS[ssDate];if(!data)return;
+      let emails=data.emails||[];
+      let filt=ssFilter==='all'?emails:emails.filter(em=>(em.sector||'Other')===ssFilter);
+      if(ssSearch){
+        const q=ssSearch.toLowerCase();
+        filt=filt.filter(em=>(em.one_liner||'').toLowerCase().includes(q)||(em.subject||'').toLowerCase().includes(q)||(em.sender_bank||'').toLowerCase().includes(q)||(em.sender||'').toLowerCase().includes(q)||(em.companies||[]).some(c=>c.toLowerCase().includes(q)));
+      }
+      // Re-render only the email list container
+      const listEl=document.getElementById('ss-email-list');
+      if(listEl){
+        let lh='';
+        if(!filt.length){lh='<p style="text-align:center;padding:20px 0;color:var(--ink-faint)">No results.</p>'}
+        else{filt.forEach(em=>{lh+=renderSSEmail(em)})}
+        listEl.innerHTML=lh;
+      }
+      // Keep focus
+      this.focus();
+      this.selectionStart=this.selectionEnd=curPos;
+    });
+  }
+}
+
+function renderSSEmail(em){
+  let h='<div class="ss-email">';
+  h+='<div class="ss-row1"><span class="ss-bank">'+e(em.sender_bank||em.sender)+'</span><span class="ss-time">'+e(em.received_time)+'</span></div>';
+  h+='<div class="ss-oneliner">'+e(em.one_liner||em.subject)+'</div>';
+  h+='<div class="ss-tags">';
+  (em.companies||[]).slice(0,6).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
+  if(em.type&&em.type!=='other') h+='<span class="ss-type-tag">'+e(em.type)+'</span>';
+  h+='</div>';
+  if(em.body){
+    const bodyText=em.body||'';
+    const linkRx=/https?:\/\/[^\s<>")\]]+/g;
+    const rawLinks=(bodyText.match(linkRx)||[]);
+    const noise=/wf\/open|url8477|urldefense|unsubscribe|\.png|\.jpg|\.gif|\.jpeg|sendgrid|mailchimp|click\.|open\?upn|pixel|tracking|beacon|assets\/20|mailing.*distribution|extelinsights.*voting|Disclaimers|Overview\.aspx/i;
+    const seen=new Set();
+    const keyLinks=rawLinks.filter(l=>{if(noise.test(l))return false;const norm=l.replace(/[?#].*$/,'');if(seen.has(norm))return false;seen.add(norm);return true}).slice(0,5);
+    if(keyLinks.length){
+      h+='<div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">';
+      keyLinks.forEach(l=>{let label='Link';if(/\.pdf/i.test(l))label='PDF';else if(/zoom|teams|webinar/i.test(l))label='Call';else if(/report|research|matrix|eqr|article/i.test(l))label='Report';else if(/jotform|register|signup/i.test(l))label='Register';h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--font);font-size:11px;color:var(--ink-light);text-decoration:none;font-weight:500;padding:3px 8px;background:var(--hover);border-radius:4px">'+label+' ↗</a>'});
+      h+='</div>';
+    }
+    h+='<details><summary>Email completo</summary><div class="ss-body">'+eLinks((bodyText).substring(0,3000))+'</div></details>';
+  }
+  h+='</div>';
+  return h;
 }
 
 // ===== CALENDAR =====
-let calMonth=new Date().getMonth(), calYear=new Date().getFullYear(), calFilter='', calDetail=null;
+let calMonth=new Date().getMonth(), calYear=new Date().getFullYear(), calFilter='', calDetail=null, calSearchOpen=false, calSearchQ='';
 
 function getAllSSItems(){
-  // Gather all emails, events, important_dates across all dates
   let items={emails:[],events:[],dates:[]};
   SSL.forEach(d=>{
     const data=SS[d];if(!data)return;
@@ -846,19 +884,11 @@ function getAllSSItems(){
   return items;
 }
 
-function itemMatchesFilter(item, q){
-  if(!q)return true;
-  const low=q.toLowerCase();
-  const fields=[item.one_liner,item.subject,item.sender_bank,item.description,item.sector,
-    ...(item.companies||[])].filter(Boolean).join(' ').toLowerCase();
-  return fields.includes(low);
-}
-
 function renderCalendar(opts){
   opts=opts||{};
   if(opts.month!==undefined){calMonth=opts.month;calYear=opts.year;}
-  if(opts.filter!==undefined)calFilter=opts.filter;
-  if(opts.detail!==undefined)calDetail=opts.detail;
+  if(opts.filter!==undefined){calFilter=opts.filter;calSearchQ='';calSearchOpen=false;}
+  if(opts.detail!==undefined)calDetail=calDetail===opts.detail?null:opts.detail;
 
   document.getElementById('pg-title').textContent='Calendar';
   document.getElementById('pg-meta').textContent='';
@@ -869,42 +899,55 @@ function renderCalendar(opts){
   const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
   const wdays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
 
-  // Build company list for filter
+  // Build filter options
   const allCos=new Set();
   const allSectors=new Set();
-  items.emails.forEach(em=>{(em.companies||[]).forEach(c=>allCos.add(c));allSectors.add(em.sector||'Other')});
-  items.events.forEach(ev=>{(ev.companies||[]).forEach(c=>allCos.add(c));allSectors.add(ev.sector||'Other')});
-  items.dates.forEach(d=>{(d.companies||[]).forEach(c=>allCos.add(c));allSectors.add(d.sector||'Other')});
+  [items.emails,items.events,items.dates].forEach(arr=>arr.forEach(x=>{(x.companies||[]).forEach(c=>allCos.add(c));allSectors.add(x.sector||'Other')}));
 
   let h='';
-  // Nav
   const pm=calMonth===0?11:calMonth-1, py=calMonth===0?calYear-1:calYear;
   const nm=calMonth===11?0:calMonth+1, ny=calMonth===11?calYear+1:calYear;
-  h+='<div class="cal-nav">';
-  h+='<button class="cal-nav-btn" onclick="renderCalendar({month:'+pm+',year:'+py+'})">&#8592;</button>';
-  h+='<span class="cal-month">'+months[calMonth]+' '+calYear+'</span>';
-  h+='<button class="cal-nav-btn" onclick="renderCalendar({month:'+nm+',year:'+ny+'})">&#8594;</button>';
-  h+='<select class="cal-filter" onchange="renderCalendar({filter:this.value})">';
-  h+='<option value="">All</option>';
-  h+='<optgroup label="Sectors">';
-  [...allSectors].sort().forEach(s=>{h+='<option value="sector:'+e(s)+'"'+(calFilter==='sector:'+s?' selected':'')+'>'+e(s)+'</option>'});
-  h+='</optgroup><optgroup label="Companies">';
-  [...allCos].sort().forEach(c=>{h+='<option value="co:'+e(c)+'"'+(calFilter==='co:'+c?' selected':'')+'>'+e(c)+'</option>'});
-  h+='</optgroup></select>';
-  h+='</div>';
 
-  // Weekday headers
+  h+='<div class="cal-nav">';
+  h+='<button class="cal-nav-btn" onclick="renderCalendar({month:'+pm+',year:'+py+'})">&#8249;</button>';
+  h+='<span class="cal-month">'+months[calMonth]+' '+calYear+'</span>';
+  h+='<button class="cal-nav-btn" onclick="renderCalendar({month:'+nm+',year:'+ny+'})">&#8250;</button>';
+
+  // Filter area
+  h+='<div class="cal-filter-wrap">';
+  if(calFilter){
+    const label=calFilter.startsWith('sector:')?calFilter.slice(7):calFilter.slice(3);
+    h+='<div class="cal-active-filter">'+e(label)+' <span class="cal-clear" onclick="renderCalendar({filter:\'\'})">&times;</span></div>';
+  }
+  h+='<div class="cal-filter-dropdown">';
+  h+='<input class="cal-filter-search" id="cal-search" placeholder="Filter by company or sector..." value="'+e(calSearchQ)+'" onfocus="document.getElementById(\'cal-dd\').classList.add(\'open\')" />';
+  h+='<div class="cal-filter-list" id="cal-dd">';
+
+  // Build filtered options
+  const q=calSearchQ.toLowerCase();
+  const filtSectors=[...allSectors].sort().filter(s=>!q||s.toLowerCase().includes(q));
+  const filtCos=[...allCos].sort().filter(c=>!q||c.toLowerCase().includes(q));
+
+  if(filtSectors.length){
+    h+='<div class="cal-filter-opt header">Sectors</div>';
+    filtSectors.slice(0,10).forEach(s=>{
+      h+='<div class="cal-filter-opt'+(calFilter==='sector:'+s?' active':'')+'" onmousedown="renderCalendar({filter:\'sector:'+s.replace(/'/g,"\\'")+'\'})">'+e(s)+'</div>';
+    });
+  }
+  if(filtCos.length){
+    h+='<div class="cal-filter-opt header">Companies</div>';
+    filtCos.slice(0,20).forEach(c=>{
+      h+='<div class="cal-filter-opt'+(calFilter==='co:'+c?' active':'')+'" onmousedown="renderCalendar({filter:\'co:'+c.replace(/'/g,"\\'")+'\'})">'+e(c)+'</div>';
+    });
+  }
+  if(!filtSectors.length&&!filtCos.length) h+='<div class="cal-filter-opt" style="color:var(--ink-faint)">No matches</div>';
+
+  h+='</div></div></div></div>';
+
+  // Weekdays
   h+='<div class="cal-weekdays">';
   wdays.forEach(d=>{h+='<div class="cal-wd">'+d+'</div>'});
   h+='</div>';
-
-  // Build calendar grid
-  const firstDay=new Date(calYear,calMonth,1);
-  const lastDay=new Date(calYear,calMonth+1,0);
-  let startDow=(firstDay.getDay()+6)%7; // 0=Mon
-  const totalDays=lastDay.getDate();
-  const today=new Date();
-  const todayStr=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
 
   // Filter function
   function matchFilter(item){
@@ -916,72 +959,90 @@ function renderCalendar(opts){
 
   // Index items by date
   const emailsByDate={},eventsByDate={},datesByDate={};
-  items.emails.filter(matchFilter).forEach(em=>{
-    const d=(em.received||'').substring(0,10);
-    if(d)(emailsByDate[d]=emailsByDate[d]||[]).push(em);
-  });
-  items.events.filter(matchFilter).forEach(ev=>{
-    const d=(ev.event_date||'').substring(0,10);
-    if(d)(eventsByDate[d]=eventsByDate[d]||[]).push(ev);
-  });
-  items.dates.filter(matchFilter).forEach(id=>{
-    const d=id.date;
-    if(d)(datesByDate[d]=datesByDate[d]||[]).push(id);
-  });
+  items.emails.filter(matchFilter).forEach(em=>{const d=(em.received||'').substring(0,10);if(d)(emailsByDate[d]=emailsByDate[d]||[]).push(em)});
+  items.events.filter(matchFilter).forEach(ev=>{const d=(ev.event_date||'').substring(0,10);if(d)(eventsByDate[d]=eventsByDate[d]||[]).push(ev)});
+  items.dates.filter(matchFilter).forEach(id=>{const d=id.date;if(d)(datesByDate[d]=datesByDate[d]||[]).push(id)});
+
+  // Calendar grid
+  const firstDay=new Date(calYear,calMonth,1);
+  const lastDay=new Date(calYear,calMonth+1,0);
+  const startDow=(firstDay.getDay()+6)%7;
+  const totalDays=lastDay.getDate();
+  const today=new Date();
+  const todayStr=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
 
   h+='<div class="cal-grid">';
-  // Padding for start
   for(let i=0;i<startDow;i++){
-    const prevDate=new Date(calYear,calMonth,-(startDow-i-1));
-    h+='<div class="cal-cell other-month"><div class="cal-day">'+prevDate.getDate()+'</div></div>';
+    const pd=new Date(calYear,calMonth,-(startDow-i-1));
+    h+='<div class="cal-cell other-month"><div class="cal-day">'+pd.getDate()+'</div></div>';
   }
   for(let d=1;d<=totalDays;d++){
     const ds=calYear+'-'+String(calMonth+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
     const isToday=ds===todayStr;
-    const de=emailsByDate[ds]||[];
-    const dv=eventsByDate[ds]||[];
-    const dd=datesByDate[ds]||[];
-    const hasContent=de.length||dv.length||dd.length;
-    h+='<div class="cal-cell'+(isToday?' today':'')+'" onclick="renderCalendar({detail:\''+ds+'\'})">';
+    const isSel=ds===calDetail;
+    const de=emailsByDate[ds]||[], dv=eventsByDate[ds]||[], dd=datesByDate[ds]||[];
+    const has=de.length||dv.length||dd.length;
+
+    h+='<div class="cal-cell'+(isToday?' today':'')+(isSel?' selected':'')+'" onclick="renderCalendar({detail:\''+ds+'\'})">';
     h+='<div class="cal-day">'+d+'</div>';
-    if(hasContent){
-      // Dots
-      let dots='';
-      if(de.length)dots+='<span class="cal-dot email" title="'+de.length+' emails"></span>';
-      if(dv.length)dots+='<span class="cal-dot event" title="'+dv.length+' events"></span>';
-      if(dd.length)dots+='<span class="cal-dot idate" title="'+dd.length+' dates"></span>';
-      h+='<div>'+dots+'</div>';
-      // Top items
-      dv.slice(0,2).forEach(ev=>{h+='<div class="cal-item ev">'+e(ev.event_short_title||ev.one_liner||'').substring(0,25)+'</div>'});
-      dd.slice(0,2).forEach(id=>{h+='<div class="cal-item id">'+e(id.description||'').substring(0,25)+'</div>'});
-      if(!dv.length&&!dd.length)de.slice(0,2).forEach(em=>{h+='<div class="cal-item">'+e(em.one_liner||'').substring(0,25)+'</div>'});
+    if(has){
+      h+='<div class="cal-dots">';
+      for(let i=0;i<Math.min(de.length,5);i++) h+='<span class="cal-dot email"></span>';
+      for(let i=0;i<Math.min(dv.length,3);i++) h+='<span class="cal-dot event"></span>';
+      for(let i=0;i<Math.min(dd.length,3);i++) h+='<span class="cal-dot idate"></span>';
+      h+='</div>';
+      dv.slice(0,2).forEach(ev=>{h+='<div class="cal-item ev">'+e(ev.event_short_title||ev.one_liner||'').substring(0,30)+'</div>'});
+      dd.slice(0,2).forEach(id=>{h+='<div class="cal-item id">'+e(id.description||'').substring(0,30)+'</div>'});
+      const maxEm=3-Math.min(dv.length,2)-Math.min(dd.length,2);
+      if(maxEm>0) de.slice(0,maxEm).forEach(em=>{h+='<div class="cal-item em">'+e(em.sender_bank||'').substring(0,12)+': '+e(em.one_liner||'').substring(0,20)+'</div>'});
     }
     h+='</div>';
   }
-  // Padding end
   const endDow=(firstDay.getDay()+totalDays-1+6)%7;
-  for(let i=endDow+1;i<7;i++){
-    h+='<div class="cal-cell other-month"><div class="cal-day">'+(i-endDow)+'</div></div>';
-  }
+  for(let i=endDow+1;i<7;i++) h+='<div class="cal-cell other-month"><div class="cal-day">'+(i-endDow)+'</div></div>';
   h+='</div>';
 
   // Detail panel
   if(calDetail){
-    const de=emailsByDate[calDetail]||[];
-    const dv=eventsByDate[calDetail]||[];
-    const dd=datesByDate[calDetail]||[];
+    const de=emailsByDate[calDetail]||[], dv=eventsByDate[calDetail]||[], dd=datesByDate[calDetail]||[];
     if(de.length||dv.length||dd.length){
       const dParts=calDetail.split('-');
       h+='<div class="cal-detail">';
       h+='<div class="cal-detail-title">'+parseInt(dParts[2])+' '+months[parseInt(dParts[1])-1]+' '+dParts[0]+'</div>';
-      if(dd.length){dd.forEach(d=>{h+='<div class="cal-detail-item"><span style="color:var(--accent-warm);font-weight:600">'+e(d.type||'date')+'</span> '+e(d.description)+' '+(d.companies||[]).map(c=>'<span class="ss-co-tag">'+e(c)+'</span>').join('')+'</div>'});}
-      if(dv.length){dv.forEach(ev=>{h+='<div class="cal-detail-item"><span style="color:var(--pinned);font-weight:600">Event</span> '+e(ev.event_short_title||ev.one_liner||ev.subject)+' <span style="color:var(--ink-muted)">— '+e(ev.sender_bank||'')+'</span></div>'});}
-      if(de.length){de.forEach(em=>{h+='<div class="cal-detail-item"><span style="color:var(--ink-muted);font-weight:500">'+e(em.sender_bank||'')+'</span> '+e(em.one_liner||em.subject)+'</div>'});}
+      if(dd.length){dd.forEach(d=>{h+='<div class="cal-detail-item"><span class="cal-detail-type" style="background:rgba(203,145,47,0.1);color:var(--accent-warm)">'+e(d.type||'date')+'</span><span>'+e(d.description)+'</span>'+(d.companies||[]).map(c=>' <span class="ss-co-tag">'+e(c)+'</span>').join('')+'</div>'});}
+      if(dv.length){dv.forEach(ev=>{h+='<div class="cal-detail-item"><span class="cal-detail-type" style="background:rgba(105,64,165,0.1);color:var(--pinned)">event</span><span>'+e(ev.event_short_title||ev.one_liner||ev.subject)+'</span><span style="color:var(--ink-muted);font-size:11px;margin-left:auto">'+e(ev.sender_bank||'')+'</span></div>'});}
+      if(de.length){
+        h+='<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--rule)">';
+        de.slice(0,10).forEach(em=>{h+='<div class="cal-detail-item"><span style="color:var(--ink-muted);font-size:11px;min-width:80px">'+e(em.sender_bank||'')+'</span><span>'+e(em.one_liner||em.subject)+'</span></div>'});
+        if(de.length>10) h+='<div style="color:var(--ink-faint);font-size:11px;padding:4px 0">+'+(de.length-10)+' more emails</div>';
+        h+='</div>';
+      }
       h+='</div>';
     }
   }
 
   document.getElementById('out').innerHTML=h;
+
+  // Bind search input for calendar filter
+  const csi=document.getElementById('cal-search');
+  if(csi){
+    csi.addEventListener('input',function(){
+      calSearchQ=this.value;
+      // Re-render dropdown only
+      const dd=document.getElementById('cal-dd');
+      if(!dd)return;
+      const q=calSearchQ.toLowerCase();
+      const fs=[...allSectors].sort().filter(s=>!q||s.toLowerCase().includes(q));
+      const fc=[...allCos].sort().filter(c=>!q||c.toLowerCase().includes(q));
+      let dh='';
+      if(fs.length){dh+='<div class="cal-filter-opt header">Sectors</div>';fs.slice(0,10).forEach(s=>{dh+='<div class="cal-filter-opt" onmousedown="renderCalendar({filter:\'sector:'+s.replace(/'/g,"\\'")+'\'})">'+e(s)+'</div>'});}
+      if(fc.length){dh+='<div class="cal-filter-opt header">Companies</div>';fc.slice(0,20).forEach(c=>{dh+='<div class="cal-filter-opt" onmousedown="renderCalendar({filter:\'co:'+c.replace(/'/g,"\\'")+'\'})">'+e(c)+'</div>'});}
+      if(!fs.length&&!fc.length) dh+='<div class="cal-filter-opt" style="color:var(--ink-faint)">No matches</div>';
+      dd.innerHTML=dh;
+      dd.classList.add('open');
+    });
+    csi.addEventListener('blur',function(){setTimeout(()=>{const dd=document.getElementById('cal-dd');if(dd)dd.classList.remove('open')},150)});
+  }
 }
 
 // ===== TRENDS =====
