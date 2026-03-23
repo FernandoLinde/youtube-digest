@@ -233,18 +233,33 @@
   .ss-pill.active { background:var(--ink); color:white; }
   .ss-pill .ss-pill-n { font-weight:400; opacity:0.5; margin-left:2px; }
 
-  .ss-email { padding:8px 10px; margin:0 -10px; border-bottom:1px solid var(--rule-light); border-radius:4px; transition:background 0.1s; }
+  .ss-email { padding:10px 12px; margin:0 -12px; border-bottom:1px solid var(--rule-light); border-radius:4px; transition:background 0.1s; }
   .ss-email:last-child { border-bottom:none; }
   .ss-email:hover { background:rgba(0,0,0,0.015); }
+  .ss-email.expanded { background:var(--paper); border:1px solid var(--rule); margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
   .ss-row1 { display:flex; align-items:center; gap:6px; }
   .ss-bank { font-family:var(--sans); font-size:10px; font-weight:600; color:var(--ink-muted); white-space:nowrap; }
   .ss-time { font-family:var(--sans); font-size:10px; color:var(--ink-faint); margin-left:auto; white-space:nowrap; }
-  .ss-oneliner { font-family:var(--body); font-size:13px; color:var(--ink); line-height:1.45; margin:2px 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .ss-row3 { display:flex; align-items:center; gap:4px; flex-wrap:wrap; }
+  .ss-oneliner { font-family:var(--body); font-size:13px; color:var(--ink); line-height:1.5; margin:3px 0; }
+  .ss-oneliner.collapsed { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .ss-row3 { display:flex; align-items:center; gap:4px; flex-wrap:wrap; margin-top:2px; }
   .ss-tags { display:flex; flex-wrap:wrap; gap:3px; }
   .ss-co-tag { font-family:var(--sans); font-size:9px; font-weight:600; padding:3px 9px; border-radius:4px; background:#FFF5EB; color:#B8610A; }
   .ss-type-tag { font-family:var(--sans); font-size:9px; font-weight:600; padding:3px 9px; border-radius:4px; background:#F0F0F2; color:#6B6B76; }
-  .ss-body { font-family:var(--sans); font-size:11px; color:var(--ink-light); line-height:1.5; margin-top:10px; white-space:pre-wrap; max-height:250px; overflow-y:auto; padding:14px; background:var(--cream); border-radius:4px; }
+  .ss-expand-btn { font-family:var(--sans); font-size:10px; font-weight:500; color:var(--ink-faint); cursor:pointer; padding:2px 0; transition:color 0.1s; border:none; background:none; }
+  .ss-expand-btn:hover { color:var(--ink); }
+
+  /* Email reader panel */
+  .ss-reader { margin-top:12px; padding-top:12px; border-top:1px solid var(--rule-light); }
+  .ss-reader-subject { font-family:var(--sans); font-size:14px; font-weight:600; color:var(--ink); line-height:1.4; margin-bottom:8px; }
+  .ss-reader-meta { font-family:var(--sans); font-size:11px; color:var(--ink-faint); margin-bottom:12px; display:flex; gap:12px; flex-wrap:wrap; }
+  .ss-reader-links { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+  .ss-reader-link { font-family:var(--sans); font-size:11px; color:var(--blue-muted); text-decoration:none; font-weight:500; padding:5px 12px; background:rgba(74,101,128,0.06); border-radius:4px; transition:all 0.12s; display:inline-flex; align-items:center; gap:4px; }
+  .ss-reader-link:hover { background:rgba(74,101,128,0.12); color:var(--ink); }
+  .ss-reader-link::before { content:"↗"; font-size:10px; }
+  .ss-reader-body { font-family:var(--body); font-size:13px; color:var(--ink-light); line-height:1.7; max-height:500px; overflow-y:auto; padding:16px 20px; background:var(--cream); border-radius:6px; border:1px solid var(--rule-light); white-space:pre-wrap; word-wrap:break-word; }
+  .ss-reader-body a { color:var(--blue-muted); text-decoration:underline; text-decoration-color:rgba(74,101,128,0.3); text-underline-offset:2px; transition:text-decoration-color 0.1s; }
+  .ss-reader-body a:hover { text-decoration-color:var(--blue-muted); }
 
   .ss-event { display:flex; align-items:center; gap:10px; padding:8px 10px; margin:0 -10px; border-radius:4px; transition:background 0.1s; flex-wrap:nowrap; }
   .ss-event:hover { background:rgba(0,0,0,0.015); }
@@ -830,36 +845,83 @@ function _linkLabel(url,subject){
   return'Link';
 }
 
+function _extractKeyLinks(bodyText,subject){
+  const linkRx=/https?:\/\/[^\s<>")\]]+/g;
+  const rawLinks=(bodyText.match(linkRx)||[]);
+  const noise=/wf\/open|url8477|urldefense|unsubscribe|\.png|\.jpg|\.gif|\.jpeg|sendgrid|mailchimp|click\.|open\?upn|pixel|tracking|beacon|assets\/20|mailing.*distribution|extelinsights.*voting|Disclaimers|Overview\.aspx/i;
+  const seen=new Set();
+  return rawLinks.filter(l=>{if(noise.test(l))return false;const norm=l.replace(/[?#].*$/,'');if(seen.has(norm))return false;seen.add(norm);return true}).slice(0,6);
+}
+
 function renderSSEmail(em){
-  let h='<div class="ss-email">';
+  const uid='em-'+Math.random().toString(36).substr(2,8);
+  let h='<div class="ss-email" id="'+uid+'">';
+
+  // Row 1: Bank + tags + time
   h+='<div class="ss-row1">';
   h+='<span class="ss-bank">'+e(em.sender_bank||em.sender)+'</span>';
   (em.companies||[]).slice(0,5).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'});
   if(em.type&&em.type!=='other') h+='<span class="ss-type-tag">'+e(em.type)+'</span>';
   h+='<span class="ss-time">'+e(em.received_time)+'</span>';
   h+='</div>';
-  h+='<div class="ss-oneliner">'+e(em.one_liner||em.subject)+'</div>';
+
+  // One-liner (clickable to expand)
+  h+='<div class="ss-oneliner collapsed" style="cursor:pointer" onclick="toggleEmailReader(\''+uid+'\')">'+e(em.one_liner||em.subject)+'</div>';
+
+  // Row 3: Key links + expand button
   if(em.body){
-    const bodyText=em.body||'';
-    const linkRx=/https?:\/\/[^\s<>")\]]+/g;
-    const rawLinks=(bodyText.match(linkRx)||[]);
-    const noise=/wf\/open|url8477|urldefense|unsubscribe|\.png|\.jpg|\.gif|\.jpeg|sendgrid|mailchimp|click\.|open\?upn|pixel|tracking|beacon|assets\/20|mailing.*distribution|extelinsights.*voting|Disclaimers|Overview\.aspx/i;
-    const seen=new Set();
-    const keyLinks=rawLinks.filter(l=>{if(noise.test(l))return false;const norm=l.replace(/[?#].*$/,'');if(seen.has(norm))return false;seen.add(norm);return true}).slice(0,4);
+    const keyLinks=_extractKeyLinks(em.body,em.subject||'');
     h+='<div class="ss-row3">';
-    h+='<details style="margin:0"><summary style="padding:2px 0;font-size:10px">Email completo</summary><div class="ss-body">'+eLinks((bodyText).substring(0,3000))+'</div></details>';
+    h+='<button class="ss-expand-btn" onclick="toggleEmailReader(\''+uid+'\')">▸ Ler email</button>';
     if(keyLinks.length){
-      h+='<span style="margin-left:auto;display:flex;gap:4px;flex-shrink:0">';
-      keyLinks.forEach(l=>{
+      keyLinks.slice(0,3).forEach(l=>{
         const label=_linkLabel(l,em.subject||'');
-        h+='<a href="'+l+'" target="_blank" rel="noopener" style="font-family:var(--sans);font-size:10px;color:var(--ink-light);text-decoration:none;font-weight:500;padding:2px 6px;background:var(--cream);border-radius:3px;white-space:nowrap">'+e(label)+'</a>';
+        h+='<a href="'+l+'" target="_blank" rel="noopener" class="ss-reader-link" style="font-size:9px;padding:2px 8px" onclick="event.stopPropagation()">'+e(label)+'</a>';
       });
-      h+='</span>';
     }
     h+='</div>';
+
+    // Hidden reader panel
+    h+='<div class="ss-reader" id="'+uid+'-reader" style="display:none">';
+    // Subject
+    h+='<div class="ss-reader-subject">'+e(em.subject)+'</div>';
+    // Meta
+    h+='<div class="ss-reader-meta">';
+    h+='<span>'+e(em.sender_bank||em.sender)+'</span>';
+    if(em.sector) h+='<span>'+e(em.sector)+'</span>';
+    h+='<span>'+e(em.received||'')+'</span>';
+    h+='</div>';
+    // All key links prominently
+    if(keyLinks.length){
+      h+='<div class="ss-reader-links">';
+      keyLinks.forEach(l=>{
+        const label=_linkLabel(l,em.subject||'');
+        h+='<a href="'+l+'" target="_blank" rel="noopener" class="ss-reader-link">'+e(label)+'</a>';
+      });
+      h+='</div>';
+    }
+    // Email body with proper formatting
+    h+='<div class="ss-reader-body">'+eLinks(em.body.substring(0,5000))+'</div>';
+    h+='</div>';
   }
+
   h+='</div>';
   return h;
+}
+
+function toggleEmailReader(uid){
+  const card=document.getElementById(uid);
+  const reader=document.getElementById(uid+'-reader');
+  if(!reader)return;
+  const showing=reader.style.display!=='none';
+  reader.style.display=showing?'none':'block';
+  card.classList.toggle('expanded',!showing);
+  // Update button text
+  const btn=card.querySelector('.ss-expand-btn');
+  if(btn) btn.textContent=showing?'▸ Ler email':'▾ Fechar';
+  // Update one-liner collapse
+  const oneliner=card.querySelector('.ss-oneliner');
+  if(oneliner) oneliner.classList.toggle('collapsed',showing);
 }
 
 // ===== SELL-SIDE VIEW =====
