@@ -1,1 +1,41 @@
-["2026-03-23", "2026-03-20", "2026-03-19", "2026-03-18", "2026-03-17"]
+{
+  "youtube": [
+    {
+      "date": "2026-03-23",
+      "videos": 7,
+      "daily_brief": 0,
+      "top_score": 5
+    },
+    {
+      "date": "2026-03-20",
+      "videos": 6,
+      "daily_brief": 1,
+      "top_score": 5
+    },
+    {
+      "date": "2026-03-19",
+      "videos": 8,
+      "daily_brief": 1,
+      "top_score": 5
+    },
+    {
+      "date": "2026-03-18",
+      "videos": 0,
+      "daily_brief": 0,
+      "top_score": 0
+    },
+    {
+      "date": "2026-03-17",
+      "videos": 13,
+      "daily_brief": 3,
+      "top_score": 5
+    }
+  ],
+  "sellside": [
+    {
+      "date": "2026-03-20",
+      "emails": 119,
+      "events": 66
+    }
+  ]
+}
