@@ -1,0 +1,56 @@
+Subject: ENC: ***JPM Mercados em 1 Minuto***
+From: J.P. Morgan
+Date: 2026-03-20T08:24:53
+Sector: Other
+Companies: NU, VTEX, BLAU, CYRELA, TUPY, WIZ, MOTV, RENT, VBBR, SBSP, VALE, V, SQ, GOOGL
+============================================================
+
+________________________________
+
+De: fabio.loch.varella@jpmorgan.com <fabio.loch.varella@jpmorgan.com>
+Enviado: sexta-feira, 20 de março de 2026 08:24:42 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: ***JPM Mercados em 1 Minuto***
+
+
+
+
+
+Mercados em 1 Minuto | Sales Commentary 
+
+Destaques do Dia:
+
+*	Transportation (sensibilidade juros) 
+*	⁠Nubank (Mexico ROEs) 
+*	⁠Latam Financials (comparações com US) 
+*	⁠Vtex (revisando modelo) 
+*	⁠Blau (revisando modelo) 
+*	⁠EM Strategy (flows negativos) 
+
+
+Eventos:
+
+HOJE - 10am: Rural Ventures - Protein & Grains Outlook, webinar w/ Partner & Consultancy Head Registrar <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=zG7UBgM&sig=Oz74cU38utu6sgGXUqIpOqxv074&v=2&url=https://jpmchase.zoom.us/webinar/register/WN_bYDz_4F1QFuZUEfELH-Nrg%23/registration> 
+HOJE - 10:30am: Vibra, webinar w/ VP of Legal, Compliance, & IR Registrar <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=QfbObjV&sig=TI8jroKXPIz2XYxSGr4ySIXlJu3&v=2&url=https://jpmchase.zoom.us/webinar/register/WN_N2aHk5C9TIys0wv2U9yf8w> 
+HOJE - 11am: Close-Up International: GLP-1 in Latin America, webinar w/ Commercial Director  Registrar <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=MLC8HMf&sig=Ivf8VAgG41Nd7iHTP6RgCVrMsEN&v=2&url=https://jpmchase.zoom.us/webinar/register/WN_X_T5G-X0S-OUiDKILYmH5A%23/registration> 
+HOJE - 1pm: Sabesp, webinar w/ CFO Registrar <mailto:giovanna.lopes@jpmorgan.com?subject=JPM%20|%20Sabesp>   
+HOJE - 2pm: Vale - Global Miners Week, webinar w/ Director of IR & Joint-Ventures Registrar <mailto:giovanna.lopes@jpmorgan.com?subject=JPM%20-%20Global%20MIners%20Week>   
+HOJE - 3pm: AI Impact on Brokers/Assets Managers & Exchanges Competition, webinar w/ Yuri Fernandes & Ken Worthington Registrar <mailto:giovanna.lopes@jpmorgan.com?subject=JPM%20-%20Global%20MIners%20Week>    
+
+
+Earnings 4Q25 
+
+*	Beat: Cyrela 
+*	Miss: Tupy, Wiz 
+
+  
+
+TRANSPORTATION:  revisamos o comportamento das acoes do setor em ciclos de corte de juros - concluimos que no periodo de 6-12 meses apos o 1o corte, o setor tende a outperformar a bolsa. Dentro da nossa cobertura preferimos exposição a nomes mais defensivos com fundamento solido - MOTV e RENT.  Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=43aUNMx&sig=4bw1kmHjN4d4DgF4a9NoVwTQ339&v=2&isig=EczunmZSjmlxLoXiVv2zgcj6qhc&url=https://markets.jpmorgan.com/research/email/scx/-qvbl3d8/GPS-5241352-0.pdf/d8d80eb2-2e9b-44e0-b6f7-de1a9c15d726> 
+
+NU: analisamos unit economics no México, de produtos de 20-50% de ROE) e entender os tamanho das oportunidades. Por exemplo Nu pode rodar em 70% em cartoes, mas a indústria ainda é pequena ($ 2-4bn de profit pool) e o mercado precisaria crescer tipo Brasil 2019-2025. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=xPuy2E1&sig=YJN8yVo1j26Vypix7KvCbRz9Pml&v=2&isig=GLMn6WFGu1XZuyyjDWJPvZDvyu8&url=https://markets.jpmorgan.com/research/email/scx/h20eqb56/GPS-5240638-0.pdf/d8d80eb2-2e9b-44e0-b6f7-de1a9c15d726> 
+
+⁠LATAM FINANCIALS: Feedback do call com nosso analista de US Payments, IT & Processors. Crescimento de TPV desacelerando e penetração de cartões estabilizando levam o setor a migrar para soluções de maior valor agregado para sustentar crescimento. AI surge como fator duplo, reduzindo custo de desenvolvimento, mas melhora underwriting e eficiência, com players como Visa e Block melhor posicionados. Entrada do Nubank nos EUA ainda é incerta em termos de modelo de monetização e funding. No geral, cenário aponta para crescimento mais desafiador e maior foco em diferenciação via tecnologia. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=Sucd8r1&sig=4dthr5XpI9lRTDrNn5JDVp1I7Bp&v=2&isig=3GX0AKBbjAga3UynsJHG8tjd4PH&url=https://markets.jpmorgan.com/research/email/scx/-730ju2k/GPS-5239544-0.pdf/d8d80eb2-2e9b-44e0-b6f7-de1a9c15d726> 
+
+VTEX: atualizamos estimativas depois do 4Q, incorporando o guidance de menor crescimento, mas maior rentabilidade. Mantemos o Neutro com PT de $5, e preferimos esperar por mais visibilidade de uma potencial reaceleração do crescimento. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12831326&ad=4070717329&h=wIc7-tL&sig=CbmVWESo1BWoM731TlcOB9nCylN&v=2&isig=FzhRQXn0Vz1QryL8ul0otnDIyqz&url=https://markets.jpmorgan.com/research/email/scx/-p6l98fb/GPS-5240979-0.pdf/d8d80eb2-2e9b-44e0-b6f7-de1a9c15d726> 
+
+BLAU: Reiteramos o Neutro e reduzimos PT para R$13 vs. R$14.5 anteriormente. Pipeline robusto em produtos de maior complexidade sustentam perspectiva de crescimento (CAGR ~15% em receita/EPS), mas riscos de execução, timing e capex levam a revisões e postergação de entregas. No curto prazo, momentum permanece limitado por ambiente de preços mais fraco e menor poder de precificação. Com valuation mais equilibrado e up

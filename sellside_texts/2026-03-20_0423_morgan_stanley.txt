@@ -1,0 +1,41 @@
+Subject: ENC: IT Hardware: Monthly Data Tracker: iPhone Tracking Well-Ahead vs. App Store Tracking Modestly Behind
+From: Morgan Stanley
+Date: 2026-03-20T04:23:29
+Sector: TMT
+Companies: AAPL, BABA, TCEHY, BIDU, IBM
+============================================================
+
+________________________________
+
+De: Erik W Woodring <Erik.Woodring@morganstanley.com>
+Enviado: sexta-feira, 20 de março de 2026 04:23:14 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: IT Hardware: Monthly Data Tracker: iPhone Tracking Well-Ahead vs. App Store Tracking Modestly Behind
+
+
+
+	 
+	 
+	 
+IT Hardware 	
+Monthly Data Tracker: iPhone Tracking Well-Ahead vs. App Store Tracking Modestly Behind	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/9bfe464c-22ea-11f1-99ea-46f6fece5bca?t=1773991379:5862:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 66 Pages) 	
+North America 	
+Industry View   Cautious
+
+Erik W Woodring, Dylan Liu, Maya C Neuman, Rauf Ural	 
+March 20, 2026
+
+	
+	 App Store rev growth is decelerating in C1Q to +6% Y/Y, resulting in net revs of +7% Y/Y QTD, 1 point below our +8% Y/Y. Separately, another qtr of above-seasonal iPhone builds in the Jun qtr supports our well-above-Street iPhone forecasts. Finally, 2026 cloud capex now at $753B or +63% Y/Y. 
+
+March App Store net revenue is growing 6% Y/Y MTD, a 310bps deceleration from February off a 170bps tougher Y/Y compare, implying 30bps ($80M) of downside to our March quarter Services revenue, all else equal. Based on the latest disclosures from Sensor Tower, we estimate App Store net revenue is growing 6% Y/Y month-to-date through March 18th, a 310bps deceleration from February off a 170bps tougher Y/Y compare (Exhibit 25). This implies that QTD through March 18th, App Store net revenue is growing 7.0% Y/Y, tracking 1 point behind our +8.0% Y/Y March quarter App Store forecast. Therefore, if the quarter ended on March 18th, App Store net revenue would be growing 7.0% Y/Y in the March quarter (vs. +6.2% Y/Y in the December quarter), translating into 30bps of downside (or ~$80M) vs. our March-quarter Services growth forecast of 13.5% Y/Y (vs. Consensus estimate of +12.6% Y/Y), all else equal.
+
+Digging into the details, growth of the top 3 App Store markets in aggregate is decelerating in March — China is growing 4% Y/Y (vs. +5% Y/Y in February; Ex 28), the US is declining 2% Y/Y, a 3-point deceleration from February off a 50bps tougher Y/Y compare (Exhibit 29), and Japan is tracking -5% Y/Y (vs. +1% Y/Y in February; Exhibit 30) off a 70bps easier Y/Y compare. That said, Rest of World App Store growth is +18% Y/Y this month-to-date, a 410bps deceleration vs. 23% growth in February (Exhibit 31). Notably for the US App Store, net revenue per download is flat Y/Y MTD, down modestly from +0.5% Y/Y in February (decelerating 50bps M/M). While this represents a deceleration, US monetization per download remains stronger than the ROW, where revenue per download is decelerating 220bps M/M. We cannot clearly conclude that US App Store monetization deterioration M/M due to non-monetized link-outs, but it's something we continue to track closely. Looking ahead, we expect a slight headwind from the reduced App Store commission rate in China (from the standard 30% to 25%, effective March 15th), which accounts for ~20% of total App Store revenue, with mini app monetization — notably from Tencent, the single biggest developer on App Store — providing a partial positive offset.
+
+C2Q26 iPhone builds of 52M units points to another above‑seasonal quarter of iPhone shipments. Our Greater China Hardware team (led by Sharon Shih) introduced their preliminary C2Q26 iPhone builds of 52M units (+12% Y/Y, ‑7% Q/Q) late last week, which includes 10M iPhone 17e builds, 1M units higher than a year ago. Following above‑seasonal C1Q26 builds of 56M units (unchanged), a ‑7% Q/Q decline in C2Q26 again outperforms typical seasonality (‑17% Q/Q). Based on the historical builds‑to‑shipments relationship, 52M June quarter builds would imply 57-58M iPhone shipments — largely in-line with our 58M unit forecast, but 7M units above Consensus shipments at 50M — reinforcing our above‑Street June quarter revenue forecasts. We see this iPhone build strength as evidence of sustained iPhone end‑demand amidst 3nm wafer constraints, consistent with our view <https://ny.matrix.ms.com/eqr/article/webapp/7491b2d2-c3b4-11f0-bfa1-4781374640f1?ch=rp&sch=ar>  that Apple’s additional wafer orders placed late last year should support upside to shipments in both C1Q26 and C2Q26. We leave our bullish iPhone shipment forecasts unchanged.
+
+Data we're watching closely over the coming weeks:
+
+*	Cloud Capex Tracker now points to 63% Y/Y growth in 2026, 5 points stronger than our last update (Exhibit 109). After refreshing Consensus and incorporating C4Q25 results from Alibaba, Tencent, Baidu, and CoreWeave, 2026 aggregate cash capex amongst the top 11 cloud spenders increased by $14B to $753B, implying a third consecutive year of 60%+ cloud capex growth. The higher 2026 base comes alongside a slightly lower 2025 estimate (‑$4B) driven by C4Q25 capex downside at Tencent and CoreWeave. Co

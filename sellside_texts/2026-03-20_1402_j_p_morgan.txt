@@ -1,0 +1,46 @@
+Subject: ENC: B3: Turnover Velocity at a Glance – Benchmarking vs. Global Peers and Adjusting for New Products
+From: J.P. Morgan
+Date: 2026-03-20T14:02:00
+Sector: Financials
+Companies: B3SA3.SA, B3SA3 BZ
+============================================================
+
+________________________________
+
+De: Yuri R Fernandes <yuri.r.fernandes@jpmresearchmail.com>
+Enviado: sexta-feira, 20 de março de 2026 14:01:43 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: B3: Turnover Velocity at a Glance – Benchmarking vs. Global Peers and Adjusting for New Products
+
+
+ 	Latin America Equity Research 	
+
+B3
+
+
+Turnover Velocity at a Glance – Benchmarking vs. Global Peers and Adjusting for New Products
+
+ 	 
+By Yuri R Fernandes AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=BhNZ9Ro&sig=7DHZRr4TuJZJ6h6YLnZxyw0QuNs&v=2&url=https://markets.jpmorgan.com/research/analyst/E689071> , Kenneth B. Worthington, CFA <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=Iw8aO5L&sig=WsVunvSRuHB96iGxT4prWXbuXSy&v=2&url=https://markets.jpmorgan.com/research/analyst/N008826> , Guilherme Grespan <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=OGu-s5p&sig=CWd1tZLnQYWhbgV5eu0KiYJ4sYh&v=2&url=https://markets.jpmorgan.com/research/analyst/R578266> , Fernanda Sayao <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=sCLP3vv&sig=CiIbyiAz6jpFkeRrMqb8JtnOxPT&v=2&url=https://markets.jpmorgan.com/research/analyst/I807027> , Diego Marquez Antonio <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=PmeoAkb&sig=LlZIgKWXhf5E5GR1izKtMxTFT9F&v=2&url=https://markets.jpmorgan.com/research/analyst/O817967>  
+
+Click here for the full document and disclaimers <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=GeZbpMJ&sig=H0y22UymobArRsL2NrZMpLgpSA2&v=2&isig=UZhK6JodAEr9ZFopeAhEjRaAkjz&url=https://markets.jpmorgan.com/research/email/scx/-susnlj4/GPS-5241811-0/3a6c769e-a2db-431f-a143-4b12d1afac40> 
+
+Neutral	 
+B3SA3.SA, B3SA3 BZ	 
+Price (19 Mar 26):R$16.92	 
+	
+
+In light of investors’ excitement with B3 equities volumes, we add in this report more granularity on turnover velocity – how it stacks against global players and B3’s own historical average, when adjusting for new products and services launched over the last decade. And as we addressed in “B3 – World Cup Doldrums vs Elections Hype, <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=KnmjnCm&sig=MNI5xJwHOzKgxXIbvaka0j99L8k&v=2&isig=A87KDFJh09Yy4dQTHnAQGamu1tm&url=https://markets.jpmorgan.com/research/email/scx/k16ligk9/GPS-4182385-0/3a6c769e-a2db-431f-a143-4b12d1afac40> ” we also discuss seasonality for the company below. Overall, our main findings were: (i) strong ADTV is a trend seen in most markets, although B3 seems to have benefited slightly more than the global average; (ii) B3’s turnover velocity is among the highest in the world at 161% YTD, ranking 6th among the top 30 exchanges covered by WFE; (3) while turnover looks high at first glance, we see upside in what we call “core turnover,” i.e., excluding HFT, REIT, BDR and ETFs – which we estimate stands today at ~70% and similar to levels seen in 2016 crisis. While today’s conversations are mostly focused on the departure of the CEO, Gilson Finkelsztain, to Santander Brasil (link <https://jpmorgan.email.streetcontxt.net/platform/al?a=12835604&ad=4073424133&h=E4UoVr4&sig=1RuUtKAA0yH9Wp9KXFWRLgiIPKW&v=2&url=https://api.mziq.com/mzfilemanager/v2/d/5fd7b7d8-54a1-472d-8426-eb896ad8a3c4/759c2db5-a70f-a200-c555-24cd183108ba?origin%3D2> ), we believe investors will soon focus on potential EPS upside risk from equities (and perhaps derivatives) for this year. We see B3 trading at ~14x P/E ’26E. 
+
+*	Increase in equities volumes – not unique to B3, but benefiting more than average. Equities ADTV for B3 increased from R$27-28bn in late 4Q25 to ~R$35-40bn lately, and we see similar trends globally. Using data from the World Federation of Exchanges (WFE), we see turnover velocity YTD increasing for most exchanges globally, both in developed as well as emerging markets. For instance, Nasdaq velocity increased from 121% to 137%, Shanghai from 301% to 351%, India (National Exchange) from 55% to 57% and Korea from 159% to 184%, to name a few. Still, we see B3 more at the higher end of beneficiaries. This compares with B3 turnover increasing from 128% in 2025 to 161% YTD. On a separate note, we continue to see B3 ranking high in absolute turnover velocity as well – the sixth largest turnover velocity globally from the top 30 exchanges covered by WFE, behind Taipei, Shanghai, Instabul, Korea and NYSE. 
+
+Figure 1: Turnover Velocity Comparison – Select Peers (WFE) 
+
+Value Traded / Market Cap
+
+	2019	 2020	 2021	 2022	 2023	 2024	 2025	 2026 YTD	 YTD vs 2025	 
+Nasdaq - US	 136%	 165%	 127%	 143%	 116%	 107%	 121%	 137%	 16 pp 	
+NYSE	 94%	 136%	 115%	 125%	 107%	 106%	 131%	 163%	 32 pp 	
+Shanghai Stock Exchange	 167%	 214%	 235%	 206%	 183%	 224%	 301%	 351%	 50 pp 	
+National Stock Exchange of India	 57%	 91%	 75%	 53%	 55%	 67%	 55%	 57%	 2 pp 	
+Korea Exchange	 137%	 318

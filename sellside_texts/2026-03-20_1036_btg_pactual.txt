@@ -1,0 +1,64 @@
+Subject: ENC: Brazil Retail & Pharma: The weight of gold – Semaglutide patents drop in Brazil (a quick Q&A handbook) (BTG Pactual's Guanais/Cesquim/Cendon)
+From: BTG Pactual
+Date: 2026-03-20T10:36:49
+Sector: Healthcare
+Companies: 
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deLuiz Guanais <luiz.guanais@btgpactual.com>
+Enviado: sexta-feira, 20 de março de 2026 10:36:41 (UTC-03:00) Brasilia
+Assunto: Brazil Retail & Pharma: The weight of gold – Semaglutide patents drop in Brazil (a quick Q&A handbook) (BTG Pactual's Guanais/Cesquim/Cendon)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - Brazil - Retail 
+
+
+Brazil Retail & Pharma 
+
+
+20-March-2026 
+
+
+ 
+
+
+The weight of gold – Semaglutide patents drop in Brazil (a quick Q&A handbook) 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118870>  
+
+The expiration of semaglutide’s patent in Brazil on March 20 marks a clear structural milestone for the domestic obesity and diabetes treatment market, but the commercial implications are likely to unfold gradually rather than abruptly. While the end of Novo Nordisk’s ~20-year exclusivity formally opens the market to competition, Brazil still has no approved national alternative available in pharmacies. In practice, this places the market in a transition phase rather than triggering immediate disruption. Below, we organize the key points in a Q&A format, with more developed answers to support investor discussions.
+
+1. What exactly happened with the Ozempic patent, and why does it matter?
+
+The patent for semaglutide—the active ingredient in Ozempic, Wegovy, and Rybelsus—expired on March 20, 2026, effectively ending Novo Nordisk’s exclusivity after roughly two decades. The company had attempted to extend this protection by an additional 12 years through legal avenues but was unsuccessful. This development is structurally important because it legally allows other pharmaceutical companies to enter the market and develop competing products. However, unlike traditional small-molecule drugs, this does not translate into an immediate economic “cliff.” The absence of approved alternatives means Novo Nordisk retains effective control of the market in the near term.
+
+Key takeaway: The patent expiry is a legal inflection point, but not yet a commercial one—this will depend on regulatory approvals and manufacturing scale.
+
+2. Why are there still no alternatives available in Brazil?
+
+Despite the patent expiration, no domestic alternatives have been approved so far, and the main bottleneck is regulatory rather than legal. Semaglutide is a complex peptide that sits at the intersection of synthetic drugs and biologics, which significantly raises the bar for approval. Companies must provide extensive safety and efficacy data, demonstrate high levels of manufacturing consistency, and prove analytical precision at the molecular level. On top of that, Brazil does not yet have a fully standardized regulatory pathway for this type of “hybrid” molecule, forcing ANVISA to conduct case-by-case evaluations often based on international benchmarks. This combination of scientific complexity and regulatory uncertainty has slowed down approvals.
+
+Key takeaway: Approval complexity—not lack of interest—is the primary factor delaying competition.
+
+3. How many companies are trying to enter this market?
+
+There are currently 15 national applications under review at ANVISA, with broader indications suggesting that the total number of requests may be closer to 17. Of these, two products—developed by EMS and Ávita Care—are in a more advanced stage known as “cumprimento de exigências,” meaning that ANVISA has already reviewed their dossiers and requested additional clarifications. Seven other applications are under active review and may receive initial feedback in the first half of 2026, while the remaining filings have yet to enter the formal analysis phase. This represents one of the most competitive pipelines in Brazilian pharma in recent years, highlighting both the attractiveness and scale of the opportunity.
+
+Key takeaway: Competition is likely to be broad and multi-layered, but it will materialize sequentially rather than all at once.
+
+4. When will the first competing products actually launch?
+
+The earliest realistic timeline for the first competing products to reach the market is July/August 2026. The leading candidates from EMS and Ávita Care received requests for additional information from ANVISA in early March and have up to 120 days to respond, although they may do so earlier. Approval will ultimately depend on the adequacy and quality of these responses. This implies a gap of at least three months between patent expiry and the arrival of any competition, followed by a gradual rollout of products.
+
+Key takeaway: Expect a short period of continued exclusivity, followed by a gradual market opening starting in mid-2026.
+
+5. What are the main regulatory hurdles delaying approval?
+
+ANVISA’s review is focused on three critical technical areas. First, immunogenicity, which assesses whether patients may develop antibodies against

@@ -1,0 +1,86 @@
+Subject: ENC: Opsimex: Incorporating New Guidance Post 4Q25; Keep PT at Ps 26
+From: J.P. Morgan
+Date: 2026-03-20T01:16:49
+Sector: TMT
+Companies: SITES1.MX, SITES1 MM
+============================================================
+
+________________________________
+
+De: Marcelo Santos - JPM <marcelo.p.santos@jpmresearchmail.com>
+Enviado: sexta-feira, 20 de março de 2026 01:16:38 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: Opsimex: Incorporating New Guidance Post 4Q25; Keep PT at Ps 26
+
+
+ 	Latin America Equity Research 	
+
+The Extel/I.I. survey is here and we would deeply appreciate your support. If you feel like our research contributed to your investment process, please support the J.P. Morgan Education/TMT team with a 5-star rating. We are focused on the LATAM survey (not the Brazil one).
+
+
+Opsimex
+
+
+Incorporating New Guidance Post 4Q25; Keep PT at Ps 26
+
+ 	 
+ <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=bZBR4X0&sig=5npRMJ3GPiJQIqJsCzBXOyl7kON&v=2&url=https://www.extelinsights.com/voting> 	
+By Marcelo Santos, CFA AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=wnJ4ZTi&sig=80nOp6gNInFeb4XikwhLtnXhwce&v=2&url=https://markets.jpmorgan.com/research/analyst/R036945> , Livea Mizobata <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=ePRKAdB&sig=3qTb7y6bJDWiuaHxZ7dB0CO1MbW&v=2&url=https://markets.jpmorgan.com/research/analyst/R717084>  
+
+Click here for the full document and disclaimers <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=oo2kpcC&sig=VjXokZuunbIMPShWOfSE5Duj2sw&v=2&isig=To1ZssFjvsP47wQWW509ZNOYdnV&url=https://markets.jpmorgan.com/research/email/scx/8dneo6o0/GPS-5240624-0/b3059cde-05c1-4434-be8a-eb6514d99b54> 
+
+Overweight	 
+SITES1.MX, SITES1 MM	 
+Price (19 Mar 26):Ps14.40	 
+Price Target (Dec-26):Ps26.00	 
+	
+
+We update our estimates for Opsimex post 4Q25 results, raising our estimates reflecting the latest guidance, with the tower deployment expectation up to 755 for 2026E (vs 500 previously). We are raising our estimates for Net Revs by 1.3%/1.9% and keep our margins virtually stable at 96.1%, driving our EBITDA up by 1.4%/2.0%. As we incorporate the higher tower adds, we also raise our Capex by 43% for 26E, resulting in Ps1.2bn/Ps0.9bn for 26E/27E. We keep our Dec-26 PT stable at Ps 26, as the adjustments to estimates are offset by higher capex and a higher WACC of 10.9% (vs 10.5% previously). We maintain our Overweight rating on Opsimex, which we see as a discounted play: it delivers 11% FCF yield ‘26E, while growing that FCF by a 9% CAGR’26-29E. 
+
+Table 1: Change in Estimates 
+
+		2026E	 			2027E	 		1Q26E	 
+Ps Million	 New	 Old	 Chg	 	New	 Old	 Chg	 	Preview	 
+Towers	 25,725	 25,365	 1.4%	 	26,225	 25,865	 1.4%	 	25,170	 
+Tenants	 31,900	 31,250	 2.1%	 	32,400	 31,750	 2.0%	 	31,165	 
+Net Revenue	 14,554	 14,369	 1.3%	 	15,445	 15,158	 1.9%	 	3,551	 
+Cash Costs	 −571	 −576	 −1.0%	 	−606	 −608	 −0.3%	 	−139	 
+EBITDA	 13,983	 13,793	 1.4%	 	14,838	 14,549	 2.0%	 	3,412	 
+% margin	 96.1%	 96.0%	 9bps	 	96.1%	 96.0%	 9bps	 	96.1%	 
+EBITDAaL	 9,997	 9,868	 1.3%	 	10,606	 10,403	 2.0%	 	2,439	 
+% margin	 68.7%	 68.7%	 1bps	 	68.7%	 68.6%	 4bps	 	68.7%	 
+Depr. and Amort.	 −7,185	 −6,659	 7.9%	 	−7,075	 −6,589	 7.4%	 	−1,838	 
+Net Fin Exp	 −3,321	 −3,261	 1.8%	 	−3,264	 −3,249	 0.5%	 	−846	 
+Income Taxes	 −1,043	 −1,162	 −10.2%	 	−1,350	 −1,413	 −4.5%	 	−219	 
+Minority Interest	 −795	 −853	 −6.8%	 	−951	 −1,042	 −8.7%	 	−173	 
+Net Income	 1,639	 1,858	 −11.8%	 	2,199	 2,256	 −2.5%	 	337	 
+										
+Capex	 −1,203	 −844	 42.5%	 	−882	 −880	 0.3%	 	−316	 
+Dividends	 −2,800	 −2,800	 0.0%	 	−4,792	 −4,217	 13.6%	 	0	 
+Buybacks	 −1,236	 −1,465	 −15.6%	 	−1,546	 −1,522	 1.5%	 	−296	 
+FCFE, Prop	 4,508	 4,774	 −5.6%	 	5,637	 4,961	 13.6%	 	1,058	 
+Net Debt, ex-IFRS16	 17,016	 16,077	 5.8%	 	17,627	 16,765	 5.1%	 	16,786	 
+Net Debt, ex-IFRS16, Prop	 17,340	 16,556	 4.7%	 	18,040	 17,334	 4.1%	 	17,049	 
+ND / EBITDA	 2.1	 2.1	 3.4%	 	2.1	 2.1	 1.5%	 	2.2	 
+
+Source: J.P. Morgan estimates.
+
+Click here for the full document and disclaimers <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=oo2kpcC&sig=VjXokZuunbIMPShWOfSE5Duj2sw&v=2&isig=To1ZssFjvsP47wQWW509ZNOYdnV&url=https://markets.jpmorgan.com/research/email/scx/8dneo6o0/GPS-5240624-0/b3059cde-05c1-4434-be8a-eb6514d99b54> 
+
+	
+
+LatAm Technology & Telecom / Education
+
+Marcelo Santos, CFA AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=wnJ4ZTi&sig=80nOp6gNInFeb4XikwhLtnXhwce&v=2&url=https://markets.jpmorgan.com/research/analyst/R036945>  
+(55-11) 4950-3708 
+marcelo.p.santos@jpmorgan.com <mailto:marcelo.p.santos@jpmorgan.com>  
+Banco J.P. Morgan S.A. 
+
+Livea Mizobata <https://jpmorgan.email.streetcontxt.net/platform/al?a=12828520&ad=4068427531&h=ePRKAdB&sig=3qTb7y6bJDWiuaHxZ7dB0CO1MbW&v=2&url=https://markets.jpmorgan.com/research/analyst/R717084>  
+(55-11) 4950-3604 
+livea.mizobata@jpmorgan.com <mailto:livea.mizobata@jpmorgan.com>  
+Banco J.P. Morgan S.A. 
+
+	
+
+Visit J.P. Morgan Markets <https://jpmo

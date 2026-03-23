@@ -1,0 +1,38 @@
+Subject: ENC: Wiz: 4Q25 - Earnings Miss with Softer Revenues and Impairment
+From: J.P. Morgan
+Date: 2026-03-19T19:41:27
+Sector: Financials
+Companies: WIZC3.SA
+============================================================
+
+________________________________
+
+De: Guilherme Grespan <guilherme.grespan@jpmresearchmail.com>
+Enviado: quinta-feira, 19 de março de 2026 19:41:14 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: Wiz: 4Q25 - Earnings Miss with Softer Revenues and Impairment
+
+
+ 	Latin America Equity Research 	
+
+Wiz
+
+
+4Q25 - Earnings Miss with Softer Revenues and Impairment
+
+ 	 
+ <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=bZBR4X0&sig=Y4a18KDNUepKwfzS9bOyFcgslqS&v=2&url=https://www.extelinsights.com/voting> 	
+By Guilherme Grespan AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=OGu-s5p&sig=LaEaDo4FeKAFh3H1u2znqc594m1&v=2&url=https://markets.jpmorgan.com/research/analyst/R578266> , Yuri R Fernandes <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=BhNZ9Ro&sig=4Pm4kXJTb5V3wmq6g6BJWbc0ygW&v=2&url=https://markets.jpmorgan.com/research/analyst/E689071> , Fernanda Sayao <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=sCLP3vv&sig=YdGGpd4TqIPnbUNdzRoAHBcWxbh&v=2&url=https://markets.jpmorgan.com/research/analyst/I807027> , Diego Marquez Antonio <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=PmeoAkb&sig=N74UcoUl7LYorF94ALxQWoEKefj&v=2&url=https://markets.jpmorgan.com/research/analyst/O817967>  
+
+Click here for the full document and disclaimers <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=PVEcOZJ&sig=JYZorUxNRQrAGvJAhBbhKSnmG7o&v=2&isig=3Xfb4QN6oS7udZJHjS4CBxjl69G&url=https://markets.jpmorgan.com/research/email/scx/q2jtdmd4/GPS-5236490-0/7503e67e-e7d5-47b3-b8c5-49ab4e8b92ca> 
+
+Neutral	 
+WIZC3.SA, WIZC3 BZ	 
+Price (19 Mar 26):R$8.88	 
+	
+
+Wiz reported earnings of R$50mn, up 28% Y-o-Y and ~7% below JPMe. Our models did not incorporate the sale of Wiz Concept (link <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=nnVQsiQ&sig=1U7u0ZAfTElmvlEcoTNtcoy0sV3&v=2&url=https://api.mziq.com/mzfilemanager/v2/d/0b486057-7845-4b55-ace2-4b4842d128c1/496ba56c-3001-0287-1f79-b47caf3fae02?origin%3D2> ) hence not fully comparable but we note ~R$1.6mn equity income contribution from the division not much different from 3Q25. In particular, we note softer top line this quarter at BMG broker (-21% Y-o-Y) impacted by lower sales across credit life (-11% Y-o-Y), life (-57% Y-o-Y) and corporate (+15% Y-o-Y but -21% Y-o-Y). Promotiva was also lackluster with gross revenues down by -22% Y-o-Y but we recap the vertical carries high variable commission costs hence net revenues weren’t as pressured, down a more modest -3% Y-o-Y. On the brighter side, Wiz Corporate had a record quarter with R$46mn in revenues . Despite the good top line performance, we also saw ~R$9mn impairment at the division which pressured consolidated D&A. On costs, COSR and G&A were mostly in line (up +25% and -4% Y-o-Y, respectively), but R$2.6mn in net operating expenses drove EBITDA to miss JPMe by 9% at R$165mn. Equity income from Inter was strong this quarter (R$12mn vs R$9mn in 3Q25), preventing a larger EPS miss. On a separate note, Wiz announced this week CFO Lucas is assuming the role of CEO (link <https://jpmorgan.email.streetcontxt.net/platform/al?a=12827637&ad=4067884743&h=zSoqCO7&sig=OC7UgXZx3bgTnueNflVNg4upnAn&v=2&url=https://api.mziq.com/mzfilemanager/v2/d/0b486057-7845-4b55-ace2-4b4842d128c1/8484543e-9dfc-bc1f-832d-eebea573b3ad?origin%3D2> ). All in, a soft quarter. We see Wiz trading at 6.1x 26E P/E. 
+
+*	Softer revenues from BMG, BRB and Promotiva. Gross revenues totaled R$472mn, down -8% Y-o-Y and -10% below JPMe. It is worth noting our model was not adjusted to reflect the sale of Wiz Concept in October — adjusted for that, revenues would have missed our estimates by 7%. Elsewhere, we highlight: (i) Promotiva -14% below our estimates with lower sales on credit letters (-5% Y-o-Y) and credit for individuals (-28%) -  but commissions were also lower, hence net revenues were not as negative; (ii) BMG -22% below JPMe with lackluster life and credit life; (iii) BRB -7% below JPMe with also weakness across most products. 
+*	Mostly in line core expenses. Expenses ex-D&A came in at R$111mn, up 17% Y-o-Y and 4% above our estimates, largely explained by “others” (release mentioned dividend distribution from Omni impacting the line). Meanwhile, cost of services and G&A came in a touch above our estimates. The company continued to cut down on headcount by -15 employees this quarter (-80 LTM) – Wiz Concept sale reduced headcount by an additional 524. All in, EBITDA totaled R$165mn, missing JPMe by 9%. EBITDA margin (JPM criteria) reached ~60%, down vs. ~64% last quarter. 
+*	Impairment costs adding to the earnings miss. Equity income (basically Inter) came in at R$11.6mn, up 12% Y-o-Y (+17% Q-o-Q), but coming -2% below JPMe. Specifically for Inter, premiums reached a record R$116mn, although number of sales a

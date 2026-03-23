@@ -1,0 +1,63 @@
+Subject: ENC: Safra's Morning Notes - Transportation
+From: Safra
+Date: 2026-03-20T07:41:08
+Sector: Transportation
+Companies: 
+============================================================
+
+________________________________
+
+De: Arthur Onishi De Godoy Silva <arthur.godoy@safra.com.br>Em Nome deLuiz C Da Motta Pecanha Filho <luiz.pecanha@safra.com.br>
+Enviado: sexta-feira, 20 de março de 2026 07:38:56 (UTC-03:00) Brasilia
+Cc: Arthur Onishi De Godoy Silva <arthur.godoy@safra.com.br>; Carlos Alberto de A Damasceno <carlos.albuquerque@safra.com.br>
+Assunto: Safra's Morning Notes - Transportation
+
+
+
+
+ 
+
+ 
+
+ 
+
+ <https://www.extelinsights.com/support/voting-help>                                                                 March 20, 2026
+
+ 
+
+DAILY SUMMARY | COMP TABLE | EARNINGS CALENDAR | SOYBEAN AND CORN PRICES | LAST 10 REPORTS | TOP 10 MUST-READ REPORTS
+
+Good morning!
+Here is a summary of the news and comments in our Transportation daily. You can find details below:
+
+HIGHLIGHTS
+
+ 
+
+*         Government publishes Provisional Measure (MP 1.343/2026) establishing mandatory freight registration and blocking below-floor operations in real time. The measure requires all freight to be registered via CIOT — which must now capture origin, destination, values paid and applicable floor — and empowers ANTT to block issuance for any operation priced below the minimum. Penalties for contracting companies range from BRL 1 mn to BRL 10 mn per operation for repeat violators, with escalating suspension and eventual cancellation of carrier RNTRC registration. (Ag.Infra <https://agenciainfra.com/blog/governo-publica-mp-com-punicoes-a-descumprimento-do-piso-do-frete/> )
+
+*         ANTT and Ministry of Transport announce operational rules implementing the MP, effectively blocking below-floor freight before it moves. The regulatory framework enters into force immediately, with ANTT given seven days to finalize supplementary regulation. The measures represent a structural shift from ex-post enforcement — where fines had become an operating cost — to ex-ante prevention via real-time CIOT blocking. (gov.br <file://arneb/cme/COMUM/Luiz%20P/Clipping/2025%20Clipping/•%09https:/www.gov.br/transportes/pt-br/canais_atendimento/avisos-de-pauta/2026/03/ministerio-dos-transportes-e-antt-anunciam-regras-que-regulamentam-mp-e-passam-a-impedir-fretes-fora-do-piso-minimo> )
+
+*         Higher diesel costs are pushing freight rates up by as much as 7%, adding pressure to supply chains at a critical point in the harvest. With diesel S10 reaching BRL 6.89/liter — a 13.3% rise since the last rate adjustment — carriers are increasingly passing through costs, while trucker associations warn of a potential strike if the floor is not effectively enforced. (Globo Rural <file://arneb/cme/COMUM/Luiz%20P/Clipping/2025%20Clipping/•%09https:/globorural.globo.com/especiais/caminhos-da-safra/noticia/2026/03/com-diesel-mais-caro-custo-do-frete-chega-a-aumentar-ate-7percent.ghtml> )
+
+*         The Middle East conflict is exposing a structural vulnerability in Brazilian agribusiness: concentrated dependence on imported inputs and narrow export windows. With fertilizer shipments blocked at the Strait of Hormuz, bunker fuel costs doubling for cabotage operators and freight rates rising sharply, the sector faces a simultaneous shock to input costs, logistics expenses and export competitiveness at harvest peak. (Globo Rural <https://globorural.globo.com/economia/noticia/2026/03/guerra-expoe-elo-vulneravel-do-agro-brasileiro.ghtml> ) 
+
+ 
+
+*         Ministry of Cities approves BRL 9 bn in incentivized debenture issuances for metro and rail projects, concentrated in São Paulo. The largest authorization covers TIC Trens' BRL 7.86 bn raise for the Trem Intermetropolitano, Trem Intercidades (São Paulo–Campinas) and Line 7 modernization. Additional approvals include BRL 500 mn for the Baixada Santista LRT Phase II and BRL 460 mn for the Tietê and Jabaquara terminal requalifications. Separately, five projects received REIDI tax benefit approvals, the largest being Trivia Trens at BRL 14.3 bn covering Lines 11, 12 and 13. (Ag.Infra <https://agenciainfra.com/blog/aval-para-debentures-no-setor-metroferroviario-preve-r-9-bi-em-captacoes/> ) 
+
+ 
+
+*         Rota 2 de Julho concession (BR-116/324, Bahia) to undergo technical adjustments at the TCU before auction, with new tender expected in July. The Ministry of Transport confirmed the TCU issued a routine clarification request — not a suspension — and that modifications to the project are likely while it remains under court review. (Ag.Infra <https://agenciainfra.com/blog/concessao-da-rota-2-de-julho-passara-por-ajustes-no-tcu-diz-secretaria/> )
+
+
+
+
+
+DAILY SUMMARY
+
+ 
+
+*         STF to attempt mediated settlement between trading companies and soybean producers over moratorium dispute (Globo Rural <https://globorural.globo.com/politica/noticia/2026/03/stf-tentara-acordo-entre-tradings-e-produtores-sobre-fim-da-moratoria-da-soja.ghtml> ) 
+
+*         Abiove estimates 61.5 mn tonnes of soybean processing in Brazil in 2026 (Portos e Navios <https://www.portosenavios.com.b

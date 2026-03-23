@@ -1,0 +1,115 @@
+Subject: ENC: Jefferies Morning Highlights - Int’l Equities (03/20/2025)
+From: Jefferies
+Date: 2026-03-20T10:07:21
+Sector: Macro
+Companies: DOW, VG, MSFT, NVDA, AMZN, BOX, DOCU, INTU, NOW, WIX, CRM
+============================================================
+
+________________________________
+
+De: Fabio Buffi <fbuffi@jefferies.com>
+Enviado: sexta-feira, 20 de março de 2026 10:06:52 (UTC-03:00) Brasilia
+Assunto: Jefferies Morning Highlights - Int’l Equities (03/20/2025)
+
+
+
+SALES & TRADING NOTE (not a product of Jefferies Research Department)
+
+	1.	Macro & Strategy
+	2.	TMT
+	3.	Financials
+	4.	Power & Utilities
+	5.	Metals & Mining
+
+ 
+
+ 
+
+1.	Today’s Lens
+
+ 
+
+ 
+
+1.1           Macro & Strategy
+
+ 
+
+GREED & Fear | Chinamaxxing (read full report here <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=kY7Om7M&sig=1neEM90UJfE8gSbPDbzflr3VgBA&v=2&url=https://javatar.bluematrix.com/links2/pdf/ca2f638d-2b82-4ee9-97db-17c52826c986> )
+
+Investors are at risk of forgetting that economic growth is energy consumed. Risk assets are overly calm on the Iranian conflict. The decision by Trump to delay his visit to Beijing suggests he is not about to disengage from Iran; he risks a “Suez moment”. 2) China has secured energy dominance in a global context, and thus, is on course to win the AI arms race. China is packaging its massive reserves of cheap electricity & computing power to process “tokens”; the result is a surge in “token exports”. 3) The energy bottleneck in the US is one reason why AI capex not to grow as fast in the US as currently anticipated. There is a growing risk that this year could mark the peak of US AI capex in this cycle, which is certainly not discounted in Semiconductor stocks. 4) It should be only a matter of time before we see Chinese consumer spending inflect, given the ongoing build up in household savings. This is in the context of Chris’ base case that the residential property market is in the process of bottoming out. China is the equity market globally least impacted by the Iran war, and news-flow globally, which is why it has outperformed since the US-Israel attack for the past 3 weeks. The opposite is true for most of Asean which was already out of favor before the conflict.
+
+ 
+
+-------------------------------------------------
+
+ 
+
+March 2026 Quarterly Rebalance Today | JEF Index Strategy (RSVP for full material)
+
+ 
+
+he March 2026 Quarterly Rebalance becomes effective at the close of today, March 20, 2026. Several of the major US and global indexes rebalance as part of the quarterly, including S&P, Russell, Nasdaq and FTSE. We estimate this rebalance to be netted a $212 billion total US trade ($106 billion per side).
+
+ 
+
+Contents include: 
+
+1.            Rebalance Highlights
+
+2.            Turnover Summary
+
+3.            Sector and Industry Exposures
+
+4.            Top Single Name Flows
+
+5.            S&P 500, 400 & 600 Constituent Changes
+
+6.            Rebalance Performance
+
+7.            Historic Rebalance Day Volume Profiles
+
+8.            Jefferies Algorithmic Trading Solutions for EOD / Auction Liquidity
+
+ 
+
+ 
+
+-------------------------------------------------
+
+ 
+
+JEF VOL | Macro and Mag7
+
+ 
+
+Macro
+
+Heading into the second half of March investors appear well hedged with the put/call ratio near 1-yr highs and elevated short interest across ETFs. As such, the desk favors supply chain related hedges because even if tensions cool, damage to supply chains will take time to amend. Strikes on Qatar’s Ras Laffan wiped out ~17% of the regions LNG capacity. For context, Qatar produces roughly 20% of global LNG supply. Furthermore, the doubling of fuel oil threatens the transportation supply. Companies that produce and transport LNG stand to benefit from these bottlenecks. Chemical producers will also likely be disrupted by higher oil and naphtha prices as well as shipping delays. Fortunately for DOW, they’re relatively better positioned versus peers because its inputs are tied to US light feedstocks.
+
+ 
+
+Buy DOW May 42.5/50 calls spreads for $1.05 (ref 37.49)
+
+*	Capture earnings currently estimated for 4/23
+*	6.1x leverage, 20d, buy 49.4v / sell 53.8v
+
+ 
+
+Buy VG Jun 17.5 calls for $1.65 (ref 14.29)
+
+*	Capture earnings currently estimated for 5/15
+*	42d, 91v, short interest as a % of float is ~50% (from Bloomberg)
+*	Stock almost hit $17 yesterday, traded in a 20% range yesterday alone, 16% range the day before 
+
+ 
+
+ 
+
+Mag 7
+
+To reiterate from last week, we continue to like upside in the Mag7 names via call spread collars. Positioning is at the extremes and we believe there could be a flight to safer, high-quality names once investors start adding risk again. Updated chart from Vanda below on positioning and sentiment in the group. Skew is still bid across these names (and the market overall), setting up well for risk reversals or call spread collars, and May expiry catches the next round of earnings for most of the group.
+
+ 
+
+MSFT – Among Mag7 names, MSFT is trading closest to its 52-week low (+12.8%) and is now only 1% off its 6-month low. Our analyst, Brent Thill, remains bullish after meeting with IR last week and thinks th

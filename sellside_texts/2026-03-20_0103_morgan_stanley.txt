@@ -1,0 +1,52 @@
+Subject: ENC: IDEA: Autos & Shared Mobility: Autos and Energy Converge
+From: Morgan Stanley
+Date: 2026-03-20T01:03:14
+Sector: Transportation
+Companies: TSLA, GM, F, BWA, LGES
+============================================================
+
+________________________________
+
+De: Andrew S Percoco <Andrew.Percoco@morganstanley.com>
+Enviado: sexta-feira, 20 de março de 2026 01:02:55 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: IDEA: Autos & Shared Mobility: Autos and Energy Converge
+
+
+
+	 
+	 
+	 
+Autos & Shared Mobility 	
+Autos and Energy Converge	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/f80fbd1e-23d8-11f1-99ea-46f6fece5bca?t=1773979341:5694:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 7 Pages) 	
+North America 	
+Industry View   In-Line
+
+Andrew S Percoco, Young Suk Shin, Jack Lu, David Arcaro, CFA, Daniela M Haigian, Jahvonte G Bain & 1 more...	 
+March 20, 2026
+
+	
+This week's announcements reflect efforts from automakers to diversify revenue streams from cyclical auto end markets tethered to the uncertain fate of the consumer within a volatile market and attach to industries experiencing secular growth – see TSLA, GM, F, BWA, etc. 
+
+On Tuesday, the US Department of Interior confirmed <https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/> that Tesla and LG Energy Solution (covered by Young Suk Shin) signed a $4.3bn battery supply agreement (~50-60 GWh on our estimate). This facility in Lansing, Michigan was originally meant to support General Motors' <https://investor.gm.com/news-releases/news-release-details/gm-sell-stake-lansing-battery-cell-plant-partner-lg-energy>  EV business, but was subsequently sold back to LG in December 2024 as a part of GM's capacity rationalization exercise. Production at the LFP battery cell plant is scheduled to begin next year and will supply Tesla's Megapack 3 energy storage systems produced in Houston.
+
+In a separate announcement <https://financialpost.com/pmn/business-pmn/gm-pivots-tennessee-battery-plant-to-tap-energy-storage-boom> , Ultium Cells, a battery joint venture between General Motors and LG Energy Solution, will start production of LFP cells at its Tennessee plant next month in effort to revitalize factories idled by the EV demand slowdown. LG is retooling four other EV battery plants across North America to make LFP cells for stationary ESS, adding flexibility beyond EV battery production to stabilize demand.
+
+These newly announced partnerships reinforce 3 key themes: 1) repurposing BEV capacity for ESS, 2) onshoring critical supply chains, and 3) lessening China supplier dependence.
+
+1) The electrification landscape is shifting as OEMs increasingly redirect capital and capabilities from BEV to energy storage systems, while suppliers similarly look to diversify battery exposure beyond autos. We forecast <https://ny.matrix.ms.com/eqr/article/webapp/594f59ca-b8d3-11f0-a4e9-13dd0cf82def#/section=4> a 15.9mn 2026 US Auto SAAR, with ICE volumes +1% and BEVs -20% y/y – while autos is levered to the consumer with a wide variability in outcomes (2027 US SAAR bull case of 17.5mn vs. bear case of 14.5mn), energy demand has grown exponentially on the Powering AI theme. Ford is a notable example, entering the BESS market <https://ny.matrix.ms.com/eqr/article/webapp/7453c766-da1a-11f0-a3ae-2aac6342f563?ch=rp&sch=cc> with roughly $2bn of planned investment and targeting ~20 GWh of annual capacity from 2027. This aligns with our Global Utilities analysts’ forecast for stationary battery deployments to grow at a ~24% CAGR to ~875 GWh annually by 2030, before considering any incremental upside from data center co-location.
+
+See our recent Global Insight from the team: <https://ny.matrix.ms.com/eqr/article/webapp/c7a24f94-f1af-11f0-b5dd-981530a7f3f3?ch=rp&sch=ar> Flexible Power – The Next Wave of Growth in AI <https://ny.matrix.ms.com/eqr/article/webapp/c7a24f94-f1af-11f0-b5dd-981530a7f3f3?ch=rp&sch=ar> .
+
+Global ESS annual incremental deployment forecast for data centers 
+ 
+Source: Rystad, Morgan Stanley Research (e) estimates 
+...including utility-scale ESS in power market 
+ 
+Source: Rystad, Morgan Stanley Research (e) estimates 
+
+Beyond energy storage, BorgWarner announced with 4Q earnings its entry into the data center power market, potentially adding $3bn of revenue when ramped to 2GW – the stock rallied 22% on the day. See our deep dive here: BorgWarner Inc.: The Next Data Center Power Beneficiary? (12 Feb 2026) <https://ny.matrix.ms.com/eqr/article/webapp/0c08ba30-075c-11f1-8aaa-5b8e25e1b220?ch=rp&sch=cr> .We would caveat that we believe the commercial development cycle is likely much longer than appreciated by the market (several years before they ramp to the full 2 GW of targeted capacity).
+
+2) Shoring up critical supply chains. Across 4Q25 earnings, OEM/supplier management teams consistently highlighted onshoring and regionalization as key drivers of their supply chain strategy. In their 4Q25 release, Tesla highlighted 4680 cell production has begun in Austin and reiterated expectations tha

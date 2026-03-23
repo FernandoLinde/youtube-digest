@@ -1,0 +1,50 @@
+Subject: ENC: Brazil Retail & Consumer Goods: When the ball stops the mall: The dual impact of the World Cup on Brazilian retail (BTG Pactual's Guanais/Cesquim/Cendon)
+From: BTG Pactual
+Date: 2026-03-20T08:00:22
+Sector: Retail
+Companies: SBFG3, LREN3, CEAB3, NKE
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deLuiz Guanais <luiz.guanais@btgpactual.com>
+Enviado: sexta-feira, 20 de março de 2026 08:00:00 (UTC-03:00) Brasilia
+Assunto: Brazil Retail & Consumer Goods: When the ball stops the mall: The dual impact of the World Cup on Brazilian retail (BTG Pactual's Guanais/Cesquim/Cendon)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - Brazil - Retail 
+
+
+Brazil Retail & Consumer Goods 
+
+
+19-March-2026 
+
+
+ 
+
+
+When the ball stops the mall: The dual impact of the World Cup on Brazilian retail 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118831>  
+
+The kick-off boost: sporting goods as the primary beneficiary
+
+Historical World Cup cycles provide consistent evidence of meaningful sales acceleration in sporting goods, but the often-quoted +20–40% uplift is best understood as a triangulation across multiple datasets rather than a single disclosed figure. In Brazil 2014, industry data from IBGE and Abrasce showed sporting goods and apparel categories growing ~+18–25% y/y in June–July, versus low single-digit growth in preceding months. Nielsen retail panels also pointed to football-related SKUs (jerseys, balls) growing >+50% y/y, albeit from a smaller base. In 2018, Centauro (Grupo SBF) reported double-digit SSS in football categories, with management commentary indicating “significant acceleration vs baseline,” while Nike’s global reports showed football revenue growth in the high-teens, disproportionately driven by key markets like Brazil. In 2022, despite macro pressure, SBF indicated football categories growing ~+30% during the cycle. Importantly, this uplift is concentrated in a 6–8 week window, implying a temporary but highly profitable demand surge.
+
+The “Brazil game effect”: lost hours, lost sales
+
+The negative impact of Brazil match days on broader retail activity is equally well documented, though less frequently quantified. Data from Cielo and Getnet during the 2018 World Cup showed that retail sales volumes dropped between -10% and -15% on days when Brazil played, versus comparable weekdays. Foot traffic data from shopping malls (Abrasce) indicated intra-day declines of up to -40% during match hours, with partial recovery before and after games. In 2022, similar patterns were observed: credit/debit transaction data suggested that categories unrelated to the event (e.g., fashion, electronics) underperformed meaningfully on match days, while food and beverage partially offset declines. From a modeling perspective, assuming Brazil plays 5–7 matches (in this edition, national teams that reach at least the semifinals play 8 matches) and each match reduces effective selling hours by ~30–40% of a given day, the aggregate monthly impact translates into a -1% to -2% drag on total retail sales. Importantly, this effect is asymmetric: while sporting goods benefit from pre-event demand, most discretionary categories face a net loss of selling time. This creates distortions in high-frequency data, often requiring analysts to normalize monthly trends to avoid misinterpreting underlying demand conditions.
+
+Match calendar dynamics: weekday vs weekend impact based on Brazil’s actual schedule
+
+Using Brazil’s confirmed group-stage fixtures for the 2026 World Cup, we can build a much more accurate estimate of the weekday vs weekend disruption. Brazil will play: June 13 (Saturday) vs Morocco, June 19 (Friday) vs Haiti, and June 24 (Wednesday) vs Scotland . This already implies 2 weekday matches (Fri + Wed) and 1 weekend match (Sat) in the group stage. Assuming Brazil finishes first in the group, the team would likely play the Round of 32 on June 29 (Sunday), followed by the Round of 16 between July 4–7 (one of which is midweek), quarterfinals between July 9–11 (Thu–Sat), semifinal on July 14 or 15 (Tue/Wed), and the final on Sunday, July 19. Putting this together, a realistic path to the final would result in approximately 4–5 weekday matches and 3–4 weekend matches. Compared to prior World Cups, the 2026 calendar suggests a slightly heavier weekday skew.
+
+A global parallel: the UK and European football tournament effect
+
+The World Cup’s retail dynamics are not unique to Brazil and can be observed globally, particularly in football-centric markets such as the UK and Western Europe. During the 2018 FIFA World Cup and UEFA Euro tournaments, UK retailers reported similar patterns: strong growth in sporting goods and licensed merchandise, offset by weaker foot traffic in shopping districts during match hours. Data from the British Retail Consortium indicated that overall retail sales dipped on England match days, with high streets effectively “pausing” during key games. However, categories linked to the event—such as sports apparel, televisions, and food & beverages—experienced significant uplift. Notably, large-format retailers and supermarket

@@ -1,0 +1,87 @@
+Subject: ENC: Brazil Strategy: Dashboard Enhancements: Insider Activity & Cheat Sheet  (BTG Pactual's Sequeira/Carfi/Neder/Ferreira)
+From: BTG Pactual
+Date: 2026-03-19T21:20:04
+Sector: Macro
+Companies: 
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deCarlos Sequeira <carlos.sequeira@btgpactual.com>
+Enviado: quinta-feira, 19 de março de 2026 21:19:55 (UTC-03:00) Brasilia
+Assunto: Brazil Strategy: Dashboard Enhancements: Insider Activity & Cheat Sheet (BTG Pactual's Sequeira/Carfi/Neder/Ferreira)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Brazil Strategy 
+
+
+19-March-2026 
+
+
+ 
+
+
+Dashboard Enhancements: Insider Activity & Cheat Sheet 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118843>  
+
+Access the dashboard here >>> <https://btg10sim.com/> 
+
+Dear clients,
+
+We are pleased to announce the addition of new features to our Strategy Dashboard <https://best.pactual.net/btg10sim.com> . The platform now includes buyback and insider activity data for all companies listed on B3. At the top of the page, you will find the top 10 companies active in buybacks, with the option to toggle between % of market cap and total financial amount (see screenshot below). Further down the page, you can filter the data by specific periods and select individual companies to explore their buyback activity in more detail. In the “Insiders” tab, you will find similar information on insider buying and selling for companies listed on B3. The platform updates automatically in real time as soon as a company files a new document with the CVM.
+
+ 
+
+Screenshot of Buyback tab in our Strategy Dashboard
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-19/1773963613213.png> 
+
+We have also added a “Strategy Cheat Sheet” section, a comprehensive table designed to help investors quickly distill the key high-frequency data points driving markets. In this section, you can track movements across Brazilian and U.S. nominal and real interest rates, forward expectations for inflation, GDP, and FX, as well as key commodities and equity indices, among other indicators. The goal is to provide a centralized and intuitive snapshot of the macro landscape, helping investors monitor trends and identify potential inflection points more efficiently.
+
+Screenshot of our 10SIM Dashboard 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-19/1773963613226.jpeg> 
+
+We invite you to explore the platform and navigate through the available data. Our intention is to continue evolving the tool by incorporating additional features and analytical layers over time.
+
+As always, your feedback and suggestions are very welcome. Our goal is to make this platform as useful as possible for you.
+
+Carlos Sequeira, CFA 
+New York – BTG Pactual US Capital LLC 
+carlos.sequeira@btgpactual.com <mailto:carlos.sequeira@btgpactual.com>  
++1 646 924 2479 
+
+Osni Carfi 
+Brazil – Banco BTG Pactual S.A. 
+osni.carfi@btgpactual.com <mailto:osni.carfi@btgpactual.com>  
++55 11 3383 2634 
+
+Victor Neder 
+Brazil – Banco BTG Pactual S.A. 
+Victor.Neder@btgpactual.com <mailto:Victor.Neder@btgpactual.com>  
++55 11 3383 3385 
+
+Bruno Ferreira 
+Brazil – Banco BTG Pactual S.A. 
+bruno-f.ferreira@btgpactual.com <mailto:bruno-f.ferreira@btgpactual.com>  
++55 11 3383 1419 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118843>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118843> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng4HF8hnfHL8leTcfEyxeqHvLeIATsmmUyWCcCODZ9ZfkCsPEngVJTJ03DuJhvtThO0kwwfVFUzCZlkzT3Tw31WMS69k28QIbxeE7FwE9VLyBrYHUwA0uxFRH-2FXmSFhzHPyav76w7GIi0SoHIYBafmZV3P2-2BzGIUZj39rmwa2vLwwO7VNVK5ICpa1OuviOu58OU-3D>

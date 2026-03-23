@@ -1,0 +1,69 @@
+Subject: ENC: IDEA: Alibaba Group Holding: Multi-year Alicloud Growth Acceleration
+From: Morgan Stanley
+Date: 2026-03-19T20:23:25
+Sector: TMT
+Companies: BABA
+============================================================
+
+________________________________
+
+De: Gary Yu <Gary.Yu@morganstanley.com>
+Enviado: quinta-feira, 19 de março de 2026 20:23:09 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: IDEA: Alibaba Group Holding: Multi-year Alicloud Growth Acceleration
+
+
+
+	 
+	 
+	 
+Alibaba Group Holding (BABA.N)   	
+Multi-year Alicloud Growth Acceleration	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/7719df82-23b0-11f1-99ea-46f6fece5bca?t=1773962551:5406:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 14 Pages) 	
+Asia Pacific 	
+Stock Rating   Overweight
+Price Target   US$180.00
+
+Gary Yu, Joanne Lau, Eddy Wang, CFA	 
+March 19, 2026
+
+	
+We see cloud growth accelerating to 40% in 4Q26 and 45% in F27. CMR should improve to 6% as consumption shows signs of better recovery. EBITA should continue to drag in the near term, but cloud margin upside and narrowing QC losses point to improving profitability in F27. Maintain Top Pick. 
+
+Alicloud to accelerate: Alicloud F3Q revenue growth rose to 36%, in line with MSe. We expect the growth trajectory to be robust in the next few quarters due to token surge (6x in Mar vs. Dec), Alicloud price hikes, <https://ny.matrix.ms.com/eqr/article/webapp/6506246c-228a-11f1-99ea-46f6fece5bca?ch=rp&sch=cr> and rising adoption in 2B and 2C agentic use cases. Management sees Alicloud external revenue of US$100bn in five years (40%+ CAGR). Prior to the results, MSe is already Street-high for cloud, and we are now more confident that BABA can post 40% cloud growth for 4Q26 and 45% for FY27. As management still prioritizes adoption over profitability, we expect margins to stay largely stable followed by upside from F27 onward, with potential to reach 20% (bull case) in the medium to long term.
+
+T-head: Management touched upon T-head for the first time during results. It indicated >60% of revenue is from external cloud customers, and has delivered >470k units. Management did not rule out a potential spin-off opportunity, which could further unlock SOTP value <https://ny.matrix.ms.com/eqr/article/webapp/329f658c-fb6c-11f0-8bb0-3a84fbe785bc?ch=rp&sch=cr> , but no time-line was noted.
+
+Recovering CMR trends: Management attributed the soft CMR in 3Q to a weak macro environment and a late CNY. We expect CMR to inflect, rising 6% in 4Q, with core EBITA growth improving due to strong industry growth of+10% <https://ny.matrix.ms.com/eqr/article/webapp/6cc3d734-20e2-11f1-99ea-46f6fece5bca?ch=rp&sch=ar>  in January and February. We expect total E-comm EBITA of Rmb22bn (-45% YoY).
+
+QC loss to narrow QoQ: We estimate the QC loss was Rmb22bn in 3Q (vs. 2Q estimated at Rmb35bn). Management highlighted synergies with e-comm, noting that Taobao Annual Active Consumers (AAC) increased by 150mn. Management reinforces its Rmb1tn GMV target by F28, and expects to turn profitable by F29. Based on improving UE, we expect the loss to narrow further to Rmb19bn in 4Q.
+
+Investments to weigh on EBITA: We expect a continuous drag on EBITA from QC losses and increasing All Others losses (mainly Qwen model training and Qwen App expenses). We expect F4Q total adj EBITA of Rmb10bn (margin 4.1%).
+
+Maintain DCF-based PT at US$180: Our revenue estimates are unchanged, but we trim adj EBITA estimates by 14% for F26 and 4% for F27 on Qwen and QC investments. We remain bullish on the Alicloud thesis with improving CMR trends, and expect profitability to gradually improve into F27. Our DCF-based PT implies 18x F28e EPS (assuming normalized QC loss level), vs. Tencent 18x F26. Our SOTP valuation <https://ny.matrix.ms.com/eqr/article/webapp/5f63dcc4-1e17-11f1-881a-897d542fee46?ch=rp&sch=cr> remains US$245. Read more... <https://ny.matrix.ms.com/eqr/article/webapp/7719df82-23b0-11f1-99ea-46f6fece5bca?t=1773962551:5406:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+
+	
+Authors	 
+	 Morgan Stanley Asia Limited
+
+Gary Yu
+
++852 2848-6918       EMAIL <mailto:Gary.Yu@morganstanley.com?subject=Re:IDEA%3A%20Alibaba%20Group%20Holding%3A%20Multi-year%20Alicloud%20Growth%20Acceleration> 
+
+	 Morgan Stanley Asia Limited
+
+Joanne Lau
+
++852 3963-1592       EMAIL <mailto:Joanne.CY.Lau@morganstanley.com?subject=Re:IDEA%3A%20Alibaba%20Group%20Holding%3A%20Multi-year%20Alicloud%20Growth%20Acceleration> 
+
+	 Morgan Stanley Asia Limited
+
+Eddy Wang, CFA
+
++852 2239-7339       EMAIL <mailto:Eddy.Wang@morganstanley.com?subject=Re:IDEA%3A%20Alibaba%20Group%20Holding%3A%20Multi-year%20Alicloud%20Growth%20Acceleration> 
+
+ <https://ny.matrix.ms.com/eqr/research/portal/home/global> 	
+Remove me from this distribution <mailto:Gary.Yu@morganstanley.com?subject=Please remove me from this distribution : IDEA%3A%20Alibaba%20Group%20Holding%3A%20Multi-year%20Alicloud%20Growth%20Acceleration> 
+
+For important information including analyst certification and disclosures regarding specific companies, de

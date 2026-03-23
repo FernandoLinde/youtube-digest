@@ -1,0 +1,57 @@
+Subject: ENC: IDEA: IT Hardware: March VAR Check / SNX Earnings Preview - Solid Near-Term, Uncertain 2H
+From: Morgan Stanley
+Date: 2026-03-20T01:36:09
+Sector: TMT
+Companies: SNX, PSTG, NTAP, HPE, DELL
+============================================================
+
+________________________________
+
+De: Erik W Woodring <Erik.Woodring@morganstanley.com>
+Enviado: sexta-feira, 20 de março de 2026 01:35:24 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: IDEA: IT Hardware: March VAR Check / SNX Earnings Preview - Solid Near-Term, Uncertain 2H
+
+
+
+	 
+	 
+	 
+IT Hardware 	
+March VAR Check / SNX Earnings Preview - Solid Near-Term, Uncertain 2H	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/79f142be-2242-11f1-99ea-46f6fece5bca?t=1773981307:4869:9027:95722cac585c&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 18 Pages) 	
+North America 	
+Industry View   Cautious
+
+Erik W Woodring, Maya C Neuman, Dylan Liu, Rauf Ural	 
+March 20, 2026
+
+	
+WHAT'S CHANGED?	 
+TD Synnex Corporation (SNX.N)	 
+Price Target	 
+From:   $172.00	 To: $174.00	 
+March VAR checks suggest C1Q ent HW spending is tracking slightly above prior expects, partially aided by pull-forward, though fast-rising prices leaves the 2H outlook more uncertain. This creates a tactically positive setup for SNX in F1Q, even as we cut 2026 global PC shipments to -16% Y/Y. 
+Key takeaways	 
+
+*	Ent Hardware spending is tracking slightly ahead of VAR expectations in C1Q (aided by pull-forward), w/ the C2Q pipeline supporting further momentum. 
+*	However, risks are skewed to the downside as visibility into 2H is limited & HW prices are expected to move even higher as the memory supercycle intensifies. 
+*	Large enterprise spend remains strong, mid-market and FED are showing incremental signs of improvement vs. 30 days ago, and SLED is still under pressure. 
+*	We are reducing our PC market outlook again as memory headwinds intensify; now forecast units -16% Y/Y (vs. -5% Y/Y previously) in 2026 and -3% Y/Y in 2027. 
+*	Tactically, we are positive into SNX earnings on 3/31 given (1) high likelihood of F1Q/F2Q upside and (2) incremental Hyve disclosures that can expand multiple. 
+
+Preview to earnings	 
+Company / Focus KPI	 Focus KPI Surprise	 Likely impact to consensus EPS	 
+TD Synnex Corporation (SNX.N) 	
+F2Q26 EPS Guide	 	 Likely upside surprise	 
+	 Modest revision higher	 
+View our takeaways <https://ny.matrix.ms.com/eqr/article/webapp/79f142be-2242-11f1-99ea-46f6fece5bca/#tkr=SNX.N> 	
+* Direction of next 12-month consensus EPS	 
+Source: Company data, Morgan Stanley Research	 
+
+VAR checks continue to point to near-term strength, though component cost inflation remains a key downside risk. Based on our latest VAR checks - conducted earlier this week - C1Q enterprise hardware spending is tracking in-line to slightly above expectations 30 days ago, with incremental improvement across Federal and mid-market demand in the month of February and March-to-date and continued strength in large enterprise, partially offset by SLED weakness. While still hard to quantify, the VAR we spoke with acknowledged there is ongoing pull-forward in the quarter as customers look to procure supply and get ahead of future price increases. Looking forward, the VAR we spoke with remains optimistic on 2026 and expects growth to accelerate Y/Y supported by a strong C1Q and expectations for an even stronger C2Q based on current pipelines, though he also acknowledged that visibility beyond the June quarter remains limited. While the reseller hasn't seen any demand weakness from higher vendor prices yet, pricing remains the primary swing factor impacting traditional hardware spending, and further price increases would likely weigh on demand and put his 2026 outlook at risk.
+
+At the product level, server spending remains strong across both traditional and AI servers and networking spend continues to accelerate, consistent with what we heard from VAR's last month. What was most incremental from our checks earlier this week however, is an improvement across Storage and PCs where demand is tracking slightly ahead of prior expectations in the March quarter, with this momentum expected to carry over into C2Q as well. As a result, given the near-term demand strength - partially aided by pull-forward - spending growth for CY26 is tracking in-line to slightly above expectations from 30 days ago. However the reseller we spoke with was clear - visibility into 2H is extremely limited and the full-year outlook would be jeopardized by further hardware price hikes (which the VAR sees as highly likely) as the memory cycle continues to strengthen.
+
+Memory inflation is driving OEM prices even higher with no relief in sight. Since our last check ~30 days ago, Hardware prices have continued to move higher across the board for the third consecutive month alongside memory inflation, and the reseller expects an additional 15% price increase across Hardware products more broadly by the end of C2Q26. While the risk of additional price hikes is driving some near-term demand strength, the VAR cautioned that in the event prices move another 20-25% higher (vs. 15% in his base ca
