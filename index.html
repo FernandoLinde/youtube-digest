@@ -89,7 +89,7 @@
   .idx-row1 { display:flex; align-items:baseline; gap:8px; }
   .idx-title { font-family:var(--display); font-size:15px; font-weight:500; color:var(--ink); flex:1; }
   .idx-score { font-family:var(--sans); font-size:10px; font-weight:700; }
-  .idx-channel { font-family:var(--sans); font-size:11px; color:var(--ink-faint); }
+  .idx-channel { font-family:var(--sans); font-size:10px; color:var(--ink-faint); font-weight:500; margin-bottom:1px; }
   .idx-tags { margin-top:4px; display:flex; flex-wrap:wrap; gap:4px; }
   .idx-brief { font-family:var(--body); font-size:13px; color:var(--ink-light); margin-top:4px; line-height:1.5; }
   .idx-entry.pinned .idx-title { color:var(--pinned); }
@@ -651,19 +651,21 @@ function renderDayContent(data,date){
   let idx=0;
   data.daily_brief.forEach(s=>{
     const ti=e(s.titulo_formatado||s.title||'AI Daily Brief');
+    const ch=e(s.channel||'The AI Daily Brief');
     let tags='';(s.empresas||[]).slice(0,5).forEach(x=>{tags+='<span class="t t-pin">'+e(x)+'</span>'});
     const br=(s.temas_episodio||[]).slice(0,3).join(', ');const brief=br.length>130?br.substring(0,130)+'...':br;
-    h+='<a href="#a'+idx+'" class="idx-entry pinned"><div class="idx-row1"><span class="idx-title">'+ti+'</span></div><div class="idx-tags">'+tags+'</div>'+(brief?'<div class="idx-brief">'+e(brief)+'</div>':'')+'</a>';
+    h+='<a href="#a'+idx+'" class="idx-entry pinned"><div class="idx-channel">'+ch+'</div><div class="idx-row1"><span class="idx-title">'+ti+'</span></div><div class="idx-tags">'+tags+'</div>'+(brief?'<div class="idx-brief">'+e(brief)+'</div>':'')+'</a>';
     idx++;
   });
   data.summaries.forEach(s=>{
     const sc=Math.min(Math.max(s.relevancia||1,1),5);
+    const ch=e(s.channel||'');
     let tags='';if(s.duration_label)tags+='<span class="t t-dur">'+s.duration_label+'</span>';
     const emp=s.empresas||[];const ct=emp.filter(x=>CORE.some(c=>x.toLowerCase().includes(c.toLowerCase())));
     const ot=emp.filter(x=>!CORE.some(c=>x.toLowerCase().includes(c.toLowerCase())));
     [...ct,...ot].slice(0,4).forEach(x=>{const ic=CORE.some(c=>x.toLowerCase().includes(c.toLowerCase()));tags+='<span class="t '+(ic?'t-company':'t-def')+'">'+e(x)+'</span>'});
     let vis=s.visao_geral||'';if(vis.length>150)vis=vis.substring(0,150)+'...';
-    h+='<a href="#a'+idx+'" class="idx-entry"><div class="idx-row1"><span class="idx-title">'+e(s.title)+'</span><span class="idx-score" style="color:'+SC[sc]+'">'+sc+'/5</span></div><div class="idx-tags">'+tags+'</div>'+(vis?'<div class="idx-brief">'+e(vis)+'</div>':'')+'</a>';
+    h+='<a href="#a'+idx+'" class="idx-entry">'+(ch?'<div class="idx-channel">'+ch+'</div>':'')+'<div class="idx-row1"><span class="idx-title">'+e(s.title)+'</span><span class="idx-score" style="color:'+SC[sc]+'">'+sc+'/5</span></div><div class="idx-tags">'+tags+'</div>'+(vis?'<div class="idx-brief">'+e(vis)+'</div>':'')+'</a>';
     idx++;
   });
   h+='</div>';
