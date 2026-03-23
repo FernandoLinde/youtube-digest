@@ -260,6 +260,7 @@
   .ss-reader-body { font-family:var(--body); font-size:13px; color:var(--ink-light); line-height:1.7; max-height:500px; overflow-y:auto; padding:16px 20px; background:var(--cream); border-radius:6px; border:1px solid var(--rule-light); white-space:pre-wrap; word-wrap:break-word; }
   .ss-reader-body a { color:var(--blue-muted); text-decoration:underline; text-decoration-color:rgba(74,101,128,0.3); text-underline-offset:2px; transition:text-decoration-color 0.1s; }
   .ss-reader-body a:hover { text-decoration-color:var(--blue-muted); }
+  .ss-reader-iframe { width:100%; min-height:400px; max-height:600px; border:1px solid var(--rule-light); border-radius:6px; background:white; }
 
   .ss-event { display:flex; align-items:center; gap:10px; padding:8px 10px; margin:0 -10px; border-radius:4px; transition:background 0.1s; flex-wrap:nowrap; }
   .ss-event:hover { background:rgba(0,0,0,0.015); }
@@ -827,6 +828,14 @@ function downloadICS(title, dateStr, durationMin, description, location, url){
 }
 
 // ===== SELL-SIDE HELPERS =====
+function stripFwdHeaders(s){
+  if(!s)return'';
+  // Remove De:/From:/Enviado:/Sent:/Para:/To:/Assunto:/Subject:/Cc: header blocks
+  return s.replace(/^(?:De|From|Enviado|Enviada em|Sent|Para|To|Assunto|Subject|Cc|Cco|Bcc)\s*:.*$/gmi,'')
+    .replace(/_{5,}/g,'')  // Remove long underscore separators
+    .replace(/\n{4,}/g,'\n\n')  // Collapse excessive blank lines
+    .trim();
+}
 function eLinks(s){if(!s)return'';let t=e(s);t=t.replace(/https?:\/\/[^\s<]+/g,function(raw){const url=raw.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/[).,;:!?\]}>]+$/,'');const display=url.length>70?url.substring(0,67)+'...':url;return'<a href="'+url.replace(/"/g,'%22')+'" target="_blank" rel="noopener" style="color:var(--blue-muted);text-decoration:underline;text-decoration-color:var(--ink-faint);text-underline-offset:2px;word-break:break-all">'+e(display)+'</a>'});return t}
 
 function _linkLabel(url,subject){
@@ -900,8 +909,27 @@ function renderSSEmail(em){
       });
       h+='</div>';
     }
-    // Email body with proper formatting
-    h+='<div class="ss-reader-body">'+eLinks(em.body.substring(0,5000))+'</div>';
+    // Email body — use HTML if available, fall back to plain text
+    if(em.body_html){
+      const iframeId=uid+'-iframe';
+      h+='<iframe class="ss-reader-iframe" id="'+iframeId+'" sandbox="allow-same-origin allow-popups" frameborder="0"></iframe>';
+      // We'll inject HTML after DOM update via a micro-task
+      setTimeout(()=>{
+        const iframe=document.getElementById(iframeId);
+        if(!iframe)return;
+        const doc=iframe.contentDocument||iframe.contentWindow.document;
+        // Inject cleaned HTML with base styles
+        const html='<!DOCTYPE html><html><head><style>body{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:13px;color:#333;line-height:1.6;margin:16px;word-wrap:break-word}a{color:#4A6580}img{max-width:100%;height:auto;border-radius:4px}table{border-collapse:collapse;max-width:100%}td,th{padding:4px 8px;border:1px solid #eee;font-size:12px}</style></head><body>'+em.body_html+'</body></html>';
+        doc.open();doc.write(html);doc.close();
+        // Auto-resize iframe to content
+        const resize=()=>{try{iframe.style.height=Math.min(doc.body.scrollHeight+32,600)+'px'}catch(e){}};
+        iframe.onload=resize;setTimeout(resize,100);setTimeout(resize,500);
+        // Make links open in new tab
+        doc.querySelectorAll('a').forEach(a=>{a.setAttribute('target','_blank');a.setAttribute('rel','noopener')});
+      },0);
+    } else {
+      h+='<div class="ss-reader-body">'+eLinks(stripFwdHeaders((em.body||'').substring(0,5000)))+'</div>';
+    }
     h+='</div>';
   }
 
