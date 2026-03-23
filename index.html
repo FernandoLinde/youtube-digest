@@ -259,6 +259,8 @@
   .ss-ev-title { font-family:var(--body); font-size:13px; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; flex:1; }
   .ss-ev-title a { color:var(--ink); text-decoration:underline; text-decoration-color:var(--ink-faint); text-underline-offset:2px; }
   .ss-ev-title a:hover { text-decoration-color:var(--ink); }
+  .ics-btn { font-family:var(--sans); font-size:9px; font-weight:600; padding:3px 8px; border-radius:4px; border:1px solid var(--rule); background:white; color:var(--ink-muted); cursor:pointer; transition:all 0.12s; white-space:nowrap; text-decoration:none; }
+  .ics-btn:hover { background:var(--ink); color:white; border-color:var(--ink); }
 
   .ss-date-row { padding:8px 0; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
   .ss-date-pill { font-family:var(--sans); font-size:11px; padding:4px 12px; border-radius:4px; cursor:pointer; border:none; background:var(--cream); color:var(--ink-muted); transition:background 0.1s; }
@@ -764,6 +766,51 @@ function dbArticle(s,id,extraTag){
     +'</div>';
 }
 
+// ===== CALENDAR / ICS HELPERS =====
+function generateICS(title, dateStr, durationMin, description, location, url){
+  // Generate a standard .ics file content
+  const uid=Math.random().toString(36).substr(2,12)+'@torkcapital';
+  const now=new Date();
+  const stamp=now.toISOString().replace(/[-:]/g,'').replace(/\.\d+/,'');
+
+  let dtStart='',dtEnd='';
+  if(dateStr){
+    const d=new Date(dateStr.replace(' ','T'));
+    if(!isNaN(d)){
+      dtStart=d.toISOString().replace(/[-:]/g,'').replace(/\.\d+/,'');
+      const end=new Date(d.getTime()+(durationMin||60)*60000);
+      dtEnd=end.toISOString().replace(/[-:]/g,'').replace(/\.\d+/,'');
+    }
+  }
+  if(!dtStart) return null;
+
+  // Escape special chars for iCal
+  const esc=s=>(s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
+
+  let ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Tork Capital//Digest//EN\r\nBEGIN:VEVENT\r\n';
+  ics+='UID:'+uid+'\r\n';
+  ics+='DTSTAMP:'+stamp+'\r\n';
+  ics+='DTSTART:'+dtStart+'\r\n';
+  ics+='DTEND:'+dtEnd+'\r\n';
+  ics+='SUMMARY:'+esc(title)+'\r\n';
+  if(description) ics+='DESCRIPTION:'+esc(description)+'\r\n';
+  if(location) ics+='LOCATION:'+esc(location)+'\r\n';
+  if(url) ics+='URL:'+esc(url)+'\r\n';
+  ics+='END:VEVENT\r\nEND:VCALENDAR';
+  return ics;
+}
+
+function downloadICS(title, dateStr, durationMin, description, location, url){
+  const ics=generateICS(title, dateStr, durationMin, description, location, url);
+  if(!ics){alert('Data do evento nao disponivel.');return}
+  const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=(title||'event').replace(/[^a-zA-Z0-9 ]/g,'').substring(0,40).trim()+'.ics';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
 // ===== SELL-SIDE HELPERS =====
 function eLinks(s){if(!s)return'';let t=e(s);t=t.replace(/https?:\/\/[^\s<]+/g,function(raw){const url=raw.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/[).,;:!?\]}>]+$/,'');const display=url.length>70?url.substring(0,67)+'...':url;return'<a href="'+url.replace(/"/g,'%22')+'" target="_blank" rel="noopener" style="color:var(--blue-muted);text-decoration:underline;text-decoration-color:var(--ink-faint);text-underline-offset:2px;word-break:break-all">'+e(display)+'</a>'});return t}
 
@@ -925,6 +972,14 @@ async function renderSellSide(opts){
         else{h+='<span class="ss-ev-title">'+e(title)+' <span style="font-size:9px;color:var(--ink-faint)">(sem link)</span></span>'}
         h+='<span class="ss-ev-format '+fmtClass+'">'+e(fmtLabel)+'</span>';
         if(ev.sector) h+='<span class="ss-ev-sector">'+e(ev.sector)+'</span>';
+        // .ics download button
+        if(ev.event_date){
+          const icsTitle=(title||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
+          const icsDesc=((ev.one_liner||'')+(ev.sender_bank?' — '+ev.sender_bank:'')).replace(/'/g,"\\'").replace(/"/g,'&quot;');
+          const icsLoc=(ev.event_location||'').replace(/'/g,"\\'");
+          const icsLink=(ev.event_link||'').replace(/'/g,"\\'");
+          h+='<button class="ics-btn" onclick="downloadICS(\''+icsTitle+'\',\''+ev.event_date+'\',60,\''+icsDesc+'\',\''+icsLoc+'\',\''+icsLink+'\')">+ Cal</button>';
+        }
         h+='</div>';
         if(!ev.event_link&&ev.body){const bodyId='ev-body-'+Math.random().toString(36).substr(2,6);h+='<details id="'+bodyId+'" style="margin:-4px 0 4px 0"><summary style="font-size:10px;padding:2px 0">Email original</summary><div class="ss-body">'+eLinks((ev.body||'').substring(0,3000))+'</div></details>'}
       });
@@ -950,6 +1005,12 @@ async function renderSellSide(opts){
         if(d.companies&&d.companies.length){d.companies.slice(0,3).forEach(c=>{h+='<span class="ss-co-tag">'+e(c)+'</span>'})}
         h+='<span class="ss-ev-title">'+e(d.description)+'</span>';
         if(d.sender_bank) h+='<span class="ss-ev-bank" style="margin-left:auto">'+e(d.sender_bank)+'</span>';
+        // .ics download for important dates
+        if(d.date){
+          const icsTitle=(d.description||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
+          const icsDesc=(d.type||'')+(d.sender_bank?' — '+d.sender_bank:'');
+          h+='<button class="ics-btn" onclick="downloadICS(\''+icsTitle+'\',\''+d.date+'\',60,\''+icsDesc.replace(/'/g,"\\'")+'\',\'\',\'\')">+ Cal</button>';
+        }
         h+='</div>';
       });
       h+='</div>';
