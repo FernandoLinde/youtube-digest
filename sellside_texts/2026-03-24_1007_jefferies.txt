@@ -1,0 +1,763 @@
+Subject: ENC: Jefferies Morning Highlights - Int’l Equities (03/20/2025)
+From: Jefferies
+Date: 2026-03-20T10:07:21
+Sector: Macro
+Companies: DOW
+============================================================
+
+________________________________
+
+De: Fabio Buffi <fbuffi@jefferies.com>
+Enviado: sexta-feira, 20 de março de 2026 10:06:52 (UTC-03:00) Brasilia
+Assunto: Jefferies Morning Highlights - Int’l Equities (03/20/2025)
+
+
+
+SALES & TRADING NOTE (not a product of Jefferies Research Department)
+
+	1.	Macro & Strategy
+	2.	TMT
+	3.	Financials
+	4.	Power & Utilities
+	5.	Metals & Mining
+
+ 
+
+ 
+
+1.	Today’s Lens
+
+ 
+
+ 
+
+1.1           Macro & Strategy
+
+ 
+
+GREED & Fear | Chinamaxxing (read full report here <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=kY7Om7M&sig=1neEM90UJfE8gSbPDbzflr3VgBA&v=2&url=https://javatar.bluematrix.com/links2/pdf/ca2f638d-2b82-4ee9-97db-17c52826c986> )
+
+Investors are at risk of forgetting that economic growth is energy consumed. Risk assets are overly calm on the Iranian conflict. The decision by Trump to delay his visit to Beijing suggests he is not about to disengage from Iran; he risks a “Suez moment”. 2) China has secured energy dominance in a global context, and thus, is on course to win the AI arms race. China is packaging its massive reserves of cheap electricity & computing power to process “tokens”; the result is a surge in “token exports”. 3) The energy bottleneck in the US is one reason why AI capex not to grow as fast in the US as currently anticipated. There is a growing risk that this year could mark the peak of US AI capex in this cycle, which is certainly not discounted in Semiconductor stocks. 4) It should be only a matter of time before we see Chinese consumer spending inflect, given the ongoing build up in household savings. This is in the context of Chris’ base case that the residential property market is in the process of bottoming out. China is the equity market globally least impacted by the Iran war, and news-flow globally, which is why it has outperformed since the US-Israel attack for the past 3 weeks. The opposite is true for most of Asean which was already out of favor before the conflict.
+
+ 
+
+-------------------------------------------------
+
+ 
+
+March 2026 Quarterly Rebalance Today | JEF Index Strategy (RSVP for full material)
+
+ 
+
+he March 2026 Quarterly Rebalance becomes effective at the close of today, March 20, 2026. Several of the major US and global indexes rebalance as part of the quarterly, including S&P, Russell, Nasdaq and FTSE. We estimate this rebalance to be netted a $212 billion total US trade ($106 billion per side).
+
+ 
+
+Contents include: 
+
+1.            Rebalance Highlights
+
+2.            Turnover Summary
+
+3.            Sector and Industry Exposures
+
+4.            Top Single Name Flows
+
+5.            S&P 500, 400 & 600 Constituent Changes
+
+6.            Rebalance Performance
+
+7.            Historic Rebalance Day Volume Profiles
+
+8.            Jefferies Algorithmic Trading Solutions for EOD / Auction Liquidity
+
+ 
+
+ 
+
+-------------------------------------------------
+
+ 
+
+JEF VOL | Macro and Mag7
+
+ 
+
+Macro
+
+Heading into the second half of March investors appear well hedged with the put/call ratio near 1-yr highs and elevated short interest across ETFs. As such, the desk favors supply chain related hedges because even if tensions cool, damage to supply chains will take time to amend. Strikes on Qatar’s Ras Laffan wiped out ~17% of the regions LNG capacity. For context, Qatar produces roughly 20% of global LNG supply. Furthermore, the doubling of fuel oil threatens the transportation supply. Companies that produce and transport LNG stand to benefit from these bottlenecks. Chemical producers will also likely be disrupted by higher oil and naphtha prices as well as shipping delays. Fortunately for DOW, they’re relatively better positioned versus peers because its inputs are tied to US light feedstocks.
+
+ 
+
+Buy DOW May 42.5/50 calls spreads for $1.05 (ref 37.49)
+
+*	Capture earnings currently estimated for 4/23
+*	6.1x leverage, 20d, buy 49.4v / sell 53.8v
+
+ 
+
+Buy VG Jun 17.5 calls for $1.65 (ref 14.29)
+
+*	Capture earnings currently estimated for 5/15
+*	42d, 91v, short interest as a % of float is ~50% (from Bloomberg)
+*	Stock almost hit $17 yesterday, traded in a 20% range yesterday alone, 16% range the day before 
+
+ 
+
+ 
+
+Mag 7
+
+To reiterate from last week, we continue to like upside in the Mag7 names via call spread collars. Positioning is at the extremes and we believe there could be a flight to safer, high-quality names once investors start adding risk again. Updated chart from Vanda below on positioning and sentiment in the group. Skew is still bid across these names (and the market overall), setting up well for risk reversals or call spread collars, and May expiry catches the next round of earnings for most of the group.
+
+ 
+
+MSFT – Among Mag7 names, MSFT is trading closest to its 52-week low (+12.8%) and is now only 1% off its 6-month low. Our analyst, Brent Thill, remains bullish after meeting with IR last week and thinks the risk/reward is attractive at these levels (link to note <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=bNQLMhX&sig=4bhrL2pbzYDfi8dMhqT2qw2MaSN&v=2&url=https://content.jefferies.com/report/36b6843f-deba-4133-81c0-a28d301bcd1c> ):
+
+ 
+
+Sell MSFT May 340 puts vs. buy May 410/450 call spreads for $3.92 (ref 389.02)
+
+*	Capture earnings currently estimated for 4/30
+*	Breakeven up 6.4%, 9.2x leverage, 41d
+*	Sell 37.8v put / buy 30.9v call / sell 30.1v call
+*	12.6% downside cushion (Liberation Day intraday low was $345)
+
+ 
+
+NVDA – Our analyst, Blayne Curtis, came away positive from GTC this week. Numbers continue to climb higher, making NVDA extremely cheap for the clear winner in a generational trend (link to note <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=YWQq85F&sig=M2qalXcI3sZIhC4mcYDmdHek2Ex&v=2&url=https://javatar.bluematrix.com/links2/secure/html/9116ae4c-5238-4894-b17f-76447b9142c1> ). Stock is trading within 5% of 6-month lows and found support at its 200DMA yesterday. May gets earnings from most of the group, or you can go out to June to catch the NVDA print on 5/20:
+
+ 
+
+Sell NVDA May 150 puts vs. buy May 190/210 call spreads for $2.04 (ref 178.56)
+
+*	Breakeven up 7.5%, 8.8x leverage, 39d
+*	Sell 46v put / buy 35.7v call / sell 33.7v call
+*	16% downside cushion (stock last at $150 in Jun'25)
+
+ 
+
+Sell NVDA Jun 135 puts vs. buy Jun 195/225 call spreads for $3.88 (ref 178.56)
+
+*	Captures earnings on 5/20
+*	Breakeven up 11.4%, 6.7x leverage, 36d
+*	Sell 50.9v put / buy 39.1v call / sell 37.2v call
+*	24.3% downside cushion
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+1.2           TMT
+
+ 
+
+Jeffrey Favuzza | Tech
+
+ 
+
+*	AM News.
+
+ 
+
+AMZN: Reuters notes <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=5668cBY&sig=2oVa0ixKdYHmnm7xSBIypsntLE2&v=2&url=https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/>  that AMZN is planning a smartphone comeback more than a decade after its Fire Phone flop. The latest effort, known internally as “Transformer,” is being developed within its devices and services unit, and seen as a potential mobile personalization device that can sync with home voice assistant Alexa and serve as a conduit to AMZN customers throughout the day.
+
+ 
+
+BOX: Announced an expansion <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=nqcHF20&sig=06eCWlxqtHbBokSYRV6vWpGbPgy&v=2&url=https://www.boxinvestorrelations.com/news-and-media/news/press-release-details/2026/Box-Announces-New-500-Million-Share-Repurchase-Program/default.aspx>  of its share repurchase program, repurchasing up to an additional $500M of its outstanding Class A common stock through Sept ’27, or ~16% of market cap. This follows updated buy-back announcements from DOCU, INTU, NOW, WIX, and CRM over the last month or so. 
+
+ 
+
+Memory: As has been speculated the last few days (most recently here <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=QiTtjYq&sig=9AuPEvJjLSr3xfSpDfs44MwCPO8&v=2&url=https://www.trendforce.com/news/2026/03/18/news-memory-giant-shifts-strategy-samsung-reportedly-eyes-3-5-year-contracts-to-stabilize-supply/> ), the EBN overnight notes <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=KKt_4rh&sig=2CggWQWH5dyBSbpUdSI9IsR9L7i&v=2&url=https://www.ebn.co.kr/news/articleView.html?idxno%3D1702912>  that Samsung is pursuing LTAs for memory with GOOGL and MSFT. The report suggests the most likely model would fix volumes over a multi-year period while linking pricing to spot market levels.
+
+ 
+
+Nielsen Data: WSJ notes <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=SjEqZ-b&sig=FAkcjaC0FgHHbaoT3pGhfKQEeAd&v=2&url=https://www.wsj.com/cmo-today/delayed-nielsen-data-will-show-traditional-tv-back-on-top-for-now-e34e93d0?gaa_at%3Deafs%26gaa_n%3DAWEtsqd-Za8-x0WSmM5hyuGsfURnSKBoLUTTUy48-wBF-SGLMB6ASp6c-Nxt08EVv5E%253D%26gaa_ts%3D69bca2de%26gaa_sig%3DrrW2053uO2PXeC6FKVHmhBrYraBKkeoA3JdckaKz-CVeoJmYuypbqOMxSwrLN1RPBOyXEtjYRUPjgHt0-5oo1g%253D%253D>  that streaming ascendance over broadcast and cable isn’t as complete as it seemed. Streaming accounted for 41.9% of U.S. TV viewing time in February, compared with 47.4% for linear TV, according to unreleased Nielsen. Recall this had been speculated over the last week or so, most recently reported in Variety <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=qqQkiZ9&sig=9rPfdDx1pqxvaDyZm3wvw8b9aJd&v=2&url=https://variety.com/2026/tv/news/nielsen-delay-march-gauge-report-streamers-declines-1236687127/> .
+
+ 
+
+OAI: WSJ reports <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=_lAp2MH&sig=UcIKD22alhTHC1Q023BQSMUP0tH&v=2&url=https://www.wsj.com/tech/openai-plans-launch-of-desktop-superapp-to-refocus-simplify-user-experience-9e19931d?mod%3Dnewsviewer_click%26adobe_mc%3DMCMID%253D43904269652561322512265019543051439235%257CMCORGID%253DCB68E4BA55144CAA0A4C98A5%252540AdobeOrg%257CTS%253D1773965517%26_gl%3D1*1v9sy8x*_gcl_au*NDk1MTI0MTM2LjE3Njc0NzQ2NDg.*_ga*MTMzNTEyMzI5MS4xNjU2OTY0NDUw*_ga_K2H7B9JRSS*czE3NzM5NjU0ODYkbzI3NjEkZzEkdDE3NzM5NjU0ODckajU5JGwxJGgxNjM1ODIwMjE5>  that OAI is planning to unify its ChatGPT app, Codex, and browser into a desktop “superapp,” a step to simplify the user experience and continue with efforts to focus on engineering and business customers. 
+
+ 
+
+SAP: A 3P provider is out negative and downgrading after seeing more self-build on top of SAP’s platform from Anthropic, along with client confusion around AI pricing.
+
+ 
+
+SMCI: The big single stock story of the night is SMCI. Heading for its worst 1D drop since Nov-24 (EY resigned), after 3 individuals (including the Co-Founder) were indicted by the US Attorney’s Office for allegedly conspiring to commit export-control violations. SMCI is making 2-year lows in the -remarket while DELL is stronger in the pre-market on the backs of this.
+
+ 
+
+Oh boy … a dancing <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=XJ_kHo4&sig=NVEfmHe6YdvPz34nmQYgZsC55ji&v=2&url=https://techcrunch.com/2026/03/19/restaurant-dancing-robot-went-wild-hot-pot-cupertino-haidilao-agibot/?utm_source%3Ddlvr.it%26utm_medium%3Dtwitter>  humanoid robot had to be restrained after it went wild at a California restaurant.
+
+ 
+
+ 
+
+*	Conversations / Curiosities Yesterday.
+
+ 
+
+SPOT: A 2.2σ downside move on very little incremental data points yesterday. Folks continued to point to the TME quote from their earnings noting … 
+
+ 
+
+“So, in year 2026, our subscription revenue will experience some short-term pressure due to the intensive competitions…We've already seen some of the hit songs in the recent three months created by AI.”
+
+ 
+
+This would be a wildly delayed reaction given the timing. Most folks pointed to broader unwind as most investors saw this out Wednesday. 
+
+ 
+
+Bulls quick to point out many holes in this argument noting: Chinese market is very different, this is just more negative for the music labels (WMG -13% in 3 days), and TME has been losing share to Soda Music for ~12 months already.
+
+ 
+
+DASH: Sitting right near the Liberation Day levels of $160. Yesterday’s weakness felt more Internet unwinding than anything else. A common investor question we get is “what gets folks excited here?”
+
+ 
+
+While we know the linearity of EBITDA for the rest of the year now post the Q4 print, we think folks are waiting to get incrementally more excited when we start to get more consistent beats. Recall EBITDA beats the last 3 Q’s have continued to get skinnier … 4.8% / 3.3% / 2.6%.
+
+ 
+
+The other dynamic that is coming up in investor conversations more is the health of the consumer. While we tend to get a “consumer health” flare up every 12 months, the common thread is that you can only scalp folks on fees for so long before something breaks, or that we’ll get consistent headlines around white collar layoffs pressuring the middle consumer.
+
+ 
+
+DASH EV / EBITDA trading right at 12-month lows relative to UBER.
+
+ 
+
+ 
+
+*	Blayne on OFC + LITE & COHR #’s.
+
+ 
+
+Blayne notes <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=QWvOyUC&sig=LuAunMSp4r96Jr6g5dnJvxvzBxi&v=2&url=https://javatar.bluematrix.com/links2/secure/html/97aee81d-f803-49fe-9feb-3603164feff5>  the focus across the entire conference was the need for more bandwidth. Scale Up networking requires an order of magnitude more bandwidth vs. Scale Out and that is driving a paradigm shift across the industry. 
+
+ 
+
+On the S/D dynamics some suggested undersupply north of 20%, others fairly noted that there is a material amount of triple ordering and that demand is artificially inflated. 
+
+ 
+
+At the moment, both COHR and LITE do not believe transceivers are a bottleneck to GPU deployments which suggests supply/demand may be relatively closer than we think, but the expectation is optics could become the bottleneck in 2027 as Scale Up optical hits the market.
+
+ 
+
+Blayne raises his estimates for COHR and LITE.
+
+*	COHR: ’28 revenue to ~$11.9B and EPS to $11.40. 
+*	LITE: ’28 revenue to $7.6B and EPS to $27.30.
+
+ 
+
+ 
+
+-------------------------------------------------
+
+ 
+
+Brent Thill | Intuit | Buy Before Tax Season Ends... You Will Like the Stock Refund (Return) (read full report here <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=r8eyQEQ&sig=ssfkvrBkmew1no1Oa0eKJThuEr&v=2&url=https://urldefense.com/v3/__https:/javatar.bluematrix.com/links2/html/42c0dd35-4056-450d-b0e5-1bcfa1482547__;!!PePb2utDNNs!sdubETgknBY1tDItVKmJFuD1WVJYeOOUmhNDEwDqqVGDVli9aUrW0niahpCuycTJO0sj2jvqCVM-w4UoxYM$> )
+
+INTU | $455.24 | PT: $650.00 | % to PT: +43%
+
+We hosted INTU's CFO for call with European investors. Key takes: 1) Most positive on tax season—levered to $35B assisted category, 7x size of DIY tax; we note weekly IRS data improving; 2) 4 moats vs. perceived AI threats: data/IP, distribution (incl. accountant partners), importance of fin'l accuracy, & money flow infrastructure; 3) early innings in tapping mid-market TAM, espec. with vertical extensions. CY27E EV/FCF ~17x is below large cap sw avg 26x. Buy.
+
+ 
+
+-------------------------------------------------
+
+ 
+
+ 
+
+ 
+
+1.3           Financials
+
+ 
+
+Adam Panzer | JEF AM FIG PICKS & PANZ
+
+ 
+
+To summarize where we stand…..
+
+*	The pain trade is up – there are no bulls. And the incremental selling has felt less draconian (XLF, KRE, IWM in the green this week)…..even if the headlines seem to support this consensus hesitation
+*	At the same time, every attempt to rally seems to fade – into the obvious uncertainty of the war/energy prices, into the debated overlay of the AI elephant in the room 
+*	The curve is down to basically no cuts this year – breakevens are just off the highs as I write (2.7%), with energy in focus, that hot Feb PPI, and some modest taming from Powell’s hawkish presser
+*	And just to spice things up today, we get our quarterly triple-witch – oy. I think just VWAP some fins buy tickets because……
+
+ 
+
+The Good News ----- is that we have some good news to talk about in Fins land
+
+ 
+
+1.	Stock specific and thematic ---- LPLA Feb monthly. More than just relief, I think this print could represent a first step in de-bunking the broader concern around normalized NNA growth, FA recruitment etc
+
+	*	Because this is just a good NNA # --- with total NNA +4.5%
+	*	Advisory NNA over +8% ---- far better than each of the past two Feb prints (and the strongest per day growth since March ’25) 
+
+
+
+ 
+
+	*	Into a low bar/you can see the angst in that stock chart ------- shares -20% YTD into what otherwise feels like a winning backdrop; rates up/market down/macro+credit concerns 
+	*	Core Cash flat (ex the purchase MMF conversion management has been utilizing) ----- are 1Q #s coming down? For sure, the sell-side is too aggressively modelled. But we’ve known that since this -15% drawdown/since mid Feb
+	*	My 2c coming in = 11x $25 trough on trough $275/share downside VS 13-14x $28 $375/share upside if if we can ever get this NNA growth back on track……so we discount FY27e $29/share a little – and risk/rewards is pretty skewed I think 
+	*	On a more micro level – this growth story has been stuck in the mud post CWealth; an experience we have seen before (SCHW/AMTD – with SCHW having now recovered to ~5% NNA on an $11T denominator….) --- and so to see a mid 4% #.....~6-9M ahead of schedule…..
+	*	Thematically – the broader concern to the FA growth channel has been; there is no major wirehouse donor anymore – that the big banks are now committed to this business/the incremental attrition is going to be that more of a competitive recruitment --- I am not suggesting this 1 monthly print changes that --- but I do think it opens the door to a less dire normalized growth scenario 
+	*	NET – good news for one of the most painful names YTD. We need more cowbell - More Cowbell! <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=99NSlid&sig=IkyimOkI8b1HioN7FeBbyOFqGj1&v=2&url=https://www.google.com/search?q%3Dmore%2Bcowbell%26rlz%3D1C1GCEJ_enUS1005US1005%26oq%3Dmore%2Bcowbell%26gs_lcrp%3DEgZjaHJvbWUqEQgAEEUYOxhDGLEDGIAEGIoFMhEIABBFGDsYQxixAxiABBiKBTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDY4MzZqMWo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8%23fpstate%3Dive%26vld%3Dcid:7e73c7b1,vid:cVsQLlk-T0s,st:0> 
+
+ 
+
+ 
+
+2.	Much more thematic ---- Bank Capital proposal for the win. I think MS, GS, Citi, Mortgage heavy Regionals, Auto/Card for the Win
+
+ 
+
+PART A – GSIB Math 
+
+*	See below Desk math on inputted coefficients per line item per company 
+*	In terms of MS/GS benefits – the STWF relief impacted these names most (which makes sense given relative lack of deposit funding) – with the MS STWF score down a ton (332 to 116), GS down a lot (271 to 127). MS FY26e Payout Ratio is also notably lower than peers at 75%
+*	In terms of Citi as a winner – Citi most simply has the most accretive way to deploy excess/given stock valuation. 
+*	More generally speaking – each of the big 4 estimates assume FY26 RWA growth decelerates from FY25 --- such excess benefit opens the door to more aggressive growth/leverage/earnings power 
+*	**initial feedback has been that our math is ~20bps too onerous (unclear what others are doing differently?)
+
+	*	But in any case – see below:
+
+                                                              i.      Current = 4Q24 Data under current coefficients
+
+                                                             ii.      4Q25 Old = 4Q25 Data under current coefficients
+
+                                                           iii.      4Q25 New = 4Q25 Data with Updated coefficients
+
+                                                           iv.      Capital Relief = GSIB update benefit vs prior
+
+ 
+
+
+
+ 
+
+ 
+
+	*	Simplified – GSIB change by % 
+
+
+
+ 
+
+ 
+
+PART B – Updated Capital 
+
+*	Below look at pro forma capital includes
+
+	*	Updated GSIB scores as reference above
+	*	A simple -5% negative Basel adjustment across the board 
+	*	On 1Q26 CET1 and RWA estimates 
+
+*	Blue = you can see the 95% represents a 5% impact from the initial proposal
+*	Grey = updated Required Min including 1) GSIB update, 2) Basel update, 3) SCB benefit from Basel denominator effect 
+*	Yellow Highlighted = excess capital vs Pro Forma required min
+*	Yellow = excess capital vs current internal minimums
+*	Far right = using tweaked internal minimums on SCB relief (only MS and GS slight impact on 5% Basel)
+
+ 
+
+
+
+ 
+
+ 
+
+PART C – REGIONALS
+
+*	Keeping this a bit simpler and less granular – this is a win for everyone: mortgage stands out. Card/Auto get some help. Markets big win (though smaller exposure). Lack of $100B Cat IV threshold increase puts FHN sale back on the table. 
+*	The generic aggregate relief chart points to 
+
+	*	5.2% Cat III/IV relief – with a few puts and takes on AOCI (headwinds) vs stress test (tailwinds 
+	*	7.8% sub $100B relief – clean and simple (in aggregate) 
+
+
+
+ 
+
+*	Then we have some more RWA detail by exposure type
+
+	*	Mortgage relief sticks out – with 30.4% RWA relief 
+	*	And then other assets (assume auto, card) – with 10% relief
+
+
+
+ 
+
+*	Keeping this more than simple – just a quick mortgage screen to emphasize relative winners  
+
+	*	Includes Regionals under coverage (does not include PNC, USB, TFC) 
+	*	And a second screen looking at SMID mortgage exposure (RRE = resi real estate) 
+
+                
+
+ 
+
+PART D – Other
+
+*	AXP got some negative attention of being at risk of Cat II designation related to cross-jurisdictional activity --- referenced ~$75B threshold vs 10k cited trailing 4qtr avg of $73B
+*	FHN got some positive attention into initial weakness ---- if the $100B threshold does not increase, isn’t FHN more apt to sell vs buy(?)
+*	ALLY got some positive attention on the auto 10% relief --- ALLY trades below TBV/lacks the excess capital to jam the buyback…..making them particularly sensitive to positive capital news/relief
+*	M&A – how does this not become the incremental tailwind to support group consolidation…
+
+ 
+
+ 
+
+ 
+
+MOVING ON…….
+
+ 
+
+LIFECOS – SUNEET DEFENDS BUY RATED LNC, EQH, CRBG
+
+Suneet attributes much of the YTD weakness to private credit concerns – specifically citing the repetition of questions in recent marketing meetings (Suneet in EU last night) and the correlation with Alt stocks
+
+Suneet pushes back in that a) staring point valuations were low to begin with, and b) private credit exposure/risk sems exaggerated
+
+On the former/valuation – see exhibits 2/3 for EPS vs valuation starting point on this group vs the Alts ---- I think we can debate that all day
+
+But on the latter – in terms of PC exposure, I think a lot of helpful stuff in here
+
+*	For starters – I think we have to acknowledge the liability duration benefit that makes lifecos less immune to some of the technical issues that are weighing on Private Credit concerns, particularly relative to alts, facing some mismatch and some difficult strategic decisions 
+
+	*	So while part of the PC debate is of course fundamental – with TBD consequences
+	*	The more acute near-term issue is of course the technical/headline one (retail flows) – of which LifeCos subtly benefit from companies’ unwillingness to sell below par
+
+*	As for the actual exposure itself – details and charts 
+
+	*	See below how Private Corporate Debt makes up ~50% of total PC exposure (10.5% of 19% total) VS the riskier Direct/MM type loans that are 1/10th the size
+	*	Private credit exposure by type by company 
+
+
+
+ 
+
+	*	Suneet then breaks down each of the above PC classes by company – as a % of portfolios, as a % of Equity ex AOCI
+
+
+
+ 
+
+	*	Then for a closer look at excess capital – see how individual companies are positioned with excess relative to market cap, equity ex AOCI, and total invested assets
+
+
+
+ 
+
+*	NET – with longer duration balance sheets and lower relative risk PC exposure (corporate vs middle market) trading at sub 5x multiples……
+*	Suneet views this bucket as among the bigger opportunities to take advantage of current market angst 
+*	Jefferies <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=9BbbOyh&sig=S0sbcXlW8Zu12VhwCnT9G1eqJFr&v=2&url=https://javatar.bluematrix.com/links2/secure/html/9d1e7533-ed0d-44ce-b621-7060b3adde3f> 
+
+ 
+
+ 
+
+PERSONAL LINES INSURANCE – ANDERSEN ON TSLA AV INSURANCE
+
+Andersen goes digging on TSLA AV insurance policies
+
+The key takeaway here is how TSLA is pricing its fully self-driving vs how LMND is pricing
+
+*	TSLA – is basically adding ‘beta’ to both sides of its AV risk experience: enabling fully self driving does not make the difference:
+
+	*	If the vehicle performs better with fully self driving engaged = better pricing
+	*	But also vice versa, as gauged through hard braking and other risk signals
+	*	Unlike traditional telematics it seems to effectively make autonomous continuously earn better price through observed behavior and could in theory notably reward autonomy structurally as the software delivers cleaner driving in the data.
+	*	AA also notes - For drivers who use the same routes on a regular basis, the savings from Tesla could be quite significant as FSD learns. TSLA has made the filings in FL and IN and changes are policy wide, not just on per-mile coverages.
+
+*	LMND – model seems to instead be offering an immediate pricing discount to fully self driving right out of the gate
+
+	*	This could be a sales tactic – AA describes as ‘cross subsidization of poor autonomy uses’
+	*	Or perhaps just targeted to lower miles driven users
+	*	AA notes – While LMND's FSD product highlights how autonomy can improve safety on average (using data from TSLA), we believe that tying discounts to assumed benefits rather than observed outcomes risks rising LRs over time when compared to other approaches.
+
+Jefferies <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=VJqwM7v&sig=CYdtIAnPt9z8snJkde6QaKWMpEq&v=2&url=https://javatar.bluematrix.com/links2/secure/html/2b97acaa-f4d7-4c13-9edb-71ea036c502f> 
+
+ 
+
+ 
+
+MTAV FIRST LOOK – STRONG REVS, OP LEVERAGE
+
+Bottom line beat on +350bps operative leverage upside (33.5% vs est 30% margin)
+
+Upside from revs +27M/+29% YoY on higher management fees and commish with also contribution from other revs and ST savings
+
+AUM +6.3% included +12.5B net flows vs est +8.6, with upside in LT savings (9.1B vs 6.2B est) and ST 
+
+Qtr-end retail brokerage accounts +7.4% QoQ to 116k
+
+Reiterated FY guidance of +20% op profit growth 
+
+Jefferies <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=Djx39Z3&sig=Z0PYTMClHq9xQ2CeTpb6Q1soqNV&v=2&url=https://javatar.bluematrix.com/links2/secure/html/a0148eaa-758b-4ab1-b9c7-f5b8867e0dc2> 
+
+ 
+
+ 
+
+ 
+
+1.4           Metals & Mining
+
+ 
+
+Christopher LaFemina, CFA | Scenarios Part 2 – Capitulation, and Hiding Places (read full report here <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=N20l8FA&sig=KoiGqM55QQIo7Et8p0JMLKyYQpI&v=2&url=https://urldefense.com/v3/__https:/javatar.bluematrix.com/links2/html/dece9891-aef9-42a4-b5b1-f415a99b02a9__;!!PePb2utDNNs!oxQpB0lGnSeFNMg17qEl6MfppbtVIAJRBhnkzRf6-CF62ej6tljSV0vgweU6IBONU24GEmbA3khI0tdplalSF_0$> )
+
+As we discussed in our prior war and peace scenarios note (HERE <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=4Aaau8n&sig=NLIBspNdddVxkoDqUk6NObMr9wI&v=2&url=https://urldefense.com/v3/__https:/javatar.bluematrix.com/links2/link/pdf/dece9891-aef9-42a4-b5b1-f415a99b02a9/40bd03bc-05ea-4676-b4a9-87d7e8dfd24d__;!!PePb2utDNNs!oxQpB0lGnSeFNMg17qEl6MfppbtVIAJRBhnkzRf6-CF62ej6tljSV0vgweU6IBONU24GEmbA3khI0tdp8wX_zjc$> ), thermal coal, aluminum, and, possibly, iron ore, are the best-positioned commodities on a relative basis for an extended conflict in the Middle East, whereas copper is most vulnerable. However, all industrial metals (especially) and mined commodities have downside risk in absolute terms in a recession scenario. The probability of this downside scenario is seemingly rising as the war escalates.
+
+ 
+
+ 
+
+ 
+
+2.	Keep on the Radar
+
+ 
+
+CALLS TODAY:
+
+Date
+
+Time
+
+Event
+
+Link
+
+Sector
+
+20/03
+
+9am ET
+
+Gambling Affiliate Teach-In with Better Collective (BETCO SS)
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=L4j5H-X&sig=L1Bcgg9f1APBJGpFQHoeI5OOI3y&v=2&url=https://jefferies.zoom.us/webinar/register/WN_FA4Ojl6GSw6HIqW0QJmEag%23/registration> 
+
+GAMING
+
+20/03
+
+9am ET
+
+US-Israel-Iran War Update w/ Fm. Senior Advisor on Iran at the State Dept. | Washington Strategy Series
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=ELo-iYy&sig=a2Qcs07x5Ff4aYUjyuOzt3srSW2&v=2&url=https://jefferies-sustainability-transition-strategy.open-exchange.net/session> 
+
+MACRO
+
+20/03
+
+9h30am ET
+
+California Utilities Sector Policy Insight on Wildfire Liability Reform & Affordability
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=We4LGez&sig=416tzurl2J2WWI8uznAzqOKNXEq&v=2&url=https://jefferies-us-power-utilities-clean-energy.open-exchange.net/session> 
+
+POWER, ENERGY & UTILITIES
+
+Every Friday
+
+10am ET
+
+Global Aerospace, Defense and Airlines Discussion with Jefferies US and Europe Analysts – Sheila Kahyaoglu & Chloe Lemarie
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=uSIp6Ft&sig=9nj0TyQMUSQLFSvcupaz1VrH4EV&v=2&url=https://jefaero.open-exchange.net/session> 
+
+AEROSPACE & DEFENSE
+
+20/03
+
+11am ET
+
+JEF LNG: Real Time Market Developments - From Spot to Forwards
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=We4LGez&sig=416tzurl2J2WWI8uznAzqOKNXEq&v=2&url=https://jefferies-us-power-utilities-clean-energy.open-exchange.net/session> 
+
+POWER, ENERGY & UTILITIES
+
+20/03
+
+12pm ET
+
+Datacenter Debate Post Conference
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=We4LGez&sig=416tzurl2J2WWI8uznAzqOKNXEq&v=2&url=https://jefferies-us-power-utilities-clean-energy.open-exchange.net/session> 
+
+POWER, ENERGY & UTILITIES
+
+20/03
+
+1pm ET
+
+Software Debrief Call
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=fUoINAY&sig=NWyZsTcsN9l9QY2dcmQjvMQYvjb&v=2&url=https://jefferies.zoom.us/webinar/register/WN_4jJX81pBRHm6i00htK23Kw> 
+
+TMT
+
+20/03
+
+1pm ET
+
+Iran & Implications on Midstream-Clean Energy & Utilities Debate
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=We4LGez&sig=416tzurl2J2WWI8uznAzqOKNXEq&v=2&url=https://jefferies-us-power-utilities-clean-energy.open-exchange.net/session> 
+
+POWER, ENERGY & UTILITIES
+
+20/03
+
+2pm ET
+
+Ahead of the Curve - Satellite Imagery on ME Energy Developments & U.S. Data Centers
+
+Webinar Registration - Zoom <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=We4LGez&sig=416tzurl2J2WWI8uznAzqOKNXEq&v=2&url=https://jefferies-us-power-utilities-clean-energy.open-exchange.net/session> 
+
+POWER, ENERGY & UTILITIES
+
+ 
+
+ 
+
+ 
+
+UPCOMING CORPORATE CALLS:
+
+Mar 24: Veradermics (MANE) with CEO – Group Dinner @6PM
+
+Mar 25: Altimmune (ALT) with CEO, CFO & CMO-Medical
+
+Mar 25,26: AIA Group Ltd (1299 HK) with CFO
+
+Mar 26: CNO Financial Group, Inc. (CNO) with CEO – Group Breakfast @8AM
+
+Mar 26: The Wings Club Luncheon with Michael Steen, CEO Atlas Air @1145AM
+
+Mar 31: MetLife (MET) HQ Visit with CEO & CFO
+
+Apr 9: PPL Corporation (PPL) with CEO
+
+ 
+
+ 
+
+Conferences
+
+Mar 18
+
+VIRTUAL: Jefferies Virtual Power x Data Center Conference
+
+REGISTRATION IS OPEN | MARA, DBRG, CBRE, AES, OWL, OPCE, EQIX and more!
+
+Apr 7-8
+
+IN PERSON IN NYC: Jefferies Latin American Summit
+
+REGISTRATION IS OPEN | COMPANY LIST <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=xPGkjUn&sig=TUY8sqb7jGCCLK9RBvntqG6rp4C&v=2&url=https://urldefense.com/v3/__https:/www.meetmax.com/sched/event_126859/__co-list_cp.html__;!!PePb2utDNNs!paFGF5xcNZemApCdoXdEH4R0iQzTQkfgaKMM_yFqg6q3KdVNfJCD7Uv2TN-jOYd9gsFcmWatKawpmA$> 
+
+May 21
+
+IN PERSON IN NYC: Jefferies Automotive Aftermarket Conference
+
+REGISTRATION IS NOW OPEN | COMPANY LIST <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=dh_M4oM&sig=8AQnCm69XnseNaKZryGuP5qgZTP&v=2&url=https://www.meetmax.com/sched/event_130811/~public/__co-list_cp.html?event_id%3D130811> 
+
+May 27-28
+
+IN PERSON IN NEWPORT: Jefferies Software, Internet, and AI Conference
+
+SAVE THE DATE
+
+June 2-4
+
+IN PERSON IN NYC: Jefferies Global Healthcare Conference
+
+SAVE THE DATE
+
+June 9-11
+
+IN PERSON IN SOUTH CAROLINA: Jefferies Energy Conference
+
+REGISTRATION IS OPEN | COMPANY LIST <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=e6AZ0CA&sig=2f5TlmNSmFhdsGFgZBmgdLAyZen&v=2&url=https://urldefense.com/v3/__https:/www.meetmax.com/sched/event_127837/__co-list_cp.html__;!!PePb2utDNNs!paFGF5xcNZemApCdoXdEH4R0iQzTQkfgaKMM_yFqg6q3KdVNfJCD7Uv2TN-jOYd9gsFcmWZwtu4DBw$>  
+
+June 16-17
+
+IN PERSON IN NANTUCKET: Jefferies Consumer Conference
+
+REGISTRATION IS OPEN | COMPANY LIST <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=Yw9lZhI&sig=JPupKtwcVFlWCYUjKgVXZx1qHMR&v=2&url=https://urldefense.com/v3/__https:/www.meetmax.com/sched/event_130517/*public/__co-list_cp.html?event_id%3D130517__;fg!!PePb2utDNNs!paFGF5xcNZemApCdoXdEH4R0iQzTQkfgaKMM_yFqg6q3KdVNfJCD7Uv2TN-jOYd9gsFcmWZsCUCznA$>  
+
+Aug 12
+
+IN PERSON IN NYC: Jefferies Office of the CFO Software Summit
+
+SAVE THE DATE
+
+Aug 24-26
+
+IN PERSON IN CHICAGO: Jefferies Semiconductor, IT Hardware, Comm Tech Conference
+
+SAVE THE DATE
+
+Sept 9,10
+
+IN PERSON IN NYC: Jefferies Industrials Conference
+
+SAVE THE DATE
+
+Sept 14,15
+
+IN PERSON IN NASHVILLE: Jefferies HC Services & Technology Conference
+
+SAVE THE DATE
+
+ 
+
+ 
+
+Click Here For:  Jefferies Conference & Summit Calendar <https://jefferies.email.streetcontxt.net/platform/al?a=12833006&ad=4071734465&h=-_l-TZD&sig=Q1zrlhWQ9yeK8MdHqdiO2JyhHMw&v=2&url=https://urldefense.proofpoint.com/v2/url?u%3Dhttps-3A__urldefense.com_v3_-5F-5Fhttps-3A_jefferies.email.streetcontxt.net_platform_al-3Fa-3D7741727-26ad-3D1342599311-26h-3DimcJJcP-26sig-3DRukWAUtq9IJ5NYVXTU2HW2KGKfg-26v-3D2-26url-3Dhttps-3A-2A-2AAwww.jefferies.com-2AIdeasAndPerspectives-2AConferenceList-2AInvestment-2DConferences-2A159-5F-5F-3BLy8vLy8v-21-21PePb2utDNNs-21qKQU3dbnxbQ9Rrra6XDV1lVtn-5FkJ01h-5FCIEjv2flCCTWF2WGm1FNNEQ221hlSrVe2JNxcc2YJ56haHZBlzvD-24%26d%3DDwMGaQ%26c%3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM%26r%3DCQocVw3wuVB-UuMuIMLjFHMfVEbXLcksyXCI_kbMyEs%26m%3D666saunS6KvTQtAyHcgOaaDlTcrUKYqqbo05zdhp0oTw_KqpVD1ryJ_wZZOOibM1%26s%3DHr_-2l8r0g7WKUT95XPNy65d75BZ0Zhef0KQvkVOZqM%26e%3D> 
+
+ 
+
+ 
+
+Fabio Buffi
+
+Vice President
+
+Int’l Equity Sales Trader - LatAm
+
+fbuffi@jefferies.com <mailto:fbuffi@jefferies.com> 
+
+C: +1 (929) 777-1750
+
+ 
+
+ 
+
+ 
+
+ <https://jefferies.email.streetcontxt.net/platform/i/8HiPqP79xQoJlgVPnEYufR9wPQ8tDUIj5KQVa120zK0GSwSZBIcazqiiovNHqPQIwWefcKRHjm9ACOVoNfhAntVja6RewomwLmcjgkd9vocIelpRHWtkGdccCEBCytcl>  <https://jefferies.email.streetcontxt.net/r/i/8HiPqP79xQoJlgVPnEYufR9wPQ8tDUIj5KQVa120zK0GSwSZBIcazqiiovNHqPQIwWefcKRHjm9ACOVoNfhAntVja6RewomwLmcjgkd9vocIelpRHWtkGdccCEBCytcl> <https://jefferies.email.streetcontxt.net/platform/hl?a=12833006&ad=4071734465&sig=285N0Gk6L9TyfKBnVk7hjzS6M1c>

@@ -1,0 +1,333 @@
+Subject: ENC: Safra's Weekly Reminder - Capital Goods
+From: Safra
+Date: 2026-03-22T19:26:54
+Sector: Capital Goods
+Companies: MILS3, RAPT4, FRAS3, EMBR3
+============================================================
+
+________________________________
+
+De: Lucas Tomazin Melotti <lucas.melotti@safra.com.br>Em Nome deLuiza Mussi Tanus E Bastos <luiza.mussi@safra.com.br>
+Enviado: domingo, 22 de março de 2026 19:25:11 (UTC-03:00) Brasilia
+Cc: Lucas Tomazin Melotti <lucas.melotti@safra.com.br>; Pedro Lima Alencar <pedro.alencar@safra.com.br>
+Assunto: Safra's Weekly Reminder - Capital Goods
+
+
+
+
+ 
+
+ 
+
+
+March 22, 2026
+
+
+Good morning!
+Here is a summary of the news and comments in our Capital Goods daily. You can find details below.
+
+RESEARCH
+
+*         Safra on Mills: 4Q25 results - healthy figures despite light rental pressure <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34392.PDF> 
+
+*         Safra on Randoncorp & Frasle: Negative monthly performance in February <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34419.PDF?idu=129167> 
+
+MOST IMPORTANT NEWS OF THE WEEK
+
+Aerospace and Defense
+
+*         Global airlines hike fares and cut routes as fuel costs rise due to the war. — Reuters <https://www.reuters.com/world/middle-east/uae-temporarily-closes-its-airspace-an-exceptional-precautionary-measure-2026-03-17/> 
+
+*         European airlines warn of higher fares and fuel shortages due to Iran war. — Reuters <https://www.reuters.com/business/energy/european-airlines-look-shake-off-green-agenda-fuel-prices-soar-2026-03-19/> 
+
+*         War in the Persian Gulf could expand the used aircraft market and increase pressure on aerospace manufacturers. — Aeroin <https://aeroin.net/guerra-no-golfo-persico-pode-ampliar-o-mercado-de-avioes-usados-e-aumentar-a-pressao-sobre-as-fabricantes-aeronauticas/#google_vignette> 
+
+Our take. Aviation fuel accounts for roughly 30%–40% of an airline’s total operating costs. The recent hike in petroleum prices and the closure of major Middle Eastern airspace due to military conflict are forcing airlines to operate longer, less efficient routes, putting additional pressure on both revenues and costs. This environment could weaken airline profitability and delay fleet renewal and/or expansion decisions, potentially weighing on new aircraft orders for Embraer and other OEMs. That said, airlines with stronger balance sheets may view the current conditions as an opportunity to accelerate fleet renewal, investing in more fuel efficient aircraft to lower operating costs—an outcome that could support demand for Embraer’s E2 family. We note that since 28/Feb, the stock has fallen 18%—an even sharper drop than what we’ve seen in fares. Using an EV/backlog approach, this decline in equity would imply a cancellation of roughly 34% of the commercial backlog, which we view as unlikely given the current market context.
+
+ 
+
+*         Brazil’s Ministry of Ports and Airports will launch its first public consultation to develop a national policy for Advanced Air Mobility, covering drones and eVTOL aircraft. — Aeroin <https://aeroin.net/inedita-tomada-de-subsidios-para-politica-publica-voltada-a-mobilidade-aerea-avancada-no-brasil-sera-lancada-amanha/> 
+
+Our take. Positive for Embraer and EVE (not rated). This represents another important step in Brazil’s eVTOL certification process, moving EVE closer to securing the approvals needed to begin commercial operations. As highlighted in our recent update (see here <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33653.PDF?idu=129167> ), the completion of the inaugural flight and the continued progress on certification increase the likelihood that EVE will start converting part of its sizable backlog of letters of intent (~USD 14bn) into firm orders.
+
+ 
+
+*         The first Embraer (EMBJ; OP; TP USD 92.00) KC-390 Millennium destined for the Republic of Korea Air Force (ROKAF) successfully completed its maiden flight. — Aeroin <https://aeroin.net/primeiro-embraer-kc-390-da-coreia-do-sul-faz-seu-voo-inaugural/> 
+
+Our take. If this delivery is completed in 1Q26—following the aircraft handed over to Portugal in January—the C390 program could provide a meaningful boost to Embraer’s Defense revenue in the quarter, as a significant portion of the contract value is recognized upon delivery. Moreover, Embraer delivered three KC 390s in 2025, and potentially two additional units year to date, indicating an accelerated delivery pace that should further support revenue growth in the Defense division.
+
+ 
+
+*         Global air travel demand is set to more than double by 2050, according to IATA, with global RPK increasing 130% by 2050. — AGN <https://aerospaceglobalnews.com/news/iata-air-travel-demand-forecast-2050/> 
+
+Our take. Emerging markets—especially Asia-Pacific, Africa, and the Middle East—should drive most of the expected expansion, and these regions are well-aligned with Embraer’s commercial strategy, as the company continues to promote its E Jets in markets such as India. Meanwhile, domestic routes in North America (the most important market for the E1) are expected to grow 2.6%–2.9%, supporting a stable replacement cycle for the aircraft family. On the other hand, Europe and Latin America—both with a large installed base of Embraer aircraft—are set for a more modest growth, limiting near term upside in these regions.
+
+*         KLM (Not rated) will keep the E175 in its fleet while it negotiates additional E195‑E2 jets with Embraer (EMBJ; OP; TP USD 92.00) — Aeroin <https://aeroin.net/sem-opcoes-klm-mantera-o-e175-na-frota-enquanto-negocia-mais-jatos-e195-e2-com-a-embraer/#google_vignette> 
+
+Our take. Positive for Embraer. KLM currently operates a fleet of 61 aircraft, including 17 E175 E1s, 19 E190 E1s, and 25 new E195 E2s, and is now considering the acquisition of the remaining 10 jets included as options in the contract signed in 2019. We estimate that this order could add approximately USD 345 million to Embraer’s firm order backlog, representing around 4% of its current commercial aviation backlog and 1.3% of the total backlog.
+
+ 
+
+*         Embraer (EMBJ; OP; TP USD 92.00) introduces the KC-390 Millennium to WZL-2 as companies advance MRO cooperation in Poland. — Embraer <https://www.embraer.com/media-center/en/?mediatype=NEWS&detail=24750-Embraer-introduces-the-KC-390-Millennium-to-WZL-2-as-companies-advance-MRO-cooperation-in-Poland> 
+
+Our take. Positive for Embraer. We see this initiative as an important step in the Embraer campaign to sell the KC-390 in Poland. Poland currently operates a fleet of five aging C‑130H aircraft. Should these be replaced by the KC‑390, we estimate the order could add approximately USD 625 million to Embraer’s firm order backlog. This would represent around 14% of the company’s current defense aviation backlog and approximately 2.4% of its total backlog.
+
+ 
+
+*         Airbus (not rated) is pushing Pratt & Whitney (not rated) for potential damages tied to late engine deliveries, which continue to hinder its production ramp up. — Reuters <https://www.reuters.com/business/aerospace-defense/airbus-seeks-pratt-whitney-damages-over-engine-delays-sources-say-2026-03-19/> 
+
+Our take. Airbus alleges that Pratt & Whitney overpromised engine deliveries while simultaneously diverting units to repair shops. Pratt & Whitney’s Geared Turbofan (GTF) engines power at least 40% of the A320neo family—Airbus’s best selling aircraft—, which does not directly compete with Embraer’s E Jets line. Embraer faced delivery disruptions related to Pratt & Whitney engines on its E2 program in the past; however, production performance has since improved, easing the engine supply constraint for the E2 line (see here <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33653.PDF?idu=129167> ).
+
+ 
+
+Automotive 
+
+*         India’s automakers and parts suppliers are preparing for production slowdowns and assembly line disruptions as the Iran conflict constrains gas availability. — Reuters <https://www.reuters.com/business/energy/indias-auto-boom-risk-iran-israel-war-chokes-gas-supplies-straining-supply-2026-03-19/> 
+
+Our take. Negative for Iochpe-Maxion and a warning sign for auto parts suppliers. S&P Global Mobility has already cut its outlook for India, now expecting a 6.3% light vehicle production growth in 2026 (vs. 7.4% before the conflict). We also see this as an indication that supply chain disruptions could intensify, potentially affecting production volumes globally.
+
+ 
+
+*         The war in Iran is straining global logistics, pushing up freight rates and forcing route changes. This is creating significant uncertainty for the agribusiness sector, increasing logistical risks as well as freight and insurance costs. — Estadão <https://www.estadao.com.br/economia/agronegocio-guerra-ira-pressiona-logistica-inflaciona-frete-exige-mudanca-rotas/> 
+
+Our take. Negative for Randon and Iochpe. The conflict is adding complexity to logistics for Brazilian agribusiness through higher maritime insurance costs, freight inflation, route diversions, and renewed pressure on fertilizer prices. If these disruptions persist, we could see weaker demand for trucks and trailers, pressuring Randon’s trailers and truck related businesses and reducing Iochpe’s sales exposure to the segment.
+
+ 
+
+*         China’s GAC (not rated) has confirmed it will begin production at Mitsubishi’s (not rated) factory in Goiás and plans to invest US$1.3 billion in Brazil. — Valor <https://valor.globo.com/empresas/noticia/2026/03/18/chinesa-gac-confirma-producao-na-fabrica-da-mitsubishi-em-goias.ghtml> 
+
+Our take. Slightly positive for the Brazilian auto parts chain. GAC confirmed local vehicle production in Brazil starting in 2027, with expected capacity of up to 50k vehicles per year. Initial production is expected to follow a CKD model, with kits imported from China, but the company has already indicated a plan to gradually increase local content and invest in suppliers, supported by a Brazil total investment plan of USD 1.3bn by 2030. While the near-term read-across for domestic suppliers may be limited due to the initial CKD structure, this scenario could translate into future volumes for Iochpe-Maxion and Frasle in the OEM segment.
+
+ 
+
+*         After a great start to 2026 in the US, FTR and ACT Research reported weak preliminary net trailer orders in February. FTR reported preliminary trailer orders of 13,305 units, down -45% MoM and -31% YoY. ACT Research’s estimate was nearly identical at 13,200 units, down -43% MoM and -26% YoY.  — TPS <https://www.truckpartsandservice.com/trucks-trailers/trailers/article/15819929/preliminary-net-trailer-orders-declined-by-43-in-february-2026> 
+
+Our take. Negative for Randoncorp. After improving in December, February data weakened again because the industry moved out of its strong order season into a slower period. According to FTR, part of the decline is normal seasonality, as OEMs are now working through their backlogs after a late 2025 order cycle and a very strong January. Still, trailer production faces several challenges—higher steel and aluminum prices, expensive financing, and uncertainty regarding tariffs. These pressures should keep orders low and closer to basic replacement levels.
+
+ 
+
+*         Truck drivers in Brazil threaten to strike “in the coming days” and pressure the government over rising diesel prices. —  Folha <https://www1.folha.uol.com.br/mercado/2026/03/caminhoneiros-ameacam-paralisar-nos-proximos-dias-e-pressionam-governo-contra-alta-do-diesel.shtml> 
+
+*         Brazil’s Ministry of Finance has convened a meeting with state governments to discuss a “temporary reduction” in the ICMS rate on diesel. — Folha <https://www1.folha.uol.com.br/mercado/2026/03/fazenda-convoca-estados-para-discutir-reducao-temporaria-de-icms-sobre-diesel-nesta-quarta.shtml> 
+
+*         Truck drivers have decided to suspend the strike proposal. Leaders of the category are expected to be received by Minister Guilherme Boulos in Brasília. — InfoMoney <https://www.infomoney.com.br/politica/caminhoneiros-decidem-suspender-proposta-de-greve-diz-jornal/> 
+
+*         The federal government published a Provisional Measure that tightens the rules for complying with the minimum freight price floor, reinforcing inspections and imposing harsher penalties on carriers and contractors who fail to comply with the established rates. — Valor <https://valor.globo.com/brasil/noticia/2026/03/19/com-caminhoneiros-no-radar-governo-endurece-punicao-a-quem-descumprir-piso-minimo-do-frete.ghtml> 
+
+Our take. The proposed strike was suspended after the government issued a Provisional Measure tightening the enforcement of the minimum freight price floor. However, if this escalates, it will have a negative impact across all industries, as it would raise freight costs and disrupt transportation networks, leading to lower production levels. That said, if the government were to provide measures such as subsidized diesel prices or other forms of support, this could improve operators’ financial conditions, strengthening purchasing power and, in turn, supporting higher demand for trucks and trailers.
+
+ 
+
+*         According to Volkswagen Truck & Bus (Not rated), march may mark the beginning of a recovery in the sales pace of trucks. — AutoData <https://www.autodata.com.br/noticias/2026/03/17/marco-pode-indicar-a-retomada-do-mercado-brasileiro-de-caminhoes/100982/> 
+
+*         The light‑vehicle market got off to a strong start in March, with 101.5 thousand registrations in the first half of the month, according to Bright Consulting. This represents an increase of nearly 46% compared with the same period in March 2025. —  Automotive Business <https://www.automotivebusiness.com.br/noticias/licenciamentos-avancam-50-quinzena> 
+
+Our take. Positive read for Iochpe-Maxion, Frasle, and Randoncorp. The company expects the Move Brasil program to finally gain traction, as purchases were delayed by credit negotiations and should now translate into stronger sector demand. Monthly sales could reach 10k units, which is 3% below the 2025 average, signaling a meaningful boost for the truck and trailer supply chain. 
+
+ 
+
+*         BNDES plans a new credit line to support strategic sectors affected by the war. — O Globo <https://oglobo.globo.com/economia/noticia/2026/03/17/bndes-planeja-nova-linha-de-credito-para-reforcar-setores-estrategicos-afetados-por-guerras.ghtml> 
+
+Our take. A new program could help offset the effects of recent geopolitical disruptions—such as U.S. tariffs and the Iran conflict—by supporting the sectors most exposed to global volatility. Fertilizers, a priority given Brazil’s high import dependence and war related supply pressures, are central to the proposal. Although details are still being discussed, a dedicated credit line to boost domestic fertilizer production would support agribusiness activity over time, helping sustain freight volumes, freight rates, and ultimately replacement demand for trailers and trucks.
+
+ 
+
+*         Brazil is expected to produce 177.8mn tonnes of soybeans (+3.7% YoY) in the 2025/26 harvest, while the corn crop should reach 138.27mn tonnes (-2% YoY). Meanwhile, the soybean exports are expected to reach 114mn tonnes, +7.2% YoY, and corn exports should reach 46.5mn tonnes, +16.3% YoY. Finally, total grain harvest should come at 353.4mn tonnes, up 0.9% YoY — CONAB <https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-graos/boletim-da-safra-de-graos/6o-levantamento-safra-2025-26/e-book_boletim-de-safras-6o-levantamento_2026.pdf>  
+
+*         Brazil’s 2026 soybean crop is on track to exceed the expectations of traders and processors, as the sector association Abiove raised its projection to a record 177.85 million tons. — MoneyTimes <https://www.moneytimes.com.br/abiove-eleva-previsao-de-safra-e-processamento-de-soja-do-brasil-em-2026-pads/> 
+
+*         Brazil is expected to face growing challenges in securing fertilizer supplies amid the war, as China’s decision to restrict exports could disrupt shipments of up to 40 million tonnes. — Folha <https://www1.folha.uol.com.br/mercado/2026/03/brasil-vai-enfrentar-dificuldades-maiores-para-comprar-fertilizantes-em-meio-a-guerra.shtml> 
+
+Our take.  Positive for Randoncorp. Another year of a record grain harvest, combined with the Move Brasil program, could help to support truck and trailers volumes.
+
+ 
+
+       Energy and Technology 
+
+*         Huawei (not rated) and Powersafe (not rated) sign partnership to expand energy storage in Brazil. The agreement provides for the distribution and commercialization of BESS solutions for different customer profiles — Canal Solar <https://canalsolar.com.br/huawei-e-powersafe-firmam-parceria-armazenamento/> 
+
+Our take: Several companies appear to be entering the market as we approach the battery auction expected for June, signaling rising competition that could pressure contract margins. Despite this, WEG noted in its latest conference call that it believes it is well-positioned to compete, supported by its long standing relationships with utilities companies and its broad service and after sales capabilities. Additionally, the company expects the auction to include some degree of local content requirements, which could provide WEG with a competitive advantage.
+
+ 
+
+*         Brazil secured up to 19 GW of electricity capacity from thermal and hydro power plants over the next decade or more, marking the country’s largest power capacity auction to date. The government held the auction to ensure backup power during periods of high demand or limited supply, awarding contracts to both existing plants and projects yet to be developed. — Reuters <https://www.reuters.com/business/energy/brazil-secures-19-gigawatts-power-capacity-auction-strengthen-energy-supply-2026-03-18/> 
+
+Our take: Positive for WEG. The company has meaningful exposure to power generation, transmission and distribution through products such as transformers, substations, generators and synchronous condensers. While the auction does not imply a direct award to WEG, the scale of the contracted capacity should be supportive for medium-term demand for electrical equipment, grid integration solutions and related industrial services, which is directionally constructive for the company.
+
+ 
+
+*         General Motors (Not rated), and battery partner LG Energy Solution (Not rated) ​are transforming an electric-vehicle battery plant in Tennessee to ​make batteries for energy storage systems. — Reuters <https://www.reuters.com/business/energy/gm-lg-retool-tennessee-battery-plant-energy-storage-batteries-recall-laid-off-2026-03-17/> 
+
+Our take: Slightly negative read for WEG. As the demand for BESS solutions continues to rise and European and U.S. manufacturers scale back their EV production plans, several OEMs are beginning to repurpose their EV battery plants to manufacture BESS systems. Earlier this year, Ford also announced such a shift in the U.S. (see here <https://canalsolar.com.br/ford-bess-data-centers-20gwh/> ). For WEG, this trend is somewhat negative, as it increases competition in the global BESS market.
+
+ 
+
+*         The war in the Middle East could pose a threat to the semiconductor industry and other sectors dependent on a resource produced in the Gulf. — CNBC <https://www.cnbc.com/2026/03/19/the-iran-war-is-threatening-supply-helium-what-it-means-for-markets.html> 
+
+Our take: Negative read on auto parts. Qatar accounts for roughly 30% of global helium supply, a critical input in semiconductor manufacturing. Disruptions in the Strait of Hormuz have already affected supply flows, and a prolonged conflict could push production costs higher and potentially disrupt operations at some semiconductor fabs. Adding to the risk, QatarEnergy’s Ras Laffan Industrial City—the world’s largest liquefied natural gas export facility and a major source of helium as a byproduct—was temporarily shut down after being struck by an Iranian drone early in the conflict. The situation escalated further this week, when Iranian missile strikes reportedly crippled the facility, increasing the likelihood of sustained helium supply disruptions.
+
+ 
+
+Other segments
+
+*         The US wants to conclude trade investigations “within months” after opening a probe against Brazil. — Estadão <https://www.estadao.com.br/economia/eua-apuracoes-comerciais-meses-investigacao-contra-brasil/> 
+
+*         Trump says he has an ‘absolute right’ to impose tariffs, despite Supreme Court ruling. The president suggests using trade investigations and other instruments after the Court decision. — Estadão <https://www.estadao.com.br/internacional/trump-diz-ter-direito-absoluto-de-impor-tarifas-por-outros-meios-apesar-de-decisao-da-suprema-cor-npr/> 
+
+Our take. Negative read for WEG, Frasle, and Randoncorp, and potentially for Embraer. These Section 301 investigations could be used to justify the reinstatement of previous tariffs or the introduction of new ones, potentially bringing back the pre-Supreme Court ruling scenario that had higher tariffs on Brazil. That said, WEG has already restructured its operations to avoid Brazilian tariffs; so, if they were reinstated, the company would be relatively well-positioned to mitigate the impact. In Embraer’s case, we believe it is likely that the exemption would remain, given the strong dependence of the U.S. regional aviation industry on its E175 aircraft. 
+
+ 
+
+VALUATION COMP TABLE
+
+STOCK DATA
+
+
+
+MULTIPLES
+
+
+
+MULTIPLES & RETURNS
+
+
+
+MAIN FIGURES
+
+
+
+Source: Bloomberg, Safra Estimates.
+
+TOP READ REPORTS
+
+Safra on Iochpe-Maxion: Adjusting to a harder road — Downgrading to Neutral <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33755.PDF?idu=129167> 
+
+Safra on Randoncorp & Frasle: Updating estimates and TP <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33740.PDF?idu=129167> 
+
+Safra on GPS: Updating estimates and TP; M&A strategy set to accelerate <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33726.PDF?idu=0>  
+
+Safra on Marcopolo: Updating estimates and TP; international exposure as a tailwind <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33713.PDF?idu=129167> 
+
+Safra on WEG: Facing a softer cycle – updating estimates and TP; addressing key 2026 topic discussions <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33668.PDF?idu=129167> 
+
+Safra on Embraer: New heights - Updating estimates and TP; assessing opportunities in the Indian market <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33653.PDF?idu=129167> 
+
+Safra on Intelbras: Waiting for the returns to ring… Initiating coverage with Neutral <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33376.PDF> 
+
+Safra on Capital Goods: Updating estimates and TP; Marcopolo remains our Top pick <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-32475.PDF> 
+
+Safra on Embraer: Exploring Embraer’s defense potential — insights from visit to the Gavião Peixoto facility and deep dive into its strategic opportunities <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-32383.PDF> 
+
+Safra on Iochpe-Maxion: A discounted global player – initiating with Outperform rating <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-31327.PDF?idu=0> 
+
+Safra on Capital Goods: Assessing the historical relationship between heavy vehicle sales and both GDP and interest rates <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-30124.PDF?idu=129167> 
+
+Safra on Machinery Rental: Scaling heights and heavy loads: initiation of Mills and Armac <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-32139.PDF> 
+
+Safra on Marcopolo: Short-term momentum, long-term foundations – initiating coverage with an Outperform rating <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-28639.PDF> 
+
+Safra on GPS: A quality growth story with top-notch execution – Initiating coverage with an Outperform rating <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-27045.PDF> 
+
+Safra on Frasle: Accelerated growth through international expansion; Outperform reiterated – updating model and target price <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-29448.PDF> 
+
+Safra on WEG: Tailwind all around but already priced in – updating estimates and target price <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-29326.PDF> 
+
+Safra on Embraer: A steady flight ahead; initiating coverage with an Outperform rating <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-28030.PDF> 
+
+Safra on Frasle: The growth story continues; updating model and target price <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-26153.PDF> 
+
+If you wish to be removed from this mailing list, please let us know.
+
+
+
+ 
+
+LUIZA MUSSI
+
+Equity Research – Capital Goods
+
+(11) 3175-3638
+
+Av. Paulista, 2100 - 15º Andar
+
+01310-930
+
+luiza.mussi@safra.com.br <mailto:luiza.mussi@safra.com.br> 
+
+LUCAS MELOTTI 
+
+Equity Research – Capital Goods
+
+(11) 3175-4256
+
+Av. Paulista, 2100 - 15º Andar
+
+01310-930
+
+lucas.melotti@safra.com.br <mailto:lucas.melotti@safra.com.br> 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+					
+
+ 
+
+
+
+Esta mensagem e seus anexos são destinados exclusivamente ao(s) seu(s) destinatário(s) e, podem conter informações confidenciais e/ou legalmente privilegiadas. A divulgação, distribuição, reprodução ou qualquer forma de uso não permitido de tais informações são proibidas e podem ser ilegais, sujeitando-se o responsável às penalidades cabíveis. O remetente utiliza o correio eletrônico no exercício do seu trabalho ou em razão dele, eximindo as empresas integrantes do Grupo de qualquer responsabilidade por utilização indevida. Caso não seja o destinatário desta mensagem, solicitamos a gentileza de notificar o remetente e eliminá-la imediatamente.

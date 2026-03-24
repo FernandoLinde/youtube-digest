@@ -1,0 +1,589 @@
+Subject: ENC: Latam Daily Briefing 2026-03-20
+From: BTG Pactual
+Date: 2026-03-20T19:23:03
+Sector: Macro
+Companies: 
+============================================================
+
+________________________________
+
+De: BTG Pactual Macro Research <sh-btgpactualmacroresearch@btgpactual.com>
+Enviado: sexta-feira, 20 de março de 2026 19:22:52 (UTC-03:00) Brasilia
+Assunto: Latam Daily Briefing 2026-03-20
+
+
+
+BTG Pactual | Macro Research 
+
+
+Macro High Frequency Note 
+
+
+Macroeconomic Research - Latam Daily 
+
+
+20-March-2026 
+
+
+ 
+
+
+Latam Daily Briefing 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118875>  
+
+Getting to the point 
+
+Brazil
+
+Monday's events:
+FGV CPI IPC-S (22-Mar) - 08:00 AM
+Focus (Market Readout) Report - 08:25 AM
+
+Chile
+
+The BCCh’s monetary policy meeting will take place next Tuesday, and we expect the Board to keep the MPR at 4.5%. The focus of interest is not on the Board’s decision itself – where the high uncertainty in the external scenario fully justifies maintaining the rate – but rather on how the IPoM projections and forward guidance will change amid the sharp rise in oil prices. Using the inflation response from the BCCh’s XMAS model to an oil shock, we estimate that the inflation projection for 4Q26 could rise to around 4-4.5%, before sharply decelerating to 2.5-3% by 4Q27. Despite this significant increase in inflation, we expect the Board to adopt a wait-and-see stance given the high uncertainty surrounding the conflict in Iran, the consequent rise in oil prices, the behavior of global financial markets, and their effects on the Chilean economy. Since the conflict is very recent, we do not expect the Board to be very definitive about its monetary policy strategy going forward, likely indicating that the policy response will depend on the depth and persistence of the ongoing shock. In this context, the forward guidance delivered in the IPoM – scheduled for release next Wednesday – should be read with caution, placing less emphasis on the baseline scenario and more weight on the alternative scenarios considered to shape the boundaries of the MPR corridor. (Full story here) <https://www.btgpactual.com/research/report-view/118874> 
+
+Colombia
+
+Federal prosecutors in New York have opened a criminal inquiry into President Petro’s alleged links to narcotraffickers, a development that could materially erode the Pacto Histórico’s frontrunner status just ten weeks before the first round. Federal prosecutors in Brooklyn and Manhattan have been questioning narcotraffickers about their ties to President Gustavo Petro, focusing on allegations that his representatives solicited bribes from drug traffickers held in Colombian jails in exchange for promises to block their extradition to the United States.  The investigation, which is in a preliminary stage, also examines whether the 2022 presidential campaign received contributions of illegal origin and whether there were direct contacts between Petro and criminal networks. The inquiries remain in the early stages, with no formal charges filed, and sources indicate the White House has had no role in directing the investigations.  Still, the timing is politically explosive. The first major post-primary poll shows leftist Senator Iván Cepeda, Petro’s endorsed successor and the Pacto Histórico candidate, leading the first round at 35%, ahead of far-right Abelardo de la Espriella at 21% and surging center-right Paloma Valencia at 16%.  Critically, while Cepeda defeats De la Espriella comfortably in a runoff simulation (45%-36%), he faces a statistical tie against Valencia at 43%-40%, meaning any erosion in the left’s base could prove decisive. The DOJ probe threatens to reactivate the “narco-state” narrative that the opposition has deployed against Petro throughout his presidency, giving center-right and right-wing candidates powerful ammunition to frame a Cepeda victory as continuity with a criminally compromised administration. Valencia’s strong March 8 primary showing, winning 3.2 million votes across the center-right coalition, already demonstrated that voters may be gravitating toward less polarizing alternatives, and a sustained drip of DOJ-related headlines could accelerate that dynamic, pushing undecided and soft-left voters toward the center. The risk for COP and TES is asymmetric: while the investigation alone is unlikely to shift BanRep policy or alter the near-term fiscal trajectory, a collapse in Cepeda’s polling lead that brings a runoff against Valencia into play would likely be read as constructive by markets, reducing the left-tail risk of policy continuity, whereas any perception that Petro could use the crisis to mobilize his base or destabilize the transition would weigh on risk premia.
+
+Iván Cepeda continues to lead first-round voting intentions at 35%, broadly unchanged vs. February (34%), suggesting a stable core support base, while movements among challengers should be interpreted with caution given the ±3pp margin of error and the limitations of telephone-based sampling (CATI), which may introduce coverage and response biases. That said, the most notable shift in the poll is Paloma Valencia’s sharp increase from 4% to 16%, clearly the largest gain among candidates, pointing to emerging momentum on the right, even as Abelardo de la Espriella remains ahead at 21%. This dynamic suggests a potential reconfiguration of the right-wing field, with Valencia gaining traction and possibly narrowing the gap into the first round. In runoff scenarios, Cepeda retains an advantage across matchups, but the tighter spread against Valencia (43% vs. 40%) relative to other candidates indicates that her momentum could translate into a more competitive second round, particularly if right-leaning votes consolidate behind her candidacy.
+
+Mexico
+
+Monday's events:
+Retail Sales MoM (Jan) - 09:00 AM
+Retail Sales YoY (Jan) - 09:00 AM
+
+Peru
+
+BCRP reported that the annualized fiscal deficit of the Non-Financial Public Sector (NFPS) stood at 2.1% of GDP as of February 2026, broadly unchanged from January. However, on a monthly basis, the NFPS posted a deficit of PEN5.4bn in February, wider than the PEN4.8bn deficit recorded in the same month of 2025, reflecting higher non-financial spending, particularly current expenditure, and increased interest payments, only partially offset by stronger revenues. Current revenues rose 9.2% y/y in February, supported by higher tax collection (notably income tax, VAT, excise taxes, and mining-related revenues), alongside gains in non-tax revenues such as royalties and social contributions. Meanwhile, non-financial expenditure increased 12.0% y/y, driven mainly by higher current spending across all levels of government, while capital formation declined due to weaker execution by the national government. Year-to-date, the NFPS accumulated a deficit of PEN1.6bn, slightly higher than the same period in 2025.
+
+The Monetary Policy Report from BCRP’s March 2026 release reflects a broadly constructive macro outlook for Peru, combining stable inflation dynamics with improved growth projections and solid external and fiscal positions. Inflation remains well anchored within the target range, with CPI projected at 2.4% in 2026 and 2.0% in 2027, while expectations stand at 2.1%, close to the midpoint. In the external sector, the outlook has strengthened on the back of higher terms of trade, expected to reach historical highs in 2026, driving an upward revision in the trade surplus and supporting a current account surplus of around 3.2% of GDP, extending a multi-year surplus cycle. On domestic activity, GDP growth for 2026 was revised up from 3.0% to 3.2%, supported by stronger performance in non-primary sectors (notably services, commerce, and construction) and a robust recovery in private investment (+9.5%), despite some drag from primary sectors affected by climate factors and hydrocarbons disruptions. Fiscal accounts also show improvement, with the deficit projected to decline to 1.8% of GDP in 2026 and public debt trending down toward ~29% of GDP, remaining among the lowest in the region. In terms of monetary policy, the policy rate stands at 4.25%, close to neutral, consistent with a context of controlled inflation and stable expectations. Overall, the report points to a favorable macroeconomic configuration, with resilient domestic demand, strong external buffers, and policy credibility supporting medium-term stability.
+
+According to INEI, the Monthly Services Survey for January 2026 showed sustained expansion, with commerce rising 4.33% y/y, restaurants accelerating to 5.97%, and business services increasing 3.68%, reflecting resilient domestic demand at the start of the year. Commerce growth was driven by wholesale (+2.94%) and retail (+4.67%) activity, while automotive trade surged 13.83% on stronger vehicle sales, supported by credit availability and commercial campaigns. Restaurant activity was underpinned by traditional dining (+5.89%) and a sharp increase in beverage services (+13.45%) amid seasonal demand, partly offset by a contraction in catering (-4.67%). Meanwhile, business services growth was broad-based, led by advertising and market research (+6.96%), administrative and support services (+3.85%), and travel agencies (+3.73%), alongside steady gains in professional services (+3.08%). In seasonally-adjusted terms, activity remained positive but modest across segments, suggesting continued, albeit gradual, momentum in domestic demand.
+
+Latam Weekly Calendar
+
+ 
+
+Country
+
+Time (BRT)
+
+Indicator
+
+Consensus (Bloomberg)
+
+Previous
+
+BTG Forecast
+
+Actual
+
+Mon,23 March
+
+Brazil
+
+8:00 AM
+
+FGV CPI IPC-S (22-Mar)
+
+ 
+
+0.26%
+
+ 
+
+ 
+
+Brazil
+
+8:25 AM
+
+Focus (Market Readout) Report
+
+ 
+
+ 
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Retail Sales MoM (Jan)
+
+0.20%
+
+-0.10%
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Retail Sales YoY (Jan)
+
+3.40%
+
+4.30%
+
+ 
+
+ 
+
+Tue,24 March
+
+Brazil
+
+8:00 AM
+
+Central Bank Meeting Minutes (Mar)
+
+ 
+
+ 
+
+ 
+
+Chile
+
+6:00 PM
+
+Overnight Rate Target (24-Mar)
+
+4.50%
+
+4.50%
+
+4.50%
+
+ 
+
+Mexico
+
+9:00 AM
+
+Economic Activity IGAE YoY (Jan)
+
+1.35%
+
+3.26%
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Bi-Weekly CPI (15-Mar)
+
+0.40%
+
+0.34%
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Bi-Weekly Core CPI (15-Mar)
+
+0.22%
+
+0.17%
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Bi-Weekly CPI YoY (15-Mar)
+
+4.37%
+
+4.13%
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Bi-Weekly Core CPI YoY (15-Mar)
+
+4.46%
+
+4.48%
+
+ 
+
+ 
+
+Wed,25 March
+
+Brazil
+
+5:00 AM
+
+FIPE CPI - Weekly (23-Mar)
+
+ 
+
+0.42%
+
+ 
+
+ 
+
+Brazil
+
+8:00 AM
+
+FGV Consumer Confidence (Mar)
+
+ 
+
+86.10
+
+ 
+
+ 
+
+Brazil
+
+12:00 AM
+
+Federal Debt Total (Feb)
+
+ 
+
+$8641b
+
+ 
+
+ 
+
+Argentina
+
+4:00 PM
+
+Wages MoM (Jan)
+
+ 
+
+1.60%
+
+ 
+
+ 
+
+Colombia
+
+12:00 AM
+
+Industrial Confidence (Feb)
+
+ 
+
+-1.50
+
+ 
+
+ 
+
+Colombia
+
+12:00 AM
+
+Retail Confidence (Feb)
+
+ 
+
+26.00
+
+ 
+
+ 
+
+Thu,26 March
+
+Brazil
+
+8:00 AM
+
+Monetary Policy Report (Mar)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Brazil
+
+8:00 AM
+
+FGV Construction Costs MoM (Mar)
+
+0.32%
+
+0.34%
+
+ 
+
+ 
+
+Brazil
+
+9:00 AM
+
+IBGE Inflation IPCA-15 MoM (Mar)
+
+0.29%
+
+0.84%
+
+0.25%
+
+ 
+
+Brazil
+
+9:00 AM
+
+IBGE Inflation IPCA-15 YoY (Mar)
+
+3.74%
+
+4.10%
+
+3.70%
+
+ 
+
+Argentina
+
+4:00 PM
+
+Economic Activity Index YoY (Jan)
+
+1.90%
+
+3.50%
+
+ 
+
+ 
+
+Mexico
+
+4:00 PM
+
+Overnight Rate (26-Mar)
+
+6.75%
+
+7.00%
+
+ 
+
+ 
+
+Fri,27 March
+
+Brazil
+
+8:30 AM
+
+Current Account Balance (Feb)
+
+-$5400m
+
+-$8360m
+
+ 
+
+ 
+
+Brazil
+
+8:30 AM
+
+Foreign Direct Investment (Feb)
+
+$7550m
+
+$8168m
+
+ 
+
+ 
+
+Brazil
+
+9:00 AM
+
+National Unemployment Rate (Feb)
+
+5.70%
+
+5.40%
+
+5.60%
+
+ 
+
+Argentina
+
+4:00 PM
+
+Current Account Balance (4Q)
+
+ 
+
+-$1581m
+
+ 
+
+ 
+
+Colombia
+
+11:00 AM
+
+Bloomberg March Colombia Economic Survey
+
+ 
+
+ 
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Unemployment Rate NSA (Feb)
+
+2.50%
+
+2.70%
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Trade Balance (Feb)
+
+$1206.2m
+
+-$6481.1m
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Exports (Feb)
+
+ 
+
+$48008m
+
+ 
+
+ 
+
+Mexico
+
+9:00 AM
+
+Imports (Feb)
+
+ 
+
+$54489m
+
+ 
+
+ 
+
+Peru
+
+2:00 PM
+
+Bloomberg March Peru Economic Survey
+
+ 
+
+ 
+
+ 
+
+ 
+
+Not Scheduled
+
+Brazil
+
+ 
+
+Tax Collections (Feb)
+
+ 
+
+$325751m
+
+ 
+
+ 
+
+ 
+
+Source: BTG Pactual
+
+	
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118875>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118875> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng6jU2aXTXBseaoQSU8vBIBFg5t4Jn6-2Bxx7CatvbFRyKXlJ2vfPotqCK5JQuEZLN9b0dW2WTh-2BaKb6x-2Byijjm6w0oDvV-2FXdeMywxgsSPHNF5vSBSukTzx4sOGw5vnkO1XtSSeUgpk2nz8BsB7xfklOf0A-2FdC4989kyned9md1vmsXCWZbhl9BYP6zYkJJc3CM-2Bk-3D>

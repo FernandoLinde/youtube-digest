@@ -1,0 +1,226 @@
+Subject: ENC: ***JPM Mercados em 1 Minuto***
+From: J.P. Morgan
+Date: 2026-03-23T08:13:05
+Sector: Oil & Gas
+Companies: AMX3, PETR4
+============================================================
+
+________________________________
+
+De: fabio.loch.varella@jpmorgan.com <fabio.loch.varella@jpmorgan.com>
+Enviado: segunda-feira, 23 de março de 2026 08:12:56 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: ***JPM Mercados em 1 Minuto***
+
+
+
+
+
+Mercados em 1 Minuto | Sales Commentary 
+
+Destaques de hoje: 
+
+*	⁠AMX (M&A Desktop) 
+*	Petrobras (Governança) 
+*	Global Strategy (equity & oil) 
+
+
+Eventos
+
+
+
+HOJE - 9am: Update on Iran, webinar w/ Jonathan Fultan at the Atlantic Council Registrar <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=zrTTkms&sig=aKCuxi2GUIFKCAXKSa98vOs3vkS&v=2&url=https://jpmorgan-update-on-iran-23-march-2026.open-exchange.net> 
+HOJE - 10am: Real Estate: Novonesis, in person meeting w/ Business Development Manager Registrar <mailto:giovanna.lopes@jpmorgan.com?subject=JPM%20-%20Abecip> 
+HOJE - 12pm: Construction: GCC, webinar w/ CEO Registrar <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=gZFHG5T&sig=JI5qEpJLLOgD7TpJduddWSXr1Vr&v=2&url=https://jpmchase.zoom.us/webinar/register/WN_WD613EMwT4qRoUTeu3gcww> 
+
+Earnings 4Q25 
+
+*	⁠In line: Mater Dei
+	
+	
+
+AMERICA MOVIL: Cia anunciou a compra da Desktop por R$4bn a um múltiplo de 6.3x EV/EBITDA, premio de 20% para o múltiplo da AMX. Vemos o M&A como estratégico para a cia, uma vez que aumenta o share da companhia nas ~198 cidades que ambas tem presença, mas vemos como neutro dado quer representa apenas 0.5% do EBITDA da AMX. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=9Db2Wa9&sig=8ngbkYGduSrcreG4kMJjhKv7iT6&v=2&isig=Qgj765U7dj08Fie9eCbWJyQQC05&url=https://markets.jpmorgan.com/research/email/scx/aqiel03a/GPS-5242727-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb> 
+
+PETROBRAS: Nossa visão do novo framework de preço do diesel mantém desconto de ~30% vs paridade, mesmo com subsídio, mas reforça governança e previsibilidade. Decisão final de preços segue com a Petrobras, apesar de pressões externas. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=N59sW3u&sig=RLQCLUEoV1Y77grrkpWUgZosCEL&v=2&isig=UsTs9NIf63cHDLYTwgIPD35NgOL&url=https://markets.jpmorgan.com/research/email/scx/-34g1tr2/GPS-5241783-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb> 
+
+GLOBAL STRATEGY: Analisando todos os episódios anteriores de >50% de petróleo, o mercado de ações subiu nos 6 & 12 meses seguintes. Pegamos dados da S&P e também de impacto de EPS na zona do euro. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=10tGRRm&sig=W7RIERnjNI0TZZ1aW2zcKsmbf9W&v=2&isig=AjC1I9OhyQzT5Yzu20PpCgGzLcz&url=https://markets.jpmorgan.com/research/email/scx/-ap32eb1/GPS-5238859-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+
+  
+
+ Market Color 
+
+*	SPX -0.8%, NDX -0.9%, RTY -1.4%. WTI +108bps at $99.29, NatGas +132bps to $3.14, UK NatGas +524bps to £1.5902, Gold -550bps to $4,246, Silver -651bps to $63.52, 10Y @ 4.431%, and VIX @ 30.21. 
+*	US: Futs are weaker as the world de-risks given binary outlook of Middle East escalation. Trump gave Iran an ultimatum to open SoH within 48 hours (post was time stamped at 7.44pm EST on Mar 21) or risk further escalation that would target civilian energy, tech, and water infra. Fannie and Freddie are buying more MBS amid higher yields / vol. The yield curve is bear flattening with 10Y +5bp; USD is higher. Cmdtys are mixed with energy leading, though WTI remains under $100, precious metals seeing heavy selling, and Ags maintaining their bid. In Eqys, Mag7 names are all lower, underperforming NDX futs as Semis and Cyclicals ex-Energy are for sale. 
+*	EU/UK: Major markets are all lower, most down at least 2 std dev, following the negative APAC session with Korea the biggest laggard. Luxury, Energy leading on the move lower. Size / Recession are leading ResVol / Beta are lagging; Cyclicals flat to Defensives; Value flat to Growth. UKX -1.8%, SX5E -1.9%, SXXP -2.1%, DAX -1.8%. CSI -3.3%, HSI -3.5%, NKY -3.5%, ASX -0.7%, KOSPI -6.5%. 
+
+  
+
+Overnight Reports 
+
+  
+
+*	Equity Strategy: Oil and equities impact; Will last Wednesday’s escalation keep building on itself? Fundamentally, one should keep in mind that oil intensity of GDP has moved steadily down over the past decades. Also, the macro setup ahead of the conflict was constructive, looking at earnings and inflation, with notable differences to ‘22. Again, if oil prices spike further, equities will naturally be under more pressure, and we have not had full positioning capitulation yet, apart from a U-turn in pundits’ sentiment that was seen. We argued last Monday that we might need to see 120-130$ oil with 2-3 days of sharp selling, and perhaps some of that happened Wed pm-Fri last week. The situation might continue to get worse near term before getting better, but we note Eurozone RSI hit oversold 30 level, and the back-test shows that in the last 10 years of signals equities were up over the next month 82% of the time. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=10tGRRm&sig=W7RIERnjNI0TZZ1aW2zcKsmbf9W&v=2&isig=AjC1I9OhyQzT5Yzu20PpCgGzLcz&url=https://markets.jpmorgan.com/research/email/scx/-ap32eb1/GPS-5238859-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Petrobras (OW): It’s All About Governance – Brazilian Government Sets Diesel Reference Price Framework Our take: the announced reference price still implies a 30% discount to parity, but the price increase is still a decision of Petrobras. Federal government published Decree 12,883/2026 on the determination of the diesel reference price for subsidies in Brazil (see Diesel Relief Measures and 12% Export Tax for additional context). The decree assigns to the Ministry of Mines and Energy the responsibility for setting the current reference price, with ANP defining the methodology for subsequent updates. It also establishes differentiated methodologies that, in Petrobras’s case, set the current R$3.70/l price as the cap for receiving the R$0.32/l subsidy announced last week. We calculate that, at this reference price, even factoring in the subsidy, the discount to import parity remains approximately 30%. We note that Petrobras operates under a formal pricing policy and governance framework. While external pressures may persist, we expect the company to continue making decisions consistent with these guidelines. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=N59sW3u&sig=RLQCLUEoV1Y77grrkpWUgZosCEL&v=2&isig=UsTs9NIf63cHDLYTwgIPD35NgOL&url=https://markets.jpmorgan.com/research/email/scx/-34g1tr2/GPS-5241783-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb> 
+*	Argentina 101: The 2026 Country Handbook This sixth edition of our Argentina Country Handbook is a concise primer and reference on the country. Published for 2026 after the 2025 midterm elections, it reflects an increasingly optimistic outlook as reforms and investment move to center stage. We have updated all key figures, tables, and indicators, and added sections on contingent macroeconomic and political developments. This long-standing Economics & Equity Strategy collaboration is intended to be a go-to reference for investors thinking about investing in Argentina, regardless of whether they are already an investor in the country or are looking at it for the first time. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=PznfHoS&sig=FTd2DITMhC8wVQCVuUHvrYRre02&v=2&isig=aKICND76kTAvms18bvzaNrvXLdm&url=https://markets.jpmorgan.com/research/email/scx/-d9ka01r/GPS-5239234-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Brazil Pharma & Drug Retail: GLP-1 Trends in Brazil - Feedback From Close-Up International Webinar The main takeaways were: 1) the Brazilian pharma market remains structurally robust, growing double-digits over the past decade, with large chains representing ~50% of sales; 2) GLP-1 products should continue to print solid growth trends, with the expiration of the patent for semaglutide (today in Brazil) being a relevant trigger to significantly increase the TAM; and 3) Tirzepatide (Mounjaro) represents today ~65% of GLP-1 sales but its growth is constrained by supply. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=KQldBnr&sig=9HBZS1kDuJwCqI6fNdjJiAn32yW&v=2&isig=7lXcUHZqM3lh5h7MOYAvxiaiF8X&url=https://markets.jpmorgan.com/research/email/scx/76iilaqf/GPS-5242193-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb> 
+*	B3 (N): Turnover Velocity at a Glance – Benchmarking vs. Global Peers and Adjusting for New Products In light of investors’ excitement with B3 equities volumes, we add in this report more granularity on turnover velocity – how it stacks against global players and B3’s own historical average, when adjusting for new products and services launched over the last decade. Overall, our main findings: i) strong ADTV is a trend seen in most markets, although B3 seems to have benefited slightly more than the global average; ii) B3’s turnover velocity is among the highest in the world at 161% YTD, ranking 6th among the top 30 exchanges covered by WFE; 3) while turnover looks high at first glance, we see upside in what we call “core turnover,” i.e., excluding HFT, REIT, BDR and ETFs – which we estimate stands today at ~70% and similar to levels seen in 2016 crisis. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=txAN0en&sig=OYwxEoNwNnSYrYSfSiXVYrYT64m&v=2&isig=BF5YkTEUvOWm2XFs1SncdY9eS5H&url=https://markets.jpmorgan.com/research/email/scx/8gva5sko/GPS-5241811-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	America Movil (N): Desktop to Be Acquired for R$4bn; Rich Valuation But Makes Strategic Sense; Neutral, Given Small Size AMX announced an agreement for the acquisition of Desktop (DESK3, Not Covered) for an Enterprise Value of R$4bn ($753m). Valuation-wise, at 6.3x EV/EBITDA’26E, we see a 20% premium over AMX’ valuation. Strategically-wise, this deal should help to increase AMX share in the ~198 overlapping cities (which hold 33% of AMX Brazil subs) from ~12% on average today to ~42%, making it the clear leader. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=9Db2Wa9&sig=8ngbkYGduSrcreG4kMJjhKv7iT6&v=2&isig=Qgj765U7dj08Fie9eCbWJyQQC05&url=https://markets.jpmorgan.com/research/email/scx/aqiel03a/GPS-5242727-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Argentine Telcos: A Glance into the Market – Telecom Section of Argentina Country Handbook This note is the Telecom part of the Handbook, allowing easy access to telco investors. We provide the second edition of our “Glance into the Market”, containing key snapshots on the mobile and fixed business, and a brief history of the sector and of Telecom Argentina (N) . Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=8h1j8j1&sig=Dy9HvX3oYR83f0WYyDVx4vIoDjN&v=2&isig=aPwrTdoMQQfbvVkXi7PRK3PNKRw&url=https://markets.jpmorgan.com/research/email/scx/-via1v6u/GPS-5242079-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb> 
+*	Brazil Pharma and Drug Retail: IQVIA Industry Sales – Likely Suggesting GLP-1 Undersupply IQVIA data for Feb’26, published by Sindusfarma (Pharmaceutical Industry Association), point to solid LTM industry trends despite a monthly slowdown. In nominal terms, February sell‑out rose 7.5% y/y, versus 10.7% in January and 19.4% in December. In our view, while we may have some calendar impacts from Carnival, this deceleration likely suggests an undersupply of GLP‑1 drugs in early ’26. The slowdown is largely driven by reference products growth that decelerated to 5% in January and 2% in February versus +15% in 2H25. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=2ZtaaxN&sig=6vxwmYvo8fnognRNuVHOiAbsr64&v=2&isig=MMgjxrN2gYuLMOH7873bwvvFFbE&url=https://markets.jpmorgan.com/research/email/scx/ccfbt8gl/GPS-5241888-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Cemig (UW): 4Q25a: Beat in power generation Cemig’s 4Q25 results came above JPMe and consensus, with adj. EBITDA at R$1.7bn (-4% yoy, but +10% vs JPMe and +5% consensus). The beat was driven by better-than-expected margins in generation vs. our expectations of higher short positions in energy trading. We see results as neutral, as worse operational trends (costs & volumes) were offset by energy trading. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=qpBsXRQ&sig=G8eSclwPteQY8xTPlCx0yQ1ZAH9&v=2&isig=R12Pp7fctmrLEElWhFyO9MG5n5Q&url=https://markets.jpmorgan.com/research/email/scx/bk7pmnqu/GPS-5229686-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Mater Dei (N): 4Q25 — Good Operating Results In Line With Expectations Mater Dei (MATD3, N-rated) reported 4Q25 EPS at R$0.11, up from R$0.02 last year, crossing 1c above JPMe and consensus. The beat was supported by higher financial income. Still, the company continues to print good operating trends, as expected, marked by higher occupancy and operating leverage. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=MYaZMUd&sig=233J5KZFWb4MLE3EWfmM94i6AxO&v=2&isig=ShbOxL35RXpaORiSdrj5OGl0rXh&url=https://markets.jpmorgan.com/research/email/scx/-9fb5rju/GPS-5242764-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+
+  
+
+  
+
+Macro & Strategy 
+
+*	FX Markets Weekly: Oil turns up the heat on central banks & FX Outlook: We remain tactically-bullish USD, with oil encroaching $120 this week amid energy infrastructure attacks. Rates vol spiked on hawkish CB outcomes and we look for ECB/BoE hikes, but view this as a medium-term negative for EUR and GBP vs USD. Real yields have not repriced as much as nominal, which has impacted FX sensitivities to rates, as well as risks to growth from priced hikes. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=vC2tLOF&sig=FXZjm1JqnYTLswOCydGneK0DeVy&v=2&isig=AnX2Fe1RoTdY9q96a3T7deIqoCh&url=https://markets.jpmorgan.com/research/email/scx/-idnhue4/GPS-5239048-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Andean Flow of Funds: Continued Inflows Across the Andean Region In February, Chilean institutional investors showed positive flows. With US$175.7 mn of inflows into Chilean stocks, pension funds extended the positive trend in place since August last year. Compared with the prior month, inflows increased; however, the allocation to local equities declined from 10.8% to 10.3% of total AUM. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=tfkLDDF&sig=6b97xv387xKkCKxM0YFNufnM8TK&v=2&isig=05jdyGP1r3CxwwPUgLcpBwVygeS&url=https://markets.jpmorgan.com/research/email/scx/qktrnftd/GPS-5239552-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Mexico: Banxico preview - Between a cut and a hard place The guidance provided by Banxico’s board since the last monetary policy decision has suggested that the pause would be short-lived (i.e. only for February) in the context of one-off tax effects, a stronger currency and downside risks to growth. The unfolding of recent geopolitical events in the Middle East, however, has had important reverberations in global markets and has raised a number of questions ahead of the board’s March decision. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=Vnx04f_&sig=XuASz9i7S2jNmeFAujbQTm5FEkf&v=2&isig=6gCiCL0Vqg9TwcxEHzcwL3MPZtl&url=https://markets.jpmorgan.com/research/email/scx/q1nqb7e8/GPS-5240895-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Brazil weekly: The cycle and the turbulence Beyond the usual domestic considerations, the BCB will need to assess the direct inflationary effects of the oil shock, the impact on the exchange rate, any fiscal-policy response, the oil shock’s effects on the global economy, and the behavior of inflation expectations. Assuming uncertainties surrounding the conflict ease and its secondary effects on Brazil’s inflation are contained over the next 45 days, ahead of the next COPOM meeting, we believe the BCB is likely to adopt a 50 bp cutting pace going forward. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=dkKrFZ5&sig=Qkgatj69QZp52ELdPF351XC66oR&v=2&isig=OPR8jxBEWEKRkBEb9DP7TsnMVRx&url=https://markets.jpmorgan.com/research/email/scx/i9meu8oq/GPS-5239317-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Brazil: Demand-related core CPI stayed low in February Core CPI (excluding controlled and food components) ticked up from 4.2% oya in January to 4.6% in February. We viewed this increase as driven by one-offs , a conclusion reinforced by our supply and demand decomposition. We estimate that the demand-driven component was stable, staying at recent lows, and this was aided by a decline in supply-related pressures. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=ek0A3lC&sig=Bb7W3ODi4lhdA2rHqf04o7FtIOz&v=2&isig=33KP7jMUN7zrML9u2gQzckU11Af&url=https://markets.jpmorgan.com/research/email/scx/5ni2am1g/GPS-5242016-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+*	Colombia: BanRep to lean more hawkish BanRep’s March expectations survey shows 12-month-ahead median inflation expectations increasing, despite February’s downside surprise. January wage data confirm early pass‑through of the minimum wage increase. The oil shock so far translates into a positive terms of trade shock for an economy still running above its potential. We expect BanRep to lean more hawkish and deliver a 100bp hike at the March meeting. Note here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=QbfNCp_&sig=NGFkCBXWTR2i5OanHugsZlXbqHW&v=2&isig=7n1xgfVipGMRhh2r3UuobjDX79s&url=https://markets.jpmorgan.com/research/email/scx/-l50tgf6/GPS-5239971-0.pdf/b39a9a16-99a6-45c9-a058-0be5a0450edb>  
+
+  
+
+J.P. Morgan Disclaimer: http://www.jpmorgan.com/pages/disclosures/materialdisclaimer <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=nPG4w5j&sig=OMX2FYjfNQKKtwG9gVnd73p1SHQ&v=2&url=http://www.jpmorgan.com/pages/disclosures/materialdisclaimer>  
+
+You are receiving this email because you are a client of J.P. Morgan. If you would like to stop receiving the Consumer Specialist Sales Commentary please email Sophie Warrick at sophie.l.warrick@jpmorgan.com <mailto:sophie.l.warrick@jpmorgan.com>  and/or Temi Ladega at temi.ladega@jpmorgan.com <mailto:temi.ladega@jpmorgan.com> . 
+
+This material has been prepared by personnel in the Sales & Trading Department. It is a marketing communication and has not been prepared in accordance with legal requirements designed to promote the independence of Investment Research, including but not limited to the prohibition on dealing ahead of the dissemination of Investment Research. It is not a product of J.P. Morgan’s Research Department. It is not a research report, investment research or independent research and is not intended as such. 
+
+This material is subject to the disclosures available at the following site http://www.jpmorgan.com/pages/disclosures/materialdisclaimer <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=nPG4w5j&sig=OMX2FYjfNQKKtwG9gVnd73p1SHQ&v=2&url=http://www.jpmorgan.com/pages/disclosures/materialdisclaimer>  
+
+The legal person involved in the production of this/these recommendation(s) (the Recommendation(s)) is J.P. Morgan Securities plc (JPMS plc) a firm authorised by the Prudential Regulation Authority (the PRA) and regulated by the PRA and the Financial Conduct Authority. JPMS plc may not be licensed in your home jurisdiction; please refer to the Regulatory Disclosures section of https://www.jpmorgan.com/pages/disclosures <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=qmMzDMv&sig=KxqwhkDxD4rqv5HvDxqvweuLsGI&v=2&url=https://www.jpmorgan.com/pages/disclosures>  for important information. Clients should contact their salespersons at, and execute transactions through, a J.P. Morgan entity qualified in their home jurisdiction except to the extent governing law permits otherwise. 
+
+Unless stated otherwise in the body of the Recommendation(s) no material sources, valuation, methodology or proprietary models were used to produce the Recommendation(s). JPMS plc has no obligation to update the Recommendation(s). The validity period for the Recommendation(s) is short term, it will last only as long as the market conditions at the time of dissemination. Any dates and times stated in the Recommendation(s) may not be precise or exact and should be used for guidance only. Unless stated otherwise in the Recommendation(s), the date and time of dissemination are the date and time this email is sent and the date and time of dissemination is also the date and time of production. 
+
+J.P. Morgan may today, or in the future, do business that could give rise to an interest or conflict of interest concerning any issuer(s) or financial instrument(s) to which the Recommendation(s) directly or indirectly relates. Please visit 
+
+https://markets.jpmorgan.com/#disclosures.Market_Abuse_Regime <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=aNqUIuH&sig=3PuDouVQ8Gp7B4s4oUGddLFuZSh&v=2&url=https://markets.jpmorgan.com/%23disclosures.Market_Abuse_Regime>  for important disclosures relating to the Recommendation(s). 
+
+For details on how the Recommendation(s) varies from previous recommendations sent by the producer(s) of this/these Recommendation(s) please refer to Disclosure of J.P. Morgan's 12 month history of investment recommendations <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=x-H7Ire&sig=3A6dUbNjSQg8t9f1bJ8NIFosw1d&v=2&url=https://markets.jpmorgan.com/%23disclosures.Market_Abuse_Regime?disclosureId%3D136>  OR https://www.jpmm.com/specsales <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=4PXrpZ2&sig=Xhx8spcYVK5GIt5bAv1OpCD2Sm6&v=2&url=https://www.jpmm.com/specsales>  where a list of all the recommendations produced by the producer(s) of this/these Recommendation(s) in the last 12 months can be found. 
+
+The Recommendation(s) has been prepared in accordance with JPMS plc's policies for managing conflicts of interest which is available at the following link https://www.jpmorgan.com/jpmpdf/1320744577962.pdf <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=7Bax1f1&sig=9COXNacjLye6kzFkmv7dro1v8gW&v=2&url=https://www.jpmorgan.com/jpmpdf/1320744577962.pdf>  this policy describes the effective internal, organization and administrative arrangements J.P. Morgan has in place for the prevention and avoidance of conflicts of interest. The remuneration of the both the legal and natural persons involved in the production of the Recommendation(s) may be directly or indirectly tied to trading fees or other client revenue JPMS plc or any member of the J.P. Morgan group receives. 
+
+MAR Disclosure site: https://markets.jpmorgan.com/#disclosures.Market_Abuse_Regime <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=aNqUIuH&sig=3PuDouVQ8Gp7B4s4oUGddLFuZSh&v=2&url=https://markets.jpmorgan.com/%23disclosures.Market_Abuse_Regime>  
+
+  
+
+  
+
+This message is confidential and subject to terms at: https://www.jpmorgan.com/emaildisclaimer <https://jpmorgan.email.streetcontxt.net/platform/al?a=12841983&ad=4079033341&h=Tr_lFuf&sig=Gj9JKnFSj2QUmLhn2jZ8HDxWAXl&v=2&url=https://www.jpmorgan.com/emaildisclaimer>  including on confidential, privileged or legal entity information, malicious content and monitoring of electronic messages. If you are not the intended recipient, please delete this message and notify the sender immediately. Any unauthorized use is strictly prohibited.
+
+
+
+Unsubscribe from this distribution 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ <https://jpmorgan.email.streetcontxt.net/platform/i/9VVYd5MKnneO62Uoca3mjV8XvrD7mjDCs3aNFNRxJ6AQujLByJt33YaUMYhutx8lvuMdx9WSrYYzNC6aYvTZZfqPA6qXG0iMDmkB58OpqJME46qF4DGxHHoy996jOd7x>  <https://jpmorgan.email.streetcontxt.net/r/i/9VVYd5MKnneO62Uoca3mjV8XvrD7mjDCs3aNFNRxJ6AQujLByJt33YaUMYhutx8lvuMdx9WSrYYzNC6aYvTZZfqPA6qXG0iMDmkB58OpqJME46qF4DGxHHoy996jOd7x> <https://jpmorgan.email.streetcontxt.net/platform/hl?a=12841983&ad=4079033341&sig=R954FEnjM6qyaKtTV4nJEBSpc8x>

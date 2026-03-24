@@ -1,0 +1,87 @@
+Subject: ENC: Macroeconomic Research   - Argentina - Economic Activity: Growth in 2025 confirmed at 4.4%, but investment disappointed (BTG Pactual's Borenstein/Ordonez)
+From: BTG Pactual
+Date: 2026-03-23T14:30:08
+Sector: Macro
+Companies: 
+============================================================
+
+________________________________
+
+De: BTG Pactual Macro Research <sh-btgpactualmacroresearch@btgpactual.com>
+Enviado: segunda-feira, 23 de março de 2026 14:30:00 (UTC-03:00) Brasilia
+Assunto: Macroeconomic Research - Argentina - Economic Activity: Growth in 2025 confirmed at 4.4%, but investment disappointed (BTG Pactual's Borenstein/Ordonez)
+
+
+
+ 
+
+
+BTG Pactual | Macro Research 
+
+
+Macro High Frequency Note 
+
+
+Macroeconomic Research - Argentina - Economic Activity 
+
+
+23-March-2026 
+
+
+ 
+
+
+Growth in 2025 confirmed at 4.4%, but investment disappointed 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118906>  
+
+GDP grew 4.37% in 2025, roughly in line with the 4.4% implied by the monthly activity indicator. In Q4, the economy expanded 2.06% y/y (against 2.18% implicit in monthly numbers) while the quarterly expansion was 0.62%, not annualized, so a speed of around 2.5%.
+
+Chart 1: Growth y/y 2024, 2025, and expected for 2026 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774286914025.png> 
+
+Source: INDEC, BTG Pactual 
+
+While the headline number was in line, there were several surprises in the composition of GDP. Consumption did quite well, but investment disappointed in the fourth quarter. Despite main street complaints about stagflation, consumption rose by 4.1% y/y and 1.71% q/q in the last part of the year, a speed of almost 7%. Investment fell by 2.05% y/y and, more worryingly, 2.8% q/q.
+
+Consumption was quite surprising, as the conventional wisdom among Argentines is that consumption is the economy’s weakest link. They are not totally wrong. Two factors contrast GDP numbers with the feeling on the street. Firstly, there is an important change in consumption patterns. Concerts, sports-related activities, and travel are all on the rise, while supermarket sales are indeed flat. Secondly, there seems to be a huge disparity: the bottom and the top of the pyramid are doing well, while the middle class is struggling with job losses in manufacturing and above-inflation increases in utilities and transport. And that part of society is more vocal than the poorest and the richest. With these numbers, the carry-over effect for 2026 in consumption is 1.4%. We are forecasting a growth rate of 3%, which does not seem to be a tough target. If credit starts moving up in Q2 (as we think), growth will not disappoint.
+
+On the other hand, investment was way weaker than we expected. Still, the year closed with 16.4% growth, but that was only because the bar set in 2024 was too low. Even though we are hopeful about a resumption of investment, the latest numbers forced us to reduce the expected growth in investment to 10.5% from 13% in our previous forecast. Part of the problem was that construction was lower than expected. We are expecting a much better 2026 for construction. The 2025 level is 10% below the 2023 level. So, it shouldn't take much to grow by around 7% this year. There are a few public works in energy and mining, some provincial private works, and a timid recovery in residential projects. The City of Buenos Aires is also visibly engaged in more infrastructure projects. 
+
+Argentina needs to invest more to grow sustainably. Using 2004 prices, investment to GDP is a decent 19.6%, but that account is unreliable, as the set of relative prices from 21 years ago does not reflect today’s reality very well. Using current prices, Argentina invested 16% of GDP in 2025, too low for a transformation process. We need patience here as well. If most of the projects that applied for RIGI materialize and, in turn, generate enhancements in the value chains, we think that investment-to-GDP will approach 20%, but it will not happen this year or next. 
+
+Exports are 38% higher than when Milei took over. This is partly oil, but it is broader than that and includes services exports too. We are assuming exports will grow 14% in 2026. The carryover effect provides half of that, so again, not a too stringent goal. Imports are on a roller coaster. They grew sharply with the liberalization of the gridlock imposed by the previous government, but then they softened. There are two components. Imports of services are still strong, with a record number of Argentines travelling abroad thanks to an appreciated currency. Imports of goods were like a gold rush in the second half of 2024 and the first half of 2025, and that overreaction left many businesses with excess stocks, so the procession to China to buy goods eased considerably in the last few months. Still, we think import growth will resume in 2026. More Argentines will travel abroad and, as inventories clear, imports will take off in Q2 or more likely in Q3. But given that there is no carryover, the 12% growth is on the optimistic side. Fewer imports will lead to a higher GDP, though. 
+
+Analyzing national accounts by sector, the biggest winners of Q4 were financial intermediation (+17.1%), agriculture & livestock (16.1%), and fisheries (10.6%). On the negative side, manufacturing takes all the flashes at -5%, followed by retail at -2.2%. This pair employs roughly one-third of total formal private employment. So, it is easy to see why, despite reasonable macro data, the mood in the streets of Argentina is not so upbeat. But there is regional disparity. The interior is happy, and the outskirts of Buenos Aires are worried. The consumer confidence gap between the interior and the Greater Buenos Aires area reached an all-time high in March. 
+
+The close of 2025 showed that it was the year of financial intermediation. Banks probably overdid it, as NPLs in the household segment have skyrocketed. They seem to have stabilized in Q1 2025, so we expect another good year, but nowhere near the 24.7% of last year. On the other side of the counter, fisheries lost 15% of its value added. There are two issues at play here. The shrimp business stagnated, partly due to competition from Ecuador. Secondly, there was a huge strike in the winter. Construction disappointed with just 4.3% growth, after losing 17 points in 2024. 
+
+The Argentine economy is belatedly transforming itself into a more modern structure. This naturally generates pain in some agents. Just to put things in perspective, in 2004, goods represented 43.7% of total value added. In 2025, they had come down to 37.5%. They will likely have to give more room to services. And if the trend is not stronger, it is because the rise of Vaca Muerta and, to a lesser extent, mining, will offset the decline of manufacturing. Agriculture may also have a better outlook, but it is limited by productivity gains, as Argentina will not incorporate too much new land into the production process. 
+
+A simple comparison of 2025 to 2015 shows that manufacturing lost a huge share of value added, from 20.8% to 18.2%, which is defined as GDP minus taxes net of subsidies. Construction lost 50 bps of market share, while agriculture & livestock lost 20 bps and retail lost 30 bps. Who increased their share then? The extractive sector moved from 3.8% to 5% of value added. The other big winner was corporate services, which includes everything from rentals, IT, lawyers, accountants, and research. The sector jumped from 12 to 14%. This is the result of an export-led growth, as Argentina has become a player in the outsourcing business, today a bit less buoyant given the currency appreciation, but with good prospects nonetheless. Unsurprisingly, education and health have gained market share. While demographics helps health spending and puts pressure on schools, private universities have been expanding in the last decade.
+
+Andres Borenstein 
+Argentina - BTG Pactual 
+andres.borenstein@btgpactual.com <mailto:andres.borenstein@btgpactual.com>  
++54 11 3754 0908 
+
+Sofia Ordonez, CFA 
+Argentina - BTG Pactual 
+sofia.ordonez@btgpactual.com <mailto:sofia.ordonez@btgpactual.com>  
++54 11 3754 0913 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118906>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118906> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng4LQE-2BzkrQUgvfJ3QiVbibIEWbGEJYPzV6i1FledO4gBTWoPelXrXRH97LnOs2d7lx7OmWlS4ywwwdEQDx3WpoC6E4BCCIuUsHXwHFHq9Q8TWrD2w7NbSsGiLNq-2BV4IFlQad2t4ct972tfVr113ORzJ3TV5M-2F7owliRoIbMUSTnuIPGK-2BEJxvwdyAyPAtxxa84-3D>

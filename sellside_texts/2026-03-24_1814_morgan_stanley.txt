@@ -1,0 +1,177 @@
+Subject: ENC: INSIGHT: Global Technology and Telecom: AlphaWise Smartphone Survey: Positive Results, But a Tough 2026 Ahead
+From: Morgan Stanley
+Date: 2026-03-22T18:14:56
+Sector: TMT
+Companies: 
+============================================================
+
+________________________________
+
+De: Erik W Woodring <Erik.Woodring@morganstanley.com>
+Enviado: domingo, 22 de março de 2026 18:14:22 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: INSIGHT: Global Technology and Telecom: AlphaWise Smartphone Survey: Positive Results, But a Tough 2026 Ahead
+
+
+
+	 
+	 
+ 	
+	 
+Global Technology and Telecom 	
+AlphaWise Smartphone Survey: Positive Results, But a Tough 2026 Ahead	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/d32a0084-ecee-11f0-8a03-5a5a8f90e031?t=1774213484:7489:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 99 Pages) 	
+Industry View   Cautious
+
+Erik W Woodring, Dylan Liu, Shawn Kim, Charlie Chan, Sharon Shih, Andy Meng, CFA & 5 more...	 
+March 22, 2026
+
+	
+	 Our Global Smartphone Survey points to record 2026 upgrade rates, led by Apple vs. Android weakness, though memory headwinds are likely to dampen overall demand. We cut 2026 global shipments to -13% Y/Y and highlight favored vs least-favored smartphone stocks, preferring Apple over Android. 
+Key takeaways	 
+
+*	A constructive smartphone survey at first blush, with N12M upgrade rates in US and China hitting all-time highs, signaling faster replacement cycles ahead. 
+*	However, Apple is only major brand positioned to benefit/gain share due to 1) new and advanced features, 2) better device quality, and 3) upgrade eligibility. 
+*	Further, unprecedented memory inflation is set to push prices higher; lower brand loyalty & greater demand elasticity leave Android more vulnerable vs Apple. 
+*	As a result, we are reducing CY26 smartphone shipments to 1.1B (from 1.3B), or -13% Y/Y, materially below prior, with Android -15% Y/Y and Apple -2% Y/Y. 
+*	We also identify 16 stocks that will benefit from Apple outperformance vs. Android, as well as 10 "most challenged" names across Android OEM and supply chain. 
+
+An unexpectedly positive smartphone survey at first glance, but largely a function of Apple strength offsetting Android weakness, with memory inflation likely to significantly dampen smartphone market demand prospects in 2026 and beyond. At first look, our late-2025 AlphaWise Global Smartphone Survey screens positively, with upgrade rates in the US and China — the world's two largest smartphone markets — expected to improve Y/Y and reach all-time survey highs in 2026, implying smartphone replacement cycles accelerate to a 10-year low (Exhibit 1 and Exhibit 2). However, the takeaways are more nuanced. Apple is the only major global smartphone vendor expected to gain share in 2026, as iPhone switching rates reach a 5-year high, suggesting Android vendors are unlikely to benefit from improving upgrade rates. Furthermore, we expect unprecedented memory cost inflation to negatively impact global smartphone demand in 2026 as device prices move notably higher — a dynamic not fully captured in our survey work — but for this to disproportionately impact Android vendors given lower brand loyalty and greater price elasticity of demand than iPhone. As a result, we are making two global calls with this report and our accompanying Greater China Smartphone report <https://ap-preview.webfarm.ms.com/eqr/article/webapp/9ac20138-fb44-11f0-8bb0-3a84fbe785bc> : (1) cutting our global smartphone shipment forecast to 1.1B units in CY26 and 1.14B units in CY27 (-13% Y/Y and +3% Y/Y respectively), down from 1.3B units (+3% Y/Y) in CY26 and 1.31B units (+1% Y/Y) in CY27, and (2) communicating a relative preference for Apple and Apple supply chain stocks over Android OEMs and their associated supply chains in 2026.
+
+Global smartphone: A growing percentage of smartphone owners in the US (+3pts Y/Y) and China (+8pts Y/Y) are extremely likely to upgrade their devices over the next 12 months, resulting in a blended average upgrade intention of 43% (+5pts Y/Y), an all-time survey high, despite deteriorating upgrade intentions in EMEA 
+ 
+Source: AlphaWise, Morgan Stanley Research. 
+Global smartphone: Our latest survey data implies that smartphone replacement cycles would contract by 0.3 years Y/Y in 2026… 
+ 
+Source: AlphaWise, Morgan Stanley Research estimates. 
+
+What did we learn from our Fall 2025 AlphaWise Global Smartphone Survey that influences our views? Four key takeaways:
+
+1.	Global smartphone upgrade rates are expected to improve meaningfully Y/Y in 2026… Our 2025 AlphaWise Smartphone Survey indicates that US and China upgrade rates over the next 12-months are expected to expand 3 points Y/Y and 8 points Y/Y, respectively, with both markets reaching all-time survey highs. In contrast, upgrade rates in EMEA (i.e. the UK and Germany) are expected to deteriorate 3-6 points Y/Y. On a global blended basis, this implies 2026 smartphone upgrade rates improving by 5 points Y/Y to 43%, also an all-time survey high. This translates into a 0.3-year contraction in replacement cycles in 2026, the strongest since 2024.
+2.	…however, upgrade strength is driven primarily by iPhone, with nearly all Android brands expected to lose share in 2026. This is evidenced by net switching rates — among the major smartphone brands surveyed, Apple remains the only brand with both a positive and improving Y/Y net switching rate. Apple's net switching rate improved by 5 points Y/Y to 11%, a 5-year high (Exhibit 3). All other major smartphone brands, with the exception of Google, exhibit negative net switching rates, implying that Apple is positioned to be the clearest market share beneficiary in 2026, while Android vendors are likely to lose share. Why? Among prospective US smartphone upgraders, advanced features and upgrade eligibility are the two reasons where Apple leads peers (Exhibit 4). Among prospective China smartphone brand switchers, better overall device quality is the #1 reason why smartphone owners in China are switching to the iPhone (Exhibit 5).
+3.	Access to Generative AI features remains a top‑5 driver of smartphone upgrades. Access to GenAI features ranked #4 among global smartphone owners’ reasons for upgrading over the next 12 months, unchanged Y/Y (Exhibit 6). Together with rising stated importance of AI features in the US, the data suggests AI capabilities continue to influence upgrade decisions. However, iPhone owners’ perception of Apple Intelligence deteriorated Y/Y, with its ranking as an upgrade driver slipping from #5 last year to #7 this year (Exhibit 7). The US showed the largest deterioration, falling from #5 to #9, indicating Apple has yet to deliver the AI functionality that consumers expect and desire from their smartphone vendor.
+4.	Outside of AI, smartphone upgrade drivers remain broadly stable Y/Y. The desire to own (1) a newly released smartphone model and (2) a device with more advanced features continue to rank as the #1 and #2 upgrade drivers this year. Camera capability gained importance Y/Y, while battery life slipped slightly, though both remain within the top‑5 drivers. New form factors (e.g., ultra‑thin designs) ranked as the #6 upgrade factor, lower than in prior years, likely reflecting trade-offs with camera and battery performance.
+
+… but the strength appears to be driven primarily by Apple, the only smartphone brand with a positive and an improving global net switching rate 
+ 
+Source: AlphaWise, Morgan Stanley Research. Note: We added the UK and Germany (alongside the US and China) to our 2024 and 2025 weighted average survey results. 
+Among smartphone upgraders, advanced features and upgrade eligibility are the two reasons where Apple leads peers as top reasons for upgrade 
+ 
+Source: AlphaWise, Morgan Stanley Research. 
+Better overall quality is the #1 reason why smartphone owners in China switch brands 
+ 
+Source: AlphaWise, Morgan Stanley Research. 
+AI is still a top-5 reason for upgrading a smartphone, but without major advances in Edge AI or true personalized digital assistants, we’re not seeing much change in interest 
+ 
+Source: AlphaWise, Morgan Stanley Research. 
+AI remains a less important (ranked #13) reason for switchers to change smartphone brands 
+ 
+Source: AlphaWise, Morgan Stanley Research. 
+
+That said, what our survey doesn't fully capture is the impact that unprecedented memory inflation is likely to have on global smartphone demand, where we are turning increasingly cautious. Our AlphaWise Global Smartphone Survey was fielded from September to October 2025, before concerns about memory supply and cost inflation were well understood by consumers. Since then, multiple reports have surfaced of Asia-based smartphone OEMs nixing new launches (here <https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out?utm_source=chatgpt.com>  and here <https://www.techradar.com/pro/asus-will-no-longer-add-new-mobile-phone-models-in-the-future-ceo-confirms-no-more-zenfone-or-rog-smartphones-are-coming-as-it-pivots-to-focus-on-ai-products?utm_source=chatgpt.com> ), while key smartphone component suppliers have recently cautioned on the impact of memory cost inflation on demand (more here <https://www.barrons.com/articles/qualcomm-stock-price-arm-adr-65f673a2?utm_source=chatgpt.com> ). Put simply, memory cost inflation is likely to drive significant price hikes across all smartphone vendors, with lower-end OEMs bearing the brunt given much narrower margins than premium vendors such as Apple (Exhibit 8 and Exhibit 9). While we see demand elasticity as a global phenomenon and the key driver behind our decision to cut our CY26 smartphone shipment forecast to -13% Y/Y (from +3% Y/Y), we expect Apple to materially outperform Android, with iPhone shipments declining just 2% Y/Y in CY26 (impacted by new model launch timing) vs. Android shipments down 15% Y/Y.
+
+Apple has higher gross margins for iPhones, leading to a lower impact to margins when memory costs are surging… 
+ 
+Source: Company data, Morgan Stanley Research estimates. 
+… this also means that Android OEMs, whose smartphone COGS are lower than that of iPhone, will see a larger magnitude of cost increases without meaningful memory de-spec'ing. 
+ 
+Source: Company data, Morgan Stanley Research estimates. 
+
+This magnitude of Android declines is supported by our latest supply chain checks, which point to a mid-teens Y/Y decline in Android smartphone shipments in CY26. Checks across multiple major component suppliers indicate 20%+ Y/Y shipment declines for most Android brands in 2026, with Samsung the notable exception, where sufficient memory supply supports single‑digit Y/Y growth (vs. MSe +5% Y/Y). Combined with our forecast for a 2% Y/Y decline in iPhone shipments in CY26, primarily reflecting a change in new iPhone model launch timing, with 50% of new models pushed to Spring 2027 from Fall 2026, we expect total 2026 smartphone shipments of 1.1B units, or ‑13% Y/Y (‑15% Y/Y for Android). These sharp unit declines largely reflect materially higher device pricing intended to partially offset surging memory costs, which is why our 2026 Android smartphone revenue forecast declines a more modest -5% Y/Y (from +9% Y/Y; Exhibit 10 and Exhibit 11).
+
+We expect Android smartphone shipments to decline 13% Y/Y (vs. 2% Y/Y for iPhone) in CY26, due primarily to demand destruction amidst price hikes to mitigate rising cost pressures 
+ 
+Source: Company data, IDC, Morgan Stanley Research estimates. Note: iOS (iPhone) ASP and revenue here could be different from our AAPL model as the figures here are based on IDC's revenue estimates in CY25 along with our iPhone ASP growth forecasts in CY26. 
+Taken together, we expect global smartphone shipments to decline 11% Y/Y, with North America outperforming ROW as it's over-indexed to iPhones 
+ 
+Source: IDC, Morgan Stanley Research estimates. 
+
+On the back of this report, we are identifying 16 most-favored and 10 least-favored smartphone exposed stocks, with a clear preference for Apple over Android. In conjunction with our AlphaWise Global Smartphone survey, we highlight 16 EW or OW-rated stocks that we see as key beneficiaries of iPhone demand strength in 2026 vs. 10 EW or UW-rated stocks that we see as more challenged given their skew towards Android smartphone OEMs (Exhibit 12). Furthermore, alongside this report, our colleague Andy Meng is downgrading Sunny Optical (2382.HK) and Transsion (688036.SS) from OW to EW, and cutting estimates/price targets on over 10 smartphone-exposed stocks within his Greater China Technology Hardware coverage <https://ap-preview.webfarm.ms.com/eqr/article/webapp/9ac20138-fb44-11f0-8bb0-3a84fbe785bc> .
+
+We favor Apple supply chain over Android stocks in our Morgan Stanley global TMT coverage 
+ 
+Source: FactSet, Morgan Stanley Research estimates. Nots: Share price is based on 3/19/2026 close. 
+
+AlphaWise Survey Methodology: Online survey among ~2,000 18+ year old consumers per country in the U.S. and China, and ~1,500 per country in the U.K. and Germany, conducted during September 25th – October 22nd, 2025. The US, UK and German samples are representative of the general population in terms of age, gender and region in the respective countries. For China, the sample has expanded coverage since ’21 to include Tier 3 cities which are typically less developed than Tier 1 & 2 cities. We would note that the China sample skews younger, more affluent cohorts than the national population. The margin of error on the total sample is ±1.8% in the U.S./China and ±2.1% in the U.K./Germany at 90% confidence level; higher for subgroups. Comparable findings are trended to the Fall 2021-2024, and Spring 2021, 2020, 2017 and surveys. Read more... <https://ny.matrix.ms.com/eqr/article/webapp/d32a0084-ecee-11f0-8a03-5a5a8f90e031?t=1774213484:7489:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+
+	
+Authors	 
+	 Morgan Stanley & Co. LLC
+
+Erik W Woodring
+
++1 212 296-8083       EMAIL <mailto:Erik.Woodring@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley & Co. LLC
+
+Dylan Liu
+
++1 212 761-4519       EMAIL <mailto:Dylan.Liu@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley & Co. International plc
+
+Shawn Kim
+
++44 20 7677-1018       EMAIL <mailto:Shawn.Kim@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley Taiwan Limited
+
+Charlie Chan
+
++886 2 2730-1725       EMAIL <mailto:Charlie.Chan@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley Taiwan Limited
+
+Sharon Shih
+
++886 2 2730-2865       EMAIL <mailto:Sharon.Shih@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley Asia Limited
+
+Andy Meng, CFA
+
++852 2239-7689       EMAIL <mailto:Andy.Meng@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley & Co. LLC
+
+Joseph Moore
+
++1 212 761-7516       EMAIL <mailto:Joseph.Moore@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley Asia Limited
+
+Gary Yu
+
++852 2848-6918       EMAIL <mailto:Gary.Yu@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley MUFG Securities Co., Ltd.
+
+Shoji Sato
+
++81 3 6836-8404       EMAIL <mailto:Shoji.Sato@morganstanleymufg.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley & Co. International plc
+
+Lee Simpson
+
++44 20 7425-3378       EMAIL <mailto:Lee.Simpson@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+	 Morgan Stanley & Co. LLC
+
+Blake Netter, CPA
+
++1 212 761-4679       EMAIL <mailto:Blake.Netter@morganstanley.com?subject=Re:INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+ <https://ny.matrix.ms.com/eqr/research/portal/home/global> 	
+Remove me from this distribution <mailto:Erik.Woodring@morganstanley.com?subject=Please remove me from this distribution : INSIGHT%3A%20Global%20Technology%20and%20Telecom%3A%20AlphaWise%20Smartphone%20Survey%3A%20Positive%20Results%2C%20But%20a%20Tough%202026%20Ahead> 
+
+For important information including analyst certification and disclosures regarding specific companies, derivatives, or other instruments discussed in this e-mail, please refer to the latest research report, if attached and/or hyperlinked to this email, or by logging on to Morgan Stanley's Matrix portal at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> . You may also refer to the Morgan Stanley Research Disclosure Website at http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch <http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch> .
+
+Morgan Stanley will make certain research products and announcements available only on Morgan Stanley's Matrix platform. For access to Matrix, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> .
+
+Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act. If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Mistransmission is not intended to waive confidentiality or privilege. Morgan Stanley reserves the right, to the extent permitted under applicable law, to monitor electronic communications. This message is subject to terms available at the following link: http://www.morganstanley.com/disclaimers <http://www.morganstanley.com/disclaimers> . If you cannot access these links, please notify us by reply message and we will send the contents to you. By messaging with Morgan Stanley you consent to the foregoing.
+
+© 2026 Morgan Stanley. All rights reserved	 
+
+ <https://linkback.morganstanley.com/web/sendlink/webapp/f/6b0tlb3g-3s96-g001-bead-6793813f16fc?store=0&d=UwBCbGFzdG1haWwAYm1fdHJhY2tpbmdfaW1n&user=ib_4_1hj6n6yp8y675_ZTg3NDZhMTBfc2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy&__gda__=1868822062_71749e9bfa7ba5b0bb938b2c01171b33>

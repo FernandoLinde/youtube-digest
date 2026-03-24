@@ -1,0 +1,107 @@
+Subject: ENC: America Movil (Buy): AMX Claro to acquire Brazil's ISP Desktop for an EV of R$4bn (BTG Pactual's Sequeira/Carfi/Ferreira)
+From: BTG Pactual
+Date: 2026-03-23T09:27:35
+Sector: TMT
+Companies: AMX3, DESK3
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deCarlos Sequeira <carlos.sequeira@btgpactual.com>
+Enviado: segunda-feira, 23 de março de 2026 09:27:25 (UTC-03:00) Brasilia
+Assunto: America Movil (Buy): AMX Claro to acquire Brazil's ISP Desktop for an EV of R$4bn (BTG Pactual's Sequeira/Carfi/Ferreira)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Company Note - Mexico - Telecom & Technology 
+
+
+America Movil (Buy Rating; TP: MXN 20.00) 
+
+
+23-March-2026 
+
+
+ 
+
+
+AMX Claro to acquire Brazil's ISP Desktop for an EV of R$4bn 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118893>  
+
+AMX announced yesterday it has entered into a share purchase agreement with Desktop's controlling shareholders (private equity fund H.I.G. and founders) involving the acquisition of ~73% of the company’s capital in a full change-of-control transaction. The price is based on an enterprise value of R$4bn (6.1x 2025 EBITDA), from which the company’s net debt at closing will be deducted to determine the final equity value. Based on 3Q25 figures, on which the transaction was structured (net debt of R$1.59bn), the implied equity value would be R$2.41bn, resulting in a price per share of R$20.82 (upside of 44%).
+
+The closing of the transaction is subject to regulatory approvals from CADE and ANATEL. The timing for closing is quite uncertain, given the overlap in market share between both players in the cities where they operate (more on this below), and the price will not be adjusted by local ST rates (CDI). This makes the setup less attractive for arbitrage funds and should lead Desktop to trade at a wider discount to the final offer price compared to more straightforward transactions. That said, as we already saw in 4Q25, we expect Desktop to fully prioritize cash flow generation, which could help increase the final price.
+
+Following the closing of the transaction between Claro and Desktop’s controlling shareholders, Claro will file for a mandatory tender offer to acquire the minority stake, under terms at least equivalent to those offered to the controlling shareholders.
+
+Strategically important to Claro Brasil, but small to AMX
+
+The deal is strategically important for Claro, in our view. The company is the leading broadband operator in Brazil, although a significant portion of its customer base is still connected via hybrid fiber-coaxial (HFC), a technology that is inferior to fiber - only 2.7mn of Claro’s 10.7mn broadband subscribers are currently on FTTH (25%).
+
+AMX has been accelerating the migration of its HFC customer base to FTTH in order to defend its footprint against pure fiber players. The acquisition of Desktop should further support this transition, as the company brings 1.2mn FTTH subscribers and a fiber infrastructure that Claro can immediately leverage to migrate customers away from its legacy network. Desktop’s customer base represents ~11% of Claro’s total base and would increase its FTTH subscribers from 2.7mn to ~3.9mn.
+
+It also importantly consolidates the São Paulo broadband market, by combining Claro (the #2 player with a 28% share) with Desktop (#3, with a 7.5% share), and becoming the largest player in the state ahead of Vivo (31% share). That said, given the high market concentration in a few cities (more on that below), we would expect the regulators to impose some remedies to approve the transaction. By buying Desktop, AMX also closes an important door for newcomers to this market. It also limits TIM's options to gain access more quickly to fiber broadband in São Paulo. While there are other options available, including organic expansion, Desktop was the best alternative in our view.
+
+While strategically relevant for Claro, the transaction is relatively small for AMX and should have a limited impact on leverage. We estimate AMX’s consolidated net debt-to-EBITDA would increase from 1.52x to 1.55x post-deal. That said, it reinforces management's comment on 4Q25 earnings conference call that the company would continue to entertain opportunities to consolidate the Latin America telecom market.
+
+While we do not anticipate any big M&A deals ahead, this transaction reminds us that AMX can look at other ISPs in Brazil, or pieces of Telecom Argentina's business, or engage in consolidation discussions in Chile. It also indicates that to keep its balance sheet flexible for possible new transactions, AMX may keep its cash back to shareholders (via dividends and buybacks) limited to a cash back yield in the 4% to 5% range.
+
+A closer look at market concentration
+
+Claro is the leading broadband provider in Brazil, with ~20% market share (vs. ~15% for Vivo and ~2% for Desktop). Focusing only on FTTH, Claro’s market share drops to ~6.6% (while Desktop reaches ~3%), with Vivo leading at ~19%.
+
+In the state of São Paulo, Claro holds ~28% market share, while Vivo leads with ~31% and Desktop has ~7.4%. Looking only at FTTH, the picture changes meaningfully: Vivo leads by a wide margin with ~42% market share, while Desktop has ~11% and Claro ~8%.
+
+Below we highlight Desktop’s top 25 cities, which together account for ~57% of its total customer base. In these markets, Desktop holds a market share above 60% in 8 cities and above 50% in 18 of them.
+
+Market share in selected cities 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774268628377.png> 
+
+However, when we look only at fiber clients, the overlap dynamics change materially. Desktop + Claro would have more than 50% combined share only in 7 of the top 25 cities.
+
+FTTH market share in selected cities 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774268628398.png> 
+
+Across all 198 cities where Desktop operates, including smaller markets, the combined Desktop + Claro entity would reach a ~41% market share, versus ~33% for Vivo. The combined operation would have a market share above 50% in 64 out of 198 cities (and above 60% in 33 cities).
+
+Looking only at FTTH, Claro + Desktop would have ~16% market share across these cities, compared to ~32% for Vivo. Even so, the combined entity would still hold a market share above 50% in 49 cities.
+
+Positive cross-read for Unifique
+
+Today’s transaction naturally has a very positive cross-read for Unifique, which also operates in a highly strategic and attractive region and benefits from a top-tier network with the lowest churn in the sector. Applying the same 6.1x 2025 EBITDA multiple implied by today’s transaction to Unifique would result in an enterprise value of R$3.7bn and an equity value of R$3.3bn (R$9.35 per share), implying ~65% upside from the last closing price.
+
+Carlos Sequeira, CFA 
+New York – BTG Pactual US Capital LLC 
+carlos.sequeira@btgpactual.com <mailto:carlos.sequeira@btgpactual.com>  
++1 646 924 2479 
+
+Osni Carfi 
+Brazil – Banco BTG Pactual S.A. 
+osni.carfi@btgpactual.com <mailto:osni.carfi@btgpactual.com>  
++55 11 3383 2634 
+
+Bruno Ferreira 
+Brazil – Banco BTG Pactual S.A. 
+bruno-f.ferreira@btgpactual.com <mailto:bruno-f.ferreira@btgpactual.com>  
++55 11 3383 1419 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118893>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118893> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng456OsaqJ9YYOpoHqWaBC9hDxh1ilGQBM-2BL2l6cG34gxx34aU8Fhrm3nojqqwMDKtl45axc58Vzs-2Fk7UskvSatwLYpnO0yfoWmn5waANlpKN2rnN2SZ1r4X23UvNgzwIGrPXWkaLMGihoG-2FPCe6oeddx0O3L730riu41pOJRrOplmZOJ-2FrOkPWJ0c0Pwifg9Tw-3D>

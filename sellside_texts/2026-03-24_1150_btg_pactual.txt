@@ -1,0 +1,148 @@
+Subject: ENC: LatAm Oil & Gas: Daily Fuel | March 23rd, 2026 (BTG Pactual's Almeida/Cunha/Guardiola/Muñoz/Leyva)
+From: BTG Pactual
+Date: 2026-03-23T11:50:40
+Sector: Oil & Gas
+Companies: UGPA3, VBBR3, PRIO3, BRAV3
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deRodrigo Almeida <rodrigo-r.almeida@btgpactual.com>
+Enviado: segunda-feira, 23 de março de 2026 11:50:31 (UTC-03:00) Brasilia
+Assunto: LatAm Oil & Gas: Daily Fuel | March 23rd, 2026 (BTG Pactual's Almeida/Cunha/Guardiola/Muñoz/Leyva)
+
+
+
+ 
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - LATAM - Oil & Gas 
+
+
+LatAm Oil & Gas 
+
+
+23-March-2026 
+
+
+ 
+
+
+Daily Fuel | March 23rd, 2026 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118903>  
+
+FUELS: Better Volumes for UGP/VBBR in Feb.; PRIO: Wahoo 1st Well; BRAV: PPT; UNIP 4Q25 Call Highlights
+
+Dear Investor, please find below the most relevant news for the LatAm Oil & Gas sector, with implications for the regional stocks. In this report, you can also find a comparables table for the stocks under our coverage.
+
+ 
+
+Company News
+
+ 
+
+(=/+) VIBRA/ULTRAPAR: Ipiranga Continues to Outperform in February; Vibra is Also Doing Well. Fuel distribution data for February 2026 has been released by ANP, showing (i) a small sequential gain in market share for Ipiranga and (ii) stable market share for Vibra in February. In the consolidated figures, Ipiranga gained 18 bps MoM in market share, while Vibra remained stable. In diesel, both lost market share (-21 bps MoM for Ipiranga and -27 bps for Vibra). In the Otto cycle, the companies stood out - Ipiranga gained 58 bps MoM and Vibra gained 23 bps MoM. Volumes - In the consolidated figures, Ipiranga grew volumes by 8% YoY and Vibra grew by 4% YoY. In diesel, Ipiranga gained 5% in volumes YoY, while Vibra remained flat YoY. In the Otto cycle, Ipiranga increased by 11% YoY and Vibra grew by 10% YoY.
+
+Our take: For 1Q26, we see companies well-positioned to deliver EBITDA margins close to R$200/m³. This is due to a March (and half of February...) with a closed import window for diesel, which favors incumbents. Margin gains, but with working capital consumption, could lead to a significant cash burn in 1Q26 (we will explore this topic further soon). We maintain our preference for fuel distribution exposure through Ultrapar, given its more diversified portfolio and less volatile earnings/FCF outlook.
+
+Figure 1: Fuel Distribution Summary Table 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774277352556.png> 
+
+Source: ANP, BTG Pactual 
+
+Figure 2: Market Share - Consolidated (B2C + B2B) 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774277352570.png> 
+
+Source: ANP, BTG Pactual 
+
+(=/+) PRIO: Announced that the first well at the Wahoo field has reached stabilized production of ~12kbpd, with ramp-up progressing as planned to ~40kbpd by end-April as additional wells come online. ( PRIO, Ri <https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/324bde85-af10-83e8-94db-251931f707fd?origin=2> )
+
+Our take: We maintain our view of ~40 kbpd total field output, noting that the first and fourth wells have the lowest net pay, while the second and third have higher net pay. Well #1 + #2 should deliver ~20 kbpd combined, with Well #3 + #4 making up the remaining ~20 kbpd.
+
+(+) BRAVA: CADE approved Brava Energia’s acquisition of Nova Técnica Energy’s 37.5% stake in Papa-Terra, which, pending ANP approval, would bring Brava to 100% ownership of the field. The transaction stems from contractual enforcement due to NTE’s financial default and involves no cash consideration, though it remains subject to arbitration. (Brasil Energia, Mar 20 <https://brasilenergia.com.br/petroleoegas/empresas/cade-aprova-aquisicao-da-parcela-da-nte-em-papa-terra-pela-brava> )
+
+Our take: Although still not a final decision, we see this positively as it could materially increase the likelihood of 100% consolidation, especially as we expect Brava to begin the drilling of two new wells in PPT in the near term. Given that we already expected Brava to make the full capex/opex for PPT, the full ownership could strengthen cash generation at a time when 2026 FCFE generation remains tight. On our estimates, assuming full consolidation and excluding ~R$0.9/sh in receivables, our TP could rise by ~R$2.8/shto R$25.8/sh (vs. R$23/sh currently). See ("Set to Incorporate the Remaining of Papa-Terra <https://www.btgpactual.com/research/report-view/118018> ")
+
+VIBRA: Doubled diesel imports for April to secure supply, responding to reduced allocations from Petrobras and tighter global markets amid Middle East disruptions. While the company reassured no shortages at Petrobras-branded stations, it acknowledged lower inventories and higher costs, with import parity currently ~R$2.5/l above Petrobras prices—well above the R$0.32/l government subsidy. ( Folha, Mar 20 <https://www1.folha.uol.com.br/mercado/2026/03/vibra-dobra-importacao-de-diesel-para-abril-e-nao-deixara-faltar-produto-em-sua-rede-diz-ceo.shtml> )
+
+Our take: We believe the current market dislocation, driven by Petrobras pricing ~30% below import parity, is creating a challenging near-term setup for the sector (i.e., fewer imports and lower supplies), despite opening strategic opportunities. While the company is stepping in to secure volumes amid tighter Petrobras allocations, imports are currently economically unattractive, with costs well above domestic prices, implying pressure on margins and higher working capital needs.
+
+(=/-) PETROBRAS: President Lula proposed a potential partnership between Petrobras and Mexico’s Pemex to jointly explore deepwater assets in the Gulf of Mexico, leveraging Petrobras’ technical expertise. In parallel, he reiterated intentions for Petrobras to repurchase the Mataripe refinery in Bahia, signaling a strategic shift toward greater state participation in refining and international upstream cooperation. (Reuters, Jan 20 <https://www.reuters.com/business/energy/brazils-lula-says-petrobras-will-seek-buy-back-refinery-sold-mubadala-2026-03-20/> )
+
+(=) PETROBRAS: Has resumed drilling at the Morpho well (FZA-M-59, Foz do Amazonas) after addressing ANP and environmental requirements, with operations deemed safe and the reservoir target expected to be reached in 2Q26. The restart follows a prior fluid leak incident that led to fines from ANP (~R$2mn) and Ibama (~R$2.5mn), though the company maintained that well integrity was never compromised. ( Brasil Energia, Mar 20 <https://brasilenergia.com.br/petroleoegas/ep/petrobras-retoma-perfuracao-do-poco-morpho-na-margem-equatorial> )
+
+(=/-) PETROBRAS: Plans to expand the capacity of the Regap refinery to 240kbpd by 2030, supported by R$5.2bn in investments, with an initial increase to 200kbpd by end-2027 (+30kbpd). The project also includes a focus on lower-carbon fuels (R5/R10 diesel) and greater energy self-sufficiency, supported by renewable initiatives such as an on-site solar plant. ( Brasil Energia, Mar 20 <https://brasilenergia.com.br/petroleoegas/refino/regap-vai-ficar-70-mil-bpd-maior> )
+
+BRAZIL: The Brazilian government is considering the creation of strategic oil and diesel reserves to mitigate exposure to global supply shocks and price volatility, as highlighted by President Lula amid escalating Middle East tensions. (Valor, Mar 20 <https://valor.globo.com/brasil/noticia/2026/03/20/lula-diz-que-brasil-precisa-construir-estoque-regulador-de-petroleo-para-nao-ser-vitima-de-instabilidades-globais.ghtml> )
+
+UNIP: 4Q25 Earnings Call highlights: On Friday, Unipar hosted its 4Q25 earnings call to discuss margin dynamics, capital allocation post-Capex cycle, Cubatão ramp-up, and regulatory impacts. Main takeaways follow:
+
+Margins and spreads: Management highlighted a still highly volatile environment, with recent increases in PVC and caustic soda prices and higher freight supporting pricing, but offset by potential pressure from rising gas and ethylene costs. Demand in Brazil remains soft (notably in construction), while global supply disruptions could help rebalance spreads. Overall, visibility remains limited, with both revenues and costs moving in tandem.
+
+Leverage and dividends: The current 2.2x net debt/EBITDA is seen as a temporary peak linked to the company’s largest-ever Capex cycle. With investments now largely completed, Unipar plans to prioritize deleveraging in 2026. Dividend policy remains unchanged (25% minimum payout), with any additional distributions dependent on leverage and liquidity.
+
+Cubatão ramp-up and Capex: Management expects 2026 Capex to decline materially vs. 2025, as Cubatão nears completion. The new membrane technology should begin contributing in March, with gradual ramp-up through the year. The project is expected to drive EBITDA via ~18% lower energy consumption and improved operational efficiency, with no meaningful revenue disruption during the transition.
+
+PVC inventory and tax benefits: The 4Q25 inventory provision was described as an accounting adjustment (linked to year-end price assumptions), with potential reversal if stronger PVC prices persist. Additionally, the company confirmed a positive impact from PIS/Cofins reductions, mainly through lower ethylene costs, starting in March.
+
+ 
+
+Commodity News
+
+ 
+
+GLOBAL OIL: Brent prices rose to ~US$113/bbl as escalating U.S.–Iran tensions and explicit threats to energy infrastructure reinforced supply risks, with markets increasingly driven by geopolitical headlines. The backdrop remains extremely tight, with estimated disruptions of 7–10MMbpd in the Middle East, near-halted flows through Hormuz, and additional outages (e.g., Iraq force majeure, Russian port disruptions) compounding the shock . (Reuters, Mar 23 <https://www.reuters.com/business/energy/oil-prices-rise-after-us-iran-threaten-hit-energy-targets-middle-east-2026-03-22/> )
+
+GLOBAL OIL: The IEA signaled it may coordinate additional strategic stock releases if needed amid the Iran war, following the record 400MMbbl drawdown earlier this month, though it emphasized such measures only provide temporary relief. ( Reuters, Mar 23 <https://www.reuters.com/business/energy/iea-consulting-with-governments-further-oil-stock-releases-chief-birol-says-2026-03-23/> )
+
+Figure 3: LatAm Oil & Gas Daily Comp 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774277352584.png> 
+
+Source: Bloomberg, BTG Pactual 
+
+Rodrigo Almeida 
+Brazil – Banco BTG Pactual S.A. 
+rodrigo-r.almeida@btgpactual.com <mailto:rodrigo-r.almeida@btgpactual.com>  
++55 (11) 3383-6278 
+
+Gustavo Cunha 
+Brazil – Banco BTG Pactual S.A. 
+gustavo.cunha@btgpactual.com <mailto:gustavo.cunha@btgpactual.com>  
++55 11 3383 2077 
+
+Daniel Guardiola, CAIA 
+Colombia - BTG Pactual 
+daniel.guardiola@btgpactual.com <mailto:daniel.guardiola@btgpactual.com>  
++57 1 307 8090 
+
+Juan José Muñoz, CFA 
+Colombia - BTG Pactual 
+juan-j.munoz@btgpactual.com <mailto:juan-j.munoz@btgpactual.com>  
++57 1 257 7378 
+
+Alvaro Leyva 
+Colombia - BTG Pactual 
+alvaro.leyva@btgpactual.com <mailto:alvaro.leyva@btgpactual.com>  
++57 12577690 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118903>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118903> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng7g2otgwW9rPBUUKgceIRqs5aui-2Bj0Terr23W1GQbTY0ENiO9SQ6kTq-2F9rEpHVwldRqA4mgLXhtSRXsGum1vYSX5AZeVENAGBDSvS77V0bvyEyYFmJ2imljVegQdSuN-2BvDHPFGjCC5vaQAiXrn4WwPlOavKSvjG2vhBT2as-2FSoaTvvNT4aiXS7hOTDfH73N8fI-3D>

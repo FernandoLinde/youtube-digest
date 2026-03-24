@@ -1,0 +1,151 @@
+Subject: ENC: JPM | Metals Weekly: Complacency begins to crack—mapping potential base metals demand destruction (Angele/Candini)
+From: J.P. Morgan
+Date: 2026-03-20T20:00:38
+Sector: Metals & Mining
+Companies: 
+============================================================
+
+________________________________
+
+De: Rodolfo Angele, CFA <rodolfo.r.angele@jpmresearchmail.com>
+Enviado: sexta-feira, 20 de março de 2026 20:00:17 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: JPM | Metals Weekly: Complacency begins to crack—mapping potential base metals demand destruction (Angele/Candini)
+
+
+ 	Latin America Equity Research 	
+ <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=bZBR4X0&sig=A1FuTkwtmuxMPG0bcafO4TY02Rj&v=2&url=https://www.extelinsights.com/voting> 	
+
+Metals Weekly 
+
+
+We would like to flag a report from our global commodities analyst Gregory Shearer on the sharp sell-off in base metals this week as demand destruction risks from the ongoing energy disruption began to be priced in, and how this weighs against sizable but longer-dated supply risks.
+
+Copper: Copper prices have pulled back ~11% month to date as demand destruction risks have begun to be priced in, though this decline is not yet close to fully discounting a more materially destructive macroeconomic backdrop. Notably, China’s micro fundamentals have improved, with onshore inventory drawing earlier than normal and China’s import arbitrage window opening. However, bearish macro risks should continue to dominate as long as energy prices remain elevated. From a technical perspective, the $11,100–11,200/mt zone is seen as likely medium-term support, with the $12,583–12,703/mt breakdown acting as major short-term resistance. If Brent oil stays at current levels ($110/bbl) for the remainder of the year, copper demand growth could be stripped by 1.4 percentage points, falling to only +1.2% global growth. 
+
+Gold: Gold suffered a brutal 10% retreat this week as cracks in market complacency triggered a “sell everything” de-risking trade, compounded by momentum reversal, a break of the 50-day moving average, and rates markets flipping to price in the possibility of Fed rate hikes. However, this flush does not change the medium-term bullish outlook. The longer the energy disruption persists and the more sizable the growth impact becomes, the backdrop for gold is expected to flip materially bullish, amplified by a sharp shift toward Fed easing as the employment side of the dual mandate takes precedence. Technically, gold is expected to bottom above the $4,200–4,400 support zone, with the $4,967–4,996 tactical breakdown zone acting as initial resistance – a level the market is ultimately expected to rally through. 
+
+Aluminum: Aluminum’s sharp sell-off this week came as a surprise given the more urgent supply dislocation risks facing the Middle East’s net exportable surplus of ~5 mmt (~7% of the global market). The absence of additional reports of supply curtailments beyond Alba’s March 15 announcement (~300 kmt/a, ~20% of capacity) left the metal exposed to the same demand-driven de-risking pressuring the broader complex. However, given the logistical infeasibility of re-routing the volumes of raw material imports and finished aluminum exports needed to sustain the GCC’s aluminum supply chain, further sizable capacity curtailments are expected in the coming weeks, turning a market dislocation into a more serious and prolonged supply outage. Aluminum has the highest demand beta to GDP among base metals (2.0x), meaning demand destruction could strip 2.2 percentage points from growth if oil stays at current levels, pushing total demand into contraction – but for now, supply risks should still bullishly outweigh eventual demand destruction potential. 
+
+Nickel: Nickel faces the largest potential supply disruption among base metals, with an estimated ~12% of global supply at risk from sulphur constraints tied to the ongoing energy disruption. However, similar to copper, the buffer to supply disruption is modestly longer (1-3 months), meaning the first-order risk remains bearish as demand destruction is priced in the first. With base case 2026 demand growth currently estimated at 5.4%, the hit from elevated oil prices could be significant under a high-price, long-duration scenario, though the eventual accumulation of supply losses could set up a sharp V-shaped recovery. 
+
+Figure 1: After holding up surprisingly well through the few weeks of the conflict, copper price action finally shows fear of demand destruction with this week’s break below 12583-12703 pattern support and the 12074-12290 Fibonacci retracement cluster. We see 11100-11200 zone as a likely medium-term support zone. 
+
+LME 3m copper, daily bars with momentum divergence signals
+
+ 
+
+Source: J.P. Morgan. Bloomberg Finance L.P. 
+
+Figure 2: Gold has not been a safe haven up until this point. However, as risky markets are now threatening to break support and shift from supply to demand concerns, we suspect gold will bottom above 4200-4400 support and rebound. Look for the 4967-4996 tactical breakdown zone as initial resistance, but we think the market can rally through that zone eventually. 
+
+Spot gold, 240-minute bars with momentum divergence signals
+
+ 
+
+Source: J.P. Morgan. Bloomberg Finance L.P. 
+
+Figure 3: Potential hit to global copper demand growth based on GDP vs oil price relationship 
+
+Percentage point drag based on oil price level and duration.
+
+ 
+
+*Using oil price vs GDP relationship outlined here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=Bd08PVQ&sig=APpJ1s4nUTFUSM575lrFyxpCMFh&v=2&isig=YKS6LxnRqtlJOoCpjdwcMTOuhdt&url=https://markets.jpmorgan.com/research/email/scx/6rrvu6r5/GPS-5011334-0/6340d882-8e7d-4896-8aa2-624351341926>  and global metals demand betas to global GDP in Figure 3. Oil price change compared to a previous baseline view of ~$60/bbl for Brent in 2026. Also assumes a return to this level after the supply shock ends. 
+
+Source: J.P. Morgan 
+
+Figure 4: Potential hit to global aluminum demand growth based on GDP vs oil price relationship 
+
+Percentage point drag based on oil price level and duration.
+
+ 
+
+*Using oil price vs GDP relationship outlined here and global metals demand betas to global GDP in Figure 3. Oil price change compared to a previous baseline view of ~$60/bbl for Brent in 2026. Also assumes a return to this level after the supply shock ends.
+
+Source: Source: J.P. Morgan
+
+Figure 5: Chinese visible copper inventory (SHFE + Bonded) around Chinese New Year 
+
+Y-axis: Thousand mt; X-axis: Weeks around Chinese New Year (0 = week closest to start of CNY
+
+ 
+
+Source: SHFE, CRU, SMM, J.P. Morgan Commodities Research 
+
+Figure 6: Average drawdown in base metals prices over the last five US recessions ex-2020 
+
+Percent max declines in monthly average prices over 18 months vs the average price the month the recession began. Red diamond = average, bars = min & max declines.
+
+ 
+
+Includes recessions beginning: Jan-08, Jul-81, Jul-90, Mar-01, and Dec-07
+
+Source: NBER, World Bank, J.P. Morgan Commodities Research 
+
+For more details, please check the full report here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=NZbiHZP&sig=Es19lOppZZVcZPT1PQtfQ981HHB&v=2&isig=8dpljvWerEPIyMZuJ9ms7jPg4fN&url=https://markets.jpmorgan.com/research/email/scx/c5c5dm0d/GPS-5240449-0/6340d882-8e7d-4896-8aa2-624351341926> . 
+
+Rodolfo/Tathi
+
+	
+
+LatAm Basic Materials
+
+Rodolfo Angele, CFA AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=60UqH5T&sig=IFsFtoGshbk3DAQGLmQrNwcpXmm&v=2&url=https://markets.jpmorgan.com/research/analyst/U950947>  
+(55-11) 4950-3888 
+rodolfo.r.angele@jpmorgan.com <mailto:rodolfo.r.angele@jpmorgan.com>  
+Banco J.P. Morgan S.A. 
+
+Tathiane Martins Candini <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=pmLoqr_&sig=xljUzEZQN6CYX0qDIb29wsMaKE&v=2&url=https://markets.jpmorgan.com/research/analyst/E778747>  
+(55-11) 4950-4116 
+tathiane.m.candini@jpmorgan.com <mailto:tathiane.m.candini@jpmorgan.com>  
+Banco J.P. Morgan S.A. 
+
+	
+
+Visit J.P. Morgan Markets <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=fwujW2O&sig=ID8jOYP3JIzunAb1lp7oPqi494y&v=2&url=https://markets.jpmorgan.com>  for more market-leading research and financial solutions across the full trade and investment lifecycle.
+
+Go to My Research <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=QCww4Tz&sig=wlyjZBhJ2sZLNl7WwMlZfuD3Jm&v=2&url=https://markets.jpmorgan.com/%23research.my_research>  where the award-winning J.P. Morgan research that you receive in your inbox is intelligently structured into your personalized view.
+
+You received this e-mail because the content matches one of your saved preferences.
+You can modify your preferences or subscription here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=Ez9iRyD&sig=VfqEclkCwgdZBVNP3YZg3hqmDe&v=2&url=https://www.jpmm.com/%23research.my_subscriptions> .
+
+If you no longer wish to receive these e-mails then click here to unsubscribe <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=FE13lzp&sig=U6bc8f6BqDWXaEWgITI7g7RNLpE&v=2&url=https://markets.jpmorgan.com/research/subscriptions/email/6340d882-8e7d-4896-8aa2-624351341926> 
+
+www.jpmorganmarkets.com 
+
+History of Investment Recommendations: 
+​A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=5QqHoAx&sig=XR2gnubDIudOudGvxgHUY0wnio7&v=2&url=http://www.jpmorganmarkets.com>  where you can also search by analyst name, sector or financial instrument. 
+
+J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions. 
+
+Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset-disclosure <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=dedgWg4&sig=4JgegoG5UpzmzkAJEn6haL0z3u0&v=2&url=https://www.jpmorgan.com/disclosures/cryptoasset-disclosure> . 
+
+The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so. 
+
+Exchange-Traded Funds (ETFs): J.P. Morgan Securities LLC (“JPMS”) acts as authorized participant for substantially all U.S.-listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction-based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade-related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services. 
+
+The Research Analyst(s) denoted by an “AC” within the report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an “AC” on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed within the report accurately reflect the Research Analyst’s personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention. All authors named within the report are Research Analysts unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on the report as contacts but are not authors of the report or part of the Research Department. 
+
+This email communication is for informational purposes only. It is not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an official confirmation of any transaction. Opinions, estimates and assumptions expressed herein are made as of the date of this communication and are subject to change without notice. This email communication has been prepared based upon information, including market prices, data and other information, believed to be reliable; however, J.P. Morgan does not warrant its completeness or accuracy. Past performance is not indicative of future results. Before making an investment decision regarding any security or company referred in this email communication, you should refer to the most recent published research for the views and analysis of the analyst, including the investment thesis and valuation and risk, regarding such security or company. Additional information is available upon request. 
+
+India: Compliance Officer: Prasanna Bandal, prasanna.bandal@jpmchase.com; +912261575159. Grievance Officer: Ramprasadh K, jpmipl.research.feedback@jpmorgan.com; +912261573000. Registration granted by SEBI, and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. 
+
+Private Bank Clients:Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (“J.P. Morgan Private Bank”), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including but not limited to the J.P. Morgan corporate and investment bank and its research division. 
+
+Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst’s name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst’s name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material. 
+
+Company-Specific Disclosures: Important disclosures, including price charts and credit opinion history tables (if applicable), are available for compendium reports and all J.P. Morgan–covered companies, and certain non-covered companies, by visiting https://www.jpmm.com/research/disclosures <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=H1B3Un-&sig=Mbhy4Mml01l420WYrtSs9ZcjxnN&v=2&url=https://www.jpmm.com/research/disclosures> , calling 1-800-477-0406, or e-mailing research.disclosure.inquiries@jpmorgan.com <mailto:research.disclosure.inquiries@jpmorgan.com>  with your request. 
+
+All research reports made available to clients are simultaneously available on our client website, J.P. Morgan Markets. Not all research content is redistributed, e-mailed or made available to third-party aggregators. For all research reports available on a particular stock, please contact your sales representative. 
+
+Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=7gRIR5I&sig=ZmKpVLOquGnK590YLTXjD6WL4Oz&v=2&url=https://www.jpmorgan.com/disclosures/email>  
+
+
+J.P. Morgan's full disclaimer: https://markets.jpmorgan.com/research/disclosures <https://jpmorgan.email.streetcontxt.net/platform/al?a=12837125&ad=4074941443&h=6aQL3ic&sig=Gvr1WauG45tATA7rGTX3BcPFiD&v=2&url=https://markets.jpmorgan.com/research/disclosures>  
+​ 
+
+Copyright 2026 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third-party (“J.P. Morgan Data”) in any third-party artificial intelligence (“AI”) systems or models when such J.P. Morgan Data is accessible by a third-party. #$J&098$#*P 
+
+	
+ <https://jpmorgan.email.streetcontxt.net/platform/i/h7LYCVlkRT3oS8oC6ZGOjN8NYWh9vOXFy2zp9YZxWgtJqZXBDAda3MKPLSRK8yqt4fe1E2h8sYhvy5SiXyYtCna6Q8y72VcSP0XYjCvP0Tuaq5QiX0bcxrLY2D07883Q>  <https://jpmorgan.email.streetcontxt.net/r/i/h7LYCVlkRT3oS8oC6ZGOjN8NYWh9vOXFy2zp9YZxWgtJqZXBDAda3MKPLSRK8yqt4fe1E2h8sYhvy5SiXyYtCna6Q8y72VcSP0XYjCvP0Tuaq5QiX0bcxrLY2D07883Q> <https://jpmorgan.email.streetcontxt.net/platform/hl?a=12837125&ad=4074941443&sig=LQColf2tzjlnxHRn7oRBdM871sf>

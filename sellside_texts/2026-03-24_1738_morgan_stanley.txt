@@ -1,0 +1,225 @@
+Subject: ENC: IDEA: Tesla Inc / Semiconductors: Framing Tesla’s Semi Manufacturing Ambitions
+From: Morgan Stanley
+Date: 2026-03-22T17:38:36
+Sector: TMT
+Companies: TSLA34
+============================================================
+
+________________________________
+
+De: Percoco, Andrew (Research) <andrew.percoco@morganstanley.com>
+Enviado: domingo, 22 de março de 2026 17:38:22 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: FW: IDEA: Tesla Inc / Semiconductors: Framing Tesla’s Semi Manufacturing Ambitions
+
+
+
+Hello – Happy Sunday. In case you missed it, yesterday Elon hosted a live event on X to unveil the Terafab project. I am re-flagging our note from last week where we outlined potential capex implications. 
+
+ 
+
+Please reach out if you have any questions or would like to connect. 
+
+ 
+
+Best,
+
+ 
+
+Andrew Percoco, Executive Director   
+Morgan Stanley | Research   
+1585 Broadway, 18th Floor | New York, NY  10036   
+Phone: +1 212 296-4322   
+Andrew.Percoco@morganstanley.com <mailto:Andrew.Percoco@morganstanley.com>    
+   
+Autos & Shared Mobility research that you might find interesting…    
+Tesla Inc: Beyond the Wheel – Mapping Tesla’s Journey into Physical AI (7 Dec 2025) <https://ny.matrix.ms.com/eqr/article/webapp/367eb4b0-8988-11f0-b1be-cdc8e2555ccf?t=1774211855:9673:2169957:4110bfc5bc64&m=1&ch=Outlook Blastmail#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy>    
+Autos & Shared Mobility: 2026 Outlook: Navigating the Auto Industry's Uncertain Road Ahead (7 Dec 2025) <https://ny.matrix.ms.com/eqr/article/webapp/594f59ca-b8d3-11f0-a4e9-13dd0cf82def?t=1774211855:9673:2169957:4110bfc5bc64&m=1&ch=Outlook Blastmail#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy>    
+Internet: Approaching an Autonomous Inflection Point (7 Dec 2025) <https://ny.matrix.ms.com/eqr/article/webapp/ffbf3d94-9569-11f0-b7d7-01403bb70d37?t=1774211855:9673:2169957:4110bfc5bc64&m=1&ch=Outlook Blastmail#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy>    
+Video: The Robots Are Coming: Investment Implications of Embodied AI <https://players.brightcove.net/644391012001/default_default/index.html?videoId=6371764672112>    
+Blue Paper | Artificial Intelligence: Humanoids: Investment Implications of Embodied AI <https://ny.matrix.ms.com/eqr/article/webapp/cfbbeb10-dfe4-11ee-b3b7-d0d8077936f3?t=1774211855:9673:2169957:4110bfc5bc64&m=1&ch=Outlook Blastmail#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy>    
+   
+
+From: Percoco, Andrew (Research) <Andrew.Percoco@morganstanley.com> 
+Sent: Tuesday, March 17, 2026 12:03 AM
+To: Percoco, Andrew (Research) <Andrew.Percoco@morganstanley.com>
+Subject: IDEA: Tesla Inc / Semiconductors: Framing Tesla’s Semi Manufacturing Ambitions
+
+ 
+
+
+
+
+
+
+
+Tesla Inc / Semiconductors (TSLA.O) 
+
+Framing Tesla’s Semi Manufacturing Ambitions
+
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/002342b2-215b-11f1-99ea-46f6fece5bca?t=1774211855:9673:2169957:4110bfc5bc64&m=1&ch=Outlook Blastmail#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+
+ 
+
+(PDF: 9 Pages) 
+
+ 
+
+North America 
+
+Stock Rating   Equal-weight
+Price Target   $415.00
+
+Andrew S Percoco, Joseph Moore, Daniela M Haigian, Shane Brett, Nicole Kozhukhov, Mason Wayne & 3 more...
+
+March 17, 2026
+
+	
+
+ 
+
+With AI compute emerging as a potential bottleneck, we outline what internal capacity at Tesla could look like. While any effort would be highly capital-intensive and years away from commercialization, it provides a useful framework for thinking about Tesla’s longer-term AI ambitions. 
+
+ 
+
+Key takeaways
+
+*	Elon Musk posted that the TSLA's Terafab project is expected to launch in 7 days. This was not previously included in its >$20bn capex target for 2026. 
+*	TSLA's decision to move ahead with its own chip fab is a reflection of geopolitical concerns and supply constraints to achieve LT Optimus volume targets. 
+*	Giga Texas alone is expected to have 10m of annual humanoid production capacity, which would require 20m chips (~6x current TSLA demand for its auto business). 
+*	If TSLA hits its long-term Optimus target (100m+ per year), it would require 200m+ chips or >50x its current demand across auto and robotaxi. 
+
+CEO Elon Musk (4Q25 Earnings Call): “So I think in order to remove the constraint, the probable constraint in three or four years, we're going to have to build a Tesla TeraFab, a very big fab that includes logic, memory and packaging domestically. And that's actually also going to be very important to ensure that we are protected against any geopolitical risks. I think people may be underweighting some of the geopolitical risks that are going to be a major factor in a few years”
+
+Why is Tesla thinking about internal capacity? As Tesla expands its AI ambitions across FSD, robotaxi, and eventually Optimus, access to AI compute is increasingly emerging as a potential constraint. In our view, any move toward internal capacity would be aimed at supporting these in-house initiatives or related parties, rather than external entities. Based on our recent conversations with the company, its decision to move ahead with a chip fab is tied to geopolitical concerns and increasingly tied to its Optimus program, which is still several years away from scaling to meaningful volume in our view, but could potentially require substantially more chips than its auto and robotaxi business – for example, if the company hits its long-term 100m Optimus/year target, that would require 200m+ chips, which is >50x the amount of chips that it uses today in its auto/robotaxi business today.
+
+Timing is an important consideration. Management has suggested that AI compute could become a bottleneck within the next three to four years, implying that any serious effort to address this constraint would need to begin well ahead of that window. As Elon Musk recently noted, removing this potential bottleneck could ultimately require building a large, integrated domestic facility encompassing logic, memory, and packaging, both to support Tesla’s AI roadmap and to mitigate longer-term geopolitical risks. While Tesla's current $20bn capex plan for 2026 does not contemplate any capex for a semi fab, this weekend Elon posted on X that the Terafab project will launch this week, implying potential upside to capex this year. 
+
+What would it take to get there? For context, Micron’s Boise fab broke ground in September 2022 and is expected to begin shipping chips in mid-2027, underscoring the long lead times inherent in leading-edge semiconductor manufacturing.
+
+*	WFE/Capital Outlay: At a high level, building meaningful internal capacity would require on the order of ~100k wafers per month of leading-edge logic, implying roughly $20-25bn of WFE. Including the cost of constructing and outfitting the facility, total capital investment could reach $35-45bn.
+*	Timing: Tool orders - particularly from ASML - typically carry ~12-month lead times, followed by additional time for installation, qualification, and test wafer runs. Even under an aggressive scenario involving a retrofit of an existing facility, initial chip output would likely not occur until mid-2028 at the earliest. A greenfield build would extend timelines further, with meaningful output more likely 4-5 years after project initiation.
+
+Perspectives from our semiconductor team. Even understanding Elon Musk's history of doing difficult things, this seems like a Herculean task. Advanced logic process technology nodes are built upon a foundation of prior nodes, with the steady cadence of Moore’s law driven by those incremental gains. The further objective of building logic, memory, and packaging from a standing start is even more challenging - and $20 billion plus over multiple years is probably inadequate scale to cover the development costs. Read more... <https://ny.matrix.ms.com/eqr/article/webapp/002342b2-215b-11f1-99ea-46f6fece5bca?t=1774211855:9673:2169957:4110bfc5bc64&m=1&ch=Outlook Blastmail#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+
+	
+
+ 
+
+Authors
+
+
+
+Morgan Stanley & Co. LLC
+
+Andrew S Percoco
+
++1 212 296-4322       EMAIL <mailto:Andrew.Percoco@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Joseph Moore
+
++1 212 761-7516       EMAIL <mailto:Joseph.Moore@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Daniela M Haigian
+
++1 212 761-6071       EMAIL <mailto:Daniela.Haigian@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Shane Brett
+
++1 212 761-1022       EMAIL <mailto:Shane.Brett@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Nicole Kozhukhov
+
++1 212 761-1636       EMAIL <mailto:Nicole.Kozhukhov@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Mason Wayne
+
++1 212 761-6012       EMAIL <mailto:Mason.Wayne@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Ella Tulchinsky
+
++1 212 761-2222       EMAIL <mailto:Ella.Tulchinsky@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Jahvonte G Bain
+
++1 212 761-9231       EMAIL <mailto:Jahvonte.Bain@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+
+
+Morgan Stanley & Co. LLC
+
+Katherine A Bennorth
+
++1 212 761-3753       EMAIL <mailto:Katie.A.Bennorth@morganstanley.com?subject=Re:IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+ 
+
+ <https://ny.matrix.ms.com/eqr/research/portal/home/global> 
+
+Remove me from this distribution <mailto:Andrew.Percoco@morganstanley.com?subject=Please%20remove%20me%20from%20this%20distribution%20:%20IDEA%3A%20Tesla%20Inc%20%2F%20Semiconductors%3A%20Framing%20Tesla%E2%80%99s%20Semi%20Manufacturing%20Ambitions> 
+
+For important information including analyst certification and disclosures regarding specific companies, derivatives, or other instruments discussed in this e-mail, please refer to the latest research report, if attached and/or hyperlinked to this email, or by logging on to Morgan Stanley's Matrix portal at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> . You may also refer to the Morgan Stanley Research Disclosure Website at http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch <http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch> .
+
+Morgan Stanley will make certain research products and announcements available only on Morgan Stanley's Matrix platform. For access to Matrix, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> .
+
+Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act. If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Mistransmission is not intended to waive confidentiality or privilege. Morgan Stanley reserves the right, to the extent permitted under applicable law, to monitor electronic communications. This message is subject to terms available at the following link: http://www.morganstanley.com/disclaimers <http://www.morganstanley.com/disclaimers> . If you cannot access these links, please notify us by reply message and we will send the contents to you. By messaging with Morgan Stanley you consent to the foregoing.
+
+© 2026 Morgan Stanley. All rights reserved
+
+ <https://linkback.morganstanley.com/web/sendlink/webapp/f/5s0l449g-3s96-g005-b4d9-39d2729be9a7?store=0&d=UwBCbGFzdG1haWwAYm1fdHJhY2tpbmdfaW1n&user=ib_1_1hj88af8diyic_ZGM4Y2Q5NGJfc2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy&__gda__=1868819902_1f1fc53dc91ef7eb3561d547f79ff263> 
+
+ 
+
+
+
+________________________________
+
+For important information including analyst certification and disclosures regarding specific companies, derivatives, or other instruments discussed in this email, please refer to the latest report, if attached and/or hyperlinked to this email, or by logging on to the Morgan Stanley Matrix Platform at http://matrix.ms.com/eqr/research . You may also refer to the Morgan Stanley Research Disclosure Website at http://www.morganstanley.com/eqr/disclosures/webapp/coverage. Morgan Stanley will make certain research products and announcements available only on the Morgan Stanley Matrix Platform.  The content provided in this email, including data or any attachments, is subject to the terms and conditions of use (available at https://ny.matrix.ms.com/matrix/portal/docs/terms/index.html#/terms/general ) applicable to research materials accessed through Matrix, including the terms regarding confidentiality and intellectual property rights. For access to the Morgan Stanley Matrix Platform please contact your sales representative or go to http://matrix.ms.com/eqr/research.
+
+NOTICE: Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act. If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Mistransmission is not intended to waive confidentiality or privilege. Morgan Stanley reserves the right, to the extent permitted under applicable law, to monitor electronic communications. This message is subject to terms available at the following link: http://www.morganstanley.com/disclaimers If you cannot access these links, please notify us by reply message and we will send the contents to you. By messaging with Morgan Stanley you consent to the foregoing.
+
+You may have certain rights regarding the information that Morgan Stanley collects about you. Please see our Privacy Pledge https://www.morganstanley.com/privacy-pledge for more information about your rights.

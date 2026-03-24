@@ -1,0 +1,113 @@
+Subject: ENC: LatAm Financials: Global JPM Series – U.S. Credit Cards Issuers, A Cautious Road Ahead
+From: J.P. Morgan
+Date: 2026-03-23T21:01:19
+Sector: Financials
+Companies: 
+============================================================
+
+________________________________
+
+De: Yuri R Fernandes <yuri.r.fernandes@jpmresearchmail.com>
+Enviado: segunda-feira, 23 de março de 2026 21:01:07 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: LatAm Financials: Global JPM Series – U.S. Credit Cards Issuers, A Cautious Road Ahead
+
+
+ 	Latin America Equity Research 	
+
+LatAm Financials
+
+
+Global JPM Series – U.S. Credit Cards Issuers, A Cautious Road Ahead
+
+ 	 
+By Yuri R Fernandes AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=BhNZ9Ro&sig=8sJVuAD2HGFGvzK9eQEogwA8yNE&v=2&url=https://markets.jpmorgan.com/research/analyst/E689071> , Guilherme Grespan <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=OGu-s5p&sig=N9vUPCNM0petckL2wHoMI2HHx5d&v=2&url=https://markets.jpmorgan.com/research/analyst/R578266> , Fernanda Sayao <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=sCLP3vv&sig=JcaIqoEsPFqpncnxgrb0ayoMRRF&v=2&url=https://markets.jpmorgan.com/research/analyst/I807027> , Diego Marquez Antonio <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=PmeoAkb&sig=Ld60RWrYUaetNWtjScZau5EFYG&v=2&url=https://markets.jpmorgan.com/research/analyst/O817967> , Richard Shane <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=_yF1vHE&sig=A45L9WqmqVoqEJXq1dHmNRJC6Lt&v=2&url=https://markets.jpmorgan.com/research/analyst/R318667>  
+
+Click here for the full document and disclaimers <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=JQCrf1-&sig=MS22Pp5hBwWpHw3kzScRXFD2twG&v=2&isig=S4Gb04F2ZyTP5NXc1159tooCfcW&url=https://markets.jpmorgan.com/research/email/scx/vi4j16i3/GPS-5243775-0/51c4f56f-f7dc-47d6-b7dc-57b40e261800> 
+
+Last week ,we hosted a call with Richard Shane, Head of J.P. Morgan's Consumer & Specialty Finance team (replay <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=CVIGiue&sig=5feicqIt6GfmgaRjP0CdWTjOjaJ&v=2&isig=7QwzJUKrnwCGC0hPw4unToPgLAG&url=https://markets.jpmorgan.com/research/email/scx/-lhpr9cl/KAL-1-Y56711HT/51c4f56f-f7dc-47d6-b7dc-57b40e261800> ). His outlook into 2026 remains cautious for credit card issuers given a softer macro backdrop and potential spillovers from the US‑Iran conflict. In particular, a sustained rise in oil prices could compress disposable income and hence spending. Key takeaways: (i) asset quality is mostly stable for now, though risks could build; (ii) scale remains critical for consumer finance profitability in the US; (iii) business models can differ, but for credit-oriented, some 75–80% of revenue coming from lending and 15–20% from transaction fees (MDR/interchange); and (iv) Rick highlights a low‑probability but high‑severity risk from potential rate caps or other regulatory changes. More details below. 
+
+*	Outlook and sentiment into 2026. Rick started the year with a more cautious view on the sector, with stocks down ~15% YTD on average. For the first time in many years, he is not recommending any stock in the sector; all three major issuers have a Neutral rating (i.e. Capital One, American Express and Synchrony) . The more negative outlook is explained by higher inflation prints and cooling labor market. For more details, please see: Consumer Finance 4Q25 Preview <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=sqc3ghJ&sig=6Jg5bjtUswLtIbQrvhJw0NvBSLk&v=2&isig=MbRTkSaamx3kuqygfEj1gi3409l&url=https://markets.jpmorgan.com/research/email/scx/b6olpdla/GPS-5172565-0/51c4f56f-f7dc-47d6-b7dc-57b40e261800> (Jan 12, 2026). 
+*	Macro risks remain with low visibility. Rick believes AI may impact the sector in the longer-term, but should not move the needle in 2026-2027. Rather, he sounded more concerned with the potential implications of the US-Iran conflict on oil prices and ultimately disposable. Specifically, higher gas prices should especially hurt lower- and middle-income consumers hardest, likely reducing spending and discretionary purchases. Ricks recalls that in 2022 oil prices moved up >40% in 3 months, driving a significant deterioration in the credit outlook.   
+*	Asset quality & consumer behavior. When credit quality worsens, lenders tend to move upmarket, and conversely, move downmarket when the credit outlook improves. However, it remains unclear where we are in the credit cycle, as it is unclear how long these negative geopolitical factors will last. Only around 30-40% of outstanding debt is paid off monthly in the U.S., and a small segment pays in full, while most pay less. This is an ongoing issue in the US that differs from other markets. On the positive side, card payments are higher than before, as consumers want to maintain their credit cards as cash becomes less relevant, driven by the increased utility of electronic payments and declining cash usage. More people are paying off credit cards due to the need for electronic payment options, as many merchants have stopped accepting cash. The average American holds more than 4 credit cards, and credit card limits are increasingly viewed as savings by Americans. 
+*	Industry dynamics favor scale. The credit card business is a scale business; many competitors have tried but failed to compete without sufficient scale. For most credit card lenders, 75-80% of revenue comes from lending vs 15-20%from transaction fees (MDR/interchange). Non-prime lending can be highly profitable in good cycles, but the US market has become less competitive post-GFC, with many institutions avoiding reputational risk. Regarding credit quality benchmarks, Rick mentioned issuers view a 680 FICO as the standard prime benchmark; 680–620 is near-prime, and below 620 is subprime. 
+*	Regulatory and rate environment. Credit card interest rates are subject to state-level regulation, with domicile state laws applying nationwide, though proposed federal rate caps pose meaningful downside risk. Credit card interest rates are subject to 50 different state-level rate caps, but if issuers are domiciled in Delaware or South Dakota, the law allows them to practice the state's cap nationwide. Regulation has changed over time. Before 2010, issuers offered low fixed-rate cards but could change rates at any time; now, rates are variable and harder to change. Industry participants believe the recently proposed rate cap at 10% (for one year) would reduce supply and hurt the industry's penetration, especially for lower-end borrowers who pose a low-probability but high-severity risk. For more details, see: 10% Cap on Credit Card Interest Rates: Early Thoughts on the Impact Given All the Unknowns and Uncertainties <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=MZugkoU&sig=AXEXQJ81P5Iz7qJzqxxWXQGZ4p4&v=2&isig=27RIdSAnao94sMX8NUUDBnqqqMJ&url=https://markets.jpmorgan.com/research/email/scx/u780d7cf/GPS-5172997-0/51c4f56f-f7dc-47d6-b7dc-57b40e261800> . 
+*	American Express (N-rated). The business model focuses on the higher-end segment, offering more resilience in a negative credit cycle but is not immune to the labor market. The recent weakness in the labor market (especially white-collar jobs) drove P/E multiples to decompress from ~22x to ~15x in 2-3 months. Customer behavior is more correlated with capital market performance, as high-income clients base spending decisions on their investment portfolios. This trend is not yet material but is worth monitoring given the market uncertainty. Unlike other issuers, their portfolio mix is less reliant on lending and has a higher mix of transactions and memberships, roughly ~20% lending, ~60% transactions (MDR/interchange), and ~20% annual membership fees. Transaction revenue is a high-ROE business, while lending is less profitable than competitors due to the typical AMEX customers paying off balances quickly. 
+*	Capital One (N-rated). Capital One began offering subprime credit cards but then quickly shifted to higher end, and was only thing missing was the middle segment of the market, but was able to compete in this segment with the acquisition of Discover. It was initially focused on non-prime customers, but with strong underwriting, it was able to charge higher rates and achieve industry-leading risk adjusted margins. Historically, inorganic growth has helped drive expansion. Capital One has a lower ROTE compared to peers, but the business is more predictable. It has great management and continues to be founder-led. 
+*	Synchrony (N-rated). Private label cards offer merchants cost advantages while providing consumers with targeted purchasing power, though acceptance is limited. Synchrony's private label cards work for most transactions but are limited in acceptance. Merchants favor them due to no merchant discount fees. Consumers see value in it as those cards allow spending without consuming credit limits. 
+
+  
+
+Click here for the full document and disclaimers <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=JQCrf1-&sig=MS22Pp5hBwWpHw3kzScRXFD2twG&v=2&isig=S4Gb04F2ZyTP5NXc1159tooCfcW&url=https://markets.jpmorgan.com/research/email/scx/vi4j16i3/GPS-5243775-0/51c4f56f-f7dc-47d6-b7dc-57b40e261800> 
+
+	
+
+Latin American Financials
+
+Yuri R Fernandes AC <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=BhNZ9Ro&sig=8sJVuAD2HGFGvzK9eQEogwA8yNE&v=2&url=https://markets.jpmorgan.com/research/analyst/E689071>  
+(1-212) 622-3400 
+yuri.r.fernandes@jpmorgan.com <mailto:yuri.r.fernandes@jpmorgan.com>  
+J.P. Morgan Securities LLC 
+
+Guilherme Grespan <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=OGu-s5p&sig=N9vUPCNM0petckL2wHoMI2HHx5d&v=2&url=https://markets.jpmorgan.com/research/analyst/R578266>  
+(55-11) 4950-3058 
+guilherme.grespan@jpmorgan.com <mailto:guilherme.grespan@jpmorgan.com>  
+Banco J.P. Morgan S.A. 
+
+Fernanda Sayao <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=sCLP3vv&sig=JcaIqoEsPFqpncnxgrb0ayoMRRF&v=2&url=https://markets.jpmorgan.com/research/analyst/I807027>  
+(55-11) 4950-6588 
+fernanda.sayao@jpmchase.com <mailto:fernanda.sayao@jpmchase.com>  
+Banco J.P. Morgan S.A. 
+
+Diego Marquez Antonio <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=PmeoAkb&sig=Ld60RWrYUaetNWtjScZau5EFYG&v=2&url=https://markets.jpmorgan.com/research/analyst/O817967>  
+(52-55) 5339-94899 
+diego.marquez@jpmorgan.com <mailto:diego.marquez@jpmorgan.com>  
+J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero 
+
+Consumer Finance
+
+Richard Shane <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=_yF1vHE&sig=A45L9WqmqVoqEJXq1dHmNRJC6Lt&v=2&url=https://markets.jpmorgan.com/research/analyst/R318667>  
+(1-415) 315-6701 
+richard.b.shane@jpmorgan.com <mailto:richard.b.shane@jpmorgan.com>  
+J.P. Morgan Securities LLC 
+
+	
+
+Visit J.P. Morgan Markets <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=fwujW2O&sig=Vhc55HZ0pEh2lvdYKAxX0pIrdgJ&v=2&url=https://markets.jpmorgan.com>  for more market-leading research and financial solutions across the full trade and investment lifecycle.
+
+Go to My Research <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=QCww4Tz&sig=IeVbAc13B0xWz5oZLamVkk9FmoJ&v=2&url=https://markets.jpmorgan.com/%23research.my_research>  where the award-winning J.P. Morgan research that you receive in your inbox is intelligently structured into your personalized view.
+
+You received this e-mail because the content matches one of your saved preferences.
+You can modify your preferences or subscription here <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=Ez9iRyD&sig=FljIjal8WItmpyqJKKeKFeUwOU&v=2&url=https://www.jpmm.com/%23research.my_subscriptions> .
+
+If you no longer wish to receive these e-mails then click here to unsubscribe <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=t4C77YK&sig=4nW4E6OeYIufpEHuWtE0Xq9BEof&v=2&url=https://markets.jpmorgan.com/research/subscriptions/email/51c4f56f-f7dc-47d6-b7dc-57b40e261800> 
+
+www.jpmorganmarkets.com 
+
+History of Investment Recommendations: 
+​A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=5QqHoAx&sig=TjoZXAPUjE0xMW8IupxareijebN&v=2&url=http://www.jpmorganmarkets.com>  where you can also search by analyst name, sector or financial instrument. 
+
+J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions. 
+
+Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset-disclosure <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=dedgWg4&sig=Q72BNBt1VsB3m5BEF5D1qeO4HEo&v=2&url=https://www.jpmorgan.com/disclosures/cryptoasset-disclosure> . 
+
+The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so. 
+
+Exchange-Traded Funds (ETFs): J.P. Morgan Securities LLC (“JPMS”) acts as authorized participant for substantially all U.S.-listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction-based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade-related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services. 
+
+J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. 
+
+Private Bank Clients:Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (“J.P. Morgan Private Bank”), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including but not limited to the J.P. Morgan corporate and investment bank and its research division. 
+
+Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst’s name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst’s name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material. 
+
+Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=7gRIR5I&sig=4yA8KEJ5QWZn0WY5tcyS7wPV9Li&v=2&url=https://www.jpmorgan.com/disclosures/email>  
+
+
+J.P. Morgan's full disclaimer: https://markets.jpmorgan.com/research/disclosures <https://jpmorgan.email.streetcontxt.net/platform/al?a=12848655&ad=4082682824&h=6aQL3ic&sig=aJhKa5lk36J1STRHkuKdZmobySp&v=2&url=https://markets.jpmorgan.com/research/disclosures>  
+​ 
+
+Copyright 2026 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third-party (“J.P. Morgan Data”) in any third-party artificial intelligence (“AI”) systems or models when such J.P. Morgan Data is accessible by a third-party. #$J&098$#*P 
+
+	
+ <https://jpmorgan.email.streetcontxt.net/platform/i/TEkBrr8XvFlE6M0ZvyGg14wHrBvDa8gcx8SzHERY1JzoMfK1E2XeX8L4fkRafnQLJuQdqcoxXmxYZKuTS2JfQDOGi0E03lyU7ZwphpmHvV8PEf9xBCprl42spRvFrHoR>  <https://jpmorgan.email.streetcontxt.net/r/i/TEkBrr8XvFlE6M0ZvyGg14wHrBvDa8gcx8SzHERY1JzoMfK1E2XeX8L4fkRafnQLJuQdqcoxXmxYZKuTS2JfQDOGi0E03lyU7ZwphpmHvV8PEf9xBCprl42spRvFrHoR> <https://jpmorgan.email.streetcontxt.net/platform/hl?a=12848655&ad=4082682824&sig=ZodV8BqPYQNoFpp0NZT1m0oY9Jj>

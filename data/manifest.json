@@ -33,6 +33,11 @@
   ],
   "sellside": [
     {
+      "date": "2026-03-24",
+      "emails": 190,
+      "events": 89
+    },
+    {
       "date": "2026-03-20",
       "emails": 119,
       "events": 66

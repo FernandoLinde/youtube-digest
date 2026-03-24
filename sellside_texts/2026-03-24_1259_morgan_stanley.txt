@@ -1,0 +1,163 @@
+Subject: ENC: Autos & Shared Mobility: Global Auto Monitor: Robo meets Macro
+From: Morgan Stanley
+Date: 2026-03-20T12:59:00
+Sector: Transportation
+Companies: TSLA34, RIVN34, GMCO34, FORD34, BWA334
+============================================================
+
+________________________________
+
+De: Andrew S Percoco <Andrew.Percoco@morganstanley.com>
+Enviado: sexta-feira, 20 de março de 2026 12:58:47 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: Autos & Shared Mobility: Global Auto Monitor: Robo meets Macro
+
+
+
+	 
+	 
+	 
+Autos & Shared Mobility 	
+Global Auto Monitor: Robo meets Macro	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/9f6858ca-244a-11f1-99ea-46f6fece5bca?t=1774022272:5454:9027:95722cac585c&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 15 Pages) 	
+North America 	
+Industry View   In-Line
+
+Andrew S Percoco, Daniela M Haigian, Javier Martinez de Olcoz Cerdan, Shinji Kakiuchi, Binay Singh, Tim Hsiao & 7 more...	 
+March 20, 2026
+
+	
+OEMs in the U.S. accelerate toward autonomy, with TSLA's robotaxi flywheel and RIVN x UBER deal signaling a push to unlock software and fleet-based monetization. However, weaker EV demand, lower global production forecasts, and rising commodity inflation continue to temper near-term fundamentals. 
+
+What Others Are Reading - Our Most Read Reports
+
+*	[GLOBAL] S&P LVP downgrade. FY26 -1.0% YoY (15 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/d1352636-1daa-11f1-881a-897d542fee46?ch=rp&sch=ar> S&P now expects FY26 production to reach 92.1mn units (from 92.8mn last month), implying -1.0% YoY. FY27's production forecast revised down to 93.6mn units (from 94.1mn), +1.5% YoY.
+*	[GLOBAL] Global Auto Databook: Shifting EV Dynamics Reshape the Global Auto Landscape (18 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/services/published/rendition/pdf/ARBENNO20260318195900380.pdf?cobaltId=02a3-202db37d5d91-d69a579a38dc-1000&uuid=e858291c-2304-11f1-99ea-46f6fece5bca>  Global autos sentiment remains cautious, driven by cooling EV demand and affordability constraints. We monitor a growing regional divide, with US EV volumes softening amid OEM pullback (offset by ICE strength), a weak start to '26 in China, and Europe facing rising pressure from Chinese competition.
+
+*	[NORTH AMERICA] Unlocking the Robotaxi Flywheel (18 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/02f68848-174f-11f1-9551-76e26cd02d8c?ch=rp&sch=ar> TSLA's ability to scale the unsupervised robotaxi fleet is the most important catalyst for the stock this year. Each incremental mile driven by the robotaxi fleet accelerates learning for personal FSD, which supports higher FSD attach rates and re-accelerates auto demand, improving FCF gen.
+
+*	[NORTH AMERICA] Framing Tesla’s Semi Manufacturing Ambitions (17 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/002342b2-215b-11f1-99ea-46f6fece5bca?ch=rp&sch=ar>  With AI compute emerging as a potential bottleneck, we outline what internal capacity at Tesla could look like. While any effort would be highly capital-intensive and years away from commercialization, it provides a useful framework for thinking about Tesla’s longer-term AI ambitions.
+*	[NORTH AMERICA] Autos and Energy Converge (20 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/f80fbd1e-23d8-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> This week's announcements reflect efforts from automakers to diversify revenue streams from cyclical auto end markets tethered to the uncertain fate of the consumer within a volatile market and attach to industries experiencing secular growth – see TSLA, GM, F, BWA, etc.
+*	[NORTH AMERICA] Rivian Enters the Robotaxi Race with Uber (19 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/70ed8718-238c-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> Rivian and Uber (covered by Brian Nowak) announced a robotaxi partnership this morning, wherein Uber will invest up to $1.25bn in Rivian and deploy 50k fully autonomous R2 robotaxis.
+
+*	[KOREA] S. Korea Autos, EV Batteries and Energy & Materials (20 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/0e69bde6-236e-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> 
+
+*	<https://ny.matrix.ms.com/eqr/article/webapp/8989d4d4-2c2a-11f0-85fb-ceffcb919c87?ch=rp&sch=mfr> <https://ny.matrix.ms.com/eqr/article/webapp/8bb37ae8-04df-11f0-a792-58de021e0d36?ch=rp&sch=mfr> <https://ny.matrix.ms.com/eqr/article/webapp/8ac28222-f4aa-11ef-ba72-8d77403bbb42?ch=rpint&sch=ar> <https://ny.matrix.ms.com/eqr/article/webapp/6a08118a-344e-11f0-8677-a5b406758939?ch=rp&sch=mfr> <https://ny.matrix.ms.com/eqr/article/webapp/62be1614-2c23-11f0-85fb-ceffcb919c87?ch=rp&sch=mfr> <https://ny.matrix.ms.com/eqr/article/webapp/ffc3129a-105b-11f0-a04e-48725a0d59a3?ch=rp&sch=mfr> <https://ny.matrix.ms.com/eqr/article/webapp/84f8a6c2-35c9-11f0-8677-a5b406758939?ch=rp&sch=mfr> [KOREA] Attractive Re-entry Point (17 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/c9db4d7e-1cd9-11f1-881a-897d542fee46?ch=rp&sch=ar> Despite the risk of near-term earnings volatility arising from geopolitical issues, our latest company visit reinforces the view that HT's fundamentals remain healthy while valuation remains too cheap to ignore. Reiterate OW.
+
+*	[JAPAN] Autos: Business Environment Increasingly Challenging (16 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/79a3f14e-1874-11f1-9551-76e26cd02d8c?ch=rp&sch=ar>  Rising raw material prices and emerging geopolitical risks in the Middle East have intensified industry headwinds. Among individual stocks, we recommend Suzuki as our Top Pick.
+*	[INDIA] Strong Volume Growth Amid Rising Inflationary Pressures (19 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/b1499508-21b7-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> Volume growth across segments is strong but inflationary pressures – from commodities, memory prices, freight rates and power & fuel – are rising and pose a risk to margins. Duration of disruption is key to assess downside risks. M&M, TVS, Hero and MSIL are our preferred OWs.
+
+*	[CHINA] How Market Share Reshuffled in February (17 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/34e5ddba-21ed-11f1-99ea-46f6fece5bca?ch=rp&sch=ar>  XPeng, Li Auto, BYD and Tesla China gained share in February, while tech players (Xiaomi, AITO) lost ground amid product transitions.
+
+*	[CHINA] Steady weekly orders into the 2H of March (17 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/73a57e66-21ca-11f1-99ea-46f6fece5bca?ch=rp&sch=ar>  Weekly order inflow stabilized following the more apparent recovery in early March. Li Auto, BYD, and Tesla China's order intake edged higher WoW; NIO and Geely Galaxy were flat WoW; the rest fell slightly.
+
+*	[CHINA] Global collaboration is the new competition – BYD and Geely adopt NVIDIA's Drive Hyperion for L4 (17 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/530adb62-219b-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> To BYD/Geely, the collaboration represents more than just bilateral technology partnerships but a pivotal strategic alignment to anchor L4 and global ambitions
+
+*	[CHINA] Addressing investor pushbacks (18 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/d1510bae-1f61-11f1-af70-5e7af531cea5?ch=rp&sch=ar> We address key investor pushbacks including: how to position SAIC amid industry uncertainties, potential share price catalysts, the company's 2026 growth plan, and potential concerns for 2026 given the high base comparison.
+*	[CHINA] <https://ny.matrix.ms.com/eqr/article/webapp/e82c05a8-235e-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> 4Q25 NDR takeaways (19 Mar 2026) <https://ny.matrix.ms.com/eqr/article/webapp/e82c05a8-235e-11f1-99ea-46f6fece5bca?ch=rp&sch=ar> We believe Geely's volume expansion, both in China and internationally, is well-supported by its strong product pipeline.
+*	
+*	
+
+Global picks: General Motors, Mercedes-Benz Group AG, Daimler Truck Holding AG, Suzuki Motor are our preferred stocks from major regions.
+
+Our global industry views: Our view on India auto is Attractive. We have In-Line views on the North America, Europe, China, Japan, and South Korea industries.
+
+What's Changed in the Past Week? 
+ 
+Source: Morgan Stanley Research estimates 
+
+Read more... <https://ny.matrix.ms.com/eqr/article/webapp/9f6858ca-244a-11f1-99ea-46f6fece5bca?t=1774022272:5454:9027:95722cac585c&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+
+	
+Authors	 
+	 Morgan Stanley & Co. LLC
+
+Andrew S Percoco
+
++1 212 296-4322       EMAIL <mailto:Andrew.Percoco@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley & Co. LLC
+
+Daniela M Haigian
+
++1 212 761-6071       EMAIL <mailto:Daniela.Haigian@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley Europe S.E., Madrid Branch
+
+Javier Martinez de Olcoz Cerdan
+
++34 9141-81289       EMAIL <mailto:Javier.Martinez.Olcoz@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley MUFG Securities Co., Ltd.
+
+Shinji Kakiuchi
+
++81 3 6836-5416       EMAIL <mailto:Shinji.Kakiuchi@morganstanleymufg.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley India Company Private Limited
+
+Binay Singh
+
++91 22 6118-1158       EMAIL <mailto:Binay.Singh@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley Asia Limited
+
+Tim Hsiao
+
++852 2848-1982       EMAIL <mailto:Tim.Hsiao@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley & Co. International plc, Seoul Branch
+
+Young Suk Shin
+
++82 2 399-4994       EMAIL <mailto:Young.Shin@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley & Co. International plc
+
+Shaqeal A Kirunda
+
++44 20 7425-0736       EMAIL <mailto:Shaqeal.Kirunda@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley Asia Limited
+
+Shelley Wang, CFA
+
++852 3963-0047       EMAIL <mailto:Shelley.Wang@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley Asia Limited
+
+Joey Xu, CFA
+
++852 3963-0337       EMAIL <mailto:Joey.Xu@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley MUFG Securities Co., Ltd.
+
+Hiroto Segawa
+
++81 3 6836-8403       EMAIL <mailto:Hiroto.Segawa@morganstanleymufg.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley & Co. LLC
+
+Jahvonte G Bain
+
++1 212 761-9231       EMAIL <mailto:Jahvonte.Bain@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+	 Morgan Stanley & Co. LLC
+
+Katherine A Bennorth
+
++1 212 761-3753       EMAIL <mailto:Katie.A.Bennorth@morganstanley.com?subject=Re:Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+ <https://ny.matrix.ms.com/eqr/research/portal/home/global> 	
+Remove me from this distribution <mailto:Andrew.Percoco@morganstanley.com?subject=Please remove me from this distribution : Autos%20%26%20Shared%20Mobility%3A%20Global%20Auto%20Monitor%3A%20Robo%20meets%20Macro> 
+
+For important information including analyst certification and disclosures regarding specific companies, derivatives, or other instruments discussed in this e-mail, please refer to the latest research report, if attached and/or hyperlinked to this email, or by logging on to Morgan Stanley's Matrix portal at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> . You may also refer to the Morgan Stanley Research Disclosure Website at http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch <http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch> .
+
+Morgan Stanley will make certain research products and announcements available only on Morgan Stanley's Matrix platform. For access to Matrix, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> .
+
+Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act. If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Mistransmission is not intended to waive confidentiality or privilege. Morgan Stanley reserves the right, to the extent permitted under applicable law, to monitor electronic communications. This message is subject to terms available at the following link: http://www.morganstanley.com/disclaimers <http://www.morganstanley.com/disclaimers> . If you cannot access these links, please notify us by reply message and we will send the contents to you. By messaging with Morgan Stanley you consent to the foregoing.
+
+© 2026 Morgan Stanley. All rights reserved	 
+
+ <https://linkback.morganstanley.com/web/sendlink/webapp/f/em79vm6g-3s94-g001-b2a9-6793813f16fc?store=0&d=UwBCbGFzdG1haWwAYm1fdHJhY2tpbmdfaW1n&user=ib_4_1hoex3cpodgx3_NDA3MDZkMWRfc2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy&__gda__=1868630327_58949f02c378ad53b4931e5344dec421>

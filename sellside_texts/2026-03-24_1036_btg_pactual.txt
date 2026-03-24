@@ -1,0 +1,127 @@
+Subject: ENC: Brazil Retail & Pharma: The weight of gold – Semaglutide patents drop in Brazil (a quick Q&A handbook) (BTG Pactual's Guanais/Cesquim/Cendon)
+From: BTG Pactual
+Date: 2026-03-20T10:36:49
+Sector: Healthcare
+Companies: 
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deLuiz Guanais <luiz.guanais@btgpactual.com>
+Enviado: sexta-feira, 20 de março de 2026 10:36:41 (UTC-03:00) Brasilia
+Assunto: Brazil Retail & Pharma: The weight of gold – Semaglutide patents drop in Brazil (a quick Q&A handbook) (BTG Pactual's Guanais/Cesquim/Cendon)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - Brazil - Retail 
+
+
+Brazil Retail & Pharma 
+
+
+20-March-2026 
+
+
+ 
+
+
+The weight of gold – Semaglutide patents drop in Brazil (a quick Q&A handbook) 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118870>  
+
+The expiration of semaglutide’s patent in Brazil on March 20 marks a clear structural milestone for the domestic obesity and diabetes treatment market, but the commercial implications are likely to unfold gradually rather than abruptly. While the end of Novo Nordisk’s ~20-year exclusivity formally opens the market to competition, Brazil still has no approved national alternative available in pharmacies. In practice, this places the market in a transition phase rather than triggering immediate disruption. Below, we organize the key points in a Q&A format, with more developed answers to support investor discussions.
+
+1. What exactly happened with the Ozempic patent, and why does it matter?
+
+The patent for semaglutide—the active ingredient in Ozempic, Wegovy, and Rybelsus—expired on March 20, 2026, effectively ending Novo Nordisk’s exclusivity after roughly two decades. The company had attempted to extend this protection by an additional 12 years through legal avenues but was unsuccessful. This development is structurally important because it legally allows other pharmaceutical companies to enter the market and develop competing products. However, unlike traditional small-molecule drugs, this does not translate into an immediate economic “cliff.” The absence of approved alternatives means Novo Nordisk retains effective control of the market in the near term.
+
+Key takeaway: The patent expiry is a legal inflection point, but not yet a commercial one—this will depend on regulatory approvals and manufacturing scale.
+
+2. Why are there still no alternatives available in Brazil?
+
+Despite the patent expiration, no domestic alternatives have been approved so far, and the main bottleneck is regulatory rather than legal. Semaglutide is a complex peptide that sits at the intersection of synthetic drugs and biologics, which significantly raises the bar for approval. Companies must provide extensive safety and efficacy data, demonstrate high levels of manufacturing consistency, and prove analytical precision at the molecular level. On top of that, Brazil does not yet have a fully standardized regulatory pathway for this type of “hybrid” molecule, forcing ANVISA to conduct case-by-case evaluations often based on international benchmarks. This combination of scientific complexity and regulatory uncertainty has slowed down approvals.
+
+Key takeaway: Approval complexity—not lack of interest—is the primary factor delaying competition.
+
+3. How many companies are trying to enter this market?
+
+There are currently 15 national applications under review at ANVISA, with broader indications suggesting that the total number of requests may be closer to 17. Of these, two products—developed by EMS and Ávita Care—are in a more advanced stage known as “cumprimento de exigências,” meaning that ANVISA has already reviewed their dossiers and requested additional clarifications. Seven other applications are under active review and may receive initial feedback in the first half of 2026, while the remaining filings have yet to enter the formal analysis phase. This represents one of the most competitive pipelines in Brazilian pharma in recent years, highlighting both the attractiveness and scale of the opportunity.
+
+Key takeaway: Competition is likely to be broad and multi-layered, but it will materialize sequentially rather than all at once.
+
+4. When will the first competing products actually launch?
+
+The earliest realistic timeline for the first competing products to reach the market is July/August 2026. The leading candidates from EMS and Ávita Care received requests for additional information from ANVISA in early March and have up to 120 days to respond, although they may do so earlier. Approval will ultimately depend on the adequacy and quality of these responses. This implies a gap of at least three months between patent expiry and the arrival of any competition, followed by a gradual rollout of products.
+
+Key takeaway: Expect a short period of continued exclusivity, followed by a gradual market opening starting in mid-2026.
+
+5. What are the main regulatory hurdles delaying approval?
+
+ANVISA’s review is focused on three critical technical areas. First, immunogenicity, which assesses whether patients may develop antibodies against the drug, potentially reducing its effectiveness. Second, impurity control, which involves identifying and limiting potentially toxic residues from the production process. Third, analytical methods, which ensure that manufacturers can detect even minor variations in the molecule and maintain consistency across batches. These requirements are particularly stringent for biologic-like drugs, where small production differences can have meaningful clinical implications.
+
+Key takeaway: Regulatory scrutiny is both high and necessary, reflecting the clinical complexity and risk profile of the product.
+
+6. Which company is best positioned to lead the market?
+
+EMS appears to be the most strategically advanced player at this stage. The company has invested approximately R$1.2bn to develop domestic semaglutide production capacity, including the expansion of its plant in Hortolândia (SP), which is expected to produce up to 20mn pens annually. This level of investment suggests strong commitment and readiness to scale once approval is obtained. Ávita Care is also in an advanced regulatory stage, although less information is available regarding its industrial capacity.
+
+Key takeaway: EMS combines regulatory progress with industrial scale, positioning it as a likely early leader—subject to approval.
+
+7. Will prices drop immediately after patent expiration?
+
+Prices are unlikely to fall immediately, as reductions depend on the actual entry of competitors rather than the legal expiration of the patent. Currently, semaglutide pens cost around R$1,000, depending on dosage. Without competing products on the market, pricing dynamics remain unchanged in the short term. Over time, as new entrants launch and scale, prices should gradually decline. However, because semaglutide is not a traditional small-molecule drug, true generics—typically ~35% cheaper—are unlikely to dominate. Instead, the market will be driven by biosimilars and new products, which may initially offer discounts closer to ~20%.
+
+Key takeaway: Price compression should be gradual and dependent on the intensity of competition, rather than abrupt.
+
+8. What happened in global markets after blockbuster drug patents expired, and what can Brazil learn from it?
+
+Historical evidence from global pharmaceutical markets suggests that the impact of patent expiration varies significantly depending on the nature of the drug. For traditional small-molecule blockbusters (e.g., Lipitor, Humira in its early stages), generic entry typically led to rapid price declines of 70–90% within 12–24 months, accompanied by swift market share erosion for the originator. However, in the case of biologics and complex therapies—closer to semaglutide’s profile—the transition has been much more gradual. Biosimilars for drugs such as Humira or insulin analogues often delivered price reductions in the range of 15–40% over several years, with slower physician adoption and more limited substitution dynamics due to regulatory requirements and clinical caution.
+
+Key takeaway: Brazil is more likely to follow the biologic playbook (gradual competition, price erosion, sustained category growth) rather than the sharp “generic cliff” observed in traditional pharmaceuticals.
+
+9. What is the potential impact on SUS (public healthcare)?
+
+The potential inclusion of semaglutide in Brazil’s public healthcare system (SUS) represents a key medium-term upside, but remains uncertain. The drug was previously rejected due to its high cost, with estimates suggesting a fiscal impact of around R$8 billion per year. However, the entry of domestic competitors and the resulting price reductions could reopen this discussion in the future. For now, there is no formal timeline or commitment for incorporation, although demand through legal channels continues to grow.
+
+Key takeaway: SUS inclusion is the largest potential demand catalyst, but visibility remains limited.
+
+10. What does this mean for pharma retailers?
+
+For pharmacy retailers, the implications are broadly positive. In the medium term (2H26–2027), the gradual increase in supply and competition should expand availability, while in the long term, improved affordability is likely to drive significant market expansion. GLP-1 drugs remain a high-ticket, high-traffic category, and the introduction of biosimilars and alternative products should increase volumes rather than erode margins.
+
+Key takeaway: The market is transitioning from exclusivity to accessibility, supporting multi-year growth for the entire ecosystem.
+
+Industry estimates suggest that GLP-1 drugs already represent a double-digit percentage of total pharmacy sales for leading retailers, with some companies estimating the category accounts for roughly 10–12% of revenues. Looking ahead, there is a major opportunity: GLP-1s are approaching the outer edges of exclusivity (2026 in the case of Brazil). Across global pharmaceutical markets, patent expiration has historically triggered dramatic price declines as generic competitors enter. Data from the U.S. Food and Drug Administration and multiple academic studies show that generic competition rapidly compresses prices across most therapeutic classes. In many ways, GLP-1 adoption has become the sector’s most important structural growth engine – please see our thematic report Ain’t no mountain high enough. <https://www.btgpactual.com/research/report-view/118689> 
+
+Luiz Guanais 
+Brazil – Banco BTG Pactual S.A. 
+luiz.guanais@btgpactual.com <mailto:luiz.guanais@btgpactual.com>  
++55 11 3383 2755 
+
+Yan Cesquim 
+Brazil – Banco BTG Pactual S.A. 
+yan.cesquim@btgpactual.com <mailto:yan.cesquim@btgpactual.com>  
++55 11 3383 2734 
+
+Beatriz Cendon 
+Brazil – Banco BTG Pactual S.A. 
+beatriz.cendon@btgpactual.com <mailto:beatriz.cendon@btgpactual.com>  
++55 71 997430203 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118870>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118870> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng6NCISv3uaPCSh3ooscRNxOQe-2F5GhBdCagAE83CHzccsHUXtoSmTPXZEHeOH4N50xux4xtICg7CPGoOuejT5IGiVTq7FetRAfewfuZ2bIefnZVgLgNImGnXserbQhr5v9hjYf9Wx26TJNloNXWmfqvAZyadxc8unkXV3JKp6Kwf-2BPGuX0si9Ra1sL5fHXCTXZ8-3D>

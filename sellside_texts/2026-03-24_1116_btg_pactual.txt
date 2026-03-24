@@ -1,0 +1,148 @@
+Subject: ENC: LatAm Oil & Gas: Daily Fuel | March 20th, 2026 (BTG Pactual's Almeida/Cunha/Guardiola/Muñoz/Leyva)
+From: BTG Pactual
+Date: 2026-03-20T11:16:52
+Sector: Oil & Gas
+Companies: BRKM3
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deRodrigo Almeida <rodrigo-r.almeida@btgpactual.com>
+Enviado: sexta-feira, 20 de março de 2026 11:16:42 (UTC-03:00) Brasilia
+Assunto: LatAm Oil & Gas: Daily Fuel | March 20th, 2026 (BTG Pactual's Almeida/Cunha/Guardiola/Muñoz/Leyva)
+
+
+
+ 
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - LATAM - Oil & Gas 
+
+
+LatAm Oil & Gas 
+
+
+20-March-2026 
+
+
+ 
+
+
+Daily Fuel | March 20th, 2026 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118861>  
+
+The Extel (Institutional Investor) voting period ends today. If our research helped you make better investment decisions, we would like to kindly ask for your support through a 5-star vote in the following categories: "Brazil - Oil & Chemicals" and "LatAm - Oil, Gas & Petrochemicals". Click here to support our team <https://www.extelinsights.com/> 
+
+Diesel subvention & potential ICMS exemption; BRKM - REIQ sanction
+
+Dear Investor, please find below the most relevant news for the LatAm Oil & Gas sector, with implications for the regional stocks. In this report, you can also find a comparables table for the stocks under our coverage.
+
+ 
+
+Company News
+
+ 
+
+FUEL DISTRIBUTION: Federal Government Introduces Guidelines for the Diesel Subvention Program. What´s new? Yesterday, the federal government announced the decree 12.883/2026 that basically establishes that Petrobras needs to sell diesel at the current price (R$3.65/liter) to gain access to the R$0.32/liter diesel subvention from the federal government. Therefore, the reference price for Petrobras is R$3.97/liter. For importers and private refineries, the reference prices will be based on an import parity price (methodology to be defined by ANP).
+
+What are the implications?
+
+For Petrobras, they will be getting the subvention as long as they keep diesel prices at the current R$3.65/liter to distributors. Petrobras will be therefore getting R$3.65 (selling price for the molecule) + R$0.32 (subvention), for each liter of diesel sold.
+
+The company could still eventually raise prices. For example, if Petrobras raised prices by R$1.00/liter to narrow the gap vs. Import parity, they would no longer receive the subvention, but the R$4.65/liter would be much closer to IPP. The point here is that raising prices remains at the company’s discretion and the reference price does not freeze. See our Mar 20 report <https://www.btgpactual.com/research/report-view/118858> 
+
+Figure 1: PBR vs. Import Parity Prices If the ICMS Tax is Removed for Imports (R$/liter) 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-20/1774016085692.png> 
+
+Source: Bloomberg, Petrobras and BTG Pactual 
+
+Figure 2: PBR vs. Import Parity Prices Without the ICMS Tax Removal on Imports (R$/liter) 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-20/1774016085698.png> 
+
+Source: Bloomberg, Petrobras and BTG Pactual 
+
+FUEL DISTRIBUTION: The Brazilian government is pushing for a temporary ICMS exemption on diesel imports, with President Lula urging states to join the measure and offering federal compensation for half of the revenue loss (estimated at ~R$3bn over two months). The proposal aims to curb rising fuel prices and mitigate supply risks amid global oil market disruptions, though implementation depends on state approval, which remains uncertain. ( Folha, Mar 20 <https://www1.folha.uol.com.br/mercado/2026/03/lula-pressiona-governadores-a-zerar-icms-do-diesel-para-conter-impacto-da-guerra.shtml> )
+
+Our take: A full cut would represent approximately R$1.17/liter, compared to an estimated R$1.93/liter import parity gap, meaning the measure would not fully eliminate the differential versus international prices but would still provide meaningful relief - particularly when combined with the existing R$0.32/liter subsidy for importers. The proposal reinforces the government’s efforts to ease fuel price pressures and reduce strike risks, while avoiding direct interference in Petrobras’ pricing policy, preserving its independence.
+
+Figure 3: Parity summary table 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-20/1774016085701.png> 
+
+Source: Bloomberg, Petrobras, BTG Pactual 
+
+(+) BRASKEM: Announced the sanction of a new law increasing REIQ Industrial tax credits from 0.73% to 5.8% on petrochemical feedstocks, with validity through December 2026 (capped at R$2.0bn). The measure also includes an additional 1.5% investment-linked credit ("REIQ Investimento"; capped at R$1.1bn), reinforcing support to the chemical sector and potentially easing margin pressures. (Braskem RI, Mar 20)
+
+Our take: We estimate the program could add approximately US$250–350mn per year to Braskem’s EBITDA, providing incremental benefits that support a stronger free cash flow generation profile over the period. Meanwhile, we see continued discussions regarding a change in the shareholders structure, with a potential resolution happening in the coming months. This should pave the way for better visibility on the outcome to minority shareholders with potential solutions to the capital structure including a conversion of debt into equity, a debt haircut, and/or an equity injection from current shareholders (see "Prepping for the turnaround <https://www.btgpactual.com/research/report-view/116973> ").
+
+MIDSTREAM: The ANP extended by 15 days the public hearing on the valuation of the Regulatory Asset Base (RAB) for gas transporters, now running until April 3, citing the complexity of the topic and its material impact on tariffs for the 2026–2030 cycle. ( Brasil Energia, Mar 19 <https://brasilenergia.com.br/petroleoegas/gas/anp-prorroga-consulta-publica-sobre-valoracao-da-bra> )
+
+FUEL DISTRIBUTION: Brazil’s government has launched a probe into fuel pricing, giving major distributors (Vibra, Raízen, Ipiranga) 48 hours to justify recent increases. Authorities are requesting detailed data on volumes, costs, and supply dynamics, as part of a broader investigation into market transparency and possible antitrust violations. (Folha, Mar 19 <https://www1.folha.uol.com.br/mercado/2026/03/governo-da-48-horas-para-ipiranga-raizen-e-vibra-explicarem-alta-abrupta-em-preco-de-combustiveis.shtml> )
+
+MAHA: Is exercising its option to acquire a 24% indirect stake in PetroUrdaneta for €4.6mn, enabled by OFAC’s General License 52, which allows transactions involving PDVSA-linked entities. The deal, via the purchase of part of Novonor’s stake, positions Maha to advance redevelopment efforts in the Maracaibo fields. (Brasil Energia, Mar 19 <https://brasilenergia.com.br/petroleoegas/internacional/maha-capital-adquire-parte-da-petrourdaneta> )
+
+EQUINOR: Ibama has authorized Equinor to drill three offshore wells in the BM-C-33 (Raia) project in Brazil’s Campos Basin, marking progress ahead of planned drilling activities starting this year. The ~$9bn development, targeting first gas/oil in 2028, includes six wells and an FPSO with capacity of 126 kb/d of oil and 16 mcm/d of gas, with volumes to be exported via a 200 km pipeline to Cabiúnas. (Brasil Energia, Mar 29 <https://brasilenergia.com.br/petroleoegas/ep/ibama-autoriza-perfuracao-de-3-pocos-no-projeto-raia-pela-equinor> )
+
+ 
+
+Commodity News
+
+ 
+
+GLOBAL OIL: Oil prices moved higher, with Brent near $110/bbl (+1.1%), as markets remained tight despite coordinated efforts by major economies to secure shipping through the Strait of Hormuz and U.S. measures to boost supply. The persistence of supply disruptions, particularly damage to LNG and oil infrastructure, continues to underpin prices, with limited near-term relief even if transit resumes. (Reuters, Mar 20 <https://www.reuters.com/business/energy/oil-falls-us-allies-look-boost-supply-unchoke-strait-hormuz-2026-03-20/> )
+
+GLOBAL OIL/REFINING: South Korea is advancing a major restructuring of its petrochemical sector, with a plan to consolidate Yeosu’s key assets—including Yeochun NCC and Lotte Chemical’s cracker—into a single entity while rationalizing capacity and shifting toward higher-value products. The move, backed by potential government support (financing, tax incentives, R&D), reflects efforts to address structural overcapacity and weak margins, accelerating industry consolidation and efficiency gains. (Reuters, Mar 20 <https://www.reuters.com/business/energy/south-korea-review-restructuring-plan-largest-petrochemical-complex-2026-03-20/> )
+
+GLOBAL OIL: An Iranian missile strike caused localized damage to infrastructure at Israel’s Haifa refinery, primarily affecting electrical systems linked to a third-party facility, though most production units remain operational and others are being restarted. (Reuters, Mar 20 <https://www.reuters.com/business/energy/israeli-refinery-owner-says-essential-infrastructure-damaged-iranian-strike-2026-03-20/> )
+
+Figure 4: LatAm Oil & Gas Daily Comp 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-20/1774016085705.png> 
+
+Source: Bloomberg, BTG Pactual 
+
+Rodrigo Almeida 
+Brazil – Banco BTG Pactual S.A. 
+rodrigo-r.almeida@btgpactual.com <mailto:rodrigo-r.almeida@btgpactual.com>  
++55 (11) 3383-6278 
+
+Gustavo Cunha 
+Brazil – Banco BTG Pactual S.A. 
+gustavo.cunha@btgpactual.com <mailto:gustavo.cunha@btgpactual.com>  
++55 11 3383 2077 
+
+Daniel Guardiola, CAIA 
+Colombia - BTG Pactual 
+daniel.guardiola@btgpactual.com <mailto:daniel.guardiola@btgpactual.com>  
++57 1 307 8090 
+
+Juan José Muñoz, CFA 
+Colombia - BTG Pactual 
+juan-j.munoz@btgpactual.com <mailto:juan-j.munoz@btgpactual.com>  
++57 1 257 7378 
+
+Alvaro Leyva 
+Colombia - BTG Pactual 
+alvaro.leyva@btgpactual.com <mailto:alvaro.leyva@btgpactual.com>  
++57 12577690 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118861>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118861> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng6UZup-2Bunvtm1i1cxskogx351xFbolR7LDhKLm8Yjvwrpd-2FRRAXSi5vOoncMbVKIOr3xGhJ9N4jGtD8Ei6w7bCOR8EFOrU-2F6W0qi5sYdtr-2BR4BSElcpVkG-2B59Jka-2Bp7DxwpjTlwtNM6dWuOCR804OVM7o6NiGf8vKc19WC9u9g-2FPRnOT1ZgnvX93Ye7CBF6mRg-3D>

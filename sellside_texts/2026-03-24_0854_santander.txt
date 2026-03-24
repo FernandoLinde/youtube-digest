@@ -1,0 +1,320 @@
+Subject: ENC: SANTANDER LATAM DAILY: 23 Mar -  Local strategy NDR feedback, Local Financials/Asia Financials NDR feedback, AMX buys Desktop (+)
+From: Santander
+Date: 2026-03-23T08:54:26
+Sector: Financials
+Companies: BBAS3, ITUB4, BBDU3, BRSR6, NUVB3, AMX3
+============================================================
+
+________________________________
+
+De: Lethicia Silva da Conceicao (E) <lethicia.conceicao@santander.com.br>
+Enviado: segunda-feira, 23 de março de 2026 08:49:42 (UTC-03:00) Brasilia
+Cc: SAN - Local Sales <SAN-LocalSales@santandernet.onmicrosoft.com>
+Assunto: SANTANDER LATAM DAILY: 23 Mar - Local strategy NDR feedback, Local Financials/Asia Financials NDR feedback, AMX buys Desktop (+)
+
+
+
+
+
+SALES COMMENTS
+
+Monday, March 23, 2026
+
+SANTANDER LATAM DAILY (sales commentary only)
+
+
+Good morning,
+
+
+Aline Cardoso met with local investors <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=VaWrpxd&sig=OkpP6HskDcRFa9WXAlHZYmXEFg7&v=2&url=https://santandercibinsights.com/report/592e5ab4-f057-4700-ad5d-0f75a286a37b>  last week, with the discussion moving from “How fast does this normalize?” to “What if this doesn’t normalize anytime soon?”. Brazil is facing a tricky mix, with better terms of trade on the positive side, but inflationary impacts and expectations of a slower and shallower monetary easing cycle on the negative. As of Thursday, the Copom’s 3Q27 IPCA projection rose only 10bps to 3.3%, less than our 3.6% estimate. The "calibration" wording, the absence of April guidance, and the explicit conditioning on the conflict all point to a committee that wants to keep their options open. And so Aline observes that Brazilian fund managers are selectively de-risking rather than buying the dip. She sees locals heavily skewed toward utilities (Axia, Eneva, Copel) which are still seen as relatively solid investments in a more volatile macro environment. Long-term-long-only investors are fixated on the high-quality compounders: Nubank, MELI, Smart Fit.  Less constrained funds are entering positions in deeply discounted cyclicals like C&A and Localiza, and some embracing the geopolitical volatility by raising exposure to PBR and PRIO.
+
+
+
+
+One half of our Financials Team was meeting local investors <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=vGM5ZO4&sig=FZWIp0SI6VmkaNmwDkheUmAu7Tx&v=2&url=https://santandercibinsights.com/report/f3c37a1d-0f1b-4b6e-b23a-7177a1e4b54d>  last week as well. NU remained the most discussed name and continues to stand out as the preferred tactical value idea, although the long case is now seen as too crowded, especially with a lack of catalysts. Bradesco drew attention on valuation <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=ahKrE4L&sig=433RToQd2hThys3qcPtmJMmQalu&v=2&url=https://santanderresearch.bluematrix.com/links2/pdf/bf46ae28-5fa7-4004-bcc7-1adf95296b6e> , though with more balanced debate given ongoing concerns around asset quality and efficiency gains. BTG is back on radar. The other half of the Financials Team was in Asia where investor sentiment looked very much engaged, albeit cautious. Unraveling the political and macro outlook dominated conversations, but digging deeper, we got more questions on Itau which seems remains the sector benchmark <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=ahKrE4L&sig=433RToQd2hThys3qcPtmJMmQalu&v=2&url=https://santanderresearch.bluematrix.com/links2/pdf/bf46ae28-5fa7-4004-bcc7-1adf95296b6e> . In this part of the world Bradesco and Inter both got attention, especially amongst Value investors.
+
+
+
+
+Felipe Cheng likes  <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=l64mXSG&sig=36k48EcXC4f4YUxv7bfwwdGvDnt&v=2&url=https://santanderresearch.bluematrix.com/links2/html/3f0f99ce-4bdb-4afb-967c-e89f352661cf> AMX’s acquisition of Desktop <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=l64mXSG&sig=36k48EcXC4f4YUxv7bfwwdGvDnt&v=2&url=https://santanderresearch.bluematrix.com/links2/html/3f0f99ce-4bdb-4afb-967c-e89f352661cf>  in Brazil which is small in size (R$4.2bn for 1.2mn subscribers) but should allow AMX to strengthen its broadband operations in the all-important Sao Paulo market. Desktop is a listed ISP in Brazil, with strong presence in the state of São Paulo (~1.2mn subscribers). The transaction implies a price of R$20.82 per DESK3 share (~45% premium to last closing price) and a 12m-fwd EV/EBITDA multiple of ~5.6x. The deal is still pending CADE and Anatel approval.
+
+ 
+
+RESEARCH
+
+Brazil Strategy - Markets Reprice a Fatter Right Tail – Aline Cardoso
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=hI_48kT&sig=MyksAaGyG5oKa7hVi1U5BZERa6W&v=2&url=https://santanderresearch.bluematrix.com/links2/html/ad7fd396-8f37-4225-81b1-3e62f05773e2> 
+
+*	Our central scenario still leans toward a temporary disruption of energy markets rather than a lengthy structural dislocation. We believe the Strait of Hormuz will reopen eventually, but it is hard to say when. Even in a benign path where the conflict de-escalates soon, oil flows could take months to normalize, in our view. Infrastructure damage, security concerns, and the simple realization of how fragile that choke point is could keep a persistent geopolitical premium embedded in oil prices.
+*	In practical terms, that likely means oil settling into a higher range than pre-conflict assumptions.
+*	For Brazil, this creates a tricky mix: supportive for terms of trade, but with second-order inflation effects that could complicate the easing cycle.
+*	The tail risks are no longer theoretical.
+*	We still see our base case as the most likely outcome, but the range of possible scenarios around it has clearly widened — and the tails are getting heavier.
+*	As more oil and gas infrastructure is hit, the probability of a prolonged supply shock is creeping higher. That opens the door to a less friendly macro backdrop: slower global growth, potentially sticky inflation, and difficult policy choices.
+*	And as the probability creeps higher, we believe equities could start to struggle in response.
+
+ 
+
+Brazil Financials – NDR Takeaways - Buyside Gets Selective on Risk – Henrique Navarro
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=ev087uw&sig=APSMHZR2oG0zogDmWSdn9RZs3qQ&v=2&url=https://santanderresearch.bluematrix.com/links2/html/a5d855fd-1b29-49fb-907d-7389d2121f74> 
+
+*	Our broader takeaway is that local investors remain constructive on Brazilian financials, but in a more selective and tactical way, with a strong focus on earnings revision risk and technicals. Bradesco, NU, and XP were among the most commonly held names within the group of investors we met, while BTG has started to re-emerge as an attractive quality idea after the recent correction. Itaú also remains widely held, but we saw limited room for incremental demand at current valuation levels. Separately, interest in Stone has picked up meaningfully after the sharp post-4Q25 correction, with investors increasingly looking at the stock as a tactical opportunity, although we met only a few actual holders.
+
+ 
+
+America Movil - Desktop Acquisition Announced – Felipe Cheng
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=l64mXSG&sig=36k48EcXC4f4YUxv7bfwwdGvDnt&v=2&url=https://santanderresearch.bluematrix.com/links2/html/3f0f99ce-4bdb-4afb-967c-e89f352661cf> 
+
+*	AMX announced in a material fact that it has entered into a Share Purchase Agreement to acquire Desktop (DESK3), valuing the asset at an enterprise value of R$4.0bn and an equity value of R$2.4bn (~1% of AMX’s market cap). Desktop is a listed ISP in Brazil, with strong presence in the state of São Paulo (~1.2mn subscribers). The transaction implies a price of R$20.82 per DESK3 share (~45% premium to last closing price) and a 12m-fwd EV/EBITDA multiple of ~5.6x. The deal is still pending CADE and Anatel approval.
+
+ 
+
+Brazil Capital Goods - Randoncorp & Fras-le February Revenue – Lucas Barbosa
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=8lhMpVY&sig=DZlnTNO0N8f1RckZbcydP8STQat&v=2&url=https://santanderresearch.bluematrix.com/links2/html/fec98ec4-645a-4915-a227-9bb94625d2ab> 
+
+*	Randoncorp and Fras-le reported February 2026 top-line figures; specifically:
+*	Randoncorp’s February 2026 revenue stood at R$996 million, -9% YoY (10% below our estimate). Excluding Fras-le, revenue fell 11% YoY (9% below our estimate).
+*	Fras-le’s February 2026 revenue was R$409 million, -6% YoY (10% below our number).
+
+ 
+
+Brazil Healthcare - VC with Lockton - Amil Once Again the Commercial Highlight – Caio Moscardini
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=E3cLzr1&sig=3qkeYfQFdWuCCZLLxN3EqWiaC9D&v=2&url=https://santanderresearch.bluematrix.com/links2/html/3bb6b6e0-209c-41d0-bd99-66368f6c89ad> 
+
+*	The discussion with Lockton reinforces Amil’s strong commercial momentum, while highlighting a more challenging environment for Hapvida. On the commercial side, Amil continues to gain market share, particularly in the SME segment, and is expanding its presence in the corporate segment, supported by its verticalized network (Rede Américas). On the other hand, Hapvida’s operational challenges continue to weigh on product perception, indicating that a meaningful recovery in membership growth may not occur in the short term, in our view. Lockton expects price adjustments in the 10–14% range for SME and corporate segments, respectively (Brazil Health: 10%-12% range; see here). In addition, Mr. Kolmar mentioned that the medical loss ratio was lower in February due to seasonal effects, which is a positive for healthcare payers.
+
+ 
+
+Inter - NDR in Europe - Value Opportunity? – Henrique Navarro
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=MToJCRk&sig=2xUsgPlZwb9O2JCaRpNFY1wN8gC&v=2&url=https://santanderresearch.bluematrix.com/links2/html/938ebc8a-136c-4f35-8a8a-244f3c3aeeec> 
+
+*	Last week we held an NDR in Europe with Inter, where Rafaela Vitória, Inter’s IR head, had the opportunity to discuss the company’s expectations for 2026. Highlights follow.
+*	Our call: We are seeing stronger demand from international investors, particularly value-focused accounts, as the stock’s YTD performance of -10% is below that of Brazilian banks (IFNC index at +7% YTD). We remain constructive on Inter, although we believe that management’s long-term target of 60 million active clients, which implies a 30% efficiency ratio and a 30% ROAE by 4Q27, could be revisited at the company’s May 11 Investor Day. For 1Q26, we expect ROAE and NIM will continue to expand; however, provisioning pressures should persist, in our view, weighing on net income after minorities, which could come in below the ~R$400 million expected by VA consensus, per our forecast.
+
+ 
+
+Brazil Acquirers Tracker — 4Q25 Industry Wrap-Up – Henrique Navarro
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=vOBaXWs&sig=BdnHuxcv2nYbN3Yk3y8eBbTIj3t&v=2&url=https://santanderresearch.bluematrix.com/links2/html/423df516-a6e1-4e0d-9652-bd74b8d9bd25> 
+
+*	We updated our total payment volumes (TPV) tracker to reflect updated numbers from ABECS and figures reported by companies under our coverage. Industry’s TPV expanded 9%, both on a YoY and QoQ basis, in 4Q25. For yet another quarter, Stone and Cielo continued to report market share losses, while Rede reinforced its leading position, followed by Mercado Pago, which continued to gain market share.
+*	Our call: While we believe Stone’s market share loss was already widely anticipated by the market, the more relevant debate, in our view, goes beyond churn and quarterly TPV swings: the key question is whether independent acquirers are proving equally capable of turning payments into a broader banking relationship when compared with incumbents such as Itaú (Rede) or ecosystem players such as Mercado Libre (Mercado Pago). So far, the evidence suggests this has been harder than initially expected, and that gap could become a more important competitive threat over time. That said, with STNE having corrected 25% in the last 30 days (vs. IBOV -7%), we believe most of the risks are likely already priced in. We also note that, in recent talks with investors, we perceive more interest on STNE as a tactical trade, given low valuation levels and high dividend yields.
+
+ 
+
+Colombia Banks Credit Monitor - ROE Pressured by Rising Funding Costs – Andres Soto
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=d-rQ47I&sig=Q1pCgeA0ZL9xIBkwHN8unVFG8nI&v=2&url=https://santanderresearch.bluematrix.com/links2/html/748a6c16-f698-475e-b715-2ef32adcda80> 
+
+*	Colombia’s banking system is showing growth recovery but continued pressure on profitability: loan growth re-accelerated to ~8% YoY, driven by consumer and commercial lending, while asset quality stabilized around ~2.9% NPLs as improvements in commercial portfolios offset ongoing consumer weakness; however, elevated and sticky funding costs (~11–12%) continue to compress margins, leading to a sharp drop in earnings (system net income down ~45% MoM) and ROE (~14%).
+
+ 
+
+Brazil Financials Daily – Henrique Navarro
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=6xADyND&sig=9l2jYScIMKYm9oMWenGmVmpfFSs&v=2&url=https://santanderresearch.bluematrix.com/links2/pdf/0c5a5116-d8a9-40a2-884b-4561ea4b95e2> 
+
+*	B3 announces the planned departure of CEO Gilson Finkelsztain. According to the company, the decision regarding Gilson Finkelsztain’s resignation was made by mutual agreement between the executive and the board of directors, within the context of a structured succession process. Finkelsztain will resign his position at the end of 1H26. The company also stated that it will announce the successor’s name in due course, once the current process is complete. (See Valor Econômico’s March 19 article, “Saída de Finkelsztain ocorre após processo estruturado de sucessão e em comum acordo com executivo, diz B3”.)
+*	The financial system reported 12 million incidents of fraud in 2025. According to a survey by Quod, a data intelligence company, the Brazilian financial system registered 12 million incidents of fraud in 2025, a 67% YoY increase. The study shows that social engineering is the main entry point for scams, responsible for 44% of cases. The peak in reported fraud incidents occurred at the end of the year, with 2 million occurrences in October and 1.8 million in November and December together. These figures represent a notable 200% YoY increase, which, according to Quod, is related to Resolution 501 of the Brazil Central Bank (BCB) going into effect in October, which expanded the volume of information shared via Rufra (Quod's Unified Fraud Registry). (See Valor Econômico’s March 19 article, “Sistema financeiro registra 12 milhões de indícios de fraude em 2025, aponta Quod”.)
+*	Digital money will coexist with Pix. Despite the advance of tokenization, stablecoins, and cryptocurrencies, the prevailing assessment among experts is that there will not be a single dominant model, but a coexistence between different forms of money, such as stablecoins, tokenized deposits, central bank digital currencies (CBDCs), and already established systems like Pix. Thus, the use of digital assets is likely to expand beyond the crypto universe and reach activities such as payments, credit, foreign exchange, and settlement of financial transactions. Based on these developments, B3 is already working to expand its operations in this field, with initiatives involving stablecoins and other digital assets, as well as regulated products that provide access to this market. (See Valor Investe’s March 19 article, “Dinheiro digital não vai substituir o Pix — vai conviver com ele”.)
+
+ 
+
+Latam Financials Weekly – Henrique Navarro
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=ahKrE4L&sig=433RToQd2hThys3qcPtmJMmQalu&v=2&url=https://santanderresearch.bluematrix.com/links2/pdf/bf46ae28-5fa7-4004-bcc7-1adf95296b6e> 
+
+*	We spent the last week meeting investors from Rio de Janeiro and São Paulo, and the tone of the conversations was constructive, albeit clearly more selective and tactical after the recent market correction. Discussions largely centered on valuation dislocations, earnings revision risk and technicals, with investors showing greater willingness to engage in tactical trades while still favoring quality franchises. Main highlights follow:
+*	NU remained the most discussed name and continues to stand out as the preferred tactical value idea, although the long case is now increasingly seen as consensual among local investors and some flagged limited near-term catalysts until 1Q26.
+*	Bradesco also drew attention on valuation, though with more balanced debate given ongoing concerns around asset quality and the pace of efficiency gains.
+*	Among higher-quality names, BTG appears to be coming back on radar after its recent pullback, while Itaú remains widely held but with limited room for incremental demand at current levels.
+*	In capital markets, XP and B3 continue to feature in most meetings, with XP in particular seen as one of the names with the clearest scope for positive earnings revisions.
+*	Stone was also a frequent topic, mostly as a tactical discussion driven by its sharp correction and growing perception of strategic optionality, although we met only a limited number of holders.
+*	Asia: investor sentiment remains cautious but engaged. The macro backdrop dominated discussions, particularly the Middle East conflict, with investors highlighting its highly uncertain implications. At the same time, frustration with the slower-than-expected pace of rate cuts in Brazil has tempered market enthusiasm. Nonetheless, interest in Brazilian financials remains strong, particularly in Itaú, which continues to be viewed as the benchmark for sector exposure. At the company level, we saw increasing interest in Bradesco, consistent with our recent NDR in Europe (here), ongoing discussions around Nubank’s market share dynamics, and greater attention to Inter among value-focused investors, while sentiment toward payment companies is still negative, with low valuations seen as structurally justified.
+
+ 
+
+Brazil Utilities – Fair Asset Swap between Axia and ISA Brasil – Andre Sampaio
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=qElA_gM&sig=VAtlynadLdd4qXHfXpp3wJHawRm&v=2&url=https://santanderresearch.bluematrix.com/links2/html/fa52216c-02a5-4a5e-bb84-13f72d4ded13> 
+
+*	Axia will receive R$1.17 billion (reference date as of December 2025) and a 51% stake in Garanhuns, while Isa will disburse this cash and receive a 49% stake in Madeira In our view, the transaction is positive for both sides, as it: (i) simplifies the structure of both companies, reallocating ownership in specific concessions to improve asset concentration and governance; (ii) unlocks more cash for Axia’s dividends payments; (iii) marginally decreases both companies’ leverage; and (iv) increases the possibility of fiscal gains.
+
+ 
+
+Brazil Electric Utilities - 2026 Reserve Capacity Auction Results – Andre Sampaio
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=w0BwcGu&sig=O9gvQwcQod6xepTEoPX8UKoWxHp&v=2&url=https://santanderresearch.bluematrix.com/links2/html/349a3562-9eae-4254-afab-a9aa69a3a10c> 
+
+*	Eneva and Copel emerge as clear winners.Yesterday, the Brazilian government concluded an important reserve capacity auction (LRCAP), in which several companies under our coverage secured projects (details in Figure 1). Despite the strong post-auction stock performance, we believe the market has yet to fully reflect the value created by the auction. In our view, the key highlight was Eneva’s transformational capital allocation, alongside meaningful value generation for Copel. While less material, Orizon also secured important contracts for its three projects. We maintain our constructive view on all three names and reaffirm Orizon as our LatAm Top Pick.
+
+ 
+
+Pulp & Paper Monitor – Yuri Pereira
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=TcxxtUK&sig=5nJ7z2u1KL10maYnn3OdB0m6zuC&v=2&url=https://santanderresearch.bluematrix.com/links2/pdf/a8686514-c986-4c3a-ab62-8620c6d780da> 
+
+*	Net/Net. This week, Chinese hardwood and softwood prices were flat WoW, at US$595/t and US$680/t, respectivelly, as per Fastmarkets, during Shanghai Pulp Week, as rising supplier’s costs, were offset by weak paper demand, cheap resale BSK and falling futures. The pulp price gap was flat WoW, at US$85/t, 41% below the US$143/t five-year average. Inventories at the ports of Qingdao and Changshu fell 5.3% WoW to 2.24mt. We also highlight the following: (i) In Europe, Fastmarkets warned that the Middle East crisis is triggering a new energy shock, with rising gas, diesel, and chemical costs threatening paper and board margins, particularly for gas-exposed grades such as coated recycled board, newsprint, and testliner. Exports also present a risk, as the Middle East accounts for 15% of European containerboard exports and 11% of boxboard exports, so any prolonged disruption could exacerbate Europe’s oversupply.(ii) Suzano announced a US$50/t price increase effective April 1 for UWF, CWF and boxboard paper products across LatAm, the Middle East, Africa and Asia, citing rising input costs and the need to mantain profitability. (iii) Domtar announced to customers a US$95/t increase in fluff prices to US$2,040/t in North America and Europe, and a US$45/t rise in net regions including China, other Asia countries and MENA, effective April 1. (iv) Indonesia’s pulp and paper market remained subdued ahead of Eid, with deliveries paused and expected to resume at month-end. Producers are holding back OCC imports relying on inventories amid freight uncertainty tied to the Middle East conflict. At the same time, rising freight, energy and raw material costs are prompting discussions of price adjustments despite weak near-term demand. (v) UPM will take planned maintenance shutdown at its Pietarsaari pulp mill (~800ktpy of NBSK and birch pulp) in Finland from April 13-30, with no impact on deliveries. (vi) Paracel secured US$165 million from IDB to fund infrastructure for its Paraguayan BEK project, already harvesting wood from its 142k ha plantations, mentioning heated market for certified wood. (vii) Kimberly-Clark resumed local production of its Scott tissue brand in Argentina, citing consumer demand and a market opportunity, as part of a broader portfolio expansion. (viii) Xuan Mai Paper started up its second 75tpd deinking pulp line at its Ho Chi Minh City mill, supplied by ANDRITZ, strengthening its recycled tissue capacity. (ix) Fibre Excellence extended talks with French authorities to April 15 amid financial pressure from wood supply and energy costs, while managing downtime and restarting operations to stabilize production. (x) European pulp consumption increased 1.2% MoM, to 820.7kt (3.4% YoY) in February, while inventories edged up 3.3% MoM, to 703.6kt (-5.8% YoY), representing 26 days of supply, per UTIPULP, indicating a balanced-to-slightly looser market. (xi) U.S. pulp prices continued to rise, with NBSK up US$20-30/t, fluff up US$40-60/t and BEK up US$40-60/t in March, while Domtar announced a global fluff hike effective April 1. (xii) The European Forest Products Conference, in China, reinforced that overcapacity, regulation, and geopolitical factors remain structural risks for paper markets, while paperization continues selectively as cost considerations increasingly outweigh sustainability in purchasing decisions. Overall, the event indicated that European forest products players remain resilient, but continue to face persistently weak demand, structurally low operating rates, and rising exposure to disruptions in energy, freight, and trade flows.
+
+ 
+
+QUARTERLY EARNINGS
+
+Cemig - 4Q25 Results - G&T Driving Solid Results – Andre Sampaio
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=YOtEc2w&sig=AoEn8BZX9vcp5rCXolisvXF3jgw&v=2&url=https://santanderresearch.bluematrix.com/links2/html/ee469ec1-5167-4b5c-97c1-b1057280b037> 
+
+Solid results driven by gross profit beat. Adjusted EBITDA (excluding non-recurring, VNR and IFRS transmission impact) was 2.3% above our estimate, mainly reflecting a strong generation and trading results but partially offset by weak disco. Consolidated gross profit was 4.6% short of our estimate (+2.1% YoY), while adjusted manageable costs were 7.2% higher vs Santander (+8.9% YoY). We also highlight the announcement of a health plan deal, which had a R$788.1 million positive impact on net profit and could spark higher dividends. Disco volumes without DG compensation decreased 3.5% YoY, negatively impacting gross profit. The adjusted bottom line was still 41.3% above our estimate, explained by the aforementioned impacts and fewer negative financial results than projected. Lastly, we note that the ND/EBITDA ended 4Q25 at 2.3x (up from 1.8x from 3Q25).
+
+ 
+
+Cyrela Brazil Realty - 4Q25 Results - A Quarter Full of One-Offs, But Mostly In Line With Estimates – Fanny Oreng
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=mQhBywS&sig=OaGzpgIA89ptaVhzaKtSwreV1Hk&v=2&url=https://santanderresearch.bluematrix.com/links2/html/f1394a62-75db-4a71-be85-2cd4f423b839> 
+
+*	Cyrela’s 4Q25 results came broadly in line with our estimates, but were marked by several non-recurring effects. While net revenues surprised positively, driven by the removal of suspensive clauses in some projects, reported gross margins were pressured by the one-off impact of sales of studios and commercial units at the Vista Milano (By Armani Casa) project, which have a lower price per square meter than residential units. On the bottom line, net income was also influenced by non-recurring expenses and reversal of tax provisions. All in, net income came in line with our estimates at R$682 million, resulting in a LTM ROE reached 22.3%, up 240 bps QoQ and 140 bps YoY.
+
+ 
+
+Mater Dei - Solid 4Q25 Results with Robust Margin Expansion – Caio Moscardini
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=VE29qzg&sig=PQlwYjlOOqORsTgiIsH62mpniDw&v=2&url=https://santanderresearch.bluematrix.com/links2/html/b4daa2d7-7fb7-4f27-bc8d-be9f1eafb380> 
+
+*	Mater Dei reported another set of solid results in 4Q25 with good operational results and EBITDA margin expansion. However, results were broadly in line with expectations, which could lead to a neutral market reaction in tomorrow's trading session. The company posted double-digit top-line growth supported by both prices and volumes, and occupancy rate continues to improve by a significant amount (+310bps YoY), following the company’s strategy to increase operational efficiency. On the margin side, gross margin posted robust expansion (+400bps YoY) given higher operational leverage, supporting adjusted EBITDA margin growth, which was broadly in line with our and consensus estimates (excluding R$3.5 million related to tax credit). Net debt deteriorated QoQ, mainly due to dividend and M&A payments, which was already expected. In addition, Nova Lima and Salvador hospitals continue to improve operational results in the ramp-up process. Overall, we see Mater Dei trading at ~10x adjusted P/E for 2026, which is not exactly cheap, in our view, for a small cap with execution risks, amid a volatile year.
+
+ 
+
+Unipar - 4Q25 Conference Call Highlights – Yuri Pereira
+
+Report Link <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=oZFkmi2&sig=OCUCgvq61b6NQSe3ltpEjbmTm4W&v=2&url=https://santanderresearch.bluematrix.com/links2/html/187b9d21-a596-484f-aede-b3e98a8b332f> 
+
+*	Petrochemical Spreads Outlook: Management acknowledged some recent improvement in PVC and caustic soda prices in the domestic market, supported by higher international freight rates and slightly tighter global supply following disruptions affecting Chinese and Middle Eastern producers resulting from the conflict in the Middle East. However, spreads remain under pressure and highly volatile, with cost pressure from higher natural gas and ethylene prices weighing on margins. In Brazil, PVC demand is still soft due to weaker construction activity, while imports continue to pressure local pricing, while in Argentina, PVC demand remains depressed amid macroeconomic adjustments. While the company expects a gradual rebalancing of global inventories over time, visibility remains limited and the pace of recovery uncertain. Importantly, management noted that the PVC inventory provision booked in 4Q25 (see report <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=a9KfNUy&sig=6ivxJrAhgX7uMx5Na3xykTKiS8Z&v=2&url=https://santandercibinsights.com/report/3a05cd66-fd6e-4884-bee6-c8fdc3637789> ) was linked to a strategic decision to hold higher inventory rather than sell at low margins and that it could be partially reversed in 2026, depending on price dynamics over the coming months.
+
+ 
+
+LATAM NEWS HEADLINES
+
+BRAZIL
+
+Billionaire Batista in Talks to Rescue Brazil Steel Tycoon. Brazilian magnate Joesley Batista is making a play for the cement unit of CSN, according to people familiar with the talks, and is directly negotiating with CEO Benjamin Steinbruch. Batista's family investment vehicle J&F SA has also expressed interest in CSN's mining unit, which produced 45.5 million tons of high-quality iron last year. The talks represent a pivot toward a more aggressive divestment strategy for Steinbruch, who has been facing mounting pressure from lenders to offload assets due to CSN's heavy debt load. Bloomberg.
+
+ 
+
+Haddad Leaves a Solid Legacy — and a To-Do List. Fernando Haddad exits Brazil’s finance ministry with clear wins on stability and redistribution, but leaves unfinished business on fiscal discipline. He strengthened the inflation-targeting framework and pushed through higher and more progressive taxes, but made less headway on curbing public spending. Haddad’s tenure delivered solid growth and within-target inflation, but left public debt higher and rising, with consensus forecasts pointing to rising debt through 2034. Bloomberg.
+
+ 
+
+Middle East war raises costs for Brazilian companies. The effects of the war in the Middle East, which until a few weeks ago were only an expectation, are now starting to hit Brazilian companies in different sectors in concrete ways. The main fallout comes from the spike in oil prices, which is raising costs across a range of activities, and from supply chain problems. Companies are already seeing higher airfares in Brazil because of rising oil prices. CVC Corp Chief Executive Fabio Mader pointed to a 17% jump in March prices compared with a year earlier. The figure reflects the travel company’s March sales, meaning customers paid 17% more to fly than in the same period last year. “The increase is directly linked to the rise in and uncertainty over fuel. Valor.
+
+ 
+
+Santander has a new CEO in Brazil. Gilson Finkelsztain, chief executive of B3, will become the new CEO of Banco Santander Brasil, replacing Mario Leão, who has held the position for nearly five years. The transition is expected to take place by July. Finkelsztain will take the helm of Brazil’s third-largest private bank at a complex moment, as the institution continues to recover from a deterioration in delinquency levels <https://pierpont.email.streetcontxt.net/platform/al?a=12840416&ad=4077682110&h=QBrt5km&sig=1QSePr7F60Rz6TuEtW7yxE5aX7A&v=2&url=https://valorinternational.globo.com/business/news/2026/02/05/santander-profit-meets-forecasts-rising-delinquencies-weigh.ghtml>  and seeks to reinvent itself amid growing competition from fintech companies. Valor.
+
+ 
+
+Explaining Brazilian funk to Chinese executives. Explaining what Brazilian funk is to executives in China is not typically part of a marketing executive’s routine. Yet that was precisely the challenge faced by Ray Yang, marketing vice president at Jovi, a brand of Chinese smartphone maker Vivo Mobile Communication—one of the world’s five largest phone manufacturers, present in more than 60 countries.
+
+“To be honest, we had many internal discussions, both in Brazil and in China,” Yang says. The decision followed research with young Brazilians and marked the company’s debut in the country in May 2025. Singer MC Hariel was chosen to star in the first campaign for the V50 Lite model. This year, MC Jottapê was selected as the brand’s ambassador. Valor.
+
+ 
+
+MEXICO
+
+America Movil’s Claro to Buy Desktop SA in $750 Million Deal. Claro Telecom Participacoes SA will buy a majority stake in telecom company Desktop SA for an enterprise value of 4 billion reais ($750 million), the companies announced Sunday. Claro, a Brazilian unit of billionaire Carlos Slim’s America Movil SAB, will buy about 73% of Desktop’s share capital from holders including the Makalu Brasil Partners fund, pending regulatory approval. Bloomberg.
+
+ 
+
+Mexico Finance Chief Downplays Fiscal Effects of Oil Turmoil. Mexico’s Finance Minister Edgar Amador said the fiscal effects from rising oil prices due to the war in Iran will be neutral. Amador said the country will be able to accommodate the fiscal and price effects of the turmoil in oil prices and pointed to futures markets to suggest the conflict could be short-lived. Amador highlighted that the Mexican peso “has been one of the gainers in the market from the last 12 months,” so the recent weakening due to the energy crisis is relatively small. Bloomberg.
+
+ 
+
+Mexico’s Ebrard Says Preliminary Trade Talks With US Encouraging. Mexican Economy Secretary Marcelo Ebrard said the start of technical talks with the US to review the North American free trade agreement is "good news". The talks have focused exclusively on the US-Mexico trade, with US Trade Representative Jamieson Greer's office saying the two sides will review options for increasing US and Mexican production and manufacturing employment. Ebrard expects Ottawa to join the talks soon and defended the US-Mexico-Canada Agreement, saying it has delivered significant results, including economic growth and employment. Bloomberg.
+
+ 
+
+COLOMBIA
+
+Colombia’s Presidential Race Shifts as Valencia Gains Ground. Colombian Senator Paloma Valencia and running mate Juan Daniel Oviedo rose to second place in a poll with 22.2% support. Valencia got a boost from her 55% landslide win in the March 8 conservative primaries, and Oviedo adds centrist appeal to the ticket. Valencia and Oviedo are running on a “pro-extractive” and hard-line defense agenda, with Valencia arguing that aggressive investment in oil, natural gas, and mining can lift Colombians out of poverty. Bloomberg.
+
+ 
+
+Central Banker Sees ‘Major Threat’ to Colombia From Iran War. The war in the Middle East is a “major threat” to the Colombian economy, which already faced serious price pressures, according to central bank board member Olga Lucía Acosta. Inflation expectations have become unanchored following this year’s record rise in the minimum wage, and the economy is showing signs of overheating as “vigorous” demand outpaces output. The central bank’s task of curbing inflation is made “much more difficult” by the wide fiscal imbalance, with a primary deficit of 3.5% of GDP being “very serious”, according to Acosta. Bloomberg.
+
+ 
+
+TRADERS WRAP
+
+BRAZIL
+
+-      IBOV closed down 2.25%, plunging to its lowest level since January 23 as investors trimmed risk ahead of the weekend amid escalating tensions in the Middle East and growing fears that sustained higher oil prices will fuel inflation and keep interest rates elevated.
+
+-      Oil surged 3.20% as Brent traded above $109 a barrel after briefly hitting $119 on Thursday.
+
+-      On the upside, PRIO3 (+3.14%) led gains, while VIVA3 (+2.20%) and YDUQ3 (+1.38%) posted modest advances. Yduqs approved a share buyback of up to BRL100 million within 18 months.
+
+-      On the downside, BRKM5 (-14.21%) collapsed to its biggest single-day decline, followed by CYRE4 (-8.93%) and CYRE3 (-7.60%). Cyrela reported EPS below estimates and sales above estimates, with shares falling to their lowest close since January 20, with trading volume tripling the average . VAMO3 (-5.72%) plunged, while NATU3 (-5.54%) and RECV3 (-6.37%) tumbled.
+
+-      The dollar weakened to BRL5.31, while iron ore fell 2.01% and copper declined 0.44%.
+
+ 
+
+MEXICO
+
+-      MSE (-1.63%) traded under pressure as global mkts got hammered today as war remains and oil prices continue trading higher; Latam equities traded in line with their global peers.
+
+-      Volumes were well above average driven by the Mexbol rebalancing; MOC had huge activity today (we saw several investors taking advantage f the high liquidity at the close).
+
+-      We saw large caps underperforming its smaller peers as investors might be taking advantage of liquidity to reduce risk given the risk-off mode seen in current days.
+
+-      Among sectors, Mining plays had mixed performance with GMexico falling more than 3%. In financials, GFnorte -3% underperformed its smaller peers. Consumer plays were also mixed with bottlers underperforming other sectors.
+
+-      MXN depreciated more than 1% but managed to stay below the $18 level.
+
+ 
+
+CHILE
+
+-      IPSA INDEX today decreased -1.88% closing at 10,277.05 points, while volume reached USD 330MM, higher than average of last couple of trading days, Most traded names were LTM USD 52MM, SQM-B USD 42MM and PARAUCO USD 30MM. Today foreign flows were better sellers and local institutional accounts were better buyers.
+
+-      Leaders: BSANTANDER +0.90%, LTM +0.41% / AGUAS-A –6.76%, CENCOSUD -5.78%, CAP -4.69%.
+
+ 
+
+ARGENTINA
+
+-      MERVAL Index fell -1.57% on the day closing at 2,725,326 points.
+
+-      Volumes in Argentine ADRs (excluding GLOB US and MELI US) reached USD 596 mln today.
+
+-      Leaders: YPF US (+0.79%) / SUPV US (-3.91%), EDN US (-3.78%), BBAR US (-2.97%), PAM US (-2.90%).
+
+ 
+
+COLOMBIA
+
+-      MSCI COLCAP rose +1.40%.
+
+-      Total volume of USD 483 MM.
+
+-      Most active names: ECOPETROL CB and CIBEST CB.
+
+
+Regards, 
+
+
+
+
+
+Lethicia Silva
+Equity Sales Intern
++55 11 9 9122-7784
+
+l <mailto:laura.cunha@santander.com.br> ethicia.conceicao@santander.com.br
+
+ <https://santandercibinsights.com/public/overview>

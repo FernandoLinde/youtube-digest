@@ -1,0 +1,91 @@
+Subject: ENC: Brazil Retail and Internet: Agentic commerce – when intent becomes the new storefront (BTG Pactual's Guanais/Cesquim/Cendon)
+From: BTG Pactual
+Date: 2026-03-22T15:31:08
+Sector: Retail
+Companies: 
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deLuiz Guanais <luiz.guanais@btgpactual.com>
+Enviado: domingo, 22 de março de 2026 15:30:00 (UTC-03:00) Brasilia
+Assunto: Brazil Retail and Internet: Agentic commerce – when intent becomes the new storefront (BTG Pactual's Guanais/Cesquim/Cendon)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - Brazil - Retail 
+
+
+Brazil Retail and Internet 
+
+
+20-March-2026 
+
+
+ 
+
+
+Agentic commerce – when intent becomes the new storefront 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118876>  
+
+From search to action: Complement or structural disruption?
+
+We hosted an event today with Gleidys Salvanha, General Director of Retail for Google, and Natacha Litvinov, Head of Shopping and Payments, and in this report we take the opportunity to discuss agentic commerce (we have extensively written and studied the topic in the past quarters, and believe that this should increasingly become a recurring topic in the discussions about the sector). Agentic commerce represents the most meaningful evolution of digital discovery since the rise of mobile, shifting the paradigm from search → browse → compare → transact toward intent → decision → execution. In our view, this is not an immediate substitute for traditional search, but a structural overlay that gradually absorbs high-intent queries. Today, Google (globally) processes ~8.5–9.0bn searches per day, with commercial queries (shopping, travel, local services) representing ~20–25% of total volume but disproportionately driving monetization. Early agentic interfaces—leveraging LLMs and structured product graphs—are already showing higher conversion rates (estimated +20–40% vs. traditional search flows in pilot environments), suggesting that over time, a portion of upper- and mid-funnel search will compress into lower-funnel agentic actions. However, discovery, inspiration, and broad queries remain structurally search-driven. The medium-term implication is a bifurcation: search remains the “top-of-funnel canvas,” while agentic layers capture transactional intent.
+
+Universal protocol and the rise of structured commerce infrastructure
+
+A critical enabler of agentic commerce is the emergence of standardized “universal protocols” for product, pricing, and availability data. Google’s ecosystem—spanning Merchant Center, Shopping Graph, and structured schema markup—has evolved into a quasi-open commerce layer indexing billions of product listings globally. The Shopping Graph alone integrates real-time signals on price, inventory, reviews, and seller credibility, updated billions of times per hour. The next step is interoperability: enabling agents to query, compare, and transact across merchants via APIs rather than scraping front-end interfaces. Google’s recent advances in generative AI (e.g., Gemini-powered search experiences) integrate these structured datasets directly into conversational outputs, effectively turning search into a decision engine. Functionalities include dynamic price comparison, bundle optimization, personalized recommendations based on first-party signals, and real-time fulfillment filtering (e.g., same-day delivery eligibility). Importantly, this architecture reduces friction in product discovery while increasing reliance on clean, structured merchant data. Retailers that fail to provide high-quality feeds risk invisibility in agentic rankings. In our view, this protocol layer becomes the “operating system” of commerce, analogous to how Android scaled mobile—open, data-rich, and increasingly indispensable for merchants seeking visibility in AI-driven environments.
+
+Monetization in a single-answer world: From sponsored links to agent bidding
+
+The shift from ten blue links to a single synthesized answer fundamentally challenges advertising economics. Google’s search business generated ~US$175bn in revenue in 2024, largely driven by cost-per-click (CPC) auctions across multiple ad slots. In an agentic interface, inventory collapses—only one or a few recommendations are surfaced—forcing a transition from visibility auctions to decision auctions. We expect sponsored products to evolve into “agent bidding,” where merchants compete not just for placement but for inclusion in the agent’s final recommendation set. This introduces multi-variable bidding frameworks incorporating price competitiveness, fulfillment reliability, customer ratings, and willingness to subsidize conversion (e.g., discounts or commissions). Early industry tests suggest that conversion rates in agent-driven recommendations can exceed 10–15%, vs. ~2–4% in traditional search ads, implying significantly higher value per impression. As a result, cost-per-action (CPA) models may replace CPC as the dominant pricing mechanism. However, this raises regulatory and trust concerns—users must understand when recommendations are influenced by paid signals. Google’s challenge will be to maintain perceived neutrality while embedding monetization.
+
+Owning the transaction: Ads, data, or commissions?
+
+A key strategic question is whether Google will extend beyond discovery into transaction capture. Historically, Google has avoided direct participation in checkout, preferring to monetize via ads and data while directing traffic to merchants. Entering the transaction layer introduces operational complexity, regulatory scrutiny, and potential channel conflict with merchants and partners. Current signals suggest a hybrid approach: Google is expanding “Buy on Google”-like capabilities selectively while prioritizing seamless redirection with embedded payment options (e.g., autofill, tokenized wallets). In our view, Google’s core advantage remains in data aggregation and demand orchestration rather than logistics or fulfillment. Therefore, we expect it to remain primarily an ads-and-data platform, with optional transaction layers in high-frequency verticals. Importantly, first-party data becomes even more valuable—closed-loop attribution from impression to purchase enhances bidding efficiency and reinforces Google’s competitive moat. Over time, partial participation in transactions could add incremental revenue streams, but the bulk of value capture should remain in high-margin advertising and data services.
+
+Ranking the agent: Data density, logistics, and the power of ecosystems
+
+Agentic ranking systems will be inherently multi-dimensional, moving beyond keyword relevance toward holistic utility optimization. Key variables include price competitiveness, delivery speed (SLA), inventory availability, product quality signals (ratings, returns), and increasingly, first-party behavioral data. Retail media spend will likely become an input rather than a determinant, integrated into broader utility scoring rather than dictating placement. This dynamic structurally favors players with dense data ecosystems and strong logistics capabilities. Horizontal marketplaces such as Amazon and MercadoLibre are well positioned, given their control over pricing, fulfillment, and transaction data across millions of SKUs. Rather than being disintermediated, these platforms may become preferred supply sources for agents due to reliability and scale. Conversely, fragmented retailers without robust data infrastructure risk losing visibility. However, there is a counterforce: brands with strong direct-to-consumer strategies and rich first-party data may regain relevance if they can integrate effectively into agentic protocols. Ultimately, we expect a consolidation of traffic toward high-quality, data-rich ecosystems, reinforcing winner-takes-most dynamics. Marketplaces may see stable or even rising share of transactions, even as the discovery layer becomes increasingly abstracted by AI agents.
+
+Economics, infrastructure, and the five-year consumer journey
+
+From a retail perspective, agentic commerce could pressure take rates in marketplaces (as price transparency increases) while expanding retail media as a share of total monetization outside of the incumbents. In a few years, the typical consumer journey will likely be conversational and outcome-driven: a user expresses intent (“find me the best running shoe under $100 with fast delivery”), the agent evaluates options across multiple platforms, and executes the purchase seamlessly. Value will concentrate among three layers in our view: (i) demand orchestrators (Google, AI agents), (ii) fulfillment ecosystems (Amazon, MercadoLibre), and (iii) brands with strong differentiation and data. All-in-all, we estimate that agentic commerce fundamentally reshapes how value is created and captured across the digital economy.
+
+Luiz Guanais 
+Brazil – Banco BTG Pactual S.A. 
+luiz.guanais@btgpactual.com <mailto:luiz.guanais@btgpactual.com>  
++55 11 3383 2755 
+
+Yan Cesquim 
+Brazil – Banco BTG Pactual S.A. 
+yan.cesquim@btgpactual.com <mailto:yan.cesquim@btgpactual.com>  
++55 11 3383 2734 
+
+Beatriz Cendon 
+Brazil – Banco BTG Pactual S.A. 
+beatriz.cendon@btgpactual.com <mailto:beatriz.cendon@btgpactual.com>  
++55 71 997430203 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118876>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118876> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+
+Internal Use Only
+
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng4YfWxCVzzx6-2Be1IEWF2GcLHNfDVD2iY7R7rYxMuK-2BEh9bRB7kJ4CRcMlDDnb49KwML0RcEQxyGoXJlb90q1ljXDqdU2w4WdItMJPRJ0eQ0-2BcMdd2-2FkUWUNQtSvrruwofmTUnAZo72qz4ceVkXpD-2F6bNhrOb4tK634TRiatPsr5LDLFcf3G-2F5jHDzRm3-2FfQQK4-3D>

@@ -1,0 +1,123 @@
+Subject: ENC: IDEA: Global Valuation, Accounting & Tax: AI: Mapping the AI Ecosystem
+From: Morgan Stanley
+Date: 2026-03-22T18:04:30
+Sector: TMT
+Companies: NVDA, AMD, MSFT, AMZN, ORCL, CRWV, DIS
+============================================================
+
+________________________________
+
+De: Morgan Stanley Research <resweb@morganstanley.com>
+Enviado: domingo, 22 de março de 2026 18:04:11 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: IDEA: Global Valuation, Accounting & Tax: AI: Mapping the AI Ecosystem
+
+
+
+	 
+	 
+	 
+Global Valuation, Accounting & Tax 	
+AI: Mapping the AI Ecosystem	 
+Read Full Report <https://ny.matrix.ms.com/eqr/article/webapp/385a8ba8-2463-11f1-99ea-46f6fece5bca?t=1774213350:4761:7603:527593380b83&m=1&ch=CDF Research ISG#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 9 Pages) 	
+North America 	
+Todd Castagno, CFA, CPA, Kate Konetzke, CFA, CPA, Ngozi Udeh, Mariah Thompson, Clinton Chang, CFA, CPA, Amruta Pabalkar	 
+March 22, 2026
+
+	
+As the compute investment cycle accelerates, and capital remains constrained, new financing solutions are emerging. We update and expand our illustration of capital flows in the AI ecosystem to reflect the latest announced investments and incorporate new types of financing structures. 
+Key takeaways	 
+
+*	A significant portion of AI funding remains circular and tied to long-dated compute purchase agreements, enabling scaling but creating interdependencies. 
+*	The new funding often covers only a portion of the total compute commitment with the remainder of the contract reliant on revenue growth or new fund raising. 
+*	Customers are funding suppliers with warrants tied to long‑term commitments. These deals improve demand visibility but can overstate headline pricing. 
+*	Emerging hyperscaler guarantees/backstops support data center construction, but off‑balance‑sheet treatment can obscure the guarantor’s total economic exposure. 
+
+In our recent note AI: Capital Intensity Enters a New Era <https://ny.matrix.ms.com/eqr/article/webapp/e71dda64-f2ea-11f0-b5dd-981530a7f3f3?ch=rp&sch=ar> , we highlighted that the AI investment cycle is reaching unprecedented levels of capital intensity, with hyperscaler capex set to surpass prior dot-com peaks and account for an outsized share of total investment. The widespread use of finance leases pushes reinvestment levels higher. We estimate AI-related investment could reach ~50% of total large cap capex in the next few years.
+
+At the same time, capital remains constrained outside of hyperscalers, prompting the rise of novel financing structuresacross the ecosystem. Nvidia and the hyperscalers are enabling infrastructure scaling through equity investments in their customers and other arrangements, such as long-term purchase commitments and financial backstops. The accounting for these innovative structures is often highly complex and warrants more disclosure so investors can better understand interdependencies and distribution of risk.
+
+In response to investor interest, we have updated our previous circularity mapping <https://ny.matrix.ms.com/eqr/article/webapp/17344bee-a3bc-11f0-bdb2-a16197e2f2f1?ch=rp&sch=ar>  for OpenAI (Exhibit 1). We use this ecosystem for illustrative purposes, but similar ecosystems exist across other major AI ecosystem players, public and private.
+
+OpenAI Ecosystem Capital Flows 
+ 
+Note: ORCL, MSFT, and CRWV are covered by Keith Weiss. NVDA and AMD are covered by Joseph Moore. AMZN is covered by Brian Nowak. DIS is covered by Thomas Yeh. 
+Source: Company Data, Morgan Stanley Research. 
+
+Related Recent Global Valuation, Accounting & Tax Research:
+
+*	AI: Depreciation Flows Update (26 Feb 2026) <https://ny.matrix.ms.com/eqr/article/webapp/f05fe03a-11c2-11f1-81d3-c8ad94a51d48?ch=rp&sch=ar> 
+*	AI: Capital Intensity Enters a New Era (26 Feb 2026) <https://ny.matrix.ms.com/eqr/article/webapp/e71dda64-f2ea-11f0-b5dd-981530a7f3f3?ch=rp&sch=ar> 
+*	AI: Hyperscaling Payables (10 Feb 2026) <https://ny.matrix.ms.com/eqr/article/webapp/02db2ed4-02e3-11f1-bc4f-70eb774a364d?ch=rp&sch=ar> 
+*	SBC Algebra – When Free Cash Flow Isn't Free (2 Dec 2025) <https://ny.matrix.ms.com/eqr/article/webapp/e71dda64-f2ea-11f0-b5dd-981530a7f3f3?ch=rp&sch=ar> 
+*	AI: Leasing The Future (11 Nov 2025) <https://ny.matrix.ms.com/eqr/article/webapp/6635795e-aeaa-11f0-8054-08fc0e77c2ed?ch=rp&sch=ar> 
+*	AI: RPO Revealed (21 Oct 2025) <https://ny.matrix.ms.com/eqr/article/webapp/3f095882-a9d2-11f0-bd77-4a5f635f424d?ch=rp&sch=ar> 
+*	AI: Mapping Circularity (8 Oct 2025) <https://ny.matrix.ms.com/eqr/article/webapp/17344bee-a3bc-11f0-bdb2-a16197e2f2f1?ch=rp&sch=ar> 
+*	AI Arms Race: Putting Hyperscaler Capex in Perspective (17 Sep 2025) <https://ny.matrix.ms.com/eqr/article/webapp/733db68a-7948-11f0-8223-54ec104e2eda?ch=rp&sch=ar> 
+*	AI Talent Wars: Stock-Based Compensation Edition (18 Aug 2025) <https://ny.matrix.ms.com/eqr/article/webapp/d59f3dac-7241-11f0-9f02-b0b6fe4a6a28?ch=rp&sch=ar> 
+
+Read more... <https://ny.matrix.ms.com/eqr/article/webapp/385a8ba8-2463-11f1-99ea-46f6fece5bca?t=1774213350:4761:7603:527593380b83&m=1&ch=CDF Research ISG#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+	
+Authors	 
+	 Morgan Stanley & Co. LLC
+
+Todd Castagno, CFA, CPA
+
++1 212 761-6893       EMAIL <mailto:Todd.Castagno@morganstanley.com?subject=Re:IDEA%3A%20Global%20Valuation%2C%20Accounting%20%26%20Tax%3A%20AI%3A%20Mapping%20the%20AI%20Ecosystem> 
+
+	 Morgan Stanley & Co. LLC
+
+Kate Konetzke, CFA, CPA
+
++1 212 761-3457       EMAIL <mailto:Kate.Konetzke@morganstanley.com?subject=Re:IDEA%3A%20Global%20Valuation%2C%20Accounting%20%26%20Tax%3A%20AI%3A%20Mapping%20the%20AI%20Ecosystem> 
+
+	 Morgan Stanley & Co. LLC
+
+Ngozi Udeh
+
++1 212 761-4548       EMAIL <mailto:Ngozi.Udeh@morganstanley.com?subject=Re:IDEA%3A%20Global%20Valuation%2C%20Accounting%20%26%20Tax%3A%20AI%3A%20Mapping%20the%20AI%20Ecosystem> 
+
+	 Morgan Stanley & Co. LLC
+
+Mariah Thompson
+
++1 212 761-1147       EMAIL <mailto:Mariah.Thompson@morganstanley.com?subject=Re:IDEA%3A%20Global%20Valuation%2C%20Accounting%20%26%20Tax%3A%20AI%3A%20Mapping%20the%20AI%20Ecosystem> 
+
+	 Morgan Stanley & Co. LLC
+
+Clinton Chang, CFA, CPA
+
++1 212 761-1185       EMAIL <mailto:Clinton.Chang@morganstanley.com?subject=Re:IDEA%3A%20Global%20Valuation%2C%20Accounting%20%26%20Tax%3A%20AI%3A%20Mapping%20the%20AI%20Ecosystem> 
+
+	 Morgan Stanley & Co. International plc
+
+Amruta Pabalkar
+
++44 20 7425-3949       EMAIL <mailto:Amruta.Pabalkar@morganstanley.com?subject=Re:IDEA%3A%20Global%20Valuation%2C%20Accounting%20%26%20Tax%3A%20AI%3A%20Mapping%20the%20AI%20Ecosystem> 
+
+ <https://ny.matrix.ms.com/eqr/research/portal/home/global> 	
+Subscription details
+
+
+You received this email because of alerts set for your saved search(es): Microsoft | Advanced Micro Devices | NVIDIA Corp. 
+
+
+
+Unsubscribe or suspend your email alerts. <https://ny.matrix.ms.com/eqr/research/webapp/routerequest/PortalRouterServlet?panel=myresearch> 
+
+
+
+
+Morgan Stanley & Co. LLC
+Morgan Stanley & Co. International plc
+
+For important information including analyst certification and disclosures regarding specific companies, derivatives, or other instruments discussed in this e-mail, please refer to the latest research report, if attached and/or hyperlinked to this email, or by logging on to Morgan Stanley's Matrix portal at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> . You may also refer to the Morgan Stanley Research Disclosure Website at http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch <http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch> .
+
+Morgan Stanley will make certain research products and announcements available only on Morgan Stanley's Matrix platform. For access to Matrix, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> .
+
+Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act. If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Mistransmission is not intended to waive confidentiality or privilege. Morgan Stanley reserves the right, to the extent permitted under applicable law, to monitor electronic communications. This message is subject to terms available at the following link: http://www.morganstanley.com/disclaimers <http://www.morganstanley.com/disclaimers> . If you cannot access these links, please notify us by reply message and we will send the contents to you. By messaging with Morgan Stanley you consent to the foregoing.
+
+© 2026 Morgan Stanley. All rights reserved	 
+
+ <https://linkback.morganstanley.com/web/sendlink/webapp/f/69omt6cg-3s96-g001-bead-6793813f16fc?store=0&d=UwBCbGFzdG1haWwAYm1fdHJhY2tpbmdfaW1n&user=ib_4_1hj6rz8ike0w5_NTJkYmRlMDdfc2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy&__gda__=1868821451_c18bf6f88bff3ccc7a59edbf7f30c9e6>

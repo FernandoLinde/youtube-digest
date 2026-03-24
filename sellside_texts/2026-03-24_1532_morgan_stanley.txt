@@ -1,0 +1,70 @@
+Subject: ENC: IDEA: Podcast | Morgan Stanley Tech Talk: Joe Moore on NVDA GTC, AVGO, AMD, INTC, MRVL, ALAB, MU | Episode 297
+From: Morgan Stanley
+Date: 2026-03-20T15:32:08
+Sector: TMT
+Companies: NVDA3, AVGO3, AMD3, INTC3, MRVL3, ALAB3, MU3
+============================================================
+
+________________________________
+
+De: Joseph Moore <Joseph.Moore@morganstanley.com>
+Enviado: sexta-feira, 20 de março de 2026 15:31:35 (UTC-03:00) Brasilia
+Para: Sell Side <sellside@torkcapital.com.br>
+Assunto: IDEA: Podcast | Morgan Stanley Tech Talk: Joe Moore on NVDA GTC, AVGO, AMD, INTC, MRVL, ALAB, MU | Episode 297
+
+
+
+	 
+	 
+	 
+Podcast | Morgan Stanley Tech Talk 	
+Joe Moore on NVDA GTC, AVGO, AMD, INTC, MRVL, ALAB, MU | Episode 297	 
+Play Audio <https://ny.matrix.ms.com/eqr/article/webapp/27115a34-23fa-11f1-99ea-46f6fece5bca?t=1774031446:6870:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 	 
+(PDF: 8 Pages) 	
+North America 	
+	
+Joseph Moore	 
+March 20, 2026
+
+	
+Joe Moore discusses takes from NVDA GTC regarding $1T revenue number, product pipeline and stock action (00:23). He also covers views on AVGO (08:39), CPU names (AMD, INTC, 10:28), controversial AI stocks (MRVL, ALAB, 12:39), and Memory stocks MU & SNDK post earnings (14:49). 
+<https://ny.matrix.ms.com/eqr/article/webapp/27115a34-23fa-11f1-99ea-46f6fece5bca?t=1774031446:6870:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+	
+ <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABclJREFUeNrMmm1MU1cYx09feCl2lCFvVaBsyGQj4nAjU2MYQafJDMiHOZN9GGNbZlwymSRbtg+LmGVx2ZKh+MG4xCl+WOLYEmBhydCwYoxCNmVgcCiS8WoBa2mhUEpbuvO/nMt4a7nl3lv7JA+k7e25v/85/3Puc+6twuv1Egkin2UBzTSaKT6OG6DZS7OJppGlqFCIEPAizWM0i2lGDz6eGm3rtXja+8b0k9Nu0jNiJ5NON3fgugg1SU/UknWRarLV8LQpJy1Wlbw+KoF+NE6zlmYlzb+DJQA9fYJm3r2H4yO/t5tirneNRvCwQgOidmUmOPdt1Vs3b4hOpG9do3k80FEJRACsUUWzsPWB2XLuSnfsiG1aCvuRRF0kOfxahuWVTXGx9GU9zTJmNckEFNPDLpntTs+XNR0xPaN2IkekJ2jJFwezrXHaCJVCQd5m9hIt4DTNoz+39NsvGHu0JAhRmp9uf2N7qpaNeJkYAdVuz+yhb3+9673e9SiSBDF2ZcZPf1L4gkKtUl6mL0vWIoCDL6++FSGXZYRY6ruSl5z+RCh92eZJwyNwbjCAhVlZkACs60dhmycJv1AEWMDE2PwKSMNq80trvz3YnvcXYMEiAja2nPsUUIWl8oc/grPaBBJYAcG21ErKJVfYQqzzJESDsRUx1mUCTuAKGwq+9zcfwMhKmUUCoCgP5QEJ8WCMefwo8AJKUZiJqW2yU2PI12/lcGu3nAFGsIJ5oYBiVJViG99CRVS9m0sO78ngqk25grEW8wIwFNEoiaU6QdHLyeTihzvIni1JMi2rHGs02DkB2IwEWs+vFlF0BI7tf56zFewlZYAVzLyAArqL8sg13LDVSSqinIqR0laMuQACUq/cMek9s14izfZ45dhN7QRbHchNEdUOGMHa2G7Sgx0CDKYxB7k7aCNDlinics/KJgS2+mD3JnKGTvRAbQUmJFYhsA7bHHjbwI1p54CNO2hscoZLLd18x0dHzg853R1JGs/SpRa2auk2k++vdhN/y/ccuJcMW6fJY7tz/n2emSMcd7gWfck+7aZpJyqlgkRrwkisNoL2noprTEox2zPiuE767Me2ZdBzHC5innByPEuDZ/Y7q+A1flQgBifTRYXREQojapWC0I+Jco2CpuhKco72/tU7w/Mdg/PhfYt9Zlmn+gpOAHp5tS+gcRzDHwdBmnAVZzdNuJq4PMInTv1fg6guubbQu7iP5HB5uPknNMA8LyArRUdu3jcH1IMQNGe1ueFNill9+9BKPV9R00E6B22i7QdmXkAfVWOQs36ZoD0N8JqWfsnaZCPQBwG9OzfHo76QRURlQxc53/RAsKeFBmXuAzsEGPMyE96XGhxLZPmlW7jkyzKqlJlj5/6kJz11XMhEFhK4GMIudERlsyRYKfNGsONKbKRp279to0NMo+NTLs4u+75qkhUewVhtvABE7aGdBrOYRrGyVDb8I7nXVwrGWrtwQ3Nq2zOxKcnro0J9R0nACFYwLxSAhwvNFQezR0JdAGNsZsyL7kpU7M3WJ2Yl60IWHmxgBOtKt1UwmevOH9lhDlUBjK2OLHiKs/TO3Dv6GE3458VZtlCDBxPYwOjrzhzCSqvCkiN7n9O9nrNhKlTgwQImsIHRnwDClqfTZ0pzFaEwH8AAFjJ3T3TZIyd/Dzgu0vL2zaJvjBopqse1wtd/mu8IUyt/WmodIQLmRXx04U/vb20Po4JtG/S8P3ghAgi7YJSdbbxvO1nbqQvWhIXnmW0+9ndsII9Zq01Wx8x7Z2/GyWUpWAZLJVYbNmEleczKRxobjQONHaYRWnEmSlUqozzAFZZdpOqYZaxCvrvWnxrgSvjq7X8tA5dv9MU13B7SBFrEoSRGVYnCjNU2zaxdYyDtiP2xB/yJu8S6nuGJoWtdo+4b9x4ZIAb3bXhRgMUeFv+xk8JmhNXzN>  
+
+Thomas Wigg is a member of Morgan Stanley’s Institutional Equity Division and is not a member of Morgan Stanley’s Research Department. Unless otherwise indicated, his views are his own and may differ from the views of the Morgan Stanley Research Department and from the views of others within Morgan Stanley.
+
+Alphabet, Amazon and Meta are covered by Brian Nowak.
+
+Related Research: <https://ny.matrix.ms.com/eqr/article/webapp/f046f124-1d70-11f1-881a-897d542fee46?ch=rp&sch=ar> 
+
+Semiconductors: Weekly: NVDA GTC; Earnings Previews Week 8 (SMTC, MU), GFS Silicon Photonics Webinar (March 16, 2026) <https://ny.matrix.ms.com/eqr/article/webapp/f046f124-1d70-11f1-881a-897d542fee46?ch=rp&sch=ar> 
+
+Micron Technology Inc: Very strong EPS; we expect it to persist (March 19, 2026) <https://ny.matrix.ms.com/eqr/article/webapp/f632afd0-22f5-11f1-99ea-46f6fece5bca?ch=rp&sch=sr&sr=1> 
+
+<https://ny.matrix.ms.com/eqr/article/webapp/42838cda-8f1f-11f0-a3f6-3da67634994d?ch=rp&sch=ar> <https://ny.matrix.ms.com/eqr/article/webapp/3e583338-e892-11ef-a22f-d80fd1a15626?ch=rp&sch=cr> 
+
+ <https://ny.matrix.ms.com/eqr/research/ui/#/collection/37d963ce-dd1e-4f31-9759-7ec3c4730ef3/content?isTheme=false> 
+
+<https://ny.matrix.ms.com/eqr/research/ui/#/collection/08d2a5b7-9d8d-44e2-b03a-4ec28b0cb6ab/content?isTheme=false>  <https://ny.matrix.ms.com/eqr/research/ui/#/collection/08d2a5b7-9d8d-44e2-b03a-4ec28b0cb6ab/content?isTheme=false>  Read more... <https://ny.matrix.ms.com/eqr/article/webapp/27115a34-23fa-11f1-99ea-46f6fece5bca?t=1774031446:6870:11968:acba1c0882e9&m=1&ch=CDF Research ISG Autoblast#e=c2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy> 
+
+	
+Authors	 
+	 Morgan Stanley & Co. LLC
+
+Joseph Moore
+
++1 212 761-7516       EMAIL <mailto:Joseph.Moore@morganstanley.com?subject=Re:IDEA%3A%20Podcast%20%7C%20Morgan%20Stanley%20Tech%20Talk%3A%20Joe%20Moore%20on%20NVDA%20GTC%2C%20AVGO%2C%20AMD%2C%20INTC%2C%20MRVL%2C%20ALAB%2C%20MU%20%7C%20Episode%20297> 
+
+ <https://ny.matrix.ms.com/eqr/research/portal/home/global> 	
+Remove me from this distribution <mailto:Joseph.Moore@morganstanley.com?subject=Please remove me from this distribution : IDEA%3A%20Podcast%20%7C%20Morgan%20Stanley%20Tech%20Talk%3A%20Joe%20Moore%20on%20NVDA%20GTC%2C%20AVGO%2C%20AMD%2C%20INTC%2C%20MRVL%2C%20ALAB%2C%20MU%20%7C%20Episode%20297> 
+
+For important information including analyst certification and disclosures regarding specific companies, derivatives, or other instruments discussed in this e-mail, please refer to the latest research report, if attached and/or hyperlinked to this email, or by logging on to Morgan Stanley's Matrix portal at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> . You may also refer to the Morgan Stanley Research Disclosure Website at http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch <http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch> .
+
+Morgan Stanley will make certain research products and announcements available only on Morgan Stanley's Matrix platform. For access to Matrix, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix <http://www.morganstanley.com/matrix> .
+
+Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act. If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Mistransmission is not intended to waive confidentiality or privilege. Morgan Stanley reserves the right, to the extent permitted under applicable law, to monitor electronic communications. This message is subject to terms available at the following link: http://www.morganstanley.com/disclaimers <http://www.morganstanley.com/disclaimers> . If you cannot access these links, please notify us by reply message and we will send the contents to you. By messaging with Morgan Stanley you consent to the foregoing.
+
+© 2026 Morgan Stanley. All rights reserved	 
+
+ <https://linkback.morganstanley.com/web/sendlink/webapp/f/hblfcgcg-3s94-g001-b2a9-6793813f16fc?store=0&d=UwBCbGFzdG1haWwAYm1fdHJhY2tpbmdfaW1n&user=ib_4_1ho5vv715isn5_NmUyMjdhNzVfc2VsbHNpZGVAdG9ya2NhcGl0YWwuY29tLmJy&__gda__=1868639495_33ae9c3353f2d8c722281d2c7b0c89bd>

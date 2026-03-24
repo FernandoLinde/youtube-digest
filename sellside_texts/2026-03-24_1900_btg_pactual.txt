@@ -1,0 +1,211 @@
+Subject: ENC: Brz Utilities: 2026's first transmission auction (BTG Pactual's Junqueira/Gushiken/Schutz)
+From: BTG Pactual
+Date: 2026-03-22T19:00:31
+Sector: Utilities
+Companies: TAEE11, EGIE3, CPFE3
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deAntonio Junqueira <antonio.junqueira@btgpactual.com>
+Enviado: domingo, 22 de março de 2026 19:00:22 (UTC-03:00) Brasilia
+Assunto: Brz Utilities: 2026's first transmission auction (BTG Pactual's Junqueira/Gushiken/Schutz)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - Brazil - Utilities 
+
+
+Brazilian Utilities 
+
+
+22-March-2026 
+
+
+ 
+
+
+2026's first transmission auction 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118393>  
+
+R$3.3bn estimated capex
+
+On March 27th, ANEEL will hold the first transmission auction of the year. The auction will feature 5 blocks with a total estimated capex of R$3.4bn, 274 km of transmission lines, 825 MVA of substations, five synchronous compensators, and a maximum RAP of R$580mn (17.3% RAP/Capex). The projects are spread across 11 states - RJ, SP, MG, PR, SC, RN, CE, BA, SE, MT and PA - with energization deadlines of up to 60 months. Block 3 is the largest (capex of R$1.4bn; RAP of R$232mn), followed by Block 5 (capex of R$1.0bn; RAP of R$186mn), which together account for 71% of total capex.
+
+Blocks initially awarded to MEZ not included
+
+The auction was initially expected to include five additional blocks originally awarded to MEZ Energia in the 2020 and 2021 auctions but not delivered. However, under the agreement between MEZ Energia and the MME, one of these blocks (Block 6) will remain with MEZ, with an extended deadline for delivery, while the other four blocks (7, 8, 9, and 10) were postponed to a second auction session, with the date still to be defined.
+
+Auction details
+
+Block 3 is divided into four sublots and bidders are required to submit five distinct proposals: one for the entire block and one for each sublot (which could be zero for one of the sublots). In case valid bids are received for both the full block and the individual sublots, the winning option will be the one with the lowest combined RAP. If any sublot receives no bid, the remaining sublots will not be auctioned.
+
+Another competitive auction
+
+Given that this is the first auction of the year and that the blocks are relatively small, we expect a competitive auction. Among our coverage, Taesa, Engie, Axia and CPFL may participate.
+
+R$886mn NPV
+
+The implied real regulatory WACC was set at 9.11%, with a real cost of equity of 12.50%. Based on the auction framework, we estimate a total NPV of R$886mn, discounting the cap-bid FCFE at a real 8.5% Ke and assuming 70% capex leverage at IPCA+7%. For Blocks 3, 4 and 5, we assumed a 100% SUDAM/SUDENE tax benefit. However, bidders could outperform our estimates through capex, leverage, and construction efficiencies.
+
+File attached
+
+We're attaching our Excel file (link <https://www.btgpactual.com/research/report-view/118878> ), where we estimate implied returns for each block using most of ANEEL’s assumptions. It's a simple point-and-click tool to help investors assess the real IRRs of the bids on auction day.
+
+Table 1: Auction summary 
+
+	State
+
+Extension (km)
+
+Power 
+(MVA)
+
+Max RAP 
+(R$mn)
+
+Construction deadline (months)
+
+Construction deadline (date)
+
+Estimated capex (R$mn)
+
+RAP/Capex
+
+Block 1
+
+SP/RJ/MG
+
+47
+
+300
+
+88
+
+50
+
+Aug-30
+
+529
+
+16.6%
+
+Block 2
+
+PR/SC
+
+41
+
+0
+
+34
+
+42
+
+Dec-29
+
+194
+
+17.6%
+
+Block 3
+
+RN/CE
+
+0
+
+180
+
+232
+
+42
+
+Dec-29
+
+1,381
+
+16.8%
+
+Block 4
+
+BA/SE
+
+34
+
+90
+
+41
+
+42
+
+Dec-29
+
+240
+
+17.1%
+
+Block 5
+
+MT/PA
+
+152
+
+255
+
+186
+
+60
+
+Jun-31
+
+1,010
+
+18.4%
+
+Total
+
+	274
+
+825
+
+580
+
+		3,354
+
+17.3%
+
+Source: ANEEL and BTG Pactual  
+
+Antonio Junqueira, CFA 
+Brazil – Banco BTG Pactual S.A. 
+antonio.junqueira@btgpactual.com <mailto:antonio.junqueira@btgpactual.com>  
++55 11 3383-2648 
+
+Gisele Gushiken, CFA 
+Brazil – Banco BTG Pactual S.A. 
+gisele.gushiken@btgpactual.com <mailto:gisele.gushiken@btgpactual.com>  
++55 11 3383 9855 
+
+Maria Schutz 
+Brazil – Banco BTG Pactual S.A. 
+maria.schutz@btgpactual.com <mailto:maria.schutz@btgpactual.com>  
++55 21 99853-0212 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118393>  for complete information including important disclaimers, company disclosures and analyst certifications. 
+
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  
+
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118393> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 
+
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  
+
+ 
+
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng4d-2BEbvVZCHIWwbn90pAhupKRBMjn2LbChpXf5XFbOK2fvyS4tlGkIj30rE9fefI-2F8DnE0t4kNQf4LVFGuBJFzc7z7hSrotYvH-2BD0FxnFwQuYeP4tj3pm-2Bnmtlhd3J0ZHZVD90PXgTWUtt1BVB5JwjmeDsOasq727BkDVTCUn-2Fod5cKYM9V-2FPcPymHqql-2FLYcM-3D>

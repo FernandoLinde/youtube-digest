@@ -1,0 +1,289 @@
+Subject: ENC: Safra's Morning Notes - Transportation
+From: Safra
+Date: 2026-03-23T06:47:02
+Sector: Transportation
+Companies: PETR4
+============================================================
+
+________________________________
+
+De: Arthur Onishi De Godoy Silva <arthur.godoy@safra.com.br>Em Nome deLuiz C Da Motta Pecanha Filho <luiz.pecanha@safra.com.br>
+Enviado: segunda-feira, 23 de março de 2026 06:45:29 (UTC-03:00) Brasilia
+Cc: Arthur Onishi De Godoy Silva <arthur.godoy@safra.com.br>; Carlos Alberto de A Damasceno <carlos.albuquerque@safra.com.br>
+Assunto: Safra's Morning Notes - Transportation
+
+
+
+
+ 
+
+ 
+
+ 
+
+ <https://www.extelinsights.com/support/voting-help>                                                                 March 23, 2026
+
+ 
+
+DAILY SUMMARY | COMP TABLE | EARNINGS CALENDAR | SOYBEAN AND CORN PRICES | LAST 10 REPORTS | TOP 10 MUST-READ REPORTS
+
+Good morning!
+Here is a summary of the news and comments in our Transportation daily. You can find details below:
+
+HIGHLIGHTS
+
+ 
+
+*         Diesel prices at the pump rose 6.6% in a single week and have now surged 20.6% since the start of the Middle East war, reaching a national average of BRL 7.35/liter, according to ANP data. The acceleration reflects not only Petrobras' (PETR4; OP; TP BRL 43,00) 11.6% refinery price hike but also the pass-through of higher costs from private refiners and importers, whose replacement costs are already priced at elevated market rates. Regional averages range from BRL 7.30 in the Northeast to BRL 7.46 in the North. Gasoline rose 2.9% in the same period, accumulating 5.9% since the war began. The government has ramped up enforcement operations, resulting in fines against over 52 distributors and 1,192 fuel stations to date. (Ag.Infra <https://agenciainfra.com/blog/anp-diesel-nas-bombas-sobe-66-em-uma-semana-e-206-desde-o-inicio-da-guerra/> ) 
+
+*         MP 1.343/2026 expands minimum freight floor enforcement through mandatory CIOT registration and real-time blocking of below-floor operations. The measure integrates CIOT with MDF-e and links data across ANTT, Receita Federal and state/municipal tax authorities, creating a fully traceable audit trail for every road freight operation. Fines range from BRL 1 million to BRL 10 million per infraction for contracting companies, with liability extended to shareholders and affiliated entities. The MP has an initial 60-day validity and requires Congressional approval to become permanent. (Tecnologística <https://www.tecnologistica.com.br/noticias/transporte-rodoviario/21146/mp-amplia-fiscalizacao-do-piso-minimo-do-frete-e-preve-multas-de-ate-r-10-milhoes/> ) 
+
+*         Escalation of the Iran conflict threatens semiconductor and battery supply chains, with potential knock-on effects for the automotive and EV industries in Brazil. The region accounts for a significant share of global petrochemical feedstocks used in chip manufacturing, and logistics disruptions are already affecting delivery lead times for key components. (Autodata <https://www.autodata.com.br/noticias/2026/03/20/extensao-do-conflito-no-ira-ameaca-fornecimento-de-chips-e-baterias/101140/> ) 
+
+ 
+
+
+
+
+
+DAILY SUMMARY
+
+ 
+
+*         Freight outlook remains uncertain but trucker strike threat has been postponed (Autodata <https://www.autodata.com.br/noticias/2026/03/20/cenario-do-transporte-e-de-incerteza-mas-ameaca-de-greve-dos-caminhoneiros-foi-postergada/101133/> ) 
+
+*         Private terminal throughput grows 14% and surpasses 68 million tonnes in January (Portos e Navios <https://www.portosenavios.com.br/noticias/portos-e-logistica/movimentacao-nos-tups-cresce-14-e-passa-dos-68-milhoes-de-toneladas-em-janeiro> ) 
+
+*         Port of Santos handled 452,000 TEUs in February, up 4% year-over-year (Portos e Navios <https://www.portosenavios.com.br/noticias/portos-e-logistica/porto-de-santos-movimentou-452-mil-teu-em-fevereiro-alta-de-4> ) 
+
+*         São Paulo state releases BRL 2.6 billion for Santos–Guarujá tunnel amid ongoing TCU scrutiny (Ag.Infra <https://agenciainfra.com/blog/sp-libera-r-26-bi-para-tunel-santos-guaruja-em-meio-a-questionamentos-no-tcu/> ) 
+
+*         Ministry of Transport extends deadline for incentivized debenture issuances (Valor Econômico <https://valor.globo.com/empresas/noticia/2026/03/21/ministerio-dos-transportes-prorroga-prazo-para-emissao-de-debentures-incentivadas.ghtml> ) 
+
+*         Minas Gerais plans BRL 20.1 billion in logistics infrastructure partnerships through 2055 (Ag.Infra <https://agenciainfra.com/blog/mg-preve-201-bilhoes-em-parcerias-para-infraestrutura-logistica-ate-2055/> ) 
+
+*         How road concession contracts manage climate risks (Ag.Infra <https://agenciainfra.com/blog/concessoes-rodoviarias-como-os-contratos-gerem-riscos-climaticos/> ) 
+
+*         ANP opens market consultation on Gas Release program (Ag.Infra <https://agenciainfra.com/blog/anp-consulta-mercado-sobre-o-programa-gas-release/> ) 
+
+*         Agribusiness sector calls for working capital credit lines and freight tax relief (Globo Rural <https://globorural.globo.com/economia/noticia/2026/03/agronegocio-pede-linha-para-capital-de-giro-e-desoneracao-em-fretes.ghtml> ) 
+
+*         China says beef imports from Brazil have already reached more than 30% of the 2026 quota (Globo Rural <https://globorural.globo.com/pecuaria/boi/noticia/2026/03/china-diz-que-importacao-de-carne-bovina-ja-atingiu-mais-de-30percent-da-cota-prevista-para-o-brasil-em-2026.ghtml> ) 
+
+*         The BRL 342 billion question: is the soybean business still worth it? (AgFeed <https://agfeed.com.br/economia/a-pergunta-de-r-342-bilhoes-o-negocio-soja-vale-a-pena/> ) 
+
+*         Soybean prices ease in Chicago after profit-taking (Globo Rural <https://globorural.globo.com/cotacoes/noticia/2026/03/preco-da-soja-perde-forca-em-chicago-apos-realizacao-de-lucros.ghtml> ) 
+
+*         Soybeans stable while corn and wheat fall in Chicago (Globo Rural <https://globorural.globo.com/cotacoes/noticia/2026/03/soja-opera-estavel-enquanto-milho-e-trigo-caem-em-chicago.ghtml> ) 
+
+*         New area at Vila Velha terminal to expand logistics capacity in Espírito Santo (Tecnologística <https://www.tecnologistica.com.br/noticias/portos/21144/nova-area-no-terminal-de-vila-velha-ampliara-capacidade-logistica-no-espirito-santo/> ) 
+
+*         High diesel prices pressure logistics costs and may impact freight rates, says ABOL (Not listed) (Tecnologística <https://www.tecnologistica.com.br/noticias/geral/21145/alta-do-diesel-pressiona-custos-logisticos-e-pode-impactar-fretes-diz-abol/> ) 
+
+*         War in Iran already generating cost increases and supply shortages for companies in Brazil (Valor Econômico <https://valor.globo.com/empresas/noticia/2026/03/20/guerra-no-ira-ja-gera-alta-de-custos-e-falta-de-suprimentos-para-empresas-no-brasil.ghtml> ) 
+
+Please see important disclaimers and disclosures regarding this report at the end of this document.
+
+COMP TABLE
+
+ 
+
+Stock Data
+
+
+
+Multiples 
+
+
+
+Multiples & Returns  
+
+
+
+Main Figures 
+
+
+
+Source: Bloomberg, Safra Estimates.
+
+ 
+
+EARNINGS CALENDAR
+
+ 
+
+ 
+
+
+
+ 
+
+4Q25 Earnings Preview
+
+
+
+Commodities
+
+ 
+
+
+
+ 
+
+* Rumo (RAIL3; OP; BRL TP 19.00)is a lateral player to agricultural growth. In 2024, corn and soybeans accounted for 26% and 28% of the company’s total shipped volumes, respectively. As global grain prices rise, producers are incentivized to export more, driving demand for rail logistics services. Additionally, increased export volumes contribute to higher traffic on toll roads, further benefiting Motiva and Ecorodovias.
+
+ 
+
+ 
+
+LAST 10 REPORTS
+
+Safra on Ecorodovias: 4Q25 results – Solid operating performance <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34375.PDF?idu=129167> 
+
+Safra on Transportation: Wrap-up infrastructure auctions in 2026 <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34334.PDF> 
+
+Safra on Transportation: Rising El Niño probabilities signal a climate stress for Brazil’s northern waterways in 4Q26 <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34308.PDF?idu=129167> 
+
+Safra on Transportation: Potential Impact of Higher Oil prices for Transportation Companies in Brazil <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34300.PDF?idu=129167> 
+
+Safra on Motiva: Neutral traffic figures for February 2026 <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34272.PDF?idu=129167> 
+
+Safra on Transportation: Takeaways from the Meeting with the Ministry of Ports <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34257.PDF?idu=129167>  
+
+Safra on Transportation: Private capital increase announced at Simpar, Movida and Vamos <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34196.PDF?idu=46> 
+
+Safra on Ecorodovias: A slow start to 2026 <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34197.PDF?idu=46> 
+
+Safra on Rumo: Strong operating performance in February <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34156.PDF?idu=129167> 
+
+Safra on Rumo: 4Q25 results – tariff pressure offsets strong volumes <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34153.PDF?idu=129167> 
+
+ 
+
+<https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34116.PDF?idu=129167> 
+
+TOP 10 MUST READ REPORTS
+
+Safra on Transportation: Wrap-up infrastructure auctions in 2026 <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34334.PDF> 
+
+Safra on Transportation: Rising El Niño probabilities signal a climate stress for Brazil’s northern waterways in 4Q26 <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34308.PDF?idu=129167> 
+
+Safra on Transportation: Potential Impact of Higher Oil prices for Transportation Companies in Brazil <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34300.PDF?idu=129167> 
+
+Safra on Transportation: Private capital increase announced at Simpar, Movida and Vamos <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34196.PDF?idu=46> 
+
+Safra on Transportation: Takeaways from meeting with National Land Transportation Agency (ANTT) <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-34126.PDF?idu=129167> 
+
+Safra on Transportation: Climate events as a structural stress test for Brazil’s grain logistics infrastructure <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33998.PDF?idu=129167> 
+
+Safra on Transportation: Potential impacts of Rota Mogiana auction on listed toll roads <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33982.PDF?idu=129167> 
+
+Safra on Transportation: Updating coverage – navigating volatility <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33573.PDF> 
+
+Safra on Hidrovias: Initiating coverage with Neutral rating: Anchored in resilience, limited by leverage <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-33180.PDF?idu=46> 
+
+Safra On Transportation: Potential impacts of Autopista Fluminense auction on listed toll roads <https://apiext-bi.safra.com.br/apl-api-download-documentos-rdv/documento/PROSPECT-32768.PDF?idu=129167> 
+
+ 
+
+If you wish to be removed from this mailing list, please let us know.
+
+
+
+ 
+
+ 
+
+LUIZ PEÇANHA
+
+Equity Research – Transportation
+
+(11) 3175-4284
+
+Av. Paulista, 2100 - 15º Andar
+
+01310-930
+
+luiz.pecanha@safra.com.br <mailto:luiz.pecanha@safra.com.br> 
+
+ARTHUR GODOY 
+
+Equity Research – Transportation
+
+(11) 3175-4345
+
+Av. Paulista, 2100 - 15º Andar
+
+01310-930
+
+arthur.godoy@safra.com.br <mailto:arthur.godoy@safra.com.br> 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+					
+
+ 
+
+
+
+Esta mensagem e seus anexos são destinados exclusivamente ao(s) seu(s) destinatário(s) e, podem conter informações confidenciais e/ou legalmente privilegiadas. A divulgação, distribuição, reprodução ou qualquer forma de uso não permitido de tais informações são proibidas e podem ser ilegais, sujeitando-se o responsável às penalidades cabíveis. O remetente utiliza o correio eletrônico no exercício do seu trabalho ou em razão dele, eximindo as empresas integrantes do Grupo de qualquer responsabilidade por utilização indevida. Caso não seja o destinatário desta mensagem, solicitamos a gentileza de notificar o remetente e eliminá-la imediatamente.

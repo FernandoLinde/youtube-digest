@@ -1,0 +1,81 @@
+Subject: ENC: Ultrapar & Vibra: What If Margins Overshoot? Analyzing Margin, Working Capital, and ROIC Dynamics (BTG Pactual's Almeida/Cunha)
+From: BTG Pactual
+Date: 2026-03-23T17:31:12
+Sector: Oil & Gas
+Companies: ULTP3, VBBR3
+============================================================
+
+________________________________
+
+De: BTG Pactual Equities Research <sh-btgpactual-research@btgpactual.com>Em Nome deRodrigo Almeida <rodrigo-r.almeida@btgpactual.com>
+Enviado: segunda-feira, 23 de março de 2026 17:30:00 (UTC-03:00) Brasilia
+Assunto: Ultrapar & Vibra: What If Margins Overshoot? Analyzing Margin, Working Capital, and ROIC Dynamics (BTG Pactual's Almeida/Cunha)
+
+
+
+BTG Pactual | Equity Research 
+
+
+Sector Note - Brazil - Oil & Gas 
+
+
+Ultrapar & Vibra 
+
+
+23-March-2026 
+
+
+What If Margins Overshoot? Analyzing Margin, Working Capital, and ROIC Dynamics 
+
+
+Read the full document here >> <https://www.btgpactual.com/research/report-view/118796>  
+
+
+Aimed for normalization, delivered an overshoot
+
+
+While higher fuel prices could lead to a meaningful working capital expansion, we believe EBITDA margins in March (and potentially in April) could reach ~R$250-300/m³, therefore allowing fuel distributors to comfortably finance this step-up in working capital. In this context, ROIC could even expand, based on our estimates, as stronger EBITDA offsets higher invested capital. We expect both Vibra and Ultrapar’s Ipiranga to deliver EBITDA/m³ close to (or even above) R$200/m³ in 1Q26, with this dynamic potentially spilling over into 2Q26 and supporting strong earnings momentum. Still, we believe 1Q26 could bring negative cashflow generation, given the higher working capital needs - this makes us continue to prefer having fuel distribution exposure through Ultrapar, which also has a cheaper valuation (12.5x 2026E P/E). We also have a Buy rating on Vibra, which trades at 13.2x 2026E P/E.
+
+
+We think EBITDA margins close to R$200/m³ in 1Q26 are likely
+
+
+We believe the combination of a closed import window for diesel and regional players avoiding imports due to the wide gap between PBR and import parity prices (IPP) has resulted in a tighter-than-expected market, creating a favorable setup for incumbents in 1Q26. Based on our discussions with industry participants, this situation has been allowing for EBITDA/m³ margins of R$250-300/m³ during March, which could lead to EBITDA/m³ around R$200/m³ for Ipiranga and Vibra in 1Q26 - see Figures 2 and 3. Importantly, we see these elevated margins extending into April, as measures aimed at incentivizing imports (diesel subvention and potential ICMS exemption for imported diesel) are likely to take several weeks to impact supply. In our view, this two-month window of stronger profitability is sufficient to fund higher working capital requirements.
+
+
+Higher margins could finance higher WK and allow for ROIC expansion
+
+
+With fuel prices moving higher (e.g., PBR's diesel +12% YTD, Acelen's +72% YTD, import parity at +94% YTD), we expect a meaningful increase in working capital in 1Q26. However, we believe stronger margins in March/April should largely offset this effect. At these levels, EBITDA/m³ expansion could also drive ROIC upside. Assuming 1Q26 EBITDA/m³ of (i) R$197/m³ for Ipiranga, we estimate ROIC could reach 13.9% in 1Q26 and 15.6% in 2Q26 (vs. 13.1% in 2025), and (ii) R$213/m³ for Vibra, ROIC could expand to 15.2% in 1Q26 and 16.7% in 2Q26 (vs. 15.1% in 2025), as working capital stabilizes.
+
+
+Resumption in diesel imports could hold back margins
+
+
+On the other hand, the government is working on reducing import parity prices (IPP) in the domestic market, including zeroing ICMS on diesel imports, which could eventually lead to a more ample supply in Brazil. This, coupled with the R$0.32/liter subvention for diesel imports, could compress the import parity gap to around -5% vs. IPP, per our estimates, effectively restoring import arbitrage and rebalancing supply.
+
+In such a scenario, competitive pressures would likely intensify, normalizing margins and reducing the current tightness in the domestic market. However, we reiterate: extraordinary results in March/April are enough to offset the impact of higher WK.
+
+Figure 1: "What if Margins Overshoot?" Exercise 
+
+ <https://salesforce-mailing-distribution-prod.s3.sa-east-1.amazonaws.com/Mailing%20Distribution/assets/2026-03-23/1774294737340.png> 
+
+Source: BTG Pactual 
+
+Rodrigo Almeida 
+Brazil – Banco BTG Pactual S.A. 
+rodrigo-r.almeida@btgpactual.com <mailto:rodrigo-r.almeida@btgpactual.com>  
++55 (11) 3383-6278 
+
+Gustavo Cunha 
+Brazil – Banco BTG Pactual S.A. 
+gustavo.cunha@btgpactual.com <mailto:gustavo.cunha@btgpactual.com>  
++55 11 3383 2077 
+
+	
+Read the research report <https://www.btgpactual.com/research/report-view/118796>  for complete information including important disclaimers, company disclosures and analyst certifications. 	
+LEGAL DISCLAIMERS & DISCLOSURES:
+www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx>  	
+This email presents only a part of the mentioned report. The full report has to be observed with special attention to the disclosure items before any decision. A complete set of disclosure statements associated with the companies discussed will be by the end of the full report or in the website ( <https://www.btgpactual.com/research/report-view/118796> www.btgpactual.com/research/Disclaimers/Overview.aspx <https://www.btgpactual.com/research/Disclaimers/Overview.aspx> ), including information on valuation and risk. 	
+Unsubscribe me from this mailing <mailto:OL-unsubscribe-research@btgpactual.com>  	
+ <http://url8477.btgpactual.com/wf/open?upn=u001.Ygpn8O3P-2B2AiB-2BTAbXnnrIy9hrdemkLqXO293044ng5SxVQBaw-2FsmtbppMFD0RtAMj6CUuVlkEQZCbRZEVbedxSSJ-2B2tGXiam68tWaT5Bq0Nc212zCMgpqUxrxk-2F8ixzcreO2WNC-2Ff3By2-2FuGuXz46zpnGPOGVolVoMyfdeZUIr2K5f9tf0zYeyDNVlQBlzLUSJHrVh4rsNvO1oWLRmZibDwn0QQX5-2BJqzc2R2wc-2B9o-3D>
