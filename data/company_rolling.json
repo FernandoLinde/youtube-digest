@@ -1,14 +1,18 @@
 {
   "Meta": {
-    "tese_atual": "A Meta mantém uma posição robusta ao alavancar sua base de 3 bilhões de usuários para monetizar agentes de IA via anúncios, enquanto assegura vantagem computacional com chips de nova geração. O principal risco reside na escalabilidade dos custos de infraestrutura e na crescente pressão regulatória internacional que pode limitar a expansão operacional.",
+    "tese_atual": "A tese de IA da Meta mantém-se robusta ao alavancar sua base de 3 bilhões de usuários para monetizar agentes 'Manis' via anúncios, mitigando riscos regulatórios de privacidade. O driver principal é a vantagem computacional conferida pela adoção dos chips VR Rubin, embora a pressão regulatória na China sobre a aquisição da Manas e a coleta de dados para LLMs representem riscos latentes à expansão global.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "neutral"
+      },
       {
         "date": "2026-03-25",
         "impacto": "neutral"
       },
       {
         "date": "2026-03-23",
-        "impacto": "neutral"
+        "impacto": "bullish"
       },
       {
         "date": "2026-03-20",
@@ -20,35 +24,39 @@
       }
     ],
     "tendencias_ativas": [
-      "Integração da IA em ecossistemas de usuários estabelecidos para maximizar a monetização publicitária.",
-      "Reestruturação operacional focada em eficiência impulsionada pela adoção de fluxos de trabalho via IA."
+      "Monetização de IA via ecossistemas estabelecidos: Integração de agentes de IA em plataformas com base de usuários massiva para otimizar receitas de anúncios existentes.",
+      "Reestruturação corporativa impulsionada por IA: Demissões em larga escala visam aumentar a eficiência operacional e alocar capital para fluência em IA."
     ],
     "timeline": [
       {
         "date": "2026-03-23",
-        "evento": "Confirmação da adoção dos chips Rubin para sustentar a liderança em infraestrutura de inferência."
+        "evento": "Meta valida estratégia de agentes 'Manis' focada na distribuição para 3 bilhões de usuários e adoção de chips VR Rubin."
       },
       {
         "date": "2026-03-23",
-        "evento": "Meta restringe compartilhamento de impressões individuais forçando transição para Modelagem de Mix de Marketing."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "Aposta estratégica na distribuição massiva do agente Manis para monetização de publicidade."
+        "evento": "Restrição ao compartilhamento de impressões pessoais por Meta e Google impulsiona adoção de Modelagem de Mix de Marketing (MMM)."
       },
       {
         "date": "2026-03-20",
-        "evento": "Pressão regulatória chinesa sobre a aquisição da Manas gera incerteza sobre operações globais."
+        "evento": "Governo chinês investiga estrutura corporativa da Meta e Manas devido a preocupações com vazamentos de privacidade e exportação de tecnologia."
       },
       {
         "date": "2026-03-20",
-        "evento": "Especulações de reestruturação de força de trabalho em até 20% visando eficiência em IA."
+        "evento": "Especulações de demissões em massa indicam reestruturação interna focada em eficiência impulsionada por IA."
+      },
+      {
+        "date": "2026-03-19",
+        "evento": "Discussões de mercado destacam a necessidade de evolução na comunicação digital e aplicação prática de LLMs em escala."
       }
     ]
   },
   "Nvidia": {
-    "tese_atual": "A Nvidia consolidou-se como a infraestrutura crítica indispensável para a transição da IA de provas de conceito para implantações massivas de agentes corporativos, blindada por rodadas de captação bilionárias de seus principais clientes. O driver principal é a demanda estrutural travada por ecossistemas fechados como o Nemo Claw e a adoção de chips VR Rubin, enquanto o risco imediato reside em vulnerabilidades técnicas no segmento consumer que podem afetar a percepção de marca.",
+    "tese_atual": "A liderança da Nvidia solidificou-se com a definição da métrica de 250k tokens por engenheiro e o aporte estratégico de US$ 120 bi na OpenAI, travando demanda estrutural para a era agentic. O principal driver é a migração de vendas de GPUs isoladas para pods completos Rubin/Gro 3, enquanto o risco central reside na integração vertical de US$ 25 bi da TerraFab que ameaça margens de longo prazo.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "bullish"
+      },
       {
         "date": "2026-03-25",
         "impacto": "bullish"
@@ -63,35 +71,39 @@
       }
     ],
     "tendencias_ativas": [
-      "Migração definitiva de POCs para implantação massiva de agentes de IA em grandes corporações, travando demanda estrutural de longo prazo por compute.",
-      "Consolidação de ecossistemas de software proprietários que blindam a demanda de hardware contra ciclos econômicos e restrições de capital de clientes."
+      "Mudança estrutural de vendas de GPUs isoladas para pods completos integrando rede e storage para otimizar TCO em cargas agentic.",
+      "Hiperescaladores e startups de IA estão migrando de POCs para implantação massiva de agentes, travando demanda estrutural por compute."
     ],
     "timeline": [
       {
-        "date": "2026-03-25",
-        "evento": "Nvidia lidera e ancora rodada de captação de US$ 120 bi da OpenAI, garantindo fluxo de caixa para pedidos futuros de chips."
+        "date": "2026-03-26",
+        "evento": "Nvidia define métrica de 250k tokens e lança arquitetura Rubin/Gro 3 para sustentar escala agentic."
+      },
+      {
+        "date": "2026-03-26",
+        "evento": "Anúncio da fábrica TerraFab de US$ 25 bi por Musk visa integrar verticalmente produção de chips."
       },
       {
         "date": "2026-03-25",
-        "evento": "Lançamento do Nemo Claw posiciona a Nvidia como controladora da camada de segurança e runtime para agentes enterprise."
+        "evento": "Nvidia lidera rodada de US$ 120 bi da OpenAI e lança Nemo Claw para segurança de agentes enterprise."
       },
       {
         "date": "2026-03-23",
-        "evento": "Hyperscalers dos EUA confirmam adoção dos novos chips VR Rubin, ampliando a vantagem tecnológica sobre a concorrência."
+        "evento": "Anthropic captura 73% dos gastos iniciais em IA corporativa enquanto OpenAI foca no segmento enterprise."
       },
       {
-        "date": "2026-03-23",
-        "evento": "Anthropic captura 73% dos gastos iniciais de empresas em IA, acelerando a demanda por infraestrutura da Nvidia."
-      },
-      {
-        "date": "2026-03-25",
-        "evento": "Backlash técnico no recurso DLSS 5 expõe vulnerabilidades de reputação no segmento consumer frente à concorrência."
+        "date": "2026-03-19",
+        "evento": "Discussões de mercado reforçam dependência crítica de infraestrutura Nvidia para estratégias multi-modelo e automação."
       }
     ]
   },
   "Amazon": {
-    "tese_atual": "A tese de crescimento estrutural da AWS acelerou com a projeção de receita de US$ 600 bi impulsionada por IA e a blindagem de supply chain via investimento estratégico na OpenAI. O driver principal é a garantia de alocação de chips em cenário de escassez crítica, enquanto o risco imediato reside na valuation da OpenAI que saltou 1.000% em fundos secundários em apenas 4 dias.",
+    "tese_atual": "A tese permanece robustamente altista com a AWS blindada contra escassez de chips via investimento estratégico na OpenAI e projeção de receita de US$ 600 bi. O driver principal é a captura de 73% dos gastos iniciais de IA empresarial pela parceira Anthropic, enquanto o risco crítico reside no prazo médio de 142 dias para preenchimento de vagas técnicas que limita a escalabilidade operacional imediata.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "neutral"
+      },
       {
         "date": "2026-03-25",
         "impacto": "bullish"
@@ -110,35 +122,39 @@
       }
     ],
     "tendencias_ativas": [
-      "A migração acelerada de receita de IA para o segmento B2B com foco em agentes 'stateful' aumenta a dependência estrutural de infraestrutura de nuvem escalável.",
-      "A centralidade da AWS como plataforma preferencial para líderes emergentes de IA solidifica-se com a Anthropic capturando 73% dos gastos iniciais empresariais."
+      "Migração acelerada de receita de IA para B2B com foco em agentes 'stateful' aumenta a dependência estrutural de infraestrutura de nuvem escalável.",
+      "Padrões de falha silenciosa em agentes de IA tornaram-se o novo risco operacional primário, exigindo novas competências de auditoria técnica."
     ],
     "timeline": [
       {
+        "date": "2026-03-26",
+        "evento": "Escassez crítica de talentos com prazo de 142 dias para contratação expõe gargalo na execução operacional da AWS."
+      },
+      {
         "date": "2026-03-25",
-        "evento": "Amazon confirma aporte estratégico na rodada de US$ 120 bi da OpenAI para blindar demanda de compute da AWS."
+        "evento": "Amazon confirma aporte estratégico na rodada de US$ 120 bi da OpenAI garantindo prioridade de alocação de chips."
       },
       {
         "date": "2026-03-23",
-        "evento": "Jeff Bezos lidera captação de US$ 100 bi para fundo de automação industrial e assume co-CEO da Project Prometheus."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "Anthropic ultrapiza 73% de market share em gastos iniciais de IA empresarial, alavancando consumo de infraestrutura AWS."
+        "evento": "Jeff Bezos lidera captação de US$ 100 bi para fundo de automação industrial enquanto Anthropic captura 73% dos gastos iniciais de IA."
       },
       {
         "date": "2026-03-20",
-        "evento": "CEO Andy Jassy projeta que a IA dobrará a receita anual da AWS para US$ 600 bilhões."
+        "evento": "CEO Andy Jassy projeta que IA pode dobrar a receita anual da AWS para US$ 600 bilhões validando o potencial de crescimento."
       },
       {
-        "date": "2026-03-20",
-        "evento": "Lançamento da funcionalidade 'Dispatch' do Claude Co-work valida a demanda por interfaces de IA móveis integradas à nuvem."
+        "date": "2026-03-19",
+        "evento": "Ausência de notícias corporativas diretas mantém foco nas discussões macro sobre infraestrutura de nuvem necessária para IA."
       }
     ]
   },
   "OpenAI": {
-    "tese_atual": "A captação recorde de US$ 120 bi com Nvidia e Amazon valida a pivotagem estratégica para agentes enterprise, mitigando riscos imediatos de perda de market share. O principal driver é a expansão de infraestrutura para superar o teto físico de 92 GW de energia projetado para 2030, enquanto a Anthropic captura 73% dos gastos iniciais corporativos.",
+    "tese_atual": "A OpenAI executou uma pivotagem estrutural agressiva para o segmento enterprise, captando US$ 120 bi e despriorizando Sora, mas enfrenta risco imediato de execução com a perda do contrato de US$ 1 bi da Disney e a erosão de 73% do market share inicial corporativo para a Anthropic. O driver crítico é a capacidade de converter esse capital em infraestrutura de inferência diante de um déficit projetado de 92 GW de energia nos EUA até 2030, que impõe um teto físico ao crescimento.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "bearish"
+      },
       {
         "date": "2026-03-25",
         "impacto": "bullish"
@@ -157,38 +173,42 @@
       }
     ],
     "tendencias_ativas": [
-      "Mudança estrutural de P&D manual para auto-otimização via agentes autônomos acelera ciclos de lançamento de modelos.",
-      "Reorientação estratégica do foco em consumo para soluções corporativas de alta monetização e produtividade."
+      "Migração estrutural de capital e talentos de projetos de mídia/consumo para aplicações corporativas de alta margem (Work AGI).",
+      "Transição acelerada de LLMs como ferramentas de chat para agentes autônomos com capacidades de 'skills' reutilizáveis e execução local."
     ],
     "timeline": [
       {
+        "date": "2026-03-26",
+        "evento": "OpenAI encerra Sora e parceria de US$ 1 bi com Disney para realocar compute crítico ao Codeex e ao modelo Spud."
+      },
+      {
         "date": "2026-03-25",
-        "evento": "Fechamento de rodada de US$ 120 bi com Nvidia e Amazon para expansão de infraestrutura de agentes."
+        "evento": "Fechamento de captação recorde de US$ 120 bi com Nvidia e Amazon para expansão de infraestrutura de agentes."
       },
       {
         "date": "2026-03-23",
-        "evento": "Anúncio de despriorização de projetos de consumo como Sora para focar em um 'super app' corporativo."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "Dados da RAMP indicam que a Anthropic capturou 73% dos gastos iniciais de IA corporativa."
+        "evento": "Anúncio de mudança estratégica focada em usuários corporativos e desenvolvimento de 'super app' de desktop."
       },
       {
         "date": "2026-03-20",
-        "evento": "Governo chinês emite alertas contra uso de modelos ocidentais citando riscos de privacidade."
+        "evento": "Lançamento da funcionalidade 'Dispatch' pelo concorrente Anthropic gera alto engajamento móvel e valida demanda por agentes on-the-go."
       },
       {
         "date": "2026-03-19",
-        "evento": "Estudo do Mount Sinai identifica falhas críticas de segurança no ChatGPT Health."
+        "evento": "Evolução do ecossistema para arquitetura baseada em 'skills' modulares, com integrações da Anthropic e Notion aumentando a complexidade das aplicações."
       }
     ]
   },
   "Microsoft": {
-    "tese_atual": "A Microsoft mantém posição dominante como infraestrutura crítica de IA via Azure e parceria OpenAI, mas enfrenta erosão imediata de market share na camada de aplicação corporativa. O risco principal é a Anthropic ter capturado 73% dos gastos iniciais de IA enterprise, enquanto a Nvidia avança com o Nemo Claw para disputar a segurança de agentes no Azure.",
+    "tese_atual": "A liderança da Microsoft na camada de aplicação corporativa está sob erosão imediata, com a Anthropic capturando 73% da nova demanda enterprise nas últimas 10 semanas. O principal risco é o lock-in técnico gerado pela certificação 'Claude Architect', que está rapidamente se tornando o novo padrão industrial em detrimento do ecossistema Azure.",
     "sentimento_recente": [
       {
-        "date": "2026-03-25",
+        "date": "2026-03-26",
         "impacto": "bearish"
+      },
+      {
+        "date": "2026-03-25",
+        "impacto": "neutral"
       },
       {
         "date": "2026-03-23",
@@ -204,31 +224,39 @@
       }
     ],
     "tendencias_ativas": [
-      "Migração agressiva de hyperscalers e fabricantes de hardware para camadas de orquestração de agentes autônomos e segurança de software.",
-      "Intensificação da disputa por contratos enterprise iniciais, onde a Anthropic inverteu a correlação de forças contra a OpenAI/Microsoft."
+      "Migração agressiva de contratos enterprise iniciais da parceria OpenAI/Microsoft para a Anthropic devido à percepção de maior estabilidade estratégica.",
+      "Padronização de competências técnicas em torno das arquiteturas de agentes da Anthropic, marginalizando as ferramentas nativas da Microsoft."
     ],
     "timeline": [
       {
+        "date": "2026-03-26",
+        "evento": "Dados confirmam que a Anthropic abocanhou 73% dos novos gastos corporativos em IA, corroendo a liderança da Microsoft."
+      },
+      {
         "date": "2026-03-25",
-        "evento": "Anthropic lançou recursos 'Computer Use' e Nvidia o Nemo Claw, desafiando diretamente a integração nativa e segurança do Azure."
+        "evento": "Anthropic lançou recursos de 'Computer Use' e Dispatch, desafiando diretamente a integração nativa de desktop da Microsoft."
       },
       {
         "date": "2026-03-23",
-        "evento": "Dados da RAMP revelaram que a Anthropic abocanhou 73% dos gastos iniciais de IA corporativa, superando a OpenAI."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "OpenAI fechou parcerias com quatro grandes consultorias para implantar sua plataforma corporativa 'Frontier' no ecossistema Microsoft."
+        "evento": "Relatórios indicam perda acelerada de market share da OpenAI/Microsoft para a Anthropic no segmento de gastos iniciais de empresas."
       },
       {
         "date": "2026-03-20",
-        "evento": "Nvidia projetou US$ 1 trilhão em pedidos acumulados até 2027, validando o ciclo de capex massivo em infraestrutura de IA da Microsoft."
+        "evento": "Nvidia projetou US$ 1 trilhão em pedidos até 2027, validando o ciclo de capex de infraestrutura que beneficia o Azure."
+      },
+      {
+        "date": "2026-03-19",
+        "evento": "Falhas críticas de segurança em agentes de IA de concorrentes geraram cautela geral no mercado, afetando indiretamente a confiança no setor."
       }
     ]
   },
   "TSMC": {
-    "tese_atual": "A TSMC mantém sua posição como fornecedor inelástico de infraestrutura crítica, blindada pelo déficit energético projetado de 92GW nos EUA e pela arquitetura Rubin da Nvidia. O principal driver é a demanda validada por US$ 1 trilhão em pedidos acumulados da Nvidia até 2027, enquanto o risco central permanece a possível commoditização do hardware por concorrentes chineses no setor robótico.",
+    "tese_atual": "A TSMC mantém posição dominante como fornecedora crítica de infraestrutura de IA, blindada por demanda inelástica e contratos de longo prazo. O principal driver é o déficit energético projetado de 92GW nos EUA até 2030 que valida a necessidade de chips de alta eficiência, enquanto o risco central reside no plano de fábrica própria de US$ 25 bi de Elon Musk para eliminar dependência externa.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "neutral"
+      },
       {
         "date": "2026-03-25",
         "impacto": "bullish"
@@ -247,35 +275,39 @@
       }
     ],
     "tendencias_ativas": [
-      "Consolidação da vantagem industrial americana via parcerias exclusivas de design de hardware entre TSMC, Nvidia e Google para mitigar riscos geopolíticos.",
-      "Aceleração da automação industrial impulsionada pelo fundo de US$ 100 bilhões de Jeff Bezos, criando nova demanda estrutural por semicondutores avançados."
+      "Bilionários da tecnologia buscam integração vertical total de hardware para contornar gargalos de fornecedores tradicionais.",
+      "Consolidação da vantagem industrial americana via parcerias exclusivas de design de hardware entre TSMC, Nvidia e Google."
     ],
     "timeline": [
       {
+        "date": "2026-03-26",
+        "evento": "Elon Musk anuncia fábrica de chips de US$ 25 bi para contornar a TSMC."
+      },
+      {
+        "date": "2026-03-23",
+        "evento": "Jeff Bezos negocia fundo de US$ 100 bi focado em automação industrial e fabricação de chips."
+      },
+      {
+        "date": "2026-03-23",
+        "evento": "Anduril garante contrato de até US$ 20 bi com exército dos EUA impulsionando demanda por chips de defesa."
+      },
+      {
+        "date": "2026-03-20",
+        "evento": "Nvidia projeta US$ 1 trilhão em pedidos acumulados até 2027 validando ciclo de capex massivo."
+      },
+      {
         "date": "2026-03-25",
-        "evento": "Projeção de déficit de 92GW nos EUA até 2030 valida a necessidade urgente de chips de alta eficiência energética da TSMC."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "Negociações de Jeff Bezos para fundo de US$ 100 bilhões em automação industrial sinalizam nova onda maciça de demanda por chips."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "Contrato de US$ 20 bilhões da Anduril com o exército dos EUA estabelece novo mercado robusto para semicondutores de defesa com IA."
-      },
-      {
-        "date": "2026-03-20",
-        "evento": "Nvidia projeta US$ 1 trilhão em pedidos acumulados até 2027, confirmando ciclo de capex de longo prazo para a TSMC."
-      },
-      {
-        "date": "2026-03-20",
-        "evento": "CEO da Nvidia define a empresa como 'fábrica de IA', expandindo o TAM para incluir infraestrutura diversificada de inferência."
+        "evento": "Déficit energético de 92GW nos EUA até 2030 reforça demanda por eficiência da TSMC."
       }
     ]
   },
   "Anthropic": {
-    "tese_atual": "A Anthropic consolidou-se como líder dominante no gasto inicial de IA corporativa, capturando 73% do mercado e validando a transição de chatbot para orquestrador autônomo. O principal driver é a tração massiva do agente 'Dispatch' e das ferramentas 'Computer Use', enquanto o risco central reside na resposta de segurança da Nvidia que pode explorar vulnerabilidades de adoção enterprise.",
+    "tese_atual": "A Anthropic consolidou-se como líder absoluta no enterprise, capturando 73% da nova demanda corporativa de IA e superando a OpenAI. O principal driver é a transição bem-sucedida para orquestração autônoma segura via ferramentas Dispatch e Computer Use, enquanto o risco crítico reside na escassez global de compute que já forçou concorrentes a descontinuar produtos.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "bullish"
+      },
       {
         "date": "2026-03-25",
         "impacto": "bullish"
@@ -290,35 +322,35 @@
       }
     ],
     "tendencias_ativas": [
-      "Mudança de paradigma de chatbots reativos para agentes autônomos onde o compute se torna o gargalo principal e a programação manual tende à obsolescência.",
-      "Consolidação da liderança da Anthropic no gasto inicial de IA corporativa, indicando preferência crítica do mercado enterprise por suas soluções de segurança e execução."
+      "Migração do mercado enterprise de chatbots reativos para agentes autônomos com certificação de segurança e arquitetura.",
+      "Valorização extrema de ecossistemas que mitigam a escassez de talentos via ferramentas de orquestração no-code e padronização profissional."
     ],
     "timeline": [
       {
-        "date": "2026-03-25",
-        "evento": "Lançamento das ferramentas 'Computer Use' e 'Dispatch', evoluindo o Claude para uma camada de execução autônoma com persistência de contexto."
+        "date": "2026-03-26",
+        "evento": "Dados da RAMP confirmam captura de 73% dos novos gastos corporativos de IA enquanto a OpenAI encerra o Sora por falta de compute."
       },
       {
         "date": "2026-03-25",
-        "evento": "Nvidia anuncia o Nemo Claw focado em segurança enterprise, mirando diretamente as vulnerabilidades de adoção corporativa das novas ferramentas da Anthropic."
+        "evento": "Lançamento das ferramentas Computer Use e Dispatch transforma o Claude em camada de execução autônoma com persistência de contexto."
       },
       {
         "date": "2026-03-23",
-        "evento": "Dados da RAMP revelam que a Anthropic capturou 73% dos gastos iniciais de empresas com IA, superando a OpenAI e validando sua dominância no segmento enterprise."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "Posicionamento do Claude Opus 4.7 como modelo 'frontier' competitivo ao GPT 5.4, com custos anuais entre US$ 23.000 e US$ 39.000 para alta velocidade de inferência."
+        "evento": "Relatórios posicionam o Opus 4.7 como modelo frontier competitivo ao GPT 5.4 com custos anuais entre US$ 23k e US$ 39k."
       },
       {
         "date": "2026-03-19",
-        "evento": "Atualizações no Skill Creator e integração de 'Custom Skills' no Notion AI demonstram avanços na democratização e robustez do desenvolvimento de agentes."
+        "evento": "Atualizações no Skill Creator e integração com Notion AI democratizam a criação de capacidades complexas para agentes sem codificação."
       }
     ]
   },
   "Google": {
-    "tese_atual": "A vantagem estrutural do Google em infraestrutura verticalizada e a recente otimização de bilhões via Alpha Evolve sustentam a tese de longo prazo, apesar da perda imediata de participação no topo do funil corporativo. O principal driver de risco é a captura de 73% dos gastos iniciais de IA enterprise pela Anthropic, que ameaça erodir a relevância da nuvem do Google se a defasagem em agentes autônomos persistir.",
+    "tese_atual": "A liderança do Google em IA enfrenta erosão imediata com a Anthropic capturando 73% dos novos gastos corporativos, enquanto o sistema Alpha Evolve gera bilhões em economia para sustentar a infraestrutura. O principal risco é a perda acelerada de share no segmento enterprise para ferramentas agnósticas e focadas em privacidade, que ameaçam o núcleo de receitas de nuvem e publicidade.",
     "sentimento_recente": [
+      {
+        "date": "2026-03-26",
+        "impacto": "bearish"
+      },
       {
         "date": "2026-03-25",
         "impacto": "bullish"
@@ -337,29 +369,29 @@
       }
     ],
     "tendencias_ativas": [
-      "Labs de IA aceleram ciclos de P&D substituindo programação manual por agentes autônomos de auto-otimização.",
-      "Crescente escrutínio regulatório e demanda por privacidade criam desafios estruturais para modelos de negócio baseados em dados de Big Tech."
+      "Migração acelerada de infraestrutura de IA para plataformas focadas em agentes autônomos e eficiência operacional extrema.",
+      "Erosão do fosso competitivo das Big Techs via commoditização de modelos e demanda crescente por soberania de dados corporativos."
     ],
     "timeline": [
       {
+        "date": "2026-03-26",
+        "evento": "Dados confirmam que a Anthropic abocanhou 73% dos novos gastos corporativos em IA, pressionando a nuvem do Google."
+      },
+      {
         "date": "2026-03-25",
-        "evento": "Sistema Alpha Evolve otimizou algoritmos de multiplicação de matrizes gerando economia de bilhões."
+        "evento": "Google reporta que o sistema Alpha Evolve otimizou algoritmos de multiplicação de matrizes, gerando economia de bilhões."
       },
       {
         "date": "2026-03-23",
-        "evento": "Dados da RAMP indicam que a Anthropic capturou 73% dos gastos iniciais de empresas com IA, superando concorrentes."
-      },
-      {
-        "date": "2026-03-23",
-        "evento": "OpenAI lançou estratégia agressiva de 'super app' e parcerias com consultorias para dominar o segmento enterprise."
+        "evento": "OpenAI lança estratégia de 'super app' e parcerias com consultorias, intensificando a competição direta no segmento enterprise."
       },
       {
         "date": "2026-03-20",
-        "evento": "Lançamento do Claude Co-work com funcionalidade móvel 'Dispatch' elevou o padrão de interação com agentes de IA."
+        "evento": "Análises reforçam a necessidade de integração vertical de hyperscalers frente à fragilidade de middleware de IA isolados."
       },
       {
-        "date": "2026-03-20",
-        "evento": "Alertas do governo chinês sobre uso de modelos estrangeiros reforçam riscos geopolíticos para expansão global de IA."
+        "date": "2026-03-19",
+        "evento": "Estudos apontam falhas críticas em agentes de saúde e riscos socioeconômicos que podem impactar a demanda futura por serviços digitais."
       }
     ]
   }

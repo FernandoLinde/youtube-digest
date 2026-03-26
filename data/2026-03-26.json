@@ -1,0 +1,600 @@
+{
+  "date": "2026-03-26",
+  "generated": "2026-03-26T13:36:02.154487",
+  "daily_brief": [
+    {
+      "id": "gmkURB_HmQI",
+      "title": "Work AGI is the Only AGI that Matters",
+      "channel": "The AI Daily Brief: Artificial Intelligence News",
+      "url": "https://www.youtube.com/watch?v=gmkURB_HmQI",
+      "channel_thumb": "https://i.ytimg.com/vi/gmkURB_HmQI/default.jpg",
+      "duration_seconds": 759,
+      "duration_label": "12 min",
+      "titulo_formatado": "12/Fev/2026, The AI Daily Brief | Work AGI is the Only AGI that Matters",
+      "temas_episodio": [
+        "Reestruturação estratégica da OpenAI: fim de 'side quests' e foco em Work AGI",
+        "Cancelamento do projeto Sora e fim da parceria com Disney",
+        "Novo modelo Spud e mudanças na liderança (Sam Altman)",
+        "Debate sobre o estado atual da AGI e prioridades comerciais"
+      ],
+      "noticias_principais": [
+        {
+          "manchete": "OpenAI encerra Sora e redireciona recursos para 'Spud'",
+          "contexto": [
+            "A OpenAI descontinuou o Sora devido a restrições críticas de computação.",
+            "Hater (Twitter): OpenAI prioriza compute para o Codeex e o novo modelo Spud em vez de vídeos.",
+            "A medida causou o fim da parceria de US$ 1 bilhão com a Disney.",
+            "O apresentador vê este como um momento histórico: pela primeira vez a OpenAI admite publicamente que precisa escolher entre projetos viáveis por falta de infraestrutura.",
+            "A equipe de pesquisa do Sora migrará para modelos de mundo e robótica."
+          ]
+        },
+        {
+          "manchete": "Mudanças na liderança e foco em 'Work AGI'",
+          "contexto": [
+            "Sam Altman reduz oversight direto para focar em capital e data centers; Fiji Simo assume papel central como líder da divisão 'AGI Deployment'.",
+            "Fiji Simo (Twitter): Empresas precisam de fases de exploração e refocalização; o momento é de dobrar a aposta no que funciona, como o Codeex.",
+            "OpenAI prepara um super app desktop integrando ChatGPT, Codeex e o navegador Atlas.",
+            "O modelo 'Spud' foi concluído e promete 'acelerar a economia' em poucas semanas.",
+            "Shupdat (Twitter): O termo 'acelerar a economia' parece marketing agressivo ou uma promessa de AGI."
+          ]
+        }
+      ],
+      "temas_principais": [
+        {
+          "tema": "O fim das 'Side Quests' e o foco em Work AGI",
+          "analise": [
+            "A OpenAI está pivotando de um modelo de 'mil flores florescendo' para uma execução focada no mundo corporativo e produtividade.",
+            "O mercado de 'knowledge work' é avaliado em US$ 40 trilhões, tornando-o muito mais atraente que a publicidade.",
+            "Simon Smith (Twitter): Questiona a viabilidade dos anúncios da OpenAI frente a gigantes estabelecidos.",
+            "Existe uma frustração entre compradores de mídia pela falta de métricas de performance no ChatGPT.",
+            "A OpenAI recuou na funcionalidade de 'instant checkout', admitindo que não atingiu a flexibilidade necessária.",
+            "A estratégia atual reflete a competição acirrada com a Anthropic pelo domínio enterprise.",
+            "A mudança de nome de 'Product' para 'AGI Deployment' sinaliza que o foco é operacionalizar modelos para empresas.",
+            "O foco em 'Work AGI' é visto como a única AGI que realmente importa para a sobrevivência e monetização atual.",
+            "O apresentador nota que a empresa está abandonando experimentos de consumo puro (como o Sora) em favor de infraestrutura de trabalho.",
+            "A transição de projetos como o Sora para 'world models' visa a automação da economia física e robótica."
+          ]
+        },
+        {
+          "tema": "O debate sobre o status atual da AGI",
+          "analise": [
+            "Jensen Huang (NVIDIA) sugere que já temos AGI para tarefas discretas, como criar apps de nicho simples.",
+            "Contudo, Huang admite que a chance de agentes autônomos criarem uma empresa do porte da NVIDIA é 0%.",
+            "Benjamin Todd (80,000 Hours): Argumenta que não temos AGI, pois a IA ainda é superada por humanos em diversas tarefas gerais.",
+            "O apresentador propõe o termo 'Task AGI': a IA domina tarefas discretas, mas falha em cadeias complexas de trabalho sem supervisão.",
+            "Ethan Mollick (Twitter): Sugere aceitar a definição de Tyler Cowan de que já tínhamos AGI em 2003, apenas para encerrar a discussão semântica.",
+            "A verdadeira transformação não virá apenas do modelo, mas da integração de AGI em sistemas corporativos complexos.",
+            "A OpenAI e Anthropic estão buscando parcerias com consultorias para facilitar essa difusão prática.",
+            "O 'limite serrilhado' das capacidades da IA explica por que ela brilha em tarefas e tropeça em fluxos de trabalho longos.",
+            "A discussão aponta para um consenso de que AGI, isoladamente, não é sinônimo de valor comercial se não houver um produto que a operacionalize.",
+            "O foco em 'Work AGI' reflete a necessidade de resolver a automação de strings de tarefas, não apenas habilidades isoladas."
+          ]
+        }
+      ],
+      "empresas": [
+        "OpenAI",
+        "Anthropic",
+        "NVIDIA",
+        "Disney",
+        "Meta",
+        "Google",
+        "MidJourney",
+        "Runway"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Work AGI is the Only AGI that Matters.txt"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "Axpnkqd-Agk",
+      "title": "Bryan Johnson: I Just Took the Most Powerful Dose of DMT in the World... Here&#39;s What It Was Like",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=Axpnkqd-Agk",
+      "channel_thumb": "https://i.ytimg.com/vi/Axpnkqd-Agk/default.jpg",
+      "duration_seconds": 2277,
+      "duration_label": "37 min",
+      "visao_geral": "Bryan Johnson defende psicodélicos de alta potência como ferramenta de rejuvenescimento cerebral e neuroplasticidade.",
+      "pontos": [
+        "Johnson reportou uso de 5-MeO-DMT (9mg intramuscular + 18mg vaporizado) para 'reset' do Default Mode Network (DMN), alegando melhora na neuroplasticidade.",
+        "Dados de monitoramento via 'Kernel' (interface cerebral) mostraram que psilocibina (25mg) e 5-MeO-DMT reduzem a rigidez do DMN, facilitando estados mentais semelhantes aos da infância.",
+        "O experimento demonstrou correlação entre a redução da ruminação mental (DMN) e mudanças metabólicas sistêmicas, incluindo melhora na glicose sanguínea (top 99.9%).",
+        "Johnson detalhou o uso de organoides (células iPSC do próprio paciente) como bioreatores para testar eficácia e efeitos colaterais de drogas antes da ingestão humana.",
+        "Investimento reportado na New Limit (fundada por Brian Armstrong), focada em descoberta computacional para reprogramação celular via fatores de Yamanaka.",
+        "Defesa de 'chaves celulares' (cellular switches) como solução de feedback para controlar dosagem de proteínas e evitar oncogenicidade em terapias de rejuvenescimento."
+      ],
+      "relevancia": 2,
+      "motivo_relevancia": "O conteúdo foca em biohacking e longevidade pessoal; embora mencione tecnologias de ponta e interface neural, não há impacto direto ou acionável para as posições core (Tech/AI).",
+      "empresas": [
+        "Kernel",
+        "New Limit",
+        "AI",
+        "Biotech",
+        "Longevity",
+        "Meta"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Bryan Johnson I Just Took the Most Powerful Dose of DMT in the World... Here&#39.txt"
+    },
+    {
+      "id": "63-pbAxcLfY",
+      "title": "Is AI A Privacy Disaster? And How To Fight Back. — With Andy Yen",
+      "channel": "Alex Kantrowitz",
+      "url": "https://www.youtube.com/watch?v=63-pbAxcLfY",
+      "channel_thumb": "https://i.ytimg.com/vi/63-pbAxcLfY/default.jpg",
+      "duration_seconds": 1954,
+      "duration_label": "32 min",
+      "visao_geral": "CEO da Proton alerta que modelos de IA coletam dados persistentes e defende que commoditização de LLMs reduz fosso competitivo das Big Techs.",
+      "pontos": [
+        "Andy Yen (CEO da Proton) afirma que o 'opt-out' de treinamento em LLMs como ChatGPT e Claude não impede a coleta de dados, que permanecem armazenados indefinidamente nos servidores das empresas.",
+        "A convergência entre modelos open-weight e proprietários reduzirá drasticamente o custo de inferência e treinamento, facilitando a entrada de concorrentes com foco em privacidade.",
+        "A Nvidia, ao investir US$ 26 bilhões em modelos open-source, atua como um facilitador para players menores (como a Proton) competirem contra ecossistemas fechados de Google e OpenAI.",
+        "A estratégia de longo prazo da Proton foca em 'born private', capturando usuários através de serviços de identidade (e-mail) para evitar a dependência do login via Google/Meta/Microsoft.",
+        "O modelo de negócios baseado em publicidade das Big Techs cria um conflito de interesses estrutural com a privacidade, exacerbado pelo uso de IA que extrai perfis psicológicos profundos dos usuários."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O conteúdo discute tendências macro de capex em IA (comentando o papel da Nvidia) e riscos regulatórios/reputacionais para as posições core (Google, OpenAI, MSFT).",
+      "empresas": [
+        "Google",
+        "Nvidia",
+        "OpenAI",
+        "Proton",
+        "Meta",
+        "Microsoft",
+        "Anthropic",
+        "Claude",
+        "Gemini",
+        "ChatGPT"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Is AI A Privacy Disaster And How To Fight Back. — With Andy Yen.txt"
+    },
+    {
+      "id": "wMLcIWLlcWg",
+      "title": "Elon Enters the Chip Race, the S&amp;P 500 Repricing, and Human Drivers Will Become Illegal | EP #242",
+      "channel": "Peter H. Diamandis",
+      "url": "https://www.youtube.com/watch?v=wMLcIWLlcWg",
+      "channel_thumb": "https://i.ytimg.com/vi/wMLcIWLlcWg/default.jpg",
+      "duration_seconds": 7798,
+      "duration_label": "2h 09min",
+      "visao_geral": "Elon Musk anuncia 'TerraFab' para 1TW de computação anual; foco total em escala de infraestrutura e agentes de IA.",
+      "pontos": [
+        "Meta TerraFab: Objetivo de 1 terawatt de computação de IA/ano (50x a saída global atual de 20 gigawatts).",
+        "Capacidade: Investimento inicial de US$ 25 bilhões para o primeiro fab, com meta de longo prazo de 100 milhões de pés quadrados.",
+        "Estratégia de Integração: Esforço conjunto Tesla, xAI e SpaceX; 20% da produção para Tesla (carros/robôs) e 80% para SpaceX.",
+        "Dinâmica de Chips: Elon Musk buscando integração vertical total para contornar a lentidão de fornecedores tradicionais como TSMC, Intel e Samsung.",
+        "Transporte Autônomo: Whimo atingiu 170 milhões de milhas autônomas; projeção de que direção humana se tornará ilegal em breve devido à disparidade de segurança (92% menos acidentes).",
+        "Produtividade via IA: Jensen Huang (Nvidia) define métrica de sucesso para engenheiros: consumo de pelo menos 250 mil tokens de IA; tokens devem superar o custo de folha de pagamento."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O conteúdo aborda diretamente a escala de capex em IA, infraestrutura de semicondutores e a transição para economias baseadas em agentes, impactando teses de NVDA, TSLA e MSFT.",
+      "empresas": [
+        "Nvidia",
+        "Tesla",
+        "SpaceX",
+        "xAI",
+        "TSMC",
+        "Samsung",
+        "Intel",
+        "Whimo",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Amazon",
+        "PwC",
+        "G42",
+        "Joby Aviation",
+        "Archer Aviation"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Elon Enters the Chip Race, the S&amp;P 500 Repricing, and Human Drivers Will Bec.txt"
+    },
+    {
+      "id": "snhFHUKWoRY",
+      "title": "Why AI is taking over your meetings",
+      "channel": "ACCESS Podcast",
+      "url": "https://www.youtube.com/watch?v=snhFHUKWoRY",
+      "channel_thumb": "https://i.ytimg.com/vi/snhFHUKWoRY/default.jpg",
+      "duration_seconds": 4069,
+      "duration_label": "1h 07min",
+      "visao_geral": "Granola levanta capital com valuation > $1 bilhao; aposta em IA agnostica para captura de contexto em reunioes.",
+      "pontos": [
+        "Granola captou US$ 125 milhoes, atingindo status de unicornio (> US$ 1 bilhao de valuation).",
+        "Empresa expande presenca fisica para San Francisco (proximo ao Moscone Center) focada em talentos e parcerias.",
+        "Estrategia de produto: manter-se agnostica em relacao a plataformas (Google Meet, Zoom, Teams) e permitir alta portabilidade de dados via API e MCP (Model Context Protocol).",
+        "Foco estrategico: 'inteligencia de reunioes' como fonte da verdade corporativa, superando documentos estaticos (Notion/Slack).",
+        "Roadmap: integracao com agentes de IA (como Replit) e expansao para Android, visando automatizar fluxos de trabalho pos-reuniao.",
+        "Desafios tecnicos atuais: identificacao precisa de multiplos oradores (speaker diarization) e latencia de processamento em larga escala."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O video detalha a evolucao de uma ferramenta de produtividade que utiliza IA para extrair conhecimento de reunioes, competindo com as capacidades de contexto de empresas core (OpenAI/Anthropic) e servindo como infraestrutura de dados para agentes corporativos.",
+      "empresas": [
+        "Granola",
+        "OpenAI",
+        "Anthropic",
+        "Microsoft",
+        "Google",
+        "Replit",
+        "Meta",
+        "Shopify",
+        "Vercel",
+        "Linear",
+        "DoorDash",
+        "Brex",
+        "Vanta"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Why AI is taking over your meetings.txt"
+    },
+    {
+      "id": "yLmM3M7d9v8",
+      "title": "Why You Need a $1B Fund To Do Series A | SpaceX at $2TRN &amp; Data Centers in Space | Groq&#39;s $20BN Deal",
+      "channel": "20VC with Harry Stebbings",
+      "url": "https://www.youtube.com/watch?v=yLmM3M7d9v8",
+      "channel_thumb": "https://i.ytimg.com/vi/yLmM3M7d9v8/default.jpg",
+      "duration_seconds": 4759,
+      "duration_label": "1h 19min",
+      "visao_geral": "Anthropic captura 73% da nova demanda enterprise em IA, superando OpenAI; VCs temem bolha em valuations de Series A.",
+      "pontos": [
+        "Dados da RAMP indicam que, nos últimos 10 semanas, Anthropic capturou 73% de novos gastos corporativos em ferramentas de IA, enquanto o OpenAI perdeu momentum.",
+        "OpenAI enfrenta crise de confiança devido a inconsistência estratégica (vai-e-vem em hardware, Sora, headcount) e \"desespero\" percebido pela liderança.",
+        "Investidores apontam 'lock-in' severo em modelos como Claude Sonnet/Opus para fluxos de trabalho complexos (coding/agents), tornando o custo de switch proibitivo.",
+        "Elon Musk planeja fab de chips (custo estimado US$ 25 bi) em parceria SpaceX/Tesla; SpaceX avaliada em US$ 2 trilhões no mercado secundário/polymarket.",
+        "Jeff Bezos busca levantar US$ 100 bilhões para fundo focado em transformação industrial via IA, sinalizando a dificuldade de reter talentos e bilionários nos hubs tradicionais (CA/NY).",
+        "Deal Groq/Nvidia de US$ 20 bi (para US$ 100 mi ARR) ressalta ineficiência fiscal extrema (cerca de 60% de imposto) usada para evitar review antitrust."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O conteúdo discute diretamente a dinâmica competitiva entre OpenAI e Anthropic, a estratégia de infraestrutura da TSM/Nvidia e os riscos de bolha em valuations de IA.",
+      "empresas": [
+        "Anthropic",
+        "OpenAI",
+        "Nvidia",
+        "SpaceX",
+        "Tesla",
+        "Groq",
+        "Figma",
+        "Google",
+        "Microsoft",
+        "TSMC",
+        "Notion"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Why You Need a $1B Fund To Do Series A SpaceX at $2TRN &amp; Data Centers in Spa.txt"
+    },
+    {
+      "id": "4cuT-LKcmWs",
+      "title": "I Analyzed Hundreds of AI Job Postings. The Same 7 Skills Showed Up Everywhere.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "url": "https://www.youtube.com/watch?v=4cuT-LKcmWs",
+      "channel_thumb": "https://i.ytimg.com/vi/4cuT-LKcmWs/default.jpg",
+      "duration_seconds": 1539,
+      "duration_label": "25 min",
+      "visao_geral": "Escassez de talentos em IA (proporção 3.2:1) força empresas a buscar perfis com 7 competências técnicas específicas.",
+      "pontos": [
+        "O mercado de trabalho de IA é 'em forma de K': funções de conhecimento tradicionais estão estagnadas, enquanto vagas para criar, operar e gerenciar sistemas de IA crescem rapidamente.",
+        "Tempo médio para preencher uma vaga de IA é de 142 dias, indicando um gap crítico de qualificação técnica.",
+        "As 7 competências essenciais identificadas em centenas de vagas são: Precisão na Especificação (clareza de intenção), Avaliação/Qualidade (senso crítico contra alucinações), Gerenciamento de Multi-Agentes, Reconhecimento de Padrões de Falha (detectar falhas como 'context degradation' e 'sycophantic confirmation'), Design de Confiança e Segurança, Arquitetura de Contexto e Economia de Tokens.",
+        "O programa 'Claude Certified Architect' da Anthropic é citado como um novo padrão de indústria, comparável a certificações AWS, sendo adotado massivamente por empresas como Accenture.",
+        "Habilidades como 'Arquitetura de Contexto' (organização de dados para busca eficiente por agentes) e 'Economia de Tokens' (cálculo de ROI para modelos) tornaram-se diferenciais estratégicos para a viabilidade operacional de projetos em escala.",
+        "Falhas silenciosas ('silent failures') em agentes de IA, onde a saída parece semanticamente correta mas é funcionalmente errada, representam o maior risco produtivo nas empresas atuais."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O conteúdo aborda o gargalo de talentos e a complexidade operacional (agentes, infraestrutura, custos) que impactam a execução e o sucesso das implementações de IA dentro das empresas do setor tech (Anthropic, Microsoft/OpenAI).",
+      "empresas": [
+        "Anthropic",
+        "OpenAI",
+        "Microsoft",
+        "AWS",
+        "Accenture",
+        "IA",
+        "Modelos de Linguagem (LLMs)",
+        "Agentes de IA"
+      ],
+      "has_transcript": true,
+      "transcript_file": "I Analyzed Hundreds of AI Job Postings. The Same 7 Skills Showed Up Everywhere..txt"
+    },
+    {
+      "id": "SUXn_hbKpEw",
+      "title": "How GPU is scaling with AI..",
+      "channel": "Caleb Writes Code",
+      "url": "https://www.youtube.com/watch?v=SUXn_hbKpEw",
+      "channel_thumb": "https://i.ytimg.com/vi/SUXn_hbKpEw/default.jpg",
+      "duration_seconds": 801,
+      "duration_label": "13 min",
+      "visao_geral": "Nvidia revela a arquitetura Rubin e o acelerador Gro 3 LPU para suportar a nova era de computação agentic.",
+      "pontos": [
+        "A transição para a era 'Agentic' (2024-2025) exige uma mudança da infraestrutura baseada apenas em GPUs para pods completos, integrando CPUs, storages e rede (Spectrum-X) para otimizar o TCO.",
+        "Lançamento do Gro 3 LPU: acelerador focado em inferência que utiliza memória SRAM para reduzir a latência, prometendo 35x mais tokens por megawatt.",
+        "Evolução do hardware: saindo do DGX1 (8 GPUs/128GB VRAM) para o NVL72 Blackwell (72 GPUs) e agora a plataforma Vera Rubin, focada em performance por watt.",
+        "Mudança na hierarquia de inferência: a Nvidia projeta novas subcategorias de 'token factories', separando tokens de baixo custo de tokens de 'inteligência nível gênio' para sistemas agentic.",
+        "Adoção acelerada: Hyperscalers esperam a plataforma Vera Rubin entre o final de 2024 e o início de 2025, com o Gro 3 LPU previsto para o mesmo ano civil.",
+        "Foco em eficiência: a nova arquitetura Blackwell oferece 50x mais performance por watt do que a geração Hopper, essencial para sustentar a escala de modelos de trilhões de parâmetros."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O vídeo detalha o roadmap de hardware da Nvidia (Blackwell, Rubin, Gro 3) diretamente relacionado à tese de capex dos hyperscalers e capacidade de inferência.",
+      "empresas": [
+        "Nvidia",
+        "Gro",
+        "Google",
+        "OpenAI",
+        "Hyperscalers",
+        "AI Infrastructure",
+        "Blackwell",
+        "Vera Rubin"
+      ],
+      "has_transcript": true,
+      "transcript_file": "How GPU is scaling with AI...txt"
+    },
+    {
+      "id": "WhbdbbERzNg",
+      "title": "How Surge AI Finds AI&#39;s Real Weakness",
+      "channel": "The Neuron",
+      "url": "https://www.youtube.com/watch?v=WhbdbbERzNg",
+      "channel_thumb": "https://i.ytimg.com/vi/WhbdbbERzNg/default.jpg",
+      "duration_seconds": 3742,
+      "duration_label": "1h 02min",
+      "visao_geral": "Especialista da Surge AI aponta que modelos de fronteira falham em 40% das tarefas corporativas por gargalos de RL.",
+      "pontos": [
+        "Modelos de linguagem (LLMs) falham 40% das vezes em tarefas de fluxo de trabalho real devido a deficiências em planejamento, adaptabilidade, groundedness e senso comum.",
+        "A Surge AI está pivotando para 'Ambientes de Aprendizado por Reforço' (RL Environments) — simuladores onde agentes aprendem autonomamente através de feedback de ambiente, superando o paradigma de aprendizado apenas via humanos.",
+        "Nick Heiner, head da Surge AI, destaca que a otimização de recompensa (reward signal) é o gargalo atual; modelos tendem a 'hackear' métricas acadêmicas simples sem entregar valor real de negócio.",
+        "Empresas devem preparar sua infraestrutura de dados para serem 'agente-prontas' (agent-ready) em vez de tentar construir seus próprios ambientes de RL complexos internamente.",
+        "Previsão interna: até 2030, há 50% de probabilidade de surgimento de empresas avaliadas em US$ 1 bilhão com apenas um funcionário humano.",
+        "Apesar da euforia, os modelos atuais ainda sofrem com falta de diversidade (ex: viés em nomes e estruturas de escrita) e tendem a evitar o uso de bibliotecas externas eficientes em favor de soluções próprias desnecessárias."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Oferece visão técnica sobre gargalos reais de adoção corporativa de AI e por que benchmarks atuais (SAT-like) falham em medir a utilidade real de modelos de empresas como OpenAI, Google e Anthropic.",
+      "empresas": [
+        "Surge AI",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Microsoft",
+        "Nvidia",
+        "Netflix",
+        "Llama",
+        "GPT",
+        "Claude"
+      ],
+      "has_transcript": true,
+      "transcript_file": "How Surge AI Finds AI&#39;s Real Weakness.txt"
+    },
+    {
+      "id": "bISHW3zGJ-Q",
+      "title": "President Trump participates in a Cabinet meeting at the White House — 3/26/2026",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=bISHW3zGJ-Q",
+      "channel_thumb": "https://i.ytimg.com/vi/bISHW3zGJ-Q/default.jpg",
+      "duration_seconds": 5905,
+      "duration_label": "1h 38min",
+      "visao_geral": "Reuniao de gabinete de Trump em 26/03/2026 sem anunicos materiais de politica comercial, regulatoria ou tech.",
+      "pontos": [
+        "A reunião tratou de pautas administrativas gerais do governo sem foco setorial específico em tecnologia ou Inteligência Artificial.",
+        "Não foram emitidas novas diretrizes regulatórias que impactem diretamente o setor de Big Tech ou infraestrutura de data centers.",
+        "Ausência de comentários sobre política tarifária, restrições de exportação de semicondutores (TSM/NVDA) ou revisões antitruste (META/AMZN/GOOGL/MSFT).",
+        "O conteúdo focou estritamente em governança interna e diretrizes políticas gerais do gabinete presidencial."
+      ],
+      "relevancia": 1,
+      "motivo_relevancia": "Trata-se de uma reunião de agenda política geral sem qualquer menção ou impacto acionável para as posições core da carteira.",
+      "empresas": [
+        "Administração Trump",
+        "Governo Federal dos EUA"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "YzlaEeIfg4I",
+      "title": "Landon Donovan Says Two Factors Will Define Success For U.S. Soccer In The World Cup",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=YzlaEeIfg4I",
+      "channel_thumb": "https://i.ytimg.com/vi/YzlaEeIfg4I/default.jpg",
+      "duration_seconds": 1439,
+      "duration_label": "23 min",
+      "visao_geral": "Landon Donovan analisa desafios estruturais e oportunidades de crescimento para o futebol (soccer) nos EUA.",
+      "pontos": [
+        "MLS evoluiu significativamente nos últimos 5-7 anos em termos de investimento e qualidade de elenco, mas ainda está abaixo das 5-6 principais ligas europeias.",
+        "A mudança na estratégia de transmissão do MLS Season Pass (Apple TV), permitindo visualização gratuita para assinantes, é vista como um movimento acertado para promover a liga.",
+        "A Copa do Mundo de 2026 é tratada como um divisor de águas potencial, mas o sucesso depende de uma campanha sólida da seleção masculina e de momentos icônicos para capturar a audiência.",
+        "Investidores e proprietários da MLS possuem perfil de ultra-high-net-worth, mas muitos ainda carecem de exposição direta à dinâmica do futebol global e ao potencial de retorno sobre ativos desportivos.",
+        "O ecossistema de futebol de base nos EUA é identificado como um 'desastre' devido a incentivos focados em lucro e vitórias precoces, em vez do desenvolvimento técnico de longo prazo.",
+        "Donovan manifesta interesse em atuar como investidor minoritário consultivo em franquias desportivas, seguindo o modelo de Tom Brady com o Las Vegas Raiders."
+      ],
+      "relevancia": 1,
+      "motivo_relevancia": "O conteúdo foca estritamente na indústria de esportes (soccer) e cultura, sem impacto direto ou correlação com as posições core da gestora.",
+      "empresas": [
+        "MLS",
+        "Apple",
+        "Apple TV",
+        "Las Vegas Raiders",
+        "Lincoln City FC"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Landon Donovan Says Two Factors Will Define Success For U.S. Soccer In The World.txt"
+    },
+    {
+      "id": "o9F6yUpiN8M",
+      "title": "Airlines for America CEO Chris Sununu on the DHS funding fight, impact on travel",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=o9F6yUpiN8M",
+      "channel_thumb": "https://i.ytimg.com/vi/o9F6yUpiN8M/default.jpg",
+      "duration_seconds": 575,
+      "duration_label": "9 min",
+      "visao_geral": "Impasse orçamentário no Congresso dos EUA ameaça operações de transporte aéreo e modernização da FAA devido ao shutdown.",
+      "pontos": [
+        "DHS e TSA enfrentam risco de falta de verbas, com 500 agentes da TSA já tendo pedido demissão devido à instabilidade frequente de pagamentos.",
+        "A infraestrutura de controle de tráfego aéreo atual depende de sistemas legados obsoletos, mas a FAA está em fase de modernização tecnológica para aumentar a eficiência de decolagens.",
+        "O setor aéreo projeta forte demanda para o verão, mas enfrenta pressão de custos por spreads elevados de querosene de aviação e restrições de capacidade (limite de pistas/runways).",
+        "A modernização da FAA, embora tecnológica, encontra gargalo crítico na escassez de pessoal especializado, exacerbada por incertezas políticas que desestimulam novos recrutamentos.",
+        "A ausência de um acordo orçamentário no Senado trava as operações; o mercado monitora o impacto nas projeções de viagens e custos operacionais das companhias aéreas."
+      ],
+      "relevancia": 1,
+      "motivo_relevancia": "O conteúdo foca em disfunção política de Washington e infraestrutura aérea, sem impacto direto nas teses de investimento em tech/AI ou nas posições core.",
+      "empresas": [
+        "FAA",
+        "TSA",
+        "DHS",
+        "Airlines for America"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Airlines for America CEO Chris Sununu on the DHS funding fight, impact on travel.txt"
+    },
+    {
+      "id": "rWnCiPLPCw0",
+      "title": "MLB Opening Day: Here are the top baseball storylines on &amp; off the field",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=rWnCiPLPCw0",
+      "channel_thumb": "https://i.ytimg.com/vi/rWnCiPLPCw0/default.jpg",
+      "duration_seconds": 372,
+      "duration_label": "6 min",
+      "visao_geral": "Disputa trabalhista na MLB e incertezas sobre direitos de transmissão em 2028 sinalizam mudança estrutural no setor.",
+      "pontos": [
+        "Expiração do acordo coletivo (CBA) da MLB ao final de 2024 coloca em risco a estrutura atual de salários sem teto (salary cap).",
+        "Proprietários pressionam por teto salarial visando aumento de margens operacionais (EBITDA), que seguem abaixo de outras ligas americanas.",
+        "Jogadores da MLB receberam 47% das receitas em 2024, patamar similar ao da NFL (48%) e NBA (49-51%), enfraquecendo o argumento de desigualdade financeira.",
+        "Direitos de transmissão da MLB expiram no final de 2028, criando incerteza sobre o próximo ciclo de valorização de mídia.",
+        "Possibilidade de expansão da liga em 2029 com dois novos times, o que pode incluir realinhamento completo das divisões.",
+        "Implementação gradual de sistemas de desafio para arbitragem (balls and strikes), mantendo pressão tecnológica por automação total ('robot umps')."
+      ],
+      "relevancia": 1,
+      "motivo_relevancia": "O conteúdo é focado exclusivamente em questões trabalhistas e estruturais da Major League Baseball, sem impacto direto ou correlação com as empresas core do portfólio (Big Tech/AI).",
+      "empresas": [
+        "MLB",
+        "Netflix",
+        "New York Yankees",
+        "New York Mets",
+        "Los Angeles Dodgers",
+        "NFL",
+        "NBA",
+        "NHL"
+      ],
+      "has_transcript": true,
+      "transcript_file": "MLB Opening Day Here are the top baseball storylines on &amp; off the field.txt"
+    },
+    {
+      "id": "yPIfTmsTQ54",
+      "title": "Expect credit spreads to widen out substantially from here, says SVP&#39;s Victor Khosla",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=yPIfTmsTQ54",
+      "channel_thumb": "https://i.ytimg.com/vi/yPIfTmsTQ54/default.jpg",
+      "duration_seconds": 386,
+      "duration_label": "6 min",
+      "visao_geral": "Victor Khosla (SVP) projeta alargamento substancial de spreads de crédito; risco elevado em private credit.",
+      "pontos": [
+        "Victor Khosla, fundador da Strategic Value Partners (SVP), alerta para o aumento do estresse no setor de private credit devido à alta alavancagem.",
+        "O mercado subestima o impacto da deterioração das margens operacionais em empresas de capital fechado que dependem de refinanciamento.",
+        "Expectativa de 'default cycle' mais acentuado à medida que as taxas de juros permanecem restritivas por mais tempo, pressionando o fluxo de caixa.",
+        "O cenário macro sugere que a volatilidade nos mercados de crédito deve aumentar, afetando a precificação de ativos de risco no portfólio das Big Techs via custo de capital.",
+        "SVP foca na identificação de distorções em dívidas distressed, observando que a liquidez no mercado secundário de crédito corporativo pode evaporar rapidamente sob estresse."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O alerta sobre spreads de crédito e refinanciamento impacta diretamente o custo de capital e a alocação de capex das hyperscalers em nossas posições core.",
+      "empresas": [
+        "Strategic Value Partners",
+        "Private Credit",
+        "Credit Spreads",
+        "Macroeconomia",
+        "Taxas de Juros",
+        "Capex"
+      ],
+      "has_transcript": false
+    }
+  ],
+  "skipped": [],
+  "company_briefs": {
+    "Meta": {
+      "resumo_dia": "Meta ausente em manchetes de IA de hoje; ruído setorial foca em OpenAI, Nvidia e privacidade de dados.",
+      "impacto_tese": "neutral",
+      "impacto_detalhes": [
+        "NEUTRO: Nenhuma notícia direta sobre operações, produtos ou finanças da Meta nas fontes de hoje.",
+        "RISCO: Alertas de CEOs de privacidade sobre coleta de dados em LLMs reforçam pressão regulatória latente sobre o modelo de anúncios da Meta."
+      ],
+      "tendencias": [
+        "Mudança do foco de mercado de 'modelos gerais' para execução corporativa específica ('Work AGI'), desviando atenção de plataformas de consumo em massa."
+      ]
+    },
+    "Nvidia": {
+      "resumo_dia": "Nvidia define métrica de produtividade de 250k tokens e lança Rubin/Gro 3 para sustentar escala agentic apesar da concorrência vertical.",
+      "impacto_tese": "bullish",
+      "impacto_detalhes": [
+        "BULLISH: Huang estabelece consumo mínimo de 250 mil tokens por engenheiro como nova métrica padrão de produtividade corporativa.",
+        "BULLISH: Lançamento da arquitetura Rubin e acelerador Gro 3 LPU visa reduzir latência e custos para a era de agentes autônomos.",
+        "RISCO: Musk anuncia fábrica TerraFab de US$ 25 bi para integrar verticalmente produção de chips e reduzir dependência de fornecedores externos."
+      ],
+      "tendencias": [
+        "Mudança estrutural de vendas de GPUs isoladas para pods completos integrando rede e storage para otimizar TCO em cargas agentic.",
+        "Corrida de hyperscalers para integração vertical de silício visando contornar gargalos de fornecimento e margens de fabricantes tradicionais."
+      ]
+    },
+    "Amazon": {
+      "resumo_dia": "Escassez crítica de talentos em IA e gargalos de supply chain de chips pressionam a execução operacional da AWS apesar da demanda robusta.",
+      "impacto_tese": "neutral",
+      "impacto_detalhes": [
+        "RISCO: Prazo médio de 142 dias para preencher vagas de IA expõe gargalo crítico de qualificação técnica que limita a escalabilidade imediata.",
+        "RISCO: Movimento de integração vertical de concorrentes como Tesla/xAI para contornar fornecedores tradicionais ameaça a hegemonia de supply chain da AWS."
+      ],
+      "tendencias": [
+        "Mercado de trabalho de IA assume formato em 'K' onde funções de gestão de sistemas escalam enquanto cargos tradicionais estagnam.",
+        "Padrões de falha silenciosa em agentes de IA tornaram-se o novo risco operacional primário, exigindo novas competências de auditoria técnica."
+      ]
+    },
+    "OpenAI": {
+      "resumo_dia": "OpenAI encerra Sora e parceria de US$ 1 bi com Disney para realocar compute crítico ao Codeex e ao modelo Spud.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Perda imediata de receita e credibilidade com o cancelamento do contrato de US$ 1 bilhão da Disney devido à escassez de compute.",
+        "RISCO: Anthropic abocanha 73% da nova demanda enterprise, explorando a inconsistência estratégica e a crise de confiança na liderança da OpenAI."
+      ],
+      "tendencias": [
+        "Migração estrutural de capital e talentos de projetos de mídia/consumo (Sora) para aplicações corporativas de alta margem (Work AGI)."
+      ]
+    },
+    "Microsoft": {
+      "resumo_dia": "Anthropic abocanha 73% da nova demanda enterprise, corroendo a liderança da Microsoft na camada de aplicação corporativa.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Anthropic capturou 73% dos novos gastos corporativos em IA nas últimas 10 semanas, superando a parceria OpenAI/Microsoft.",
+        "RISCO: Certificação 'Claude Architect' da Anthropic vira novo padrão industrial, criando lock-in técnico que ameaça ecossistema Azure."
+      ],
+      "tendencias": [
+        "Migração agressiva de contratos enterprise iniciais de OpenAI/Microsoft para Anthropic devido a percepção de maior estabilidade estratégica.",
+        "Padronização de competências técnicas em torno de arquiteturas de agentes da Anthropic, marginalizando ferramentas nativas da Microsoft."
+      ]
+    },
+    "TSMC": {
+      "resumo_dia": "Elon Musk anuncia fábrica de chips de US$ 25 bi para contornar TSMC, enquanto Anthropic domina 73% da nova demanda enterprise.",
+      "impacto_tese": "neutral",
+      "impacto_detalhes": [
+        "RISCO: Elon Musk planeja fábrica própria de US$ 25 bi para eliminar dependência de fornecedores externos como TSMC.",
+        "BULLISH: Anthropic captura 73% da nova demanda enterprise em IA, sustentando volumes de produção de ponta."
+      ],
+      "tendencias": [
+        "Bilionários da tecnologia buscam integração vertical total de hardware para contornar gargalos de fornecedores tradicionais."
+      ]
+    },
+    "Anthropic": {
+      "resumo_dia": "Anthropic abocanha 73% da nova demanda enterprise, enquanto OpenAI perde tração ao encerrar Sora por escassez de compute.",
+      "impacto_tese": "bullish",
+      "impacto_detalhes": [
+        "BULLISH: Dados da RAMP mostram Anthropic capturando 73% dos novos gastos corporativos em IA nas últimas 10 semanas, superando a OpenAI.",
+        "RISCO: Escassez crítica de compute forçou a OpenAI a descontinuar o Sora, sinalizando gargalos de infraestrutura que podem afetar todo o setor."
+      ],
+      "tendencias": [
+        "O mercado enterprise migra de chatbots reativos para orquestração autônoma, privilegiando provedores com certificações de arquitetura e segurança.",
+        "A escassez de talentos qualificados em IA eleva o valor de ecossistemas com certificação profissional padronizada, como o 'Claude Certified Architect'."
+      ]
+    },
+    "Google": {
+      "resumo_dia": "Anthropic domina gastos corporativos em IA enquanto Google enfrenta pressão de ferramentas agnósticas e crescentes exigências por privacidade.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Anthropic capturou 73% dos novos gastos corporativos em IA nas últimas 10 semanas, ameaçando a liderança em nuvem do Google.",
+        "RISCO: A ascensão de ferramentas agnósticas de produtividade, como a startup Granola, desafia o ecossistema fechado de reuniões do Google Meet.",
+        "RISCO: O crescente ceticismo sobre a coleta de dados persistente nas Big Techs favorece soluções focadas em privacidade extrema como a Proton."
+      ],
+      "tendencias": [
+        "Migração acelerada da infraestrutura de IA para plataformas focadas em agentes autônomos e eficiência operacional.",
+        "Erosão do fosso competitivo das Big Techs via commoditização de modelos e alta demanda por soberania de dados corporativos."
+      ]
+    }
+  }
+}
