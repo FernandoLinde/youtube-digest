@@ -1,0 +1,1013 @@
+{
+  "date": "2026-03-30",
+  "generated": "2026-03-30T15:10:56.852390",
+  "daily_brief": [
+    {
+      "id": "DvNKYftvPW0",
+      "title": "The Era of Vertical AI Models",
+      "channel": "The AI Daily Brief: Artificial Intelligence News",
+      "url": "https://www.youtube.com/watch?v=DvNKYftvPW0",
+      "channel_thumb": "https://i.ytimg.com/vi/DvNKYftvPW0/default.jpg",
+      "duration_seconds": 897,
+      "duration_label": "14 min",
+      "titulo_formatado": "26/Jan/2026, The AI Daily Brief | The Era of Vertical AI Models",
+      "temas_episodio": [
+        "Ascensao de modelos verticais especializados",
+        "Desafio a 'Bitter Lesson' de Rich Sutton",
+        "O poder do pós-treinamento com dados de experiência",
+        "Intercom Apex e Cursor Composer 2"
+      ],
+      "noticias_principais": [
+        {
+          "manchete": "<b>Intercom lança modelo Apex para suporte ao cliente</b>",
+          "contexto": [
+            "Modelo focado em customer service supera GPT-4 e Opus 4.5 em custo, velocidade e redução de alucinações.",
+            "Paul Adams (Intercom) destaca que a diferenciação competitiva está migrando da camada de aplicação para a camada de modelo.",
+            "Ben Avogi aponta que a vantagem da infraestrutura (APIs) está erodindo rapidamente.",
+            "O apresentador vê isso como uma validação de suas previsões de 2026 sobre o 'lab loop' e dados de última milha.",
+            "O modelo utiliza dados proprietários de bilhões de interações humanas e de agentes."
+          ]
+        },
+        {
+          "manchete": "<b>Cursor enfrenta controvérsia com modelo Composer 2</b>",
+          "contexto": [
+            "O modelo Composer 2 superou o Opus 4.6 em benchmarks de codificação, mas revelou-se um fine-tuning do Kimmy 2.5.",
+            "Lee Robinson (Cursor) confirmou o uso de base open-source, argumentando que 75% do treino foi interno.",
+            "Latent LLM comentou que ver um modelo open-weight superar o estado da arte com ajuste fino é um divisor de águas.",
+            "A controvérsia girou em torno da transparência na divulgação da origem do modelo.",
+            "O uso de reforço (RL) em dados de alta qualidade provou-se capaz de elevar modelos básicos ao topo."
+          ]
+        }
+      ],
+      "temas_principais": [
+        {
+          "tema": "A Era dos Modelos Verticais vs. A Bitter Lesson",
+          "analise": [
+            "A 'Bitter Lesson' de Rich Sutton defende que métodos gerais que utilizam computação superam conhecimentos humanos codificados.",
+            "Historicamente, modelos especializados como BloombergGPT falharam ao tentar superar modelos generalistas via pre-training.",
+            "A mudança atual é o foco em 'post-training' e dados de experiência (last-mile usage) em vez de conhecimento teórico.",
+            "Andrej Karpathy previu que a inteligência artificial passaria por 'especiação', adaptando-se a nichos específicos.",
+            "Clem Delangue (Hugging Face) nota uma migração estrutural de empresas de APIs para modelos in-house baseados em open source.",
+            "O apresentador pondera que não é apenas sobre o volume de dados, mas sobre o aprendizado via interação real.",
+            "A hipótese de Sutton sobre aprender com a experiência pode, paradoxalmente, confirmar a 'Bitter Lesson' ao invés de refutá-la.",
+            "Nem todas as empresas terão talento técnico para post-training, impedindo uma fragmentação caótica do mercado.",
+            "Empresas de modelos de fronteira (Labs) enfrentarão disrupção e precisarão se auto-disromper para competir em preço.",
+            "Projeção: consolidação por M&A e parcerias de dados será a próxima fase do mercado de IA."
+          ]
+        }
+      ],
+      "empresas": [
+        "Intercom",
+        "Cursor",
+        "OpenAI",
+        "Anthropic",
+        "Hugging Face",
+        "Decagon",
+        "Bloomberg",
+        "Pinterest",
+        "Airbnb",
+        "Notion"
+      ],
+      "has_transcript": true,
+      "transcript_file": "The Era of Vertical AI Models.txt"
+    },
+    {
+      "id": "EBXZ4zZwS7c",
+      "title": "Anthropic&#39;s New Mythos Model a &quot;Step Change&quot; in Capabilities",
+      "channel": "The AI Daily Brief: Artificial Intelligence News",
+      "url": "https://www.youtube.com/watch?v=EBXZ4zZwS7c",
+      "channel_thumb": "https://i.ytimg.com/vi/EBXZ4zZwS7c/default.jpg",
+      "duration_seconds": 547,
+      "duration_label": "9 min",
+      "titulo_formatado": "21/Fev/2025, The AI Daily Brief | Vazamento do Claude Mythos, Gemini 3.1 Flash Live e Shopify Tinker",
+      "temas_episodio": [
+        "Vazamento do modelo Claude Mythos da Anthropic",
+        "Lançamento do Gemini 3.1 Flash Live do Google",
+        "App Shopify Tinker para e-commerce",
+        "Upgrade do OpenAI Codex",
+        "Cancelamento de 'modo erótico' na OpenAI",
+        "Especulações de IPO da Anthropic e OpenAI"
+      ],
+      "noticias_principais": [
+        {
+          "manchete": "Vazamento revela Claude Mythos da Anthropic",
+          "contexto": [
+            "Documentos vazados indicam que o 'Mythos' será um novo nível de modelo, superando o Opus em codificação, raciocínio acadêmico e cibersegurança.",
+            "Jason Bil comentou: 'Gosto como o modelo misterioso da Anthropic tem codinome Mythos enquanto a OpenAI nomeou o seu de batata (Spud)'.",
+            "Gavin Purscell observou: 'O ritmo de inovação só tende a acelerar daqui para frente'.",
+            "O apresentador nota que a Anthropic adotou cautela extrema devido aos riscos em cibersegurança, tratando o modelo como computacionalmente caro.",
+            "O lançamento será gradual e focado em clientes de acesso antecipado, sem previsão clara de disponibilidade geral."
+          ]
+        },
+        {
+          "manchete": "Google lança Gemini 3.1 Flash Live",
+          "contexto": [
+            "Modelo focado em diálogo em tempo real, eliminando a natureza de 'turnos' de modelos de voz anteriores.",
+            "Apresenta melhorias em benchmarks de áudio e na capacidade de 'function calling' para ações complexas.",
+            "Home Depot já utiliza a tecnologia para lidar com códigos de produtos complexos em ambientes ruidosos.",
+            "Grande potencial para substituir a Siri no ecossistema Apple, resolvendo frustrações históricas de compreensão de voz.",
+            "O apresentador vê isso como uma mudança fundamental na interação entre humanos e agentes de voz móveis."
+          ]
+        },
+        {
+          "manchete": "Shopify lança app Tinker com 100+ ferramentas de IA",
+          "contexto": [
+            "O app permite gerar logos, fotos e vídeos usando linguagem natural para empreendedores de pequeno porte.",
+            "O apresentador acredita que o Shopify tem um papel crucial na normalização positiva da IA ao aumentar a receita real de pequenos negócios.",
+            "Russo Kazzy (Shopify) afirma: 'Se você quer mais artistas, reduza o custo da tinta', referindo-se à remoção de fricção técnica.",
+            "O apresentador reforça que essa é uma opinião sem patrocínio, focada no impacto econômico prático da ferramenta."
+          ]
+        }
+      ],
+      "temas_principais": [
+        {
+          "tema": "Mudança Estratégica na OpenAI: Cancelamento do Modo Erótico",
+          "analise": [
+            "A OpenAI suspendeu indefinidamente planos para chatbots sexuais após forte pressão interna e do conselho consultivo.",
+            "Falhas de 12% no sistema de detecção de idade geraram preocupações críticas sobre segurança.",
+            "Conselho consultivo alertou para o risco de 'dependência emocional não saudável' dos usuários com o ChatGPT.",
+            "O apresentador apóia a decisão como um movimento de bom senso empresarial, evitando custos reputacionais desnecessários.",
+            "O apresentador refuta a ideia de que o cancelamento de projetos (Sora, checkout, erótica) seja um sinal de 'falha' da empresa.",
+            "Argumenta que abandonar projetos inviáveis é o oposto de fracasso: é evitar a falácia do custo irrecuperável (sunk cost fallacy).",
+            "Empresas competidoras provavelmente explorarão esse mercado, mas a OpenAI prioriza agora codificação e clientes enterprise."
+          ]
+        },
+        {
+          "tema": "A Corrida dos IPOs: Anthropic vs. OpenAI",
+          "analise": [
+            "Relatos indicam que a Anthropic avalia IPO no quarto trimestre de 2026 (ou outubro).",
+            "Sam Altman (OpenAI) manifestou preferência por ser o primeiro do setor a abrir capital.",
+            "O cenário de 'inverno de IPOs' pode estar chegando ao fim para o setor de IA.",
+            "Noel Moldve comentou: 'Segundo o zodíaco, 2026 é o ano dos mega IPOs'.",
+            "A concorrência acirrada força empresas a provarem eficiência financeira antes de listar em bolsa."
+          ]
+        }
+      ],
+      "empresas": [
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Shopify",
+        "Home Depot",
+        "Apple"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Anthropic&#39;s New Mythos Model a &quot;Step Change&quot; in Capabilities.txt"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "4Gmd5UTF4rk",
+      "title": "Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4Gmd5UTF4rk",
+      "channel_thumb": "https://i.ytimg.com/vi/4Gmd5UTF4rk/default.jpg",
+      "duration_seconds": 4811,
+      "duration_label": "1h 20min",
+      "visao_geral": "Anthropic ganha tração em enterprise com agentes; OpenAI desacelera em Sora e foca em B2B sob pressão competitiva.",
+      "pontos": [
+        "Anthropic lançou a funcionalidade 'computer use', permitindo que agentes controlem desktops, visando o mercado de TI enterprise.",
+        "OpenAI cancelou a integração do modelo de vídeo Sora no Disney+ e encerrou projetos secundários para focar no core business de software enterprise.",
+        "Análise de mercado indica uma 're-racionalização' nos valuations de software: o mercado favorece as 'Mag 7' pela durabilidade de caixa, enquanto penaliza empresas de SaaS puras (ex: Snowflake) sob o medo de ruptura por super inteligência.",
+        "Anthropic diferencia sua estratégia de receita através de parcerias e foco em fluxos de trabalho (GitHub, Cursor), enquanto OpenAI mantém predominância no segmento B2C (3/4 da receita).",
+        "Dados apontam queda de market share da OpenAI em consultas de busca: de ~100% em 2023 para ~75% projetados em 2025, com avanço competitivo esperado de Apple, Meta e Microsoft.",
+        "Meta enfrenta forte pressão legal: condenada em US$ 375 milhões no Novo México (abuso de menores) e sob pressão de vereditos por negligência no design de algoritmos viciantes."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O conteúdo aborda diretamente a dinâmica competitiva, mudanças estratégicas e riscos regulatórios das principais posições core do fundo (OpenAI, Anthropic, Meta, Google, Microsoft).",
+      "empresas": [
+        "Anthropic",
+        "OpenAI",
+        "Meta",
+        "Google",
+        "Microsoft",
+        "Apple",
+        "Nvidia",
+        "Tesla",
+        "Snowflake",
+        "ServiceNow",
+        "Workday",
+        "Disney",
+        "Perplexity",
+        "Sora"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Laws.txt"
+    },
+    {
+      "id": "KQLXFwyQ-Yg",
+      "title": "From $27M to $232M: How I Built Europe&#39;s Largest Solo AI Fund | Nathan Benaich on TBPN",
+      "channel": "The Research and Applied AI Summit - RAAIS",
+      "url": "https://www.youtube.com/watch?v=KQLXFwyQ-Yg",
+      "channel_thumb": "https://i.ytimg.com/vi/KQLXFwyQ-Yg/default.jpg",
+      "duration_seconds": 757,
+      "duration_label": "12 min",
+      "visao_geral": "Air Street Capital levanta US$ 232M para fundo de AI; gestor reforça tese em defesa, infraestrutura e verticais.",
+      "pontos": [
+        "Nathan Benaich (Air Street Capital) consolidou US$ 232M, tornando-se o maior GP solo de AI na Europa.",
+        "Tese de investimento focada em alta convicção (aprox. 20 empresas por fundo), priorizando defesa, biotecnologia, infraestrutura de dev e software vertical.",
+        "Diferenciação clara: evita investir em 'wrappers' de LLMs ou áreas onde grandes labs (Google, OpenAI, Anthropic) têm foco direto, como codificação e modelos genéricos.",
+        "Estratégia de soberania digital na Europa: foco em defesa autônoma (ex: investimento na Delos em sistemas de defesa na Grécia) devido a tensões geopolíticas.",
+        "Crescimento de ambição no ecossistema europeu: empresas como 11Labs seguem modelo de expansão global (HQ em NY/SF) em vez de focar apenas no mercado local.",
+        "Uso de agentes de AI no fluxo de trabalho de VC: Benaich utiliza Claude e modelos de codificação para refinamento de teses e automação de tomada de decisão."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Oferece insight sobre alocação de capital em AI e a diferenciação estratégica entre 'startups defensíveis' e produtos passíveis de 'steamrolling' pelos labs core.",
+      "empresas": [
+        "Air Street Capital",
+        "OpenAI",
+        "Google",
+        "Anthropic",
+        "11Labs",
+        "Nvidia",
+        "Amazon",
+        "Delos",
+        "Recursion Pharmaceuticals",
+        "Black Forest",
+        "Synthesia"
+      ],
+      "has_transcript": true,
+      "transcript_file": "From $27M to $232M How I Built Europe&#39;s Largest Solo AI Fund Nathan Benaich .txt"
+    },
+    {
+      "id": "c4tvVKDhpiY",
+      "title": "Marc Andreessen: Will a16z Go Public &amp; Why Labour Displacement with AI is Wrong?",
+      "channel": "20VC with Harry Stebbings",
+      "url": "https://www.youtube.com/watch?v=c4tvVKDhpiY",
+      "channel_thumb": "https://i.ytimg.com/vi/c4tvVKDhpiY/default.jpg",
+      "duration_seconds": 4593,
+      "duration_label": "1h 16min",
+      "visao_geral": "Mark Andreessen descarta risco de deslocamento de mão de obra por IA, citando superdimensionamento corporativo prévio.",
+      "pontos": [
+        "Acredita que grandes corporações estão superdimensionadas entre 25% e 75%, utilizando a IA como justificativa para ajustes de custo pós-inflação de juros.",
+        "Rejeita a teoria de 'lump of labor' (falácia da massa de trabalho); argumenta que IA aumenta drasticamente a produtividade marginal do indivíduo.",
+        "Afirma que a indústria tech está mais centralizada no Vale do Silício do que nunca devido à concentração de talentos e capital em IA.",
+        "Tese de investimento: o valor da IA (99%) fluirá para o consumidor (surplus) e não necessariamente para as empresas criadoras dos modelos.",
+        "Defende o investimento em founders 'diamantes' em vez de 'diamantes brutos'; afirma que o histórico de sucesso de um fundador (ex: Zuckerberg) é o melhor indicador.",
+        "A16Z mantém foco em estágio inicial (inception point) como core, mas escala no growth para preservar a cultura tech no cap table."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Fornece insights sobre a tese macro de IA, dinâmica de contratação em grandes empresas de tech e estratégia de venture capital.",
+      "empresas": [
+        "A16Z",
+        "OpenAI",
+        "Nvidia",
+        "Meta",
+        "Google",
+        "Microsoft",
+        "Anthropic",
+        "XAI",
+        "11 Labs",
+        "Black Forest Labs",
+        "CrowdStrike",
+        "Cloudflare",
+        "WeWork",
+        "Apple"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Marc Andreessen Will a16z Go Public &amp; Why Labour Displacement with AI is Wro.txt"
+    },
+    {
+      "id": "LCLzgK03CQ0",
+      "title": "Why Margins Don&#39;t Matter for Early-Stage Startups | Gili Raanan",
+      "channel": "20VC with Harry Stebbings",
+      "url": "https://www.youtube.com/watch?v=LCLzgK03CQ0",
+      "channel_thumb": "https://i.ytimg.com/vi/LCLzgK03CQ0/default.jpg",
+      "duration_seconds": 3506,
+      "duration_label": "58 min",
+      "visao_geral": "Preços de entrada em seed atingiram níveis insustentáveis no setor de cibersegurança; risco de 'catástrofe' para VCs.",
+      "pontos": [
+        "O mercado de venture capital em cibersegurança está desequilibrado: o fluxo de caixa é alto, mas a taxa de sucesso (conversão para unicórnio) permanece na casa de 1-2%.",
+        "Gilly Raanan (Cyberstarts) alerta que, com entradas a 100x-150x ARR, muitos fundos não entregarão retornos de VC, prevendo uma consolidação dolorosa para diversos players.",
+        "Apesar da euforia, a tese central para novos investimentos deve ser focada em empresas com 'DNA de crescimento rápido' e fit de produto real, não em engenharia de métricas.",
+        "O uso de 'Secondaries' tornou-se uma ferramenta estratégica vital para retenção de talentos em empresas que demoram mais para atingir o IPO, permitindo liquidez anual aos funcionários.",
+        "Empresas como Sierra e Island são citadas como modelos de alta performance que, mesmo enfrentando solavancos iniciais (ex: receita zero por dois trimestres), mantêm crescimento exponencial via forte product-market fit.",
+        "Raanan defende que fundos gigantes ('mega funds') com tradição e guardrails sobreviverão, mas o mercado de mid-stage enfrentará grandes dificuldades de desalavancagem."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O conteúdo aborda tendências de mercado, precificação de startups e comportamento de capital de risco que impactam o ecossistema das posições core (especialmente em cibersegurança e AI).",
+      "empresas": [
+        "Cyberstarts",
+        "Sequoia Capital",
+        "CrowdStrike",
+        "Palo Alto Networks",
+        "Wiz",
+        "Sierra",
+        "Island",
+        "Google",
+        "Microsoft",
+        "ServiceNow",
+        "Akamai"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Why Margins Don&#39;t Matter for Early-Stage Startups Gili Raanan.txt"
+    },
+    {
+      "id": "3-4AZ-p3tv8",
+      "title": "The Public Venture Fund That 9x’d in 3 Days (Fundrise VCX)",
+      "channel": "Sourcery with Molly O'Shea",
+      "url": "https://www.youtube.com/watch?v=3-4AZ-p3tv8",
+      "channel_thumb": "https://i.ytimg.com/vi/3-4AZ-p3tv8/default.jpg",
+      "duration_seconds": 3979,
+      "duration_label": "1h 06min",
+      "visao_geral": "Fundrise lança VCX, fundo de venture capital de capital fechado que negocia em bolsa; portfólio focado em AI privada.",
+      "pontos": [
+        "O VCX estreou no mercado público com valuation de US$ 700M e atingiu US$ 6,5B em 3 dias, um aumento de 9,5x.",
+        "Composição do portfólio (dados de fev/2026): Anthropic (20%), Databricks (17%), OpenAI (10%), Anduril (6,9%), Ramp (5,1%) e SpaceX (5%).",
+        "Tese central: democratizar o acesso a empresas privadas de tecnologia através de um veículo líquido, eliminando o modelo '2 e 20' (2% de gestão, 20% de performance).",
+        "Performance do portfólio: taxa de crescimento média ponderada de 193% ao ano, comparado a 25% do setor de tech público (ex: QQQ).",
+        "Estratégia de valor agregado: uso do 'network investing', alavancando a base de 2 milhões de clientes do Fundrise para impulsionar adoção de produtos das empresas investidas (ex: Ramp, Intercom).",
+        "Visão macro: o gestor acredita que o modelo de 'IPO tradicional' está falhando, com empresas privadas postergando a abertura de capital, tornando o acesso ao VC em bolsa essencial para investidores."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O fundo possui posições core (Anthropic, OpenAI, Databricks, SpaceX) e introduz um novo mecanismo financeiro que pode impactar a liquidez e valuation dessas empresas.",
+      "empresas": [
+        "Anthropic",
+        "Databricks",
+        "OpenAI",
+        "Anduril",
+        "Ramp",
+        "SpaceX",
+        "Fundrise (VCX)",
+        "Epic Games",
+        "Flock Safety",
+        "Vanta",
+        "Canvas",
+        "Loyal",
+        "Service Titan",
+        "Intercom",
+        "Replit",
+        "Deel",
+        "Stripe",
+        "Scale AI",
+        "A16Z",
+        "Sequoia",
+        "General Catalyst",
+        "Brex"
+      ],
+      "has_transcript": true,
+      "transcript_file": "The Public Venture Fund That 9x’d in 3 Days (Fundrise VCX).txt"
+    },
+    {
+      "id": "x0IMSUA5_uU",
+      "title": "The Future Live | 03.27.26",
+      "channel": "Matthew Berman",
+      "url": "https://www.youtube.com/watch?v=x0IMSUA5_uU",
+      "channel_thumb": "https://i.ytimg.com/vi/x0IMSUA5_uU/default.jpg",
+      "duration_seconds": 6612,
+      "duration_label": "1h 50min",
+      "visao_geral": "OpenAI encerra Sora e rescinde contrato de US$ 1 bi com Disney; mercado foca em agentes e eficiência em enterprise.",
+      "pontos": [
+        "OpenAI descontinuou o Sora (text-to-video) devido ao alto custo computacional, falta de crescimento do app e problemas insolúveis de licenciamento de IP.",
+        "A Walt Disney Co. cancelou um investimento de US$ 1 bilhão na OpenAI, originalmente vinculado a um acordo de licenciamento de IP para o Sora.",
+        "OpenAI reestruturou a liderança: Mira Murati (Fiji Simo) assume a organização de 'Implantação de AGI', sinalizando um pivô para o mercado Enterprise.",
+        "OpenAI planeja dobrar seu headcount até o final de 2026, focando em vendas, engenharia e desenvolvimento de produtos para empresas.",
+        "A Turing, startup de infraestrutura de AI, reporta que o sucesso na transição para o mercado corporativo depende da criação de ambientes de RL (Reinforcement Learning) e dados de alta qualidade (coding, STEM, enterprise).",
+        "Jensen Huang (Nvidia) argumenta que demissões em empresas de tecnologia refletem falta de imaginação e bloat organizacional da era ZIRP, e não necessariamente o impacto direto da AI."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O vídeo detalha movimentos estratégicos cruciais na OpenAI, mudanças no capex de IA, e o impacto direto do custo de inferência e licenciamento de IP para as posições core.",
+      "empresas": [
+        "OpenAI",
+        "Anthropic",
+        "Disney",
+        "Turing",
+        "Nvidia",
+        "Meta",
+        "Google",
+        "Sora",
+        "ChatGPT",
+        "Claude"
+      ],
+      "has_transcript": true,
+      "transcript_file": "The Future Live 03.27.26.txt"
+    },
+    {
+      "id": "5nMa3p3qw1w",
+      "title": "Chip Huyen: Building when it feels like there&#39;s nothing left to build - The Pragmatic Summit",
+      "channel": "The Pragmatic Engineer",
+      "url": "https://www.youtube.com/watch?v=5nMa3p3qw1w",
+      "channel_thumb": "https://i.ytimg.com/vi/5nMa3p3qw1w/default.jpg",
+      "duration_seconds": 1249,
+      "duration_label": "20 min",
+      "visao_geral": "IA reduz barreiras de entrada para replicar software; valor migra de 'codar' para resolver problemas complexos e edge cases.",
+      "pontos": [
+        "A facilidade de replicar produtos via IA elimina o valor de 'SaaS light' de baixo custo; diferenciação agora depende de resolver problemas profundos e específicos que modelos genéricos não dominam.",
+        "A necessidade de 'agentes' em ambientes digitais expõe riscos de ações irreversíveis (ex: wipe de bases de dados locais), exigindo novas camadas de guardrails e segurança para automação.",
+        "Modelos atuais de busca via web são ineficientes e 'humanocêntricos'; agentes visitam milhares de URLs repetidamente para realizar tarefas, desperdiçando recursos de computação e latência.",
+        "O fluxo de trabalho de desenvolvimento de software está defasado; o papel de engenheiros seniores deve migrar da revisão de código linha a linha para a supervisão e instrução estratégica de agentes de IA.",
+        "Diferenças culturais e demográficas exigem interfaces multimodais específicas; em países da Ásia, o uso de voice-bots precede chatbots de texto devido a hábitos de mobilidade urbana (uso de motocicletas).",
+        "A infraestrutura digital atual (taxas de requisição, navegação web, terminais de comando) é mal adaptada para a velocidade e o modo de operação de agentes, criando gargalos de eficiência."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O conteúdo discute o impacto da IA no ciclo de desenvolvimento de software, a ineficiência de recursos em modelos de busca e a necessidade de adaptação da infraestrutura para agentes, temas centrais para o capex de Big Techs.",
+      "empresas": [
+        "OpenAI",
+        "Google",
+        "Microsoft",
+        "Claude",
+        "Grok",
+        "Gemini",
+        "GitHub",
+        "VS Code",
+        "Postgres",
+        "IA",
+        "LLMs",
+        "Agentes",
+        "SaaS"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Chip Huyen Building when it feels like there&#39;s nothing left to build - The P.txt"
+    },
+    {
+      "id": "0cVuMHaYEHE",
+      "title": "Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "url": "https://www.youtube.com/watch?v=0cVuMHaYEHE",
+      "channel_thumb": "https://i.ytimg.com/vi/0cVuMHaYEHE/default.jpg",
+      "duration_seconds": 1580,
+      "duration_label": "26 min",
+      "visao_geral": "Padronização de 'skills' (arquivos Markdown) torna-se infraestrutura organizacional para agentes e LLMs.",
+      "pontos": [
+        "Evolução de uso: 'skills' deixaram de ser configuração individual (outubro/2024) para virarem infraestrutura corporativa versionada em repositórios.",
+        "Mudança de executor: A maioria das chamadas de 'skills' hoje é feita por agentes autônomos, não humanos, permitindo centenas de execuções por fluxo de trabalho.",
+        "Interoperabilidade: Anthropic, Microsoft (Copilot) e OpenAI estão convergindo para o padrão de 'skills' como a camada base para automação de processos de negócio.",
+        "Efeito Composto: Diferente de prompts que se perdem em chats, 'skills' em arquivos Markdown são refináveis, testáveis e compõem a inteligência acumulada da organização.",
+        "Arquitetura de 'Skills': O formato exige um arquivo 'skill.markdown' com descrição em linha única (crítico para o trigger) e corpo com metodologia, regras de negócio e exemplos de casos de borda.",
+        "Implementação Enterprise: Recomenda-se a divisão em três tiers: (1) Standard (marca/template), (2) Metodologia (expertise de seniores) e (3) Workflow pessoal, visando reduzir a dependência de conhecimento tácito."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "Aborda diretamente a infraestrutura operacional e de produto da Anthropic, Microsoft e OpenAI (posições core), focando em como empresas estão escalando IA via agentes.",
+      "empresas": [
+        "Anthropic",
+        "Microsoft",
+        "OpenAI",
+        "Claude",
+        "Copilot",
+        "ChatGPT",
+        "Cursor",
+        "GitHub",
+        "AI Agents"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Ever.txt"
+    },
+    {
+      "id": "sTkqCREdMXo",
+      "title": "48 Days. That&#39;s How Long Before the Helium Runs Out for AI Chips.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "url": "https://www.youtube.com/watch?v=sTkqCREdMXo",
+      "channel_thumb": "https://i.ytimg.com/vi/sTkqCREdMXo/default.jpg",
+      "duration_seconds": 1341,
+      "duration_label": "22 min",
+      "visao_geral": "Dano no complexo de gás em Qatar ameaça 33% da oferta global de hélio, elevando custos e riscos de suprimento para chips.",
+      "pontos": [
+        "A planta Ross Laffan no Qatar, responsável por 33% do suprimento global de hélio, está paralisada por ataques, com 14% de capacidade permanentemente destruída e reparos estimados em até 5 anos.",
+        "Hélio de alta pureza (6N) é insubstituível na litografia EUV (ASML) e no etching de wafers para chips avançados e memórias HBM, essenciais para Nvidia e demais hyperscalers.",
+        "SK Hynix e Samsung, que dependem do Qatar para até 2/3 de seu hélio, estão em risco crítico de redução de capacidade produtiva de HBM, componente vital para GPUs de IA.",
+        "A interrupção do hélio é inseparável da produção de GNL (gás natural liquefeito); o custo de energia para fabs na Coreia e Taiwan deve subir, pressionando margens de hardware e preços de chips.",
+        "China está acelerando sua produção doméstica de hélio (certificado 6N) e busca diversificação via gasoduto 'Power of Siberia 2' com a Rússia para garantir independência energética e de insumos de chips.",
+        "Preços spot de hélio já subiram 100% e sobretaxas contratuais aumentaram 30%; o analista projeta custos de memórias e chips elevados ao menos até meados de 2027."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O gargalo físico no fornecimento de hélio impacta diretamente a capacidade de fabricação de chips lógicos e HBM, afetando o roadmap de capex e margens das principais posições core (Nvidia, TSMC, Google, MSFT, Amazon).",
+      "empresas": [
+        "Nvidia",
+        "TSMC",
+        "Samsung Electronics",
+        "SK Hynix",
+        "Google",
+        "ASML",
+        "Amazon",
+        "Microsoft",
+        "AMD",
+        "AI",
+        "HBM",
+        "Data Centers",
+        "Gás Natural (GNL)"
+      ],
+      "has_transcript": true,
+      "transcript_file": "48 Days. That&#39;s How Long Before the Helium Runs Out for AI Chips..txt"
+    },
+    {
+      "id": "3e7gmNPr5Vo",
+      "title": "Anthropic Just Gave You 3 Tools That Work While You&#39;re Gone.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "url": "https://www.youtube.com/watch?v=3e7gmNPr5Vo",
+      "channel_thumb": "https://i.ytimg.com/vi/3e7gmNPr5Vo/default.jpg",
+      "duration_seconds": 1749,
+      "duration_label": "29 min",
+      "visao_geral": "Anthropic lanca 'Dispatch' e tarefas agendadas no Claude; agentes agora operam localmente e de forma assincrona.",
+      "pontos": [
+        "Dispatch permite que o Claude no celular orquestre multiplos agentes paralelos no desktop, mantendo contextos independentes.",
+        "Funcionalidade de tarefas agendadas via infraestrutura em nuvem da Anthropic permite execucao de scripts e fluxos sem necessidade de servidor local ligado.",
+        "O 'Computer Use' da Anthropic agora permite que o Claude controle mouse e teclado em qualquer aplicativo, incluindo legados sem API (Jira, SAP, ERPs).",
+        "A transicao foca em 'gestao de agentes': delegar trabalho real (ex: manutencao de bibliotecas, migracao de codigo) ao inves de apenas resumos ou briefings.",
+        "Limitação atual: taxa de sucesso de 50% em tarefas multietapa complexas; requer aprovacao manual de acesso a pastas para cada sub-tarefa.",
+        "Direcionamento claro para competicao com OpenAI: modelo gerenciado da Anthropic prioriza seguranca e abstracao de infraestrutura vs self-hosting."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O video detalha a expansao das capacidades de agentes da Anthropic, competidora direta da OpenAI e Microsoft em enterprise AI.",
+      "empresas": [
+        "Anthropic",
+        "Claude",
+        "OpenAI",
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "SAP",
+        "Jira",
+        "GitHub",
+        "Slack"
+      ],
+      "has_transcript": true,
+      "transcript_file": "Anthropic Just Gave You 3 Tools That Work While You&#39;re Gone..txt"
+    },
+    {
+      "id": "3hltZHxTeRI",
+      "title": "Arm AGI CPU explained..",
+      "channel": "Caleb Writes Code",
+      "url": "https://www.youtube.com/watch?v=3hltZHxTeRI",
+      "channel_thumb": "https://i.ytimg.com/vi/3hltZHxTeRI/default.jpg",
+      "duration_seconds": 578,
+      "duration_label": "9 min",
+      "visao_geral": "Arm entra no mercado de CPUs focadas em agentes de IA, intensificando a desintermediação de chips pelos hyperscalers.",
+      "pontos": [
+        "Arm lançou arquitetura de CPU voltada especificamente para 'agentic AI', visando otimizar a latência e processamento local em data centers.",
+        "Movimento dos hyperscalers (Amazon, Google, Microsoft) para customizar seus próprios silícios via TSMC pressiona fabricantes tradicionais de CPU.",
+        "O mercado de CPUs de data center torna-se cíclico e intensivo em capital, com alto risco de 'time-to-market' devido à complexidade da cadeia de suprimentos.",
+        "A customização de chips (Custom CPU) permite que hyperscalers reduzam dependência de fornecedores externos e otimizem TCO (Total Cost of Ownership) para suas cargas de IA específicas.",
+        "TSMC atua como parceiro estratégico central, processando a crescente demanda de designs customizados de gigantes da nuvem.",
+        "O cenário competitivo se expande: empresas de software/nuvem agora competem diretamente com fabricantes de hardware integrando capacidades de design de chip in-house."
+      ],
+      "relevancia": 4,
+      "motivo_relevancia": "O desenvolvimento de CPUs customizadas impacta diretamente as margens e estratégias de infraestrutura de AMZN, GOOGL e MSFT, além da dependência de TSM.",
+      "empresas": [
+        "Arm",
+        "TSMC",
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "CPU",
+        "AI",
+        "Data Center"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "qzfquGoA40Y",
+      "title": "Squawk Pod: NYC’s “Tax the Rich” debate &amp; privatizing TSA - 03/30/26 | Audio Only",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=qzfquGoA40Y",
+      "channel_thumb": "https://i.ytimg.com/vi/qzfquGoA40Y/default.jpg",
+      "duration_seconds": 1708,
+      "duration_label": "28 min",
+      "visao_geral": "Conteúdo macroeconômico e político sem impacto direto nas posições core de tecnologia ou infraestrutura de IA.",
+      "pontos": [
+        "Discussão sobre a privatização da segurança aeroportuária (TSA) nos EUA após paralisação parcial do governo.",
+        "Relatório de Robert Frank sobre a agenda fiscal de Bernie Sanders e o debate sobre tributação de alta renda ('tax the rich').",
+        "Análise de Steven Fulop sobre a migração de profissionais de Wall Street e o impacto das políticas fiscais de Nova York.",
+        "Atualizações geopolíticas sobre o conflito no Irã conduzidas por Dan Murphy.",
+        "Conteúdo sem dados, projeções ou teses que afetem o roadmap de produtos ou guidance financeiro das empresas core."
+      ],
+      "relevancia": 1,
+      "motivo_relevancia": "O conteúdo é estritamente sobre política fiscal, regulação governamental (TSA) e geopolítica geral, sem conexão direta com o setor de tech ou as posições listadas.",
+      "empresas": [
+        "TSA",
+        "DHS",
+        "Wall Street",
+        "Irã"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "oqeGhgbEwr0",
+      "title": "Federal Reserve Chair Jerome Powell speaks at Harvard University — 3/30/2026",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=oqeGhgbEwr0",
+      "channel_thumb": "https://i.ytimg.com/vi/oqeGhgbEwr0/default.jpg",
+      "duration_seconds": 3236,
+      "duration_label": "53 min",
+      "visao_geral": "Jerome Powell reforça política de juros restritivos sob incerteza inflacionária; cautela pressiona múltiplos de tech.",
+      "pontos": [
+        "Jerome Powell mantém viés de 'higher for longer', priorizando o retorno da inflação à meta de 2% antes de iniciar cortes.",
+        "Ênfase na resiliência do mercado de trabalho como fator que retarda a flexibilização monetária do FOMC.",
+        "Sinalização clara de que o Fed não possui pressa para ajustar a taxa de juros, dependendo estritamente dos próximos dados de CPI e PCE.",
+        "Aversão a riscos macroeconômicos impacta diretamente o valuation de empresas de tecnologia (growth) com fluxos de caixa de longo prazo.",
+        "Alerta para a sustentabilidade da dívida pública e seu impacto nas taxas de rendimento dos títulos de longo prazo (Treasuries)."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Política monetária é o principal determinante para o desconto de fluxos de caixa futuro das posições core de tecnologia (Meta, MSFT, Google, etc).",
+      "empresas": [
+        "Federal Reserve",
+        "Jerome Powell",
+        "Tech",
+        "Growth Stocks",
+        "Treasuries",
+        "Inflação"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "aK5g9aWVbWU",
+      "title": "Mad Money 03/27/26 | Audio Only",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=aK5g9aWVbWU",
+      "channel_thumb": "https://i.ytimg.com/vi/aK5g9aWVbWU/default.jpg",
+      "duration_seconds": 2657,
+      "duration_label": "44 min",
+      "visao_geral": "Jim Cramer reforca tese de compra em Nvidia e Microsoft como lideres resilientes em meio a volatilidade de mercado.",
+      "pontos": [
+        "Nvidia (NVDA): Cramer reitera posicao como 'compra essencial', citando a dominancia da empresa na infraestrutura de AI e a demanda insaciavel por GPUs Blackwell.",
+        "Microsoft (MSFT): Destaque para a integracao profunda de IA no ecossistema Azure e Copilot como drivers criticos de crescimento da margem operacional no longo prazo.",
+        "Ciclo de Capex: Analise aponta que o aumento de gastos de capital das Big Techs (Meta, Google, Amazon) nao e gasto discricionario, mas uma corrida armamentista necessaria para lideranca em IA.",
+        "Setor de Semicondutores: Enfatiza a relevancia da TSMC (TSM) como a fundicao indispensavel que sustenta a producao global de chips avancados, mitigando riscos geopoliticos com execucao operacional superior.",
+        "Perspectiva Macro: Cramer recomenda evitar o 'ruido de curto prazo' em favor de manter ativos de alta qualidade com balancos robustos, preferindo nomes com poder de precificacao e dominancia de mercado."
+      ],
+      "relevancia": 5,
+      "motivo_relevancia": "O video aborda diretamente as posicoes core NVDA, MSFT e o racional de capex para as demais posicoes da carteira.",
+      "empresas": [
+        "Nvidia",
+        "Microsoft",
+        "TSMC",
+        "Meta",
+        "Google",
+        "Amazon",
+        "AI",
+        "Datacenter",
+        "Capex"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "XcGnoJYNqZg",
+      "title": "It was another week when it paid to get out of anything in tech that used to be good: Jim Cramer",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=XcGnoJYNqZg",
+      "channel_thumb": "https://i.ytimg.com/vi/XcGnoJYNqZg/default.jpg",
+      "duration_seconds": 274,
+      "duration_label": "4 min",
+      "visao_geral": "Cramer alerta para exaustão de momentum em tech de alto valuation, sinalizando rotação setorial e risco de correção.",
+      "pontos": [
+        "Jim Cramer observa uma fuga de capital de nomes tech que performaram bem no passado recente, sugerindo fim de ciclo para 'winners' de momentum.",
+        "Mercado demonstra impaciência com empresas que falham em entregar crescimento superior ou guidance agressivo, punindo múltiplos elevados.",
+        "A análise destaca que o movimento não é apenas uma realização de lucros, mas uma reavaliação fundamental de teses que pareciam imunes ao ambiente de taxas.",
+        "O cenário atual indica maior seletividade do investidor institucional, favorecendo empresas com fluxo de caixa imediato em detrimento de promessas de longo prazo em AI sem monetização clara.",
+        "O discurso reforça o risco de múltiplos de expansão (P/E ratio) estarem esticados para o setor de semicondutores e software de grande capitalização."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O conteúdo aborda o sentimento de mercado e o risco de rotação setorial que impacta diretamente os múltiplos das posições core da carteira (NVDA, MSFT, GOOGL).",
+      "empresas": [
+        "Nvidia",
+        "Microsoft",
+        "Google",
+        "Tech",
+        "AI",
+        "Semicondutores",
+        "Mercado de Ações"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "WokY36YDhy0",
+      "title": "Investor Peter Boockvar expects relief rally, would sell it",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=WokY36YDhy0",
+      "channel_thumb": "https://i.ytimg.com/vi/WokY36YDhy0/default.jpg",
+      "duration_seconds": 310,
+      "duration_label": "5 min",
+      "visao_geral": "Peter Boockvar projeta rali de alívio temporário, mas recomenda venda em tech e small caps devido aos juros.",
+      "pontos": [
+        "Boockvar alerta que a compressão dos múltiplos de valuation em empresas de tecnologia é inevitável com taxas de juros persistentemente altas.",
+        "O analista cita o setor de tecnologia (Nasdaq) como particularmente vulnerável, classificando os níveis atuais como insustentáveis para o patamar de custo de capital.",
+        "A tese central é que o mercado está precificando um cenário 'Goldilocks' improvável, ignorando riscos inflacionários que forçarão o Fed a manter os juros elevados.",
+        "Recomenda redução de exposição em nomes de alto crescimento (growth) durante eventuais ralis de curto prazo (relief rally).",
+        "Argumenta que a liquidez global está sendo drenada, o que historicamente impacta negativamente o desempenho relativo das Big Techs."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Discussão macro sobre a sustentabilidade dos valuations das Big Techs (posições core) frente ao cenário de juros, impactando o fluxo de alocação de capital.",
+      "empresas": [
+        "Nasdaq",
+        "Tech",
+        "Fed",
+        "Big Tech",
+        "Small Caps"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "-qet9mBbNE4",
+      "title": "President Trump delivers remarks at the Future Investment Initiative — 3/27/2026",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=-qet9mBbNE4",
+      "channel_thumb": "https://i.ytimg.com/vi/-qet9mBbNE4/default.jpg",
+      "duration_seconds": 941,
+      "duration_label": "15 min",
+      "visao_geral": "Trump prioriza desregulacao de IA e incentivos fiscais em discurso no FII 2026; foco em soberania tecnologica dos EUA.",
+      "pontos": [
+        "Defesa de uma estrutura regulatoria 'leve' para IA, visando manter a lideranca dos EUA frente a competidores globais.",
+        "Proposta de creditos fiscais para investimentos massivos em infraestrutura de computacao e datacenters em solo americano.",
+        "Promessa de agilizar licenciamento de energia para atender a demanda crescente dos hyperscalers (AMZN, MSFT, GOOGL).",
+        "Posicionamento agressivo contra restricoes de exportacao que prejudiquem a competitividade da industria de semicondutores dos EUA.",
+        "Foco em soberania de dados e ciberseguranca como pilar central da politica industrial para os proximos anos."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O discurso aborda diretrizes politicas que impactam diretamente o capex de infraestrutura e o ambiente regulatorio das Big Techs.",
+      "empresas": [
+        "Microsoft",
+        "Amazon",
+        "Google",
+        "Nvidia",
+        "IA",
+        "TSMC",
+        "Datacenter",
+        "Regulacao"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "Beb5BcABoqY",
+      "title": "&#39;Best case scenario&#39; global oil market loses 600 million barrels, says 3Fourteen&#39;s Warren Pies",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=Beb5BcABoqY",
+      "channel_thumb": "https://i.ytimg.com/vi/Beb5BcABoqY/default.jpg",
+      "duration_seconds": 285,
+      "duration_label": "4 min",
+      "visao_geral": "Warren Pies projeta déficit de 600M de barris no mercado global de petróleo; risco de choque inflacionário em alta.",
+      "pontos": [
+        "Warren Pies, da 3Fourteen, estima que o mercado global de petróleo perderá 600 milhões de barris no 'best case scenario' de oferta.",
+        "O desequilíbrio entre oferta e demanda aponta para uma pressão altista persistente nos preços do petróleo, impactando o custo de insumos.",
+        "Choque energético é identificado como risco inflacionário que pode pressionar margens operacionais de empresas de tecnologia com alto consumo de energia (datacenters).",
+        "A análise sugere uma correlação negativa entre picos acentuados no preço do petróleo e a performance de ativos de risco no curto prazo.",
+        "A dinâmica de oferta é agravada por incertezas geopolíticas que limitam a capacidade de expansão da produção imediata."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O custo de energia é um componente crítico do capex operacional de hyperscalers (AMZN, MSFT, GOOGL, META) e impacta a tese de margens em IA.",
+      "empresas": [
+        "Petróleo",
+        "Energia",
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Meta",
+        "3Fourteen"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "WMlgfHtL6-0",
+      "title": "Uncertainty on war in Iran calls for Fed to keep rates steady, fmr. Dallas Fed Pres. Richard Fisher",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=WMlgfHtL6-0",
+      "channel_thumb": "https://i.ytimg.com/vi/WMlgfHtL6-0/default.jpg",
+      "duration_seconds": 276,
+      "duration_label": "4 min",
+      "visao_geral": "Richard Fisher (ex-Dallas Fed) defende manutenção de juros pelo FOMC devido a riscos geopolíticos no Irã.",
+      "pontos": [
+        "Richard Fisher avalia que o conflito no Irã adiciona um prêmio de risco inflacionário via preços de energia, limitando a flexibilidade do Fed.",
+        "O mercado de trabalho resiliente e a persistência da inflação de serviços justificam a manutenção dos juros em patamares restritivos.",
+        "A incerteza macroeconômica global, agravada pelo preço do petróleo, eleva a volatilidade para ativos de risco (equities).",
+        "A narrativa aponta para uma política de 'higher for longer', reduzindo o otimismo para cortes agressivos no curto prazo.",
+        "O cenário reforça a tese de que o custo de capital continuará elevado, pressionando múltiplos de valuation para o setor de tecnologia (growth)."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "A visão de um ex-membro do Fed sobre política monetária e riscos geopolíticos impacta diretamente o valuation e o custo de capital das nossas posições em tech.",
+      "empresas": [
+        "Fed",
+        "Setor de Tecnologia",
+        "Energia",
+        "Petróleo",
+        "Taxas de Juros",
+        "Macroeconomia"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "6iRpexLGaQA",
+      "title": "Tesla deliveries data could be a catalyst for equity markets, says Deepwater&#39;s Gene Munster",
+      "channel": "CNBC Television",
+      "url": "https://www.youtube.com/watch?v=6iRpexLGaQA",
+      "channel_thumb": "https://i.ytimg.com/vi/6iRpexLGaQA/default.jpg",
+      "duration_seconds": 314,
+      "duration_label": "5 min",
+      "visao_geral": "Gene Munster projeta estabilizacao do mercado de tech com base na resiliencia de lucros da NVDA e AMZN no 2S24.",
+      "pontos": [
+        "Gene Munster (Deepwater) identifica o movimento de aversao ao risco como um 'ajuste de expectativas' e nao uma reversao secular de AI.",
+        "Tese de suporte: Nvidia (NVDA) e Amazon (AMZN) permanecem como os pilares de crescimento de lucros; a demanda por infraestrutura de AI segue robusta.",
+        "O analista destaca que os dados de entregas da Tesla (TSLA) servirao como termometro para o apetite de risco em ativos de alto crescimento no curto prazo.",
+        "A desaceleração pontual no mercado não altera a tese de longo prazo de expansão de margens via automação e IA nas Big Techs.",
+        "Munster sugere que a volatilidade atual permite pontos de entrada em posições com fundamentos sólidos, priorizando empresas com Capex convertido em receita imediata."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "Discussão macro sobre o sentimento do setor de tecnologia com foco direto na tese de Capex e resiliência de lucros de posições core como NVDA e AMZN.",
+      "empresas": [
+        "Nvidia",
+        "Amazon",
+        "Tesla",
+        "Deepwater Asset Management",
+        "AI",
+        "Equities"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "M55XzxjmON0",
+      "title": "The Supercritical CO2 Turbine: Waterless Wonder",
+      "channel": "Asianometry",
+      "url": "https://www.youtube.com/watch?v=M55XzxjmON0",
+      "channel_thumb": "https://i.ytimg.com/vi/M55XzxjmON0/default.jpg",
+      "duration_seconds": 1278,
+      "duration_label": "21 min",
+      "visao_geral": "Turbinas de CO2 supercrítico prometem reduzir consumo hídrico em datacenters e usinas, otimizando eficiência térmica.",
+      "pontos": [
+        "O ciclo de Brayton utilizando dióxido de carbono supercrítico (sCO2) permite maior densidade de energia e compacidade em relação ao vapor d'água.",
+        "A tecnologia sCO2 elimina a necessidade de grandes torres de resfriamento, reduzindo drasticamente o consumo de água, gargalo crítico para a expansão de datacenters de hiperescala.",
+        "Operação em escalas menores e temperaturas mais altas aumenta a eficiência do ciclo termodinâmico para a geração e dissipação de calor.",
+        "Desafios operacionais incluem a necessidade de ligas metálicas avançadas para suportar altas pressões (200+ bar) e corrosão sob condições supercríticas.",
+        "A viabilidade comercial depende do escalonamento da cadeia de suprimentos de componentes de precisão e da integração com a infraestrutura de energia existente.",
+        "Empresas como a NET Power estão liderando a demonstração de plantas que utilizam sCO2 para capturar emissões enquanto geram energia, impactando diretamente o Capex de infraestrutura energética."
+      ],
+      "relevancia": 3,
+      "motivo_relevancia": "O consumo de energia e água é o principal limitante físico para o capex de datacenters das empresas core (AMZN, MSFT, GOOGL, META).",
+      "empresas": [
+        "Datacenters",
+        "sCO2",
+        "NET Power",
+        "Infraestrutura de Energia",
+        "Microsoft",
+        "Amazon",
+        "Google",
+        "Meta"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "TJ6X7R6mlqE",
+      "title": "Nvidia DLSS 5 Debate, PS5 Price Hikes, Intel Ultra 7 270K Plus Review | KitGuru | Broken Silicon 355",
+      "channel": "Moore's Law Is Dead",
+      "url": "https://www.youtube.com/watch?v=TJ6X7R6mlqE",
+      "channel_thumb": "https://i.ytimg.com/vi/TJ6X7R6mlqE/default.jpg",
+      "duration_seconds": 7222,
+      "duration_label": "2h 00min",
+      "visao_geral": "Nvidia testa mercado para DLSS 5 enquanto OEMs de hardware enfrentam estagnação e pressões inflacionárias.",
+      "pontos": [
+        "Rumores sobre o desenvolvimento do Nvidia DLSS 5 indicam possível transição para técnicas de reconstrução de imagem via IA ainda mais agressivas, forçando AMD a buscar parcerias ou novas arquiteturas de software para manter competitividade.",
+        "OEMs de laptops, como a Apple com sua linha MacBook, enfrentam pânico setorial devido à saturação de mercado e ciclo lento de atualização de hardware em 2024.",
+        "Análise técnica aponta que a nova linha Intel Arrow Lake (Ultra 200K) falha em entregar salto geracional significativo, mantendo a pressão competitiva sobre a AMD no segmento desktop.",
+        "Projeções de custos para a arquitetura Zen 6 da AMD sugerem que a economia de escala está sob pressão, com riscos de repasse de preço ao consumidor final.",
+        "Aumento de preços do PlayStation 5 sinaliza um possível teto de custo de fabricação para consoles, o que pode impactar o interesse da Valve em reviver o segmento Steam Machine como alternativa de baixo custo."
+      ],
+      "relevancia": 4,
+      "motivo_relevancia": "Discute movimentos estratégicos de software da Nvidia (DLSS) e o estado competitivo do hardware (Intel/AMD) que afeta o ecossistema de GPUs e datacenters.",
+      "empresas": [
+        "Nvidia",
+        "AMD",
+        "Intel",
+        "Apple",
+        "Valve",
+        "PlayStation",
+        "DLSS",
+        "AI",
+        "Hardware"
+      ],
+      "has_transcript": false
+    },
+    {
+      "id": "7Jx2eMOekOU",
+      "title": "Intel, AMD, Arm, RISC-V / The AI Hardware Podcast S2E3",
+      "channel": "TechTechPotato",
+      "url": "https://www.youtube.com/watch?v=7Jx2eMOekOU",
+      "channel_thumb": "https://i.ytimg.com/vi/7Jx2eMOekOU/default.jpg",
+      "duration_seconds": 2727,
+      "duration_label": "45 min",
+      "visao_geral": "Arquiteturas de CPU x86 de AMD e Intel enfrentam pressão de startups RISC-V para otimizar eficiência de GPUs em AI.",
+      "pontos": [
+        "AMD Turin (EPYC 5ª geração) foca em densidade de núcleos para manter o throughput necessário em workloads de IA de escala massiva.",
+        "Intel Granite Rapids (Xeon 6) busca retomar competitividade em performance por watt contra a dominância de datacenter da AMD.",
+        "O gargalo atual em data centers não é apenas poder de processamento GPU, mas a capacidade da CPU de gerenciar dados e memória para evitar o ociosidade da GPU.",
+        "Startups como NeuReality (NR1), Tenstorrent (Ascalon) e Ventana (Veyron V2) estão desafiando o duopólio x86 com arquiteturas RISC-V focadas em baixa latência e integração de inferência.",
+        "IBM Telum 2 utiliza aceleradores dedicados on-chip para IA, representando uma abordagem 'Big Iron' distinta das soluções de uso geral para servidores hyperscale.",
+        "A mudança de arquitetura de CPU de uso geral para chips especializados pode impactar diretamente o capex de hyperscalers (AMZN, MSFT, GOOGL) ao alterar a eficiência do cluster."
+      ],
+      "relevancia": 4,
+      "motivo_relevancia": "Analisa o hardware crítico (CPUs) que sustenta as GPUs (NVDA) nas infraestruturas de IA das empresas core, além de avaliar concorrentes diretos (AMD, Intel) de fornecedores chave.",
+      "empresas": [
+        "AMD",
+        "Intel",
+        "Nvidia",
+        "RISC-V",
+        "Tenstorrent",
+        "NeuReality",
+        "Ventana",
+        "IBM",
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Datacenter",
+        "AI Hardware"
+      ],
+      "has_transcript": false
+    }
+  ],
+  "skipped": [
+    {
+      "title": "The Hidden Industry That Controls The Tech Your Company Uses",
+      "channel": "The Neuron",
+      "url": "https://www.youtube.com/watch?v=TQAXLpoqCfw"
+    }
+  ],
+  "company_briefs": {
+    "Meta": {
+      "resumo_dia": "Meta sofre revés legal de US$ 375 mi no Novo México enquanto perde share de busca para rivais de IA.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Condenação de US$ 375 milhões no Novo México por abuso de menores expõe passivos judiciais crescentes.",
+        "RISCO: Share de consultas de busca da Meta projetado para cair conforme OpenAI e Apple avançam em agentes."
+      ],
+      "tendencias": [
+        "Escalada de litígios regulatórios sobre design de algoritmos viciantes pressiona o modelo de receita de anúncios."
+      ]
+    },
+    "Nvidia": {
+      "resumo_dia": "Déficit global de hélio no Qatar ameaça 33% da oferta de chips, elevando custos de produção de HBM e GPUs Blackwell até 2027.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Paralisação de planta no Qatar destruiu 14% da capacidade global de hélio, insumo crítico para memória HBM da SK Hynix e Samsung.",
+        "BULLISH: Jim Cramer e Gene Munster reiteram a Nvidia como compra essencial devido à demanda insaciável por infraestrutura de IA apesar da volatilidade."
+      ],
+      "tendencias": [
+        "Interrupções na cadeia de suprimentos de gases industriais estão se tornando um gargalo recorrente para a expansão de fabs de semicondutores avançados."
+      ]
+    },
+    "Amazon": {
+      "resumo_dia": "AWS acelera CPUs próprias via Arm para blindar margens contra escassez de hélio e pressão de custos de chips.",
+      "impacto_tese": "bullish",
+      "impacto_detalhes": [
+        "BULLISH: Parceria com Arm para CPUs 'agentic AI' reduz dependência de fornecedores externos e otimiza TCO de datacenters.",
+        "RISCO: Déficit global de hélio no Qatar eleva custos de produção de chips HBM e pressiona margens de hardware até 2027."
+      ],
+      "tendencias": [
+        "Hyperscalers migram de compra de hardware para design in-house de silício para controlar custos e cadeia de suprimentos."
+      ]
+    },
+    "OpenAI": {
+      "resumo_dia": "OpenAI cancela Sora e contrato de US$ 1 bi da Disney para focar agressivamente em enterprise, enquanto Anthropic avança com agentes autônomos.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Cancelamento do projeto Sora e rescisão de contrato de US$ 1 bi com a Disney expõem falhas na execução de produtos de mídia.",
+        "RISCO: Perda de fatia de mercado corporativo de ~100% para ~75% projetado em 2025 devido à ascensão de agentes da Anthropic."
+      ],
+      "tendencias": [
+        "Migração estrutural de capital e talentos de projetos de mídia/consumo para aplicações corporativas de alta margem (Work AGI).",
+        "Transição acelerada de LLMs como ferramentas de chat para agentes autônomos com capacidades de 'skills' reutilizáveis e execução local."
+      ]
+    },
+    "Microsoft": {
+      "resumo_dia": "Aliança Microsoft-Anthropic-OpenAI em padrão 'skills' estanca sangria enterprise, mas gargalo de hélio no Qatar ameaça supply chain de chips.",
+      "impacto_tese": "neutral",
+      "impacto_detalhes": [
+        "BULLISH: Microsoft, Anthropic e OpenAI convergem para arquivos 'skill.markdown' como infraestrutura corporativa, travando a migração de clientes para ecossistemas fechados rivais.",
+        "RISCO: Ataque a planta no Qatar destruiu 14% da capacidade global de hélio, elevando custos de produção de HBM e GPUs em até 2027."
+      ],
+      "tendencias": [
+        "Hyperscalers aceleram customização de silício via ARM e RISC-V para reduzir dependência de CPUs x86 e otimizar TCO de agentes de IA.",
+        "Mercado de software enterprise migra de valuation por múltiplos de crescimento para durabilidade de caixa e integração real de fluxos de trabalho."
+      ]
+    },
+    "TSMC": {
+      "resumo_dia": "Ataques no Qatar paralisam 33% do hélio global, elevando custos e riscos de suprício para fabs de IA da TSMC até 2027.",
+      "impacto_tese": "bearish",
+      "impacto_detalhes": [
+        "RISCO: Dano permanente de 14% na planta do Qatar ameaça 33% da oferta global de hélio 6N crítico para litografia EUV e HBM.",
+        "RISCO: Preços spot de hélio dobraram e sobretaxas subiram 30%, pressionando margens da cadeia de semicondutores até meados de 2027."
+      ],
+      "tendencias": [
+        "Gigantes de nuvem aceleram designs customizados via TSMC para reduzir dependência de fornecedores tradicionais de CPU."
+      ]
+    },
+    "Anthropic": {
+      "resumo_dia": "Anthropic lidera padronização enterprise de agentes com novo protocolo 'Dispatch' e convergência em arquivos 'skills' com Microsoft e OpenAI.",
+      "impacto_tese": "bullish",
+      "impacto_detalhes": [
+        "BULLISH: Lançamento do 'Dispatch' e tarefas agendadas permitem orquestração assíncrona de múltiplos agentes com controle total de desktop legado.",
+        "BULLISH: Convergência estratégica com Microsoft e OpenAI no formato de arquivos 'skills' transforma prompts efêmeros em infraestrutura corporativa versionável."
+      ],
+      "tendencias": [
+        "Migração estrutural de chatbots reativos para agentes autônomos que exigem padronização de protocolos e segurança certificada.",
+        "Consolidação do valor em camadas de orquestração e dados proprietários, erodindo a vantagem competitiva de modelos base genéricos."
+      ]
+    },
+    "Google": {
+      "resumo_dia": "Google lança Gemini 3.1 Flash Live para diálogo em tempo real enquanto a Arm avança em CPUs próprias, intensificando a guerra de infraestrutura e agentes.",
+      "impacto_tese": "neutral",
+      "impacto_detalhes": [
+        "BULLISH: Lançamento do Gemini 3.1 Flash Live elimina latência de turnos em áudio e já opera em casos de uso complexos na Home Depot.",
+        "RISCO: Arquitetura Arm para 'agentic AI' e chips customizados de hyperscalers pressionam a margem de hardware tradicional e aumentam a dependência da TSMC."
+      ],
+      "tendencias": [
+        "Migração estrutural de modelos genéricos para agentes autônomos assíncronos que exigem nova infraestrutura de CPU e baixa latência.",
+        "Consolidação de soberania de silício onde hyperscalers desenvolvem arquiteturas próprias para reduzir TCO e dependência de fornecedores externos."
+      ]
+    }
+  }
+}

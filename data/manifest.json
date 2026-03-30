@@ -1,6 +1,12 @@
 {
   "youtube": [
     {
+      "date": "2026-03-30",
+      "videos": 25,
+      "daily_brief": 2,
+      "top_score": 5
+    },
+    {
       "date": "2026-03-26",
       "videos": 14,
       "daily_brief": 1,
